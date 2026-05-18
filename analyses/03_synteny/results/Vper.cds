@@ -1,0 +1,1 @@
+/home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.cds.fasta

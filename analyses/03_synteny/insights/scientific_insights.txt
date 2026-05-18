@@ -1,0 +1,11 @@
+================================================================================
+SCIENTIFIC INSIGHTS: OSCA GENE SYNTENY (03_synteny)
+================================================================================
+
+[PORTUGUÊS]
+A análise de sintenia comparativa em macro e microescala baseada no MCscan (JCVI) revelou um nível extraordinário de conservação estrutural e colinearidade genômica nos blocos cromossômicos contendo os loci OSCA entre Vellozia peripherica e Vellozia tubiflora. A ampla maioria dos genes OSCA compartilha arranjos flanqueadores idênticos e conservação micro-sintênica estrita, o que fornece fortes evidências físicas e genômicas que corroboram a relação de ortologia direta estabelecida pela análise filogenética. O locus duplicado em Vper (VpOSCA2.4) exibe um padrão colinear conservado com a região flanqueadora de VtOSCA2.4 em Vtub, indicando que a duplicação segmentar ocorreu localmente e foi preservada estruturalmente. Essa estabilidade na arquitetura genômica reflete a proximidade evolutiva recente entre os dois táxons e fornece a sustentação estrutural para a hipótese de conservação funcional dos canais.
+
+[ENGLISH]
+Comparative synteny analysis at macro- and micro-scales using MCscan (JCVI) revealed an extraordinary level of structural conservation and genomic collinearity in the chromosomal blocks harboring OSCA loci between Vellozia peripherica and Vellozia tubiflora. The vast majority of OSCA genes share identical flanking gene arrangements and strict micro-syntenic conservation, providing robust physical and genomic evidence that corroborates the direct orthologous relationships established by phylogenetic analysis. The duplicated locus in Vper (VpOSCA2.4) exhibits a conserved collinear pattern with the flanking region of VtOSCA2.4 in Vtub, indicating that the segmental duplication occurred locally and remained structurally preserved. This stability in genomic architecture reflects the recent evolutionary proximity between the two taxa and provides the structural support for the hypothesis of functional channel conservation.
+
+================================================================================

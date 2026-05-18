@@ -1,0 +1,1 @@
+/home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.cds.fasta

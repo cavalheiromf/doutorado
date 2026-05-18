@@ -1,0 +1,1931 @@
+##gff-version 3
+##feature-ontology http://song.cvs.sourceforge.net/viewvc/song/ontology/sofa.obo?revision=1.269
+##interproscan-version 5.76-107.0
+##sequence-region Vper.hapA.v1.chr1A.g013600.t1 1 718
+Vper.hapA.v1.chr1A.g013600.t1	.	polypeptide	1	718	.	+	.	ID=Vper.hapA.v1.chr1A.g013600.t1;md5=2f206e511f25ddf868ca65b6b997f4ea
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	470	548	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 470 548;ID=match$1_470_548;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	629	648	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 629 648;ID=match$2_629_648;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	582	601	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 582 601;ID=match$3_582_601;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Pfam	protein_match	356	622	4.8E-75	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 356 622;Ontology_term="GO:0016020";ID=match$4_356_622;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	402	421	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 402 421;ID=match$5_402_421;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	90	112	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 90 112;ID=match$6_90_112;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	383	401	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 383 401;ID=match$7_383_401;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	PANTHER	protein_match	1	690	2.0E-228	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 1 690;Ontology_term="GO:0005227";ID=match$8_1_690;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	143	164	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 143 164;ID=match$9_143_164;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	450	469	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 450 469;ID=match$10_450_469;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	549	581	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 549 581;ID=match$11_549_581;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	402	424	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 402 424;ID=match$12_402_424;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	1	5	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 1 5;ID=match$13_1_5;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	422	449	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 422 449;ID=match$14_422_449;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	86	110	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 86 110;ID=match$15_86_110;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Pfam	protein_match	5	165	3.1E-34	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 5 165;ID=match$16_5_165;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	165	357	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 165 357;ID=match$17_165_357;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	6	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 6 27;ID=match$18_6_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	360	382	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 360 382;ID=match$19_360_382;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Pfam	protein_match	186	345	2.5E-21	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 186 345;ID=match$20_186_345;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	602	624	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 602 624;ID=match$21_602_624;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	28	85	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 28 85;ID=match$22_28_85;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	111	142	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 111 142;ID=match$23_111_142;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	142	164	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 142 164;ID=match$24_142_164;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	358	382	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 358 382;ID=match$25_358_382;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	559	581	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 559 581;ID=match$26_559_581;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	602	624	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 602 624;ID=match$27_602_624;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	450	469	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 450 469;ID=match$28_450_469;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	TMHMM	protein_match	5	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 5 27;ID=match$29_5_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	625	629	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 625 629;ID=match$30_625_629;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	630	648	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 630 648;ID=match$31_630_648;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g013600.t1	Phobius	protein_match	649	718	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g013600.t1 649 718;ID=match$32_649_718;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+##sequence-region Vper.hapA.v1.chr5A.g142080.t1 1 733
+Vper.hapA.v1.chr5A.g142080.t1	.	polypeptide	1	733	.	+	.	ID=Vper.hapA.v1.chr5A.g142080.t1;md5=f159ae67036925515becdf9715f7bccf
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	368	391	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 368 391;ID=match$33_368_391;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Pfam	protein_match	5	166	1.1E-32	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 5 166;ID=match$34_5_166;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	82	107	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 82 107;ID=match$35_82_107;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	460	482	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 460 482;ID=match$36_460_482;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	441	459	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 441 459;ID=match$37_441_459;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	643	661	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 643 661;ID=match$38_643_661;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	420	440	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 420 440;ID=match$39_420_440;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	PANTHER	protein_match	2	702	1.2E-180	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 2 702;Ontology_term="GO:0005227";ID=match$40_2_702;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	28	81	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 28 81;ID=match$41_28_81;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	597	616	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 597 616;ID=match$42_597_616;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	617	637	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 617 637;ID=match$43_617_637;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	392	419	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 392 419;ID=match$44_392_419;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	1	5	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 1 5;ID=match$45_1_5;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Pfam	protein_match	366	636	8.7E-82	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 366 636;Ontology_term="GO:0016020";ID=match$46_366_636;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	483	564	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 483 564;ID=match$47_483_564;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	6	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 6 27;ID=match$48_6_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	146	165	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 146 165;ID=match$49_146_165;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	565	596	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 565 596;ID=match$50_565_596;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	662	733	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 662 733;ID=match$51_662_733;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	108	145	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 108 145;ID=match$52_108_145;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	368	390	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 368 390;ID=match$53_368_390;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	565	596	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 565 596;ID=match$54_565_596;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	460	482	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 460 482;ID=match$55_460_482;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	5	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 5 27;ID=match$56_5_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	419	441	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 419 441;ID=match$57_419_441;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	85	107	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 85 107;ID=match$58_85_107;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	643	662	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 643 662;ID=match$59_643_662;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Pfam	protein_match	188	355	2.6E-32	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 188 355;ID=match$60_188_355;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	638	642	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 638 642;ID=match$61_638_642;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	146	165	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 146 165;ID=match$62_146_165;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g142080.t1	Phobius	protein_match	166	367	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 166 367;ID=match$63_166_367;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g142080.t1	TMHMM	protein_match	617	639	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g142080.t1 617 639;ID=match$64_617_639;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+##sequence-region Vper.hapA.v1.chr7A.g186410.t1 1 777
+Vper.hapA.v1.chr7A.g186410.t1	.	polypeptide	1	777	.	+	.	ID=Vper.hapA.v1.chr7A.g186410.t1;md5=5fb56e69faef730f54ffafa5a9083812
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	652	672	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 652 672;ID=match$65_652_672;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	1	11	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 1 11;ID=match$66_1_11;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	646	668	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 646 668;ID=match$67_646_668;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	103	125	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 103 125;ID=match$68_103_125;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	699	777	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 699 777;ID=match$69_699_777;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Pfam	protein_match	201	363	1.5E-43	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 201 363;ID=match$70_201_363;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	436	456	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 436 456;ID=match$71_436_456;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	10	32	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 10 32;ID=match$72_10_32;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	603	625	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 603 625;ID=match$73_603_625;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	678	698	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 678 698;ID=match$74_678_698;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	128	158	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 128 158;ID=match$75_128_158;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	PANTHER	protein_match	7	747	2.1E-239	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 7 747;Ontology_term="GO:0005227";ID=match$76_7_747;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	12	30	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 12 30;ID=match$77_12_30;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	MobiDBLite	protein_match	745	777	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 745 777;ID=match$78_745_777;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr7A.g186410.t1	MobiDBLite	protein_match	764	777	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 764 777;ID=match$78_764_777;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Pfam	protein_match	9	180	3.1E-34	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 9 180;ID=match$79_9_180;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	468	487	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 468 487;ID=match$80_468_487;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	396	435	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 396 435;ID=match$81_396_435;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	632	651	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 632 651;ID=match$82_632_651;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	601	631	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 601 631;ID=match$83_601_631;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	436	455	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 436 455;ID=match$84_436_455;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Coils	protein_match	252	272	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 252 272;ID=match$85_252_272;Name=Coil;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	103	127	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 103 127;ID=match$86_103_127;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	31	102	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 31 102;ID=match$87_31_102;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	179	375	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 179 375;ID=match$88_179_375;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	468	487	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 468 487;ID=match$89_468_487;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	159	178	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 159 178;ID=match$90_159_178;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	376	398	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 376 398;ID=match$91_376_398;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	678	697	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 678 697;ID=match$92_678_697;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	488	600	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 488 600;ID=match$93_488_600;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	457	467	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 457 467;ID=match$94_457_467;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	673	677	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 673 677;ID=match$95_673_677;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Phobius	protein_match	376	395	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 376 395;ID=match$96_376_395;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186410.t1	TMHMM	protein_match	159	178	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 159 178;ID=match$97_159_178;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186410.t1	Pfam	protein_match	374	672	1.4E-78	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186410.t1 374 672;Ontology_term="GO:0016020";ID=match$98_374_672;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+##sequence-region Vper.hapA.v1.chr7A.g186400.t1 1 737
+Vper.hapA.v1.chr7A.g186400.t1	.	polypeptide	1	737	.	+	.	ID=Vper.hapA.v1.chr7A.g186400.t1;md5=66ff03da0ec8acaad2fdd02b52c94da9
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	421	440	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 421 440;ID=match$99_421_440;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	29	96	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 29 96;ID=match$100_29_96;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	173	328	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 173 328;ID=match$101_173_328;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	603	607	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 603 607;ID=match$102_603_607;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	441	528	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 441 528;ID=match$103_441_528;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	608	626	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 608 626;ID=match$104_608_626;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Pfam	protein_match	7	174	7.0E-33	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 7 174;ID=match$105_7_174;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186400.t1	Pfam	protein_match	327	600	1.1E-79	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 327 600;Ontology_term="GO:0016020";ID=match$106_327_600;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186400.t1	MobiDBLite	protein_match	702	724	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 702 724;ID=match$107_702_724;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr7A.g186400.t1	TMHMM	protein_match	329	351	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 329 351;ID=match$108_329_351;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186400.t1	TMHMM	protein_match	153	172	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 153 172;ID=match$109_153_172;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186400.t1	PANTHER	protein_match	6	694	8.0E-222	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 6 694;Ontology_term="GO:0005227";ID=match$110_6_694;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186400.t1	TMHMM	protein_match	97	119	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 97 119;ID=match$111_97_119;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	560	584	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 560 584;ID=match$112_560_584;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	97	121	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 97 121;ID=match$113_97_121;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	153	172	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 153 172;ID=match$114_153_172;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	410	420	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 410 420;ID=match$115_410_420;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	529	559	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 529 559;ID=match$116_529_559;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	329	353	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 329 353;ID=match$117_329_353;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	1	5	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 1 5;ID=match$118_1_5;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	122	152	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 122 152;ID=match$119_122_152;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	627	737	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 627 737;ID=match$120_627_737;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	TMHMM	protein_match	536	558	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 536 558;ID=match$121_536_558;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186400.t1	TMHMM	protein_match	6	28	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 6 28;ID=match$122_6_28;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Pfam	protein_match	233	316	1.2E-19	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 233 316;ID=match$123_233_316;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	354	388	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 354 388;ID=match$124_354_388;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	389	409	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 389 409;ID=match$125_389_409;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	6	28	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 6 28;ID=match$126_6_28;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	Phobius	protein_match	585	602	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 585 602;ID=match$127_585_602;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186400.t1	TMHMM	protein_match	421	440	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 421 440;ID=match$128_421_440;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186400.t1	TMHMM	protein_match	389	408	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186400.t1 389 408;ID=match$129_389_408;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+##sequence-region Vper.hapA.v1.chr1A.g023020.t1 1 662
+Vper.hapA.v1.chr1A.g023020.t1	.	polypeptide	1	662	.	+	.	ID=Vper.hapA.v1.chr1A.g023020.t1;md5=96fd933a2e21e8fd0ad288336934f3dc
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	561	582	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 561 582;ID=match$130_561_582;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	361	383	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 361 383;ID=match$131_361_383;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Pfam	protein_match	294	581	3.7E-62	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 294 581;Ontology_term="GO:0016020";ID=match$132_294_581;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	99	118	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 99 118;ID=match$133_99_118;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	167	294	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 167 294;ID=match$134_167_294;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	608	662	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 608 662;ID=match$135_608_662;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	441	463	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 441 463;ID=match$136_441_463;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	410	429	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 410 429;ID=match$137_410_429;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	391	409	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 391 409;ID=match$138_391_409;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	297	319	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 297 319;ID=match$139_297_319;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	147	166	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 147 166;ID=match$140_147_166;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Pfam	protein_match	5	168	7.3E-37	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 5 168;ID=match$141_5_168;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	316	334	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 316 334;ID=match$142_316_334;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	588	607	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 588 607;ID=match$143_588_607;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	441	461	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 441 461;ID=match$144_441_461;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	462	507	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 462 507;ID=match$145_462_507;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	119	146	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 119 146;ID=match$146_119_146;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	92	114	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 92 114;ID=match$147_92_114;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	588	607	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 588 607;ID=match$148_588_607;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Pfam	protein_match	239	281	2.4E-4	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 239 281;ID=match$149_239_281;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	541	560	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 541 560;ID=match$150_541_560;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	147	166	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 147 166;ID=match$151_147_166;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	1	5	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 1 5;ID=match$152_1_5;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	359	369	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 359 369;ID=match$153_359_369;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	335	358	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 335 358;ID=match$154_335_358;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	6	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 6 27;ID=match$155_6_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	583	587	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 583 587;ID=match$156_583_587;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	28	98	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 28 98;ID=match$157_28_98;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	334	356	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 334 356;ID=match$158_334_356;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	PANTHER	protein_match	239	654	1.6E-182	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 239 654;Ontology_term="GO:0005227";ID=match$159_239_654;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	5	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 5 27;ID=match$160_5_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	508	540	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 508 540;ID=match$161_508_540;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	295	315	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 295 315;ID=match$162_295_315;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	518	540	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 518 540;ID=match$163_518_540;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	430	440	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 430 440;ID=match$164_430_440;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	561	583	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 561 583;ID=match$165_561_583;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	TMHMM	protein_match	398	420	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 398 420;ID=match$166_398_420;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023020.t1	Phobius	protein_match	370	390	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023020.t1 370 390;ID=match$167_370_390;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+##sequence-region Vper.hapA.v1.chr9A.g255760.t1 1 796
+Vper.hapA.v1.chr9A.g255760.t1	.	polypeptide	1	796	.	+	.	ID=Vper.hapA.v1.chr9A.g255760.t1;md5=3e83e2e6499ad582c7a2848899d72615
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	457	479	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 457 479;ID=match$168_457_479;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	607	637	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 607 637;ID=match$169_607_637;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	500	522	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 500 522;ID=match$170_500_522;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	638	662	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 638 662;ID=match$171_638_662;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	480	499	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 480 499;ID=match$172_480_499;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	29	100	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 29 100;ID=match$173_29_100;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Pfam	protein_match	406	678	1.6E-83	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 406 678;Ontology_term="GO:0016020";ID=match$174_406_678;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	705	796	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 705 796;ID=match$175_705_796;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	520	606	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 520 606;ID=match$176_520_606;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	500	519	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 500 519;ID=match$177_500_519;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	1	5	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 1 5;ID=match$178_1_5;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	124	155	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 124 155;ID=match$179_124_155;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	156	175	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 156 175;ID=match$180_156_175;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	663	680	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 663 680;ID=match$181_663_680;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	176	407	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 176 407;ID=match$182_176_407;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	MobiDBLite	protein_match	771	796	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 771 796;ID=match$183_771_796;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr9A.g255760.t1	PANTHER	protein_match	7	756	5.4E-246	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 7 756;Ontology_term="GO:0005227";ID=match$184_7_756;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	101	123	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 101 123;ID=match$185_101_123;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Pfam	protein_match	9	177	3.2E-40	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 9 177;ID=match$186_9_177;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	408	430	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 408 430;ID=match$187_408_430;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	607	629	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 607 629;ID=match$188_607_629;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	681	685	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 681 685;ID=match$189_681_685;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	101	123	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 101 123;ID=match$190_101_123;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	10	28	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 10 28;ID=match$191_10_28;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	156	175	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 156 175;ID=match$192_156_175;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	6	28	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 6 28;ID=match$193_6_28;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	452	479	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 452 479;ID=match$194_452_479;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Pfam	protein_match	236	395	1.0E-41	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 236 395;ID=match$195_236_395;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	686	704	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 686 704;ID=match$196_686_704;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	408	432	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 408 432;ID=match$197_408_432;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g255760.t1	Phobius	protein_match	433	451	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 433 451;ID=match$198_433_451;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g255760.t1	TMHMM	protein_match	545	567	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g255760.t1 545 567;ID=match$199_545_567;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+##sequence-region Vper.hapA.v1.chr1A.g021690.t1 1 478
+Vper.hapA.v1.chr1A.g021690.t1	.	polypeptide	1	478	.	+	.	ID=Vper.hapA.v1.chr1A.g021690.t1;md5=0e2e570797e85846347c3e8202dd20ac
+Vper.hapA.v1.chr1A.g021690.t1	TMHMM	protein_match	87	109	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 87 109;ID=match$200_87_109;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	341	360	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 341 360;ID=match$201_341_360;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	85	105	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 85 105;ID=match$202_85_105;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	106	124	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 106 124;ID=match$203_106_124;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g021690.t1	MobiDBLite	protein_match	414	451	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 414 451;ID=match$204_414_451;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	154	172	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 154 172;ID=match$205_154_172;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g021690.t1	PANTHER	protein_match	16	422	8.4E-138	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 16 422;Ontology_term="GO:0005227";ID=match$206_16_422;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	314	335	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 314 335;ID=match$207_314_335;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Pfam	protein_match	83	334	3.7E-61	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 83 334;Ontology_term="GO:0016020";ID=match$208_83_334;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g021690.t1	TMHMM	protein_match	266	288	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 266 288;ID=match$209_266_288;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g021690.t1	TMHMM	protein_match	124	146	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 124 146;ID=match$210_124_146;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	37	84	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 37 84;ID=match$211_37_84;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	261	293	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 261 293;ID=match$212_261_293;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Pfam	protein_match	29	72	1.8E-6	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 29 72;ID=match$213_29_72;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	1	19	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 1 19;ID=match$214_1_19;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g021690.t1	TMHMM	protein_match	309	331	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 309 331;ID=match$215_309_331;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g021690.t1	TMHMM	protein_match	173	192	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 173 192;ID=match$216_173_192;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	20	36	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 20 36;ID=match$217_20_36;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	193	260	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 193 260;ID=match$218_193_260;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g021690.t1	TMHMM	protein_match	341	360	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 341 360;ID=match$219_341_360;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	361	478	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 361 478;ID=match$220_361_478;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	336	340	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 336 340;ID=match$221_336_340;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	125	153	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 125 153;ID=match$222_125_153;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	173	192	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 173 192;ID=match$223_173_192;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g021690.t1	Phobius	protein_match	294	313	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g021690.t1 294 313;ID=match$224_294_313;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+##sequence-region Vper.hapA.v1.chr8A.g231320.t1 1 802
+Vper.hapA.v1.chr8A.g231320.t1	.	polypeptide	1	802	.	+	.	ID=Vper.hapA.v1.chr8A.g231320.t1;md5=bc5e256011f8b4aae17e5c56725ad66c
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	43	62	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 43 62;ID=match$225_43_62;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	111	133	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 111 133;ID=match$226_111_133;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	133	155	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 133 155;ID=match$227_133_155;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	736	741	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 736 741;ID=match$228_736_741;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	401	423	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 401 423;ID=match$229_401_423;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	715	737	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 715 737;ID=match$230_715_737;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	111	132	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 111 132;ID=match$231_111_132;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Pfam	protein_match	648	735	5.6E-10	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 648 735;Ontology_term="GO:0016020";ID=match$232_648_735;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr8A.g231320.t1	Pfam	protein_match	399	584	6.3E-9	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 399 584;Ontology_term="GO:0016020";ID=match$232_399_584;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	478	496	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 478 496;ID=match$233_478_496;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	742	759	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 742 759;ID=match$234_742_759;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Pfam	protein_match	199	388	8.4E-5	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 199 388;ID=match$235_199_388;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	712	735	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 712 735;ID=match$236_712_735;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	516	555	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 516 555;ID=match$237_516_555;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	43	62	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 43 62;ID=match$238_43_62;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	MobiDBLite	protein_match	1	21	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 1 21;ID=match$239_1_21;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr8A.g231320.t1	MobiDBLite	protein_match	1	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 1 27;ID=match$239_1_27;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	451	477	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 451 477;ID=match$240_451_477;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	425	450	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 425 450;ID=match$241_425_450;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	178	400	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 178 400;ID=match$242_178_400;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	155	177	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 155 177;ID=match$243_155_177;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	687	711	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 687 711;ID=match$244_687_711;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	655	677	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 655 677;ID=match$245_655_677;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	760	802	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 760 802;ID=match$246_760_802;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	PANTHER	protein_match	42	760	6.5E-99	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 42 760;Ontology_term="GO:0005227";ID=match$247_42_760;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	401	424	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 401 424;ID=match$248_401_424;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	579	654	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 579 654;ID=match$249_579_654;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Pfam	protein_match	75	174	2.0E-4	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 75 174;ID=match$250_75_174;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	63	110	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 63 110;ID=match$251_63_110;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	744	763	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 744 763;ID=match$252_744_763;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	556	578	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 556 578;ID=match$253_556_578;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	497	515	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 497 515;ID=match$254_497_515;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	451	473	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 451 473;ID=match$255_451_473;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	655	686	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 655 686;ID=match$256_655_686;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	156	177	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 156 177;ID=match$257_156_177;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	TMHMM	protein_match	494	516	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 494 516;ID=match$258_494_516;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	556	578	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 556 578;ID=match$259_556_578;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr8A.g231320.t1	Phobius	protein_match	1	42	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr8A.g231320.t1 1 42;ID=match$260_1_42;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+##sequence-region Vper.hapA.v1.chr9A.g257040.t1 1 636
+Vper.hapA.v1.chr9A.g257040.t1	.	polypeptide	1	636	.	+	.	ID=Vper.hapA.v1.chr9A.g257040.t1;md5=af388ddf91d77b862568cc96b7e698dc
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	1	11	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 1 11;ID=match$261_1_11;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	368	387	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 368 387;ID=match$262_368_387;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	549	568	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 549 568;ID=match$263_549_568;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	367	387	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 367 387;ID=match$264_367_387;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	456	475	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 456 475;ID=match$265_456_475;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	569	636	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 569 636;ID=match$266_569_636;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	481	485	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 481 485;ID=match$267_481_485;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Pfam	protein_match	10	154	1.2E-28	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 10 154;ID=match$268_10_154;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	9	31	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 9 31;ID=match$269_9_31;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	MobiDBLite	protein_match	614	625	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 614 625;ID=match$270_614_625;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr9A.g257040.t1	MobiDBLite	protein_match	611	636	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 611 636;ID=match$270_611_636;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	92	114	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 92 114;ID=match$271_92_114;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	522	544	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 522 544;ID=match$272_522_544;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Pfam	protein_match	275	542	5.7E-68	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 275 542;Ontology_term="GO:0016020";ID=match$273_275_542;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	506	525	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 506 525;ID=match$274_506_525;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	442	461	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 442 461;ID=match$275_442_461;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	276	300	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 276 300;ID=match$276_276_300;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	52	71	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 52 71;ID=match$277_52_71;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	277	299	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 277 299;ID=match$278_277_299;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	PANTHER	protein_match	214	618	1.3E-160	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 214 618;Ontology_term="GO:0005227";ID=match$279_214_618;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	12	31	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 12 31;ID=match$280_12_31;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	388	414	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 388 414;ID=match$281_388_414;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	480	502	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 480 502;ID=match$282_480_502;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	333	355	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 333 355;ID=match$283_333_355;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	327	346	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 327 346;ID=match$284_327_346;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	486	505	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 486 505;ID=match$285_486_505;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	91	117	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 91 117;ID=match$286_91_117;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	526	544	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 526 544;ID=match$287_526_544;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	301	326	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 301 326;ID=match$288_301_326;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	550	568	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 550 568;ID=match$289_550_568;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Pfam	protein_match	216	263	4.4E-6	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 216 263;ID=match$290_216_263;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	347	366	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 347 366;ID=match$291_347_366;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	72	90	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 72 90;ID=match$292_72_90;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	545	549	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 545 549;ID=match$293_545_549;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	118	275	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 118 275;ID=match$294_118_275;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	32	51	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 32 51;ID=match$295_32_51;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	415	441	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 415 441;ID=match$296_415_441;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	Phobius	protein_match	462	480	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 462 480;ID=match$297_462_480;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr9A.g257040.t1	TMHMM	protein_match	414	436	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr9A.g257040.t1 414 436;ID=match$298_414_436;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+##sequence-region Vper.hapA.v1.chr7A.g186390.t1 1 784
+Vper.hapA.v1.chr7A.g186390.t1	.	polypeptide	1	784	.	+	.	ID=Vper.hapA.v1.chr7A.g186390.t1;md5=760266c5655a74882d43611260872b42
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	1	11	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 1 11;ID=match$299_1_11;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	126	156	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 126 156;ID=match$300_126_156;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	394	425	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 394 425;ID=match$301_394_425;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	446	465	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 446 465;ID=match$302_446_465;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	655	675	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 655 675;ID=match$303_655_675;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	PANTHER	protein_match	5	739	6.0E-244	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 5 739;Ontology_term="GO:0005227";ID=match$304_5_739;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	31	100	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 31 100;ID=match$305_31_100;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	466	485	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 466 485;ID=match$306_466_485;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	426	445	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 426 445;ID=match$307_426_445;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Pfam	protein_match	199	361	4.0E-44	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 199 361;ID=match$308_199_361;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	423	445	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 423 445;ID=match$309_423_445;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	655	674	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 655 674;ID=match$310_655_674;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	650	654	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 650 654;ID=match$311_650_654;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	12	30	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 12 30;ID=match$312_12_30;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Pfam	protein_match	7	178	1.8E-34	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 7 178;ID=match$313_7_178;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186390.t1	Pfam	protein_match	372	649	5.2E-81	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 372 649;Ontology_term="GO:0016020";ID=match$314_372_649;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	629	651	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 629 651;ID=match$315_629_651;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	586	608	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 586 608;ID=match$316_586_608;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	374	393	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 374 393;ID=match$317_374_393;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Coils	protein_match	289	309	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 289 309;ID=match$318_289_309;Name=Coil;status=T
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	157	176	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 157 176;ID=match$319_157_176;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	486	577	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 486 577;ID=match$320_486_577;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	10	28	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 10 28;ID=match$321_10_28;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	101	123	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 101 123;ID=match$322_101_123;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	101	125	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 101 125;ID=match$323_101_125;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	578	608	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 578 608;ID=match$324_578_608;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	609	628	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 609 628;ID=match$325_609_628;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	177	373	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 177 373;ID=match$326_177_373;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	466	485	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 466 485;ID=match$327_466_485;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	676	784	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 676 784;ID=match$328_676_784;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	629	649	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 629 649;ID=match$329_629_649;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	Phobius	protein_match	157	176	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 157 176;ID=match$330_157_176;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr7A.g186390.t1	TMHMM	protein_match	374	396	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr7A.g186390.t1 374 396;ID=match$331_374_396;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+##sequence-region Vper.hapA.v1.chr5A.g140750.t1 1 740
+Vper.hapA.v1.chr5A.g140750.t1	.	polypeptide	1	740	.	+	.	ID=Vper.hapA.v1.chr5A.g140750.t1;md5=17ea91d7ae1dae037eed004dea52e80d
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	380	398	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 380 398;ID=match$332_380_398;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	143	165	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 143 165;ID=match$333_143_165;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	428	446	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 428 446;ID=match$334_428_446;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	356	378	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 356 378;ID=match$335_356_378;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	513	545	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 513 545;ID=match$336_513_545;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	566	588	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 566 588;ID=match$337_566_588;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	165	354	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 165 354;ID=match$338_165_354;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	PANTHER	protein_match	5	488	2.4E-198	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 5 488;Ontology_term="GO:0005227";ID=match$339_5_488;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g140750.t1	Pfam	protein_match	186	342	2.4E-22	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 186 342;ID=match$340_186_342;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	467	512	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 467 512;ID=match$341_467_512;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	143	164	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 143 164;ID=match$342_143_164;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	566	588	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 566 588;ID=match$343_566_588;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	412	434	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 412 434;ID=match$344_412_434;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	594	612	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 594 612;ID=match$345_594_612;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	589	593	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 589 593;ID=match$346_589_593;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	28	96	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 28 96;ID=match$347_28_96;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	97	116	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 97 116;ID=match$348_97_116;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	447	466	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 447 466;ID=match$349_447_466;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Pfam	protein_match	501	586	1.8E-24	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 501 586;Ontology_term="GO:0016020";ID=match$350_501_586;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g140750.t1	Pfam	protein_match	353	487	9.7E-30	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 353 487;Ontology_term="GO:0016020";ID=match$350_353_487;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	92	114	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 92 114;ID=match$351_92_114;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Pfam	protein_match	6	165	1.1E-28	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 6 165;ID=match$352_6_165;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	399	427	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 399 427;ID=match$353_399_427;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	1	5	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 1 5;ID=match$354_1_5;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	6	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 6 27;ID=match$355_6_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	593	612	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 593 612;ID=match$356_593_612;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	546	565	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 546 565;ID=match$357_546_565;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	117	142	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 117 142;ID=match$358_117_142;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	447	466	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 447 466;ID=match$359_447_466;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	MobiDBLite	protein_match	675	699	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 675 699;ID=match$360_675_699;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	613	740	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 613 740;ID=match$361_613_740;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	355	379	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 355 379;ID=match$362_355_379;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr5A.g140750.t1	TMHMM	protein_match	5	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 5 27;ID=match$363_5_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr5A.g140750.t1	Phobius	protein_match	513	545	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr5A.g140750.t1 513 545;ID=match$364_513_545;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+##sequence-region Vper.hapA.v1.chr4A.g117080.t1 1 824
+Vper.hapA.v1.chr4A.g117080.t1	.	polypeptide	1	824	.	+	.	ID=Vper.hapA.v1.chr4A.g117080.t1;md5=945be70744b69a3d6c8fcacbd3e5cf4c
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	628	658	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 628 658;ID=match$365_628_658;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	1	11	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 1 11;ID=match$366_1_11;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	158	177	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 158 177;ID=match$367_158_177;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	PANTHER	protein_match	6	785	1.2E-239	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 6 785;Ontology_term="GO:0005227";ID=match$368_6_785;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	429	453	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 429 453;ID=match$369_429_453;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	659	683	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 659 683;ID=match$370_659_683;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	31	100	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 31 100;ID=match$371_31_100;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	726	824	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 726 824;ID=match$372_726_824;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	707	725	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 707 725;ID=match$373_707_725;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	158	177	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 158 177;ID=match$374_158_177;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	12	30	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 12 30;ID=match$375_12_30;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	178	428	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 178 428;ID=match$376_178_428;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	501	520	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 501 520;ID=match$377_501_520;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	521	540	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 521 540;ID=match$378_521_540;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Pfam	protein_match	427	699	4.7E-81	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 427 699;Ontology_term="GO:0016020";ID=match$379_427_699;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	705	724	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 705 724;ID=match$380_705_724;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	429	451	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 429 451;ID=match$381_429_451;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	521	540	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 521 540;ID=match$382_521_540;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	541	627	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 541 627;ID=match$383_541_627;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	6	28	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 6 28;ID=match$384_6_28;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	101	123	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 101 123;ID=match$385_101_123;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	126	157	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 126 157;ID=match$386_126_157;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	684	701	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 684 701;ID=match$387_684_701;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	454	472	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 454 472;ID=match$388_454_472;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	101	125	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 101 125;ID=match$389_101_125;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Pfam	protein_match	7	179	2.3E-39	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 7 179;ID=match$390_7_179;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	636	658	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 636 658;ID=match$391_636_658;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	702	706	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 702 706;ID=match$392_702_706;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr4A.g117080.t1	TMHMM	protein_match	478	500	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 478 500;ID=match$393_478_500;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	684	701	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 684 701;ID=match$394_684_701;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	MobiDBLite	protein_match	810	824	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 810 824;ID=match$395_810_824;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr4A.g117080.t1	MobiDBLite	protein_match	783	824	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 783 824;ID=match$395_783_824;signature_desc=consensus disorder prediction;Name=mobidb-lite;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Phobius	protein_match	473	500	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 473 500;ID=match$396_473_500;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr4A.g117080.t1	Pfam	protein_match	287	416	8.8E-37	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr4A.g117080.t1 287 416;ID=match$397_287_416;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+##sequence-region Vper.hapA.v1.chr1A.g020450.t1 1 734
+Vper.hapA.v1.chr1A.g020450.t1	.	polypeptide	1	734	.	+	.	ID=Vper.hapA.v1.chr1A.g020450.t1;md5=0fde3ec25d87a062f55c0cbf9b579b02
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	505	527	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 505 527;ID=match$398_505_527;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	369	391	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 369 391;ID=match$399_369_391;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	566	588	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 566 588;ID=match$400_566_588;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	415	440	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 415 440;ID=match$401_415_440;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	642	661	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 642 661;ID=match$402_642_661;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	82	107	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 82 107;ID=match$403_82_107;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	460	482	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 460 482;ID=match$404_460_482;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	483	502	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 483 502;ID=match$405_483_502;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	522	564	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 522 564;ID=match$406_522_564;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	642	661	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 642 661;ID=match$407_642_661;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	637	641	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 637 641;ID=match$408_637_641;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	369	394	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 369 394;ID=match$409_369_394;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	597	616	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 597 616;ID=match$410_597_616;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	28	81	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 28 81;ID=match$411_28_81;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	1	6	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 1 6;ID=match$412_1_6;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	662	734	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 662 734;ID=match$413_662_734;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	166	368	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 166 368;ID=match$414_166_368;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Pfam	protein_match	188	355	2.5E-32	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 188 355;ID=match$415_188_355;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g020450.t1	Pfam	protein_match	367	637	5.5E-83	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 367 637;Ontology_term="GO:0016020";ID=match$416_367_637;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	146	165	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 146 165;ID=match$417_146_165;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	503	521	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 503 521;ID=match$418_503_521;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	565	596	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 565 596;ID=match$419_565_596;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	617	636	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 617 636;ID=match$420_617_636;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	460	482	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 460 482;ID=match$421_460_482;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	395	414	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 395 414;ID=match$422_395_414;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	5	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 5 27;ID=match$423_5_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Pfam	protein_match	5	166	9.7E-32	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 5 166;ID=match$424_5_166;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	419	441	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 419 441;ID=match$425_419_441;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	7	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 7 27;ID=match$426_7_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	TMHMM	protein_match	85	107	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 85 107;ID=match$427_85_107;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	441	459	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 441 459;ID=match$428_441_459;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	146	165	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 146 165;ID=match$429_146_165;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g020450.t1	PANTHER	protein_match	1	707	1.2E-180	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 1 707;Ontology_term="GO:0005227";ID=match$430_1_707;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g020450.t1	Phobius	protein_match	108	145	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g020450.t1 108 145;ID=match$431_108_145;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+##sequence-region Vper.hapA.v1.chr1A.g023030.t1 1 639
+Vper.hapA.v1.chr1A.g023030.t1	.	polypeptide	1	639	.	+	.	ID=Vper.hapA.v1.chr1A.g023030.t1;md5=9c274ea68c68346106aaed77e93ca355
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	95	117	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 95 117;ID=match$432_95_117;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	518	537	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 518 537;ID=match$433_518_537;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	565	584	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 565 584;ID=match$434_565_584;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	99	118	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 99 118;ID=match$435_99_118;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	PANTHER	protein_match	239	630	2.9E-183	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 239 630;Ontology_term="GO:0005227";ID=match$436_239_630;Name=PTHR13018;status=T;Dbxref="InterPro:IPR045122","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	167	294	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 167 294;ID=match$437_167_294;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	565	584	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 565 584;ID=match$438_565_584;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	147	166	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 147 166;ID=match$439_147_166;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	560	564	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 560 564;ID=match$440_560_564;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Pfam	protein_match	189	238	0.0062	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 189 238;ID=match$441_189_238;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023030.t1	Pfam	protein_match	239	281	2.2E-4	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 239 281;ID=match$441_239_281;signature_desc=Cytosolic domain of 10TM putative phosphate transporter;Name=PF14703;status=T;Dbxref="InterPro:IPR027815","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023030.t1	Pfam	protein_match	294	558	8.4E-68	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 294 558;Ontology_term="GO:0016020";ID=match$442_294_558;signature_desc=Calcium-dependent channel, 7TM region, putative phosphate;Name=PF02714;status=T;Dbxref="InterPro:IPR003864","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023030.t1	Pfam	protein_match	5	168	6.1E-36	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 5 168;ID=match$443_5_168;signature_desc=Late exocytosis, associated with Golgi transport;Name=PF13967;status=T;Dbxref="InterPro:IPR032880","Reactome:R-DME-6798695","Reactome:R-HSA-6798695","Reactome:R-MMU-6798695","Reactome:R-SCE-6798695","Reactome:R-SPO-6798695"
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	495	517	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 495 517;ID=match$444_495_517;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	338	360	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 338 360;ID=match$445_338_360;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	119	146	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 119 146;ID=match$446_119_146;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	339	360	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 339 360;ID=match$447_339_360;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	538	560	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 538 560;ID=match$448_538_560;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	147	166	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 147 166;ID=match$449_147_166;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	1	5	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 1 5;ID=match$450_1_5;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	6	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 6 27;ID=match$451_6_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	361	417	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 361 417;ID=match$452_361_417;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	296	318	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 296 318;ID=match$453_296_318;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	439	493	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 439 493;ID=match$454_439_493;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	295	319	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 295 319;ID=match$455_295_319;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	320	338	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 320 338;ID=match$456_320_338;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.;Name=NON_CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	28	98	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 28 98;ID=match$457_28_98;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	585	639	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 585 639;ID=match$458_585_639;signature_desc=Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.;Name=CYTOPLASMIC_DOMAIN;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	494	517	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 494 517;ID=match$459_494_517;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	5	27	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 5 27;ID=match$460_5_27;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	TMHMM	protein_match	387	409	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 387 409;ID=match$461_387_409;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TMhelix;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	538	559	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 538 559;ID=match$462_538_559;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+Vper.hapA.v1.chr1A.g023030.t1	Phobius	protein_match	418	438	.	+	.	date=21-01-2026;Target=Vper.hapA.v1.chr1A.g023030.t1 418 438;ID=match$463_418_438;signature_desc=Region of a membrane-bound protein predicted to be embedded in the membrane.;Name=TRANSMEMBRANE;status=T
+##FASTA
+>Vper.hapA.v1.chr1A.g013600.t1
+MNIAALLTSAGINIGLCALFLSLYSVLRKQPSNVYVYFGRRLAQEHSRCRESFNFERLVP
+SPSWMMKAWEYTEDEILAVAGLDAVVFLRIFVFSIRIFSIAAVVCVFGVLPLNYFGQEMH
+HEQIPSESLDVFTIANVKQRSHWLWVHCIALYIISCSACVLLYFEYKSIARMRLAHMIQS
+SPNPSHFAVLVRGVPKSTDESISDSIKRFFTTYHGSSYLSHQVIFRSGKFHKFMYKAERV
+YKKFVRLTSTVIDERSSTARYRCGLCGVTSTSFKMYHEVEVEMGSKKADIDTQVTSRKEK
+ECLAAFIFFKTRYAAVVASKLLQSSNPMLWVTNLAPEPHDVYWSNLWIPYRQLWFRRVAV
+LLGSIIFMLVFLIPVTFVQGLTQLDQLEKIFPFLQGLLKKKLTRQIATGYLPSVILLLFL
+YSVPPTMMMFSALEGCISRSGRKKSACRKVLYFTIWNIFFANVLSGTAISELTVLSSPKE
+IPERLATAVSTQANFFITYVLTSGWASLSSEVLQSFALIYNFVKKVIFRCKDEADSVPSF
+PYHTEVPKALLFGLLGFTYSILAPLILPFLLVYFFLGYVVYRNQILNVYCSKYETGGRIW
+PIVHNTTIFSLVLTQIIALGVFGIKKSPVAFGFTIPLVILTLLFNEYCSQRFLPVFRNLS
+AQDIIEMDRQDEHYGRMEEIHQQLHLAYSQLPVDVDAMPHDSCNVGDPTKVAVVDELS
+>Vper.hapA.v1.chr1A.g020450.t1
+MDFSAFLTSLGTSFVIFLVLMLVFTWLSRKPSNEVVYYPNRILRGLDPWEGRRLTRNPFT
+WIREAYSATEAEVVAAAGLDAAVYLVFLCSVLGILLLSGIVLLPVLLPVAATDNHQMSVA
+DSTSNGTFNNIDKLSMGNIEERSPRLWPFMLAVYWVSFVTFFVLWKSYNHVLTLRAAARA
+GSVVLPEDFAVLVRDIPPGPKDQTMKEHVDAYFKALHPETFYKSLIITENKKVNEIWKEI
+QDCKKKVAHAEASYRESKTVGKPDGTRPTNRAGFLGLLGPKVDTIDYYSDKIKELIPKLE
+DEQNVTLRDKQKASALVFFNTRPAAASAAQTIHAQKTDQWTVNEAPEPRDLLWKNLPMRF
+YQRQIRQSLVYIIVFLTIFFYMIPIGFISAFTTLENLRRLFPFLKSVLKYKTINTILEAY
+LPQIALIVFLALLPKFLMFLSKAEGIPSQSHVVRATCGKYFYFVVFNVFLGVTIGGTLFG
+SLKDITDHPKSIVNMLATSLPKSATFFITYVALQFFVGYGLELSRLVPLVIFHLKRKYLC
+KTDAEIREAWAPGDFGYATRVANDMLIVTIVLCYSVIAPVIIPFGVVYFSLGWIIARNQA
+LKVYVPSYESNGQMWPHMFKRILAALILFQITMFGYMGLKKFLFAPLLLPLIIVSFIYAY
+ISKIRFYKSFHHTPLEVASQPMKETPNLSSVYASYIPPSLKPPKLGDIEQPENQSQSTTE
+HFHNVQAHAAALGQ
+>Vper.hapA.v1.chr1A.g021690.t1
+MNRSWPVRECDARDRRSPPQSLVLLLIESSAAFVFFRSRYGALVASEVLQSSNPMLWVTD
+PAPEPRDIYWSNLWLPYRQLWLRRIATLLAAIALTIAFVVPVTFVQGLSRLEELQQRLRF
+LKVSFVSQLITGYLPSAVLQLFLLFVPPVMMLFSTLEGPVSHSVRKKSTCSKVLYFTIWN
+VFFVNVLSGSVIDQINVLSSPKGIPNQLAKAVPKQCWTSLSSEVMQLFPVIVHHFRRYIL
+RLTEDPDSVPSFPYHTEVPRVLLFGLLGFTCSVLAPLILPFLLVYFCLGYVVYRNQIINV
+YSAKYETGGLMWPMMHNTTIFSLVLAQTIALGVFGLKRSPIASGFTVPLIILTLLFNEYC
+RQRFHPIFKSFSAQDIIDMDKEDEQHGRMEEIHNKLLSAYRQFPDDNDSCGSNSSSCHNS
+FKDEGSSNCTGSSRDHRRKEPKKDISHPSLKGFPAARLRRAVNLITMLMAFQRNKIPT
+>Vper.hapA.v1.chr1A.g023020.t1
+MNLSALLTSVGINLALCVLLFALYSVLRKQQTNARVYAARWVAEGKTQRRPEEHFNIENL
+LPSASWIRRAWSFSEEELLESAGLDAVVFNRIFTFSLKAFSVAGIIGICVLVPVNYVGEQ
+SIDISELPTTDLESFSILNVSVGSNRLWVHFSAAYLITAFVCYLLYNELKYICEKRLAHF
+NASKPLPQHFTILVRGVPLKDGKTCRESVDNFFMEYYPSTYLSNAVVRRHNKLRELMEVP
+VAFVSFKTRYDAATTRRIQQSDNPIEWVTEEVPEPHDVYWPFFSTSYITRFLSQLIVIVA
+SVILTIVFLGPVSLVQGLANLDKLEKWLPFLKNILRLYLLTSFLVVVGIIISMALITFQL
+TVVSQVITGYLPSLILQLFVSLIPPVMKLFSTMQGFVATSQIEISACAKVLLFNIWNIFF
+VNTVTGSIASQLRKLLDPQNIPFVLAMAVPGQATFFTTYVVTSWTSLATELTRTWPLISN
+LIGRQCLGWMSDDFEAPSIPYHSEIPRILVFGLLGLVYFLLMPLILPFIIIYFCIGYIVY
+RNQLINVYVPKYDSGGRYWPIVHNSTIVSLILMQLIGVGIFILRGLPLASTLMVPLLVVT
+LVFNAYCRRRFLPMFQSYSAQSLIRKDREDEKNPAMDEFFSKLANAYRNPELDEDEHTTP
+LI
+>Vper.hapA.v1.chr1A.g023030.t1
+MNLSALLTSVGINLALCVLLFALYSVLRKQQTNARVYAARWVAEGKTQRRPDEHFNIENL
+LPSASWIRRAWSFSEDELLESAGLDAVVFNRIFTFSLRAFSVAGITGICVLVPVNYVGDQ
+SIDISELPTTDLESFSILNVSMGSNRLWVHFSAAYLITAFVCYLLYNELKYICAKRLAHF
+NASKPLPQHFTILVRGIPLKDGKTCRETVDNFFMEYHPSTYLSNAVVRRHNKLRELIEVP
+VAFVSFKSRYDAATILRIQQSDNPIEWVTEEVPEPRDVYWPFFSTSYVTRFLSQLIVIVA
+SIILTIFFIGPVTLVQALANLKSLQKLLPSLKNILRLAVVSQVITGYLPGLILQLFLSLI
+PPTMKLFSTMQGFVATSQIERSACAKVVLFNIWNIFFINTVTGSIASQLQTLLDPKNIPF
+VLASALPSQATFFITYAVTSWTSLATELTRTWPLISNLVGRQWLGWMSDDFEAPSIPYHS
+EIPRILVFGLLGHVYFLVMPLILPFIIIYFCIGYIVYRNQLINVYLPKYDSGGRYWPIVH
+NSNIFSLILMQIIGVGIFFQRGLPLASTLMVPLPVVTLVFNAYCRRRFLPMFQSYSAQSL
+IKKDREDEKNPAMDEFFSKLANAYRNPELDEDERTTPLI
+>Vper.hapA.v1.chr4A.g117080.t1
+MATLKDIGVSALINIITTIGFLLAFAFLRLQPINDRVYFPKWYLKGVRSSPTNSRHLVQR
+VVNLDYRAYLRFLEWMPAALKMPEPELIDHAGLDSAVFLRIYLLGLKIFVPITFMAFAVL
+VPVNWTNSTLENNPNKDFQYNDIDKLSISNIANGSPRFCTHIIMAYIFSFWTCYVLLKEY
+GRIATMRLQFLLSEKRRPDQFTVLVKNVPPDPDESVSELVEHFFLVNHPDHYLAHQQVIK
+IRDVMCRPEHAGSERIRHQHSRFPTVPPFRSTRIDFQLCTDRFGRHRTVKVVYNANNLDK
+LIKKKEKMENWRDYYQLKYDRNPNKRPTTKTGFLGLCGEKVDAINHYTSEVERLNKEEAA
+ERVKVKGDPKSIMPVAFVSFKSRWGAAVCAQTQQSTNPTLWLTEWAPEPRDIYWQNLSIP
+FVSLTVRRLIVAVAFFFLTFFFIIPITFVQSLANIEGIEKKAPFLKAIIEIGFIKSIIQG
+VLPGIALKIFLIFLPTILMLMSKFEGYVSTSSLERKSAAKYYLFQLINVFFVSVLTGTAL
+DQLSTFLNQSPNEFPKTIGNSIPSRATFFITYVMVDGWTGVAGEILRVKPLVIFHLKNFF
+LVKTEKDRENAMDPGSIGFDTAEPQIQLYFLLGLVYATVAPFSLPFILVFFGLAYVVFRH
+QVINVYNQEYESAAAFWPDVYRRILIALGISQLALLGLLSTKNAAQSTPALLVLPVLTVW
+FHWYCKNRYEPAFKKYPLQEAMKKDILERTKDPKFDLKTYLLTAYMPPVFKDEIDEDSLS
+AGEGQELEDILVPTKRQSRRNTPVPSRHNGSSSPSLQDLQQQGP
+>Vper.hapA.v1.chr5A.g140750.t1
+MELYGLLTSAGINIGVCAVLLSLYSVLQRQPENAGVYFGRRFAEEPGYERDVFVLERLVP
+SPSWIVKACRYTEEEISAIGGLDAVVFVRLIVFSIRIFTIAAVICIGGVVTVNYYGQDTI
+HGRFREEPLEVFTIANVKEGSKWIWVHCVALYIVSFSACILLYIEYNNIARMRLIHKTRS
+ASNLSHFTILVRGIPKSEEEPFSARVENFFRKYHASTYLSHQMIYKTGKVQSIMSLTKKA
+CKNCVHLESAAVDHIVHPRRFGCCFCGAGSNSFCNRDDYELQANKSDLDRRSELEKEECS
+AAFVFFRSRYGALVASEVLQSSNPMLWVTDTAPEPRDVYWSNLWLPYRQLWLRKIAALLL
+AIAFMLAFVAPVTFVQGLSRLDELQQRFPFLKGILKNKVVSQLITGYLPSAVLQLFLLLV
+PPIMMLFSTLEGPVSHSRRKKTACSKVLIFTIWNVFFVNVLSGSVIDQLHLLSSPKGIPN
+QLAKAVPRRYILRLTDDPDMVPTFPYHTEVPRVLLFGLLGFTCSVLAPLILPFLLVYFFL
+GYVVYRNQIVNVYSAKYQSGGLMWPMMHNTTIFSIVLAQIIALGVFGIKRSPMASGFTIP
+LIILTLLFNEYCRQRFHPTFKSFSAQLKSSIGTFQDIIDMDEEDEQEGRVEEIHKELLSA
+YRQFEDDDHNNCGSYNSFRRNSFKDEGPSNGGEEGMDHRKKEQKILMSHPSIRGFPVARL
+RGAVNLLSTLMAFERNKIPT
+>Vper.hapA.v1.chr5A.g142080.t1
+MEFNAFLTSLGTSLLIFVVLMLIFAWLSRKQSNEVIYYPNRILRGLNPWEGHRRTRNPFS
+WIKEAFSATEADVVAAAGLDAAVYLVFLSSVLGILVLSGIVLLPVLLPVAATDKSHTTVS
+ASTSEGTFNNFDKLAMGNVKERSPRLWPFVLAVYWVSFVTFFVLWKSYNHVLNLRAASRA
+DSIVDPEDFAVLVRDIPPCPKDLTMKEHVDAYFKALHAESFYKSLIITENKKVNKIWKEI
+QDCKKKIARAEAGYRESKTTSKPDGTRPSNRTGFLGLIGPKVDTINYYNNKIAELLPKLE
+EEQNITLREKQKAAALVFFNNRQAAASAAQTIHSQKNDHWTVKEAPEPRDLIWKNLPKSF
+YQRQIRRFVVYGIVFLTIFFYIIPIGIISAFTTLDNLRRLFPFLKNVLKSRTINTLLEAY
+LPQLALILFLALLPKFLMFLSKAEGIASQSHAVRATCGKYFYFIVFNVFLGVTIGGTLFG
+SLKDIIDHPKTLIDMLARNLPDSATFFITYVALRLFVGYGLELSRFIPLVIFHLKKRYLC
+KTDAEVREAWAPGDFGYASRVANDMLIVTIVLCYSVIAPVIIPFGVVYFGLGWLIARNQA
+LKVYVPAYESSGQMWPHMFARIVAALIIFQITMFGYLGLKKFYYAPVLLLLIFITCIYAY
+ICQKRFYKSFHHTPLEVASQRMKVTPNLSSVYASYIPPYLNPPELNDIEQPENQSHSAEN
+FHNAQAHATALAP
+>Vper.hapA.v1.chr7A.g186390.t1
+MATLEDIGVSAFINIASAFAFLLAFALLRIQPINDRIYFPKWYLIGDRRSTASRGGVGKF
+VTLDVWTYFTFLNWIPDALKKMNQAELINHAGLDSVVYLRIYVLGLKIFIPIALLALLII
+VPVNFSDGTLFNLRTQIVYSDIDKLSISNVNAGSQRFWIHMLMEYVFTFWTFYMLYKEYA
+NVALMRLHFLASQHRRVDQFTVVVRNIPHLNQHSISESVEQFFQRNHPDHYLCHQVVYNA
+NRFAKLVTKKERLQNWLDYYELKCDRCQGRRPTIKVGFLGLCGRRVDAIEYYQERISELD
+KKIALERKRLPSDHKAIMPVAFVTFDSRWGAAVCAQTQQSKNPTQWLTDWAPEPRDVYWR
+NLAIPFFSLNIRRLIISVAVFALVFFYMIPIAFVQSLANLEGLERVAPFLRSVVELKVIK
+SFLQGYLPGLALKIFLYFLPTVLLIMSKVEGYISRSSLQRRAAAKYYYFILVNVFLGSIV
+AGTAFEQLNSFLHQSPTERYIPRIPRTIGVSIPMKATFFMTYIMVDGWAGSAAEILRLKP
+LVLYHLKNVFLVKTEKDREKAMDPGGIELNENLPNLQLYFLLGLVYAVVTPLLLPFILVF
+FAFTYLVYRHQIINVYNQEYESAGAFWPHVHTRIVAGLLISQLLLLGLLSTKKAASSTPL
+LIILPILTIWFHKYCKSRFEPAFRKYPLEEAMEKDMMEKEAEPDFNLKDYLTKAHPYLHP
+VFRSSEHYPEVNIEINKEQSCVASPVRSEIQSQSPPQYAYENSYYQHSYYNQDVSPPHYI
+YEGV
+>Vper.hapA.v1.chr7A.g186400.t1
+MATLGDVAVSAVINIANVIVFLLAFALLRIQPINEPIYIPKSYRRSDAGSGGIKKFVRLD
+ARTYFTFLNWIPDALKKMTQDELINHAGLDYVVYLRIYILGLKIFIPIAVLALLIIVPVN
+FSGGTLFSLRTHIVYNDIDKLSISNVNAGSQRFWIHMLMEYVFTFWTFYMLYKEYENVVF
+MRFRFLASQRRHVDQFTVVVRNIPHSNEHSISKSVEQFFQKNHPDHYLGHQLVGFLGLCG
+SKVDAIDYYQKKIRELKITSECESILRDPKAIMPVAFVTFDSRWGAAVCAQTQQSKDPTE
+WLTDRAPEPRDVYWNNLAIPFFSLSIRRLIISVAVFALVFFYMIPIAFVQSLANLEGLER
+VVPFLRPVVEVKVIKSFLQGYLPGRALKIFLYFLPTVLLIMSKVEGYISRSSLQRRTAAK
+YYYFILVNVFLGSIVTGTAFEQLNSFLHQSPTDLIPTTIGESIPMKATFFMTFIMVDGWA
+DSAGEILRLKDLVLYHLKNVFIVKTEKDREKAMDPGGIKLHKNLPNLQLYFLLGLVYAVV
+TPLLLPFILVFFAFTYLVYRHQIINVYKQEYESAGAFWPHVHTRIVASVLISQLLLLGLL
+STKKAKSSTPLLIILPILTIWFNKYCKSRFEPAFRKYPLEVEAMEKDMKEKAAEPDFDLK
+EYLTKANYQYLHPAFRSSEEYPEVEIEINKEQSCIASSVRSEIQSPSSPQYANDNSYNQH
+SYYNQDLSPPHYIYEGV
+>Vper.hapA.v1.chr7A.g186410.t1
+MESTTLEDIGVSAFINIASAIVFLLAFSLIRIQPVNDRIYFPKRYVIGARRSTAIRGGVE
+KFVSLDGRAYFTFLNWIPNALKKMTQDELINHAGLDSVVYLRIYILGLKIFIPIAVLALL
+IIVPVNFSGGALSNLPTQIVYSDIDKLSISNVNARSQRFWIHMLMEYVFTFWTFYMLYKE
+YENVASMRLDFLASQQRDVDQYTVVVRNIPHLDGHSISESVEQFFRKNHPDHYLRHQVVY
+NANRFAKLVTKKERLQNRLDYYELKCDRCQGRRPTIKVGFLGLCGRRVDAIDYYQERISE
+LDKKIAPERESLLRDPKAIMPVAFVTFDSRWGAAVCAQTQQTKNPTQWLTDWAPEPRDVY
+WNNLAIPFFSLRIRRLIISVAVFALVFFYMIPIAFVQSLANLESLEKVAPFLRPFVRVKL
+IKSFLQGYLPGRALKIFLYFLPTVLLIMSKVEGYISRSSLQRRTAAKYYYFILVNVFLGS
+IVTGTAFEQLNSFLRQSPTDLHGTISTVKMGRGLSLSNLSSAQLGKIPTTIGVSIPMKAT
+FFMTYIMVDGWADSAGEILRLKDLVLYHLKNVFIVKTEKDREKAMDPGGIKLNKNLPNLQ
+LYFLLGLVYAVVTPLLLPFILVFFAFTYVVYRHQIINVYNQKYESAGAFWPHVHTRIVAS
+LLISQLLLLGLLSTKKAASSTPLLIILPILTIWFHKYCKSRFEPAFRKYPLEDAMEKDMK
+EKEAEPDFNLKDYLTKANPYLRQVLRSLEGEPGEDGSKDSSENSSEDGPEEVGPEEV
+>Vper.hapA.v1.chr8A.g231320.t1
+MTTPSLSPTSSSMVAPPNFSSAPPPPSSDFDPSTAWYGGDLQYLLNISIAGAASCVLLFL
+LIKLRHDHSGLPGVSALFYKLLAAVAASPSQIALHCGADAAQFLLIERASFFTLLALSLL
+ALAFALPLNLLAGDASLPDAFAHTTLSHLRTASPFLWLHLILTAVVAAVVHFGISYAEDD
+LRVTRLRDNPADPTSVSIFTIMVQGVPKPLAADREPLLEYFQHKYPGKIYRVIVPFDLAT
+LERLTSQWAEVQDKISWLEARLDARTLFDDSGEDPQDASFVGRLKEAWAMLATRLGLTDE
+DKLRRLHNLKSLIESKLLDYKEGRAPGAGIAFVVFKDVFTANKAVMDFRTERKNRPIGRF
+FPLMELQLGRSRWRVGRAPAASDIYWNHLGLSKVSLTLRKVAVNTCLLVMLLFCSSPLAA
+ITAVKSAARIINAEAMDNAQQWLAWFEGSSWFAALILQFLPNVLIFVSMYIIIPSVLSYL
+SKFERHLTVSGEQRAALLKMVCFFLVNLILLRAMVESSLESAILKMGRCYLDGEDCKRIE
+QYMSASFLSRSCLSTIAFLIMSTLLGISFDLLAPIPWIKNTLKKFRKNDMLQLVPEPRDD
+YPLEANNSDGSLRMPLVSETDEDPGLNGIEGQDLSVYPVNRSFHMPKQKFDFAQYYAFNL
+TIFALTMIYSLFAPLVVPVGAVYFGYRYLVDKYNFLFVYRVRGFPAGNDGKLIDRVLCIM
+HFCVVLFLLSMMLFFSVQGDSMKLQAIFTLCMLFFYKVFPFGSDRFQLSILEGLQTVHSF
+VDGPTDYEIFSQPDIDWNLYQL
+>Vper.hapA.v1.chr9A.g255760.t1
+MATLGDIGLAAAINILSAFVFFVAFAVLRLQPINDRVYFPKWYLKGIRSSPRKSGNIVSN
+FVNLDCNTYLRFLNWMPAALKMPQPELIDHAGLDSAVYIRIYLLGLKIFVPLTVLAFCVL
+VPVNWTDNTLEKLTDVTYSDIDKLSISNVRSGSERFWAHLVMAYVFTCWTCYVLYQEYKI
+IATLRLHFLASESRRPDQFTAEVTQKQPPPRHVCVHLTLPGPHWDGFITATLLCQVLVRN
+VPPDPDESVSQHVGHFFSVNHRDHYLTHQVVYDANYLAKLVDKRKGLENWLVYYQNKAVR
+NPGKRPRTKTGFLGLWGKNVDAIDYYTAEIEKLLKEEDTERERIKDDPNSIMPAAFVSFK
+TRWGAAVCAQTQQTSNPTLWLTEWAPEPRDVYWPNLAIPFVALTVRRLIMAVTLFFLTFF
+FMIPIAAVQSLANIESIEKVLPFLKSIIERPAIKSFIQGFLPGIALKIFLILLPTILMAM
+SKVEGFTSLSTLDRRSASKYYLFCLVNVFLGSIITGTAFQQLHHFLHESANEIPRTIGVS
+IPMKATFFITYIMVDGWAGVAAEIIRLKPLVMYHIKNTLLVKTDKDREQAMDPGSLEFAS
+SEPRIQLYFLLGLVYAVVTPILLPFIVVFFALAYVVFRHQVINVYHQKYESAGAFWPDVH
+RRLIAAMIISQVLLMGLMSTKSASQSTPLLIALPVITIWFHKYCKNRFEPAFVKFPLQDA
+MVKDTLERATEPNLNLRAYLQDAYIHPVFKKEEELDNVIALDEEESGFVVPTKRTSRKGT
+PVDSKHGSDAGGEMDF
+>Vper.hapA.v1.chr9A.g257040.t1
+MAAGMDADGLLASATINIGLAIVVLSLFSAMKKQPANSPVYYARRIARHEPLPLCYRFSF
+ARLLPSFGWIPRAIAITEAEILRDHGLDALVFIRLFKLGINFFTVCSVLGLVVLVPVNYT
+SQDRSPKSDSKVLYTMDSFTISNIKKGSDRLWEYKCILHLRIQQISNQRHKPDQFTVLVR
+GIPLCTDHNAYGCSVDHFFSKYHPYTFQSYQIVHDRKKELPSAFVLFKSRVGAAIAAQTP
+QHVHPLLWITEFAPEPRDVLWNNLDIPYRRAAVHKIVVFVAATILTIFFAFPVAAVQGIL
+QFDKIQQWFPPARAIQLIPSLNSIVTGYFPSLILNGFIYLIPYAMFGMAWLEGCVSRSQL
+ELKACSMVFYFLVGNVFFFSLLSGTLIDQIGESFSHPKEVPSKLARAVAAQADFFISYIL
+TNGLSGFSLEILQFGLTLWHFIRSCIFCQRSKDDTFLFGFPYYRFIPIVLLAVLIGMVYA
+VVAPLLLPFLIVYFLLGYAVFINQIQDVYEMFYQTYGLYWPEIHHFIFIIMVIMQVVMVG
+LFALKSKAAAAITTLVLLVLTIFFNEYCKLRFLPSFSRCSIQIATDNDELDEKEGTIEVN
+RENATNAYCAPWTRDNDHGSRENGSSKEPLLSRWLP
+>match$1_470_548
+SELTVLSSPKEIPERLATAVSTQANFFITYVLTSGWASLSSEVLQSFALIYNFVKKVIFR
+CKDEADSVPSFPYHTEVPK
+>match$2_629_648
+VAFGFTIPLVILTLLFNEYC
+>match$3_582_601
+RNQILNVYCSKYETGGRIWP
+>match$4_356_622
+RRVAVLLGSIIFMLVFLIPVTFVQGLTQLDQLEKIFPFLQGLLKKKLTRQIATGYLPSVI
+LLLFLYSVPPTMMMFSALEGCISRSGRKKSACRKVLYFTIWNIFFANVLSGTAISELTVL
+SSPKEIPERLATAVSTQANFFITYVLTSGWASLSSEVLQSFALIYNFVKKVIFRCKDEAD
+SVPSFPYHTEVPKALLFGLLGFTYSILAPLILPFLLVYFFLGYVVYRNQILNVYCSKYET
+GGRIWPIVHNTTIFSLVLTQIIALGVF
+>match$5_402_421
+LTRQIATGYLPSVILLLFLY
+>match$6_90_112
+IFVFSIRIFSIAAVVCVFGVLPL
+>match$7_383_401
+QLDQLEKIFPFLQGLLKKK
+>match$8_1_690
+MNIAALLTSAGINIGLCALFLSLYSVLRKQPSNVYVYFGRRLAQEHSRCRESFNFERLVP
+SPSWMMKAWEYTEDEILAVAGLDAVVFLRIFVFSIRIFSIAAVVCVFGVLPLNYFGQEMH
+HEQIPSESLDVFTIANVKQRSHWLWVHCIALYIISCSACVLLYFEYKSIARMRLAHMIQS
+SPNPSHFAVLVRGVPKSTDESISDSIKRFFTTYHGSSYLSHQVIFRSGKFHKFMYKAERV
+YKKFVRLTSTVIDERSSTARYRCGLCGVTSTSFKMYHEVEVEMGSKKADIDTQVTSRKEK
+ECLAAFIFFKTRYAAVVASKLLQSSNPMLWVTNLAPEPHDVYWSNLWIPYRQLWFRRVAV
+LLGSIIFMLVFLIPVTFVQGLTQLDQLEKIFPFLQGLLKKKLTRQIATGYLPSVILLLFL
+YSVPPTMMMFSALEGCISRSGRKKSACRKVLYFTIWNIFFANVLSGTAISELTVLSSPKE
+IPERLATAVSTQANFFITYVLTSGWASLSSEVLQSFALIYNFVKKVIFRCKDEADSVPSF
+PYHTEVPKALLFGLLGFTYSILAPLILPFLLVYFFLGYVVYRNQILNVYCSKYETGGRIW
+PIVHNTTIFSLVLTQIIALGVFGIKKSPVAFGFTIPLVILTLLFNEYCSQRFLPVFRNLS
+AQDIIEMDRQDEHYGRMEEIHQQLHLAYSQ
+>match$9_143_164
+WLWVHCIALYIISCSACVLLYF
+>match$10_450_469
+VLYFTIWNIFFANVLSGTAI
+>match$11_549_581
+ALLFGLLGFTYSILAPLILPFLLVYFFLGYVVY
+>match$12_402_424
+LTRQIATGYLPSVILLLFLYSVP
+>match$13_1_5
+MNIAA
+>match$14_422_449
+SVPPTMMMFSALEGCISRSGRKKSACRK
+>match$15_86_110
+VFLRIFVFSIRIFSIAAVVCVFGVL
+>match$16_5_165
+ALLTSAGINIGLCALFLSLYSVLRKQPSNVYVYFGRRLAQEHSRCRESFNFERLVPSPSW
+MMKAWEYTEDEILAVAGLDAVVFLRIFVFSIRIFSIAAVVCVFGVLPLNYFGQEMHHEQI
+PSESLDVFTIANVKQRSHWLWVHCIALYIISCSACVLLYFE
+>match$17_165_357
+EYKSIARMRLAHMIQSSPNPSHFAVLVRGVPKSTDESISDSIKRFFTTYHGSSYLSHQVI
+FRSGKFHKFMYKAERVYKKFVRLTSTVIDERSSTARYRCGLCGVTSTSFKMYHEVEVEMG
+SKKADIDTQVTSRKEKECLAAFIFFKTRYAAVVASKLLQSSNPMLWVTNLAPEPHDVYWS
+NLWIPYRQLWFRR
+>match$18_6_27
+LLTSAGINIGLCALFLSLYSVL
+>match$19_360_382
+VLLGSIIFMLVFLIPVTFVQGLT
+>match$20_186_345
+HFAVLVRGVPKSTDESISDSIKRFFTTYHGSSYLSHQVIFRSGKFHKFMYKAERVYKKFV
+RLTSTVIDERSSTARYRCGLCGVTSTSFKMYHEVEVEMGSKKADIDTQVTSRKEKECLAA
+FIFFKTRYAAVVASKLLQSSNPMLWVTNLAPEPHDVYWSN
+>match$21_602_624
+IVHNTTIFSLVLTQIIALGVFGI
+>match$22_28_85
+RKQPSNVYVYFGRRLAQEHSRCRESFNFERLVPSPSWMMKAWEYTEDEILAVAGLDAV
+>match$23_111_142
+PLNYFGQEMHHEQIPSESLDVFTIANVKQRSH
+>match$24_142_164
+HWLWVHCIALYIISCSACVLLYF
+>match$25_358_382
+VAVLLGSIIFMLVFLIPVTFVQGLT
+>match$26_559_581
+YSILAPLILPFLLVYFFLGYVVY
+>match$27_602_624
+IVHNTTIFSLVLTQIIALGVFGI
+>match$28_450_469
+VLYFTIWNIFFANVLSGTAI
+>match$29_5_27
+ALLTSAGINIGLCALFLSLYSVL
+>match$30_625_629
+KKSPV
+>match$31_630_648
+AFGFTIPLVILTLLFNEYC
+>match$32_649_718
+SQRFLPVFRNLSAQDIIEMDRQDEHYGRMEEIHQQLHLAYSQLPVDVDAMPHDSCNVGDP
+TKVAVVDELS
+>match$33_368_391
+FVVYGIVFLTIFFYIIPIGIISAF
+>match$34_5_166
+AFLTSLGTSLLIFVVLMLIFAWLSRKQSNEVIYYPNRILRGLNPWEGHRRTRNPFSWIKE
+AFSATEADVVAAAGLDAAVYLVFLSSVLGILVLSGIVLLPVLLPVAATDKSHTTVSASTS
+EGTFNNFDKLAMGNVKERSPRLWPFVLAVYWVSFVTFFVLWK
+>match$35_82_107
+AVYLVFLSSVLGILVLSGIVLLPVLL
+>match$36_460_482
+YFYFIVFNVFLGVTIGGTLFGSL
+>match$37_441_459
+SKAEGIASQSHAVRATCGK
+>match$38_643_661
+YYAPVLLLLIFITCIYAYI
+>match$39_420_440
+YLPQLALILFLALLPKFLMFL
+>match$40_2_702
+EFNAFLTSLGTSLLIFVVLMLIFAWLSRKQSNEVIYYPNRILRGLNPWEGHRRTRNPFSW
+IKEAFSATEADVVAAAGLDAAVYLVFLSSVLGILVLSGIVLLPVLLPVAATDKSHTTVSA
+STSEGTFNNFDKLAMGNVKERSPRLWPFVLAVYWVSFVTFFVLWKSYNHVLNLRAASRAD
+SIVDPEDFAVLVRDIPPCPKDLTMKEHVDAYFKALHAESFYKSLIITENKKVNKIWKEIQ
+DCKKKIARAEAGYRESKTTSKPDGTRPSNRTGFLGLIGPKVDTINYYNNKIAELLPKLEE
+EQNITLREKQKAAALVFFNNRQAAASAAQTIHSQKNDHWTVKEAPEPRDLIWKNLPKSFY
+QRQIRRFVVYGIVFLTIFFYIIPIGIISAFTTLDNLRRLFPFLKNVLKSRTINTLLEAYL
+PQLALILFLALLPKFLMFLSKAEGIASQSHAVRATCGKYFYFIVFNVFLGVTIGGTLFGS
+LKDIIDHPKTLIDMLARNLPDSATFFITYVALRLFVGYGLELSRFIPLVIFHLKKRYLCK
+TDAEVREAWAPGDFGYASRVANDMLIVTIVLCYSVIAPVIIPFGVVYFGLGWLIARNQAL
+KVYVPAYESSGQMWPHMFARIVAALIIFQITMFGYLGLKKFYYAPVLLLLIFITCIYAYI
+CQKRFYKSFHHTPLEVASQRMKVTPNLSSVYASYIPPYLNP
+>match$41_28_81
+SRKQSNEVIYYPNRILRGLNPWEGHRRTRNPFSWIKEAFSATEADVVAAAGLDA
+>match$42_597_616
+RNQALKVYVPAYESSGQMWP
+>match$43_617_637
+HMFARIVAALIIFQITMFGYL
+>match$44_392_419
+TTLDNLRRLFPFLKNVLKSRTINTLLEA
+>match$45_1_5
+MEFNA
+>match$46_366_636
+RRFVVYGIVFLTIFFYIIPIGIISAFTTLDNLRRLFPFLKNVLKSRTINTLLEAYLPQLA
+LILFLALLPKFLMFLSKAEGIASQSHAVRATCGKYFYFIVFNVFLGVTIGGTLFGSLKDI
+IDHPKTLIDMLARNLPDSATFFITYVALRLFVGYGLELSRFIPLVIFHLKKRYLCKTDAE
+VREAWAPGDFGYASRVANDMLIVTIVLCYSVIAPVIIPFGVVYFGLGWLIARNQALKVYV
+PAYESSGQMWPHMFARIVAALIIFQITMFGY
+>match$47_483_564
+KDIIDHPKTLIDMLARNLPDSATFFITYVALRLFVGYGLELSRFIPLVIFHLKKRYLCKT
+DAEVREAWAPGDFGYASRVAND
+>match$48_6_27
+FLTSLGTSLLIFVVLMLIFAWL
+>match$49_146_165
+LWPFVLAVYWVSFVTFFVLW
+>match$50_565_596
+MLIVTIVLCYSVIAPVIIPFGVVYFGLGWLIA
+>match$51_662_733
+CQKRFYKSFHHTPLEVASQRMKVTPNLSSVYASYIPPYLNPPELNDIEQPENQSHSAENF
+HNAQAHATALAP
+>match$52_108_145
+PVAATDKSHTTVSASTSEGTFNNFDKLAMGNVKERSPR
+>match$53_368_390
+FVVYGIVFLTIFFYIIPIGIISA
+>match$54_565_596
+MLIVTIVLCYSVIAPVIIPFGVVYFGLGWLIA
+>match$55_460_482
+YFYFIVFNVFLGVTIGGTLFGSL
+>match$56_5_27
+AFLTSLGTSLLIFVVLMLIFAWL
+>match$57_419_441
+AYLPQLALILFLALLPKFLMFLS
+>match$58_85_107
+LVFLSSVLGILVLSGIVLLPVLL
+>match$59_643_662
+YYAPVLLLLIFITCIYAYIC
+>match$60_188_355
+DFAVLVRDIPPCPKDLTMKEHVDAYFKALHAESFYKSLIITENKKVNKIWKEIQDCKKKI
+ARAEAGYRESKTTSKPDGTRPSNRTGFLGLIGPKVDTINYYNNKIAELLPKLEEEQNITL
+REKQKAAALVFFNNRQAAASAAQTIHSQKNDHWTVKEAPEPRDLIWKN
+>match$61_638_642
+GLKKF
+>match$62_146_165
+LWPFVLAVYWVSFVTFFVLW
+>match$63_166_367
+KSYNHVLNLRAASRADSIVDPEDFAVLVRDIPPCPKDLTMKEHVDAYFKALHAESFYKSL
+IITENKKVNKIWKEIQDCKKKIARAEAGYRESKTTSKPDGTRPSNRTGFLGLIGPKVDTI
+NYYNNKIAELLPKLEEEQNITLREKQKAAALVFFNNRQAAASAAQTIHSQKNDHWTVKEA
+PEPRDLIWKNLPKSFYQRQIRR
+>match$64_617_639
+HMFARIVAALIIFQITMFGYLGL
+>match$65_652_672
+HVHTRIVASLLISQLLLLGLL
+>match$66_1_11
+MESTTLEDIGV
+>match$67_646_668
+AGAFWPHVHTRIVASLLISQLLL
+>match$68_103_125
+IYILGLKIFIPIAVLALLIIVPV
+>match$69_699_777
+KSRFEPAFRKYPLEDAMEKDMKEKEAEPDFNLKDYLTKANPYLRQVLRSLEGEPGEDGSK
+DSSENSSEDGPEEVGPEEV
+>match$70_201_363
+QYTVVVRNIPHLDGHSISESVEQFFRKNHPDHYLRHQVVYNANRFAKLVTKKERLQNRLD
+YYELKCDRCQGRRPTIKVGFLGLCGRRVDAIDYYQERISELDKKIAPERESLLRDPKAIM
+PVAFVTFDSRWGAAVCAQTQQTKNPTQWLTDWAPEPRDVYWNN
+>match$71_436_456
+IFLYFLPTVLLIMSKVEGYIS
+>match$72_10_32
+GVSAFINIASAIVFLLAFSLIRI
+>match$73_603_625
+FLLGLVYAVVTPLLLPFILVFFA
+>match$74_678_698
+ASSTPLLIILPILTIWFHKYC
+>match$75_128_158
+SGGALSNLPTQIVYSDIDKLSISNVNARSQR
+>match$76_7_747
+EDIGVSAFINIASAIVFLLAFSLIRIQPVNDRIYFPKRYVIGARRSTAIRGGVEKFVSLD
+GRAYFTFLNWIPNALKKMTQDELINHAGLDSVVYLRIYILGLKIFIPIAVLALLIIVPVN
+FSGGALSNLPTQIVYSDIDKLSISNVNARSQRFWIHMLMEYVFTFWTFYMLYKEYENVAS
+MRLDFLASQQRDVDQYTVVVRNIPHLDGHSISESVEQFFRKNHPDHYLRHQVVYNANRFA
+KLVTKKERLQNRLDYYELKCDRCQGRRPTIKVGFLGLCGRRVDAIDYYQERISELDKKIA
+PERESLLRDPKAIMPVAFVTFDSRWGAAVCAQTQQTKNPTQWLTDWAPEPRDVYWNNLAI
+PFFSLRIRRLIISVAVFALVFFYMIPIAFVQSLANLESLEKVAPFLRPFVRVKLIKSFLQ
+GYLPGRALKIFLYFLPTVLLIMSKVEGYISRSSLQRRTAAKYYYFILVNVFLGSIVTGTA
+FEQLNSFLRQSPTDLHGTISTVKMGRGLSLSNLSSAQLGKIPTTIGVSIPMKATFFMTYI
+MVDGWADSAGEILRLKDLVLYHLKNVFIVKTEKDREKAMDPGGIKLNKNLPNLQLYFLLG
+LVYAVVTPLLLPFILVFFAFTYVVYRHQIINVYNQKYESAGAFWPHVHTRIVASLLISQL
+LLLGLLSTKKAASSTPLLIILPILTIWFHKYCKSRFEPAFRKYPLEDAMEKDMKEKEAEP
+DFNLKDYLTKANPYLRQVLRS
+>match$77_12_30
+SAFINIASAIVFLLAFSLI
+>match$78_745_777
+LRSLEGEPGEDGSKDSSENSSEDGPEEVGPEEV
+>match$78_764_777
+SSEDGPEEVGPEEV
+>match$79_9_180
+IGVSAFINIASAIVFLLAFSLIRIQPVNDRIYFPKRYVIGARRSTAIRGGVEKFVSLDGR
+AYFTFLNWIPNALKKMTQDELINHAGLDSVVYLRIYILGLKIFIPIAVLALLIIVPVNFS
+GGALSNLPTQIVYSDIDKLSISNVNARSQRFWIHMLMEYVFTFWTFYMLYKE
+>match$80_468_487
+YYYFILVNVFLGSIVTGTAF
+>match$81_396_435
+VQSLANLESLEKVAPFLRPFVRVKLIKSFLQGYLPGRALK
+>match$82_632_651
+RHQIINVYNQKYESAGAFWP
+>match$83_601_631
+LYFLLGLVYAVVTPLLLPFILVFFAFTYVVY
+>match$84_436_455
+IFLYFLPTVLLIMSKVEGYI
+>match$85_252_272
+KERLQNRLDYYELKCDRCQGR
+>match$86_103_127
+IYILGLKIFIPIAVLALLIIVPVNF
+>match$87_31_102
+RIQPVNDRIYFPKRYVIGARRSTAIRGGVEKFVSLDGRAYFTFLNWIPNALKKMTQDELI
+NHAGLDSVVYLR
+>match$88_179_375
+KEYENVASMRLDFLASQQRDVDQYTVVVRNIPHLDGHSISESVEQFFRKNHPDHYLRHQV
+VYNANRFAKLVTKKERLQNRLDYYELKCDRCQGRRPTIKVGFLGLCGRRVDAIDYYQERI
+SELDKKIAPERESLLRDPKAIMPVAFVTFDSRWGAAVCAQTQQTKNPTQWLTDWAPEPRD
+VYWNNLAIPFFSLRIRR
+>match$89_468_487
+YYYFILVNVFLGSIVTGTAF
+>match$90_159_178
+FWIHMLMEYVFTFWTFYMLY
+>match$91_376_398
+LIISVAVFALVFFYMIPIAFVQS
+>match$92_678_697
+ASSTPLLIILPILTIWFHKY
+>match$93_488_600
+EQLNSFLRQSPTDLHGTISTVKMGRGLSLSNLSSAQLGKIPTTIGVSIPMKATFFMTYIM
+VDGWADSAGEILRLKDLVLYHLKNVFIVKTEKDREKAMDPGGIKLNKNLPNLQ
+>match$94_457_467
+RSSLQRRTAAK
+>match$95_673_677
+STKKA
+>match$96_376_395
+LIISVAVFALVFFYMIPIAF
+>match$97_159_178
+FWIHMLMEYVFTFWTFYMLY
+>match$98_374_672
+RRLIISVAVFALVFFYMIPIAFVQSLANLESLEKVAPFLRPFVRVKLIKSFLQGYLPGRA
+LKIFLYFLPTVLLIMSKVEGYISRSSLQRRTAAKYYYFILVNVFLGSIVTGTAFEQLNSF
+LRQSPTDLHGTISTVKMGRGLSLSNLSSAQLGKIPTTIGVSIPMKATFFMTYIMVDGWAD
+SAGEILRLKDLVLYHLKNVFIVKTEKDREKAMDPGGIKLNKNLPNLQLYFLLGLVYAVVT
+PLLLPFILVFFAFTYVVYRHQIINVYNQKYESAGAFWPHVHTRIVASLLISQLLLLGLL
+>match$99_421_440
+YYYFILVNVFLGSIVTGTAF
+>match$100_29_96
+RIQPINEPIYIPKSYRRSDAGSGGIKKFVRLDARTYFTFLNWIPDALKKMTQDELINHAG
+LDYVVYLR
+>match$101_173_328
+KEYENVVFMRFRFLASQRRHVDQFTVVVRNIPHSNEHSISKSVEQFFQKNHPDHYLGHQL
+VGFLGLCGSKVDAIDYYQKKIRELKITSECESILRDPKAIMPVAFVTFDSRWGAAVCAQT
+QQSKDPTEWLTDRAPEPRDVYWNNLAIPFFSLSIRR
+>match$102_603_607
+KKAKS
+>match$103_441_528
+EQLNSFLHQSPTDLIPTTIGESIPMKATFFMTFIMVDGWADSAGEILRLKDLVLYHLKNV
+FIVKTEKDREKAMDPGGIKLHKNLPNLQ
+>match$104_608_626
+STPLLIILPILTIWFNKYC
+>match$105_7_174
+VAVSAVINIANVIVFLLAFALLRIQPINEPIYIPKSYRRSDAGSGGIKKFVRLDARTYFT
+FLNWIPDALKKMTQDELINHAGLDYVVYLRIYILGLKIFIPIAVLALLIIVPVNFSGGTL
+FSLRTHIVYNDIDKLSISNVNAGSQRFWIHMLMEYVFTFWTFYMLYKE
+>match$106_327_600
+RRLIISVAVFALVFFYMIPIAFVQSLANLEGLERVVPFLRPVVEVKVIKSFLQGYLPGRA
+LKIFLYFLPTVLLIMSKVEGYISRSSLQRRTAAKYYYFILVNVFLGSIVTGTAFEQLNSF
+LHQSPTDLIPTTIGESIPMKATFFMTFIMVDGWADSAGEILRLKDLVLYHLKNVFIVKTE
+KDREKAMDPGGIKLHKNLPNLQLYFLLGLVYAVVTPLLLPFILVFFAFTYLVYRHQIINV
+YKQEYESAGAFWPHVHTRIVASVLISQLLLLGLL
+>match$107_702_724
+EIQSPSSPQYANDNSYNQHSYYN
+>match$108_329_351
+LIISVAVFALVFFYMIPIAFVQS
+>match$109_153_172
+FWIHMLMEYVFTFWTFYMLY
+>match$110_6_694
+DVAVSAVINIANVIVFLLAFALLRIQPINEPIYIPKSYRRSDAGSGGIKKFVRLDARTYF
+TFLNWIPDALKKMTQDELINHAGLDYVVYLRIYILGLKIFIPIAVLALLIIVPVNFSGGT
+LFSLRTHIVYNDIDKLSISNVNAGSQRFWIHMLMEYVFTFWTFYMLYKEYENVVFMRFRF
+LASQRRHVDQFTVVVRNIPHSNEHSISKSVEQFFQKNHPDHYLGHQLVGFLGLCGSKVDA
+IDYYQKKIRELKITSECESILRDPKAIMPVAFVTFDSRWGAAVCAQTQQSKDPTEWLTDR
+APEPRDVYWNNLAIPFFSLSIRRLIISVAVFALVFFYMIPIAFVQSLANLEGLERVVPFL
+RPVVEVKVIKSFLQGYLPGRALKIFLYFLPTVLLIMSKVEGYISRSSLQRRTAAKYYYFI
+LVNVFLGSIVTGTAFEQLNSFLHQSPTDLIPTTIGESIPMKATFFMTFIMVDGWADSAGE
+ILRLKDLVLYHLKNVFIVKTEKDREKAMDPGGIKLHKNLPNLQLYFLLGLVYAVVTPLLL
+PFILVFFAFTYLVYRHQIINVYKQEYESAGAFWPHVHTRIVASVLISQLLLLGLLSTKKA
+KSSTPLLIILPILTIWFNKYCKSRFEPAFRKYPLEVEAMEKDMKEKAAEPDFDLKEYLTK
+ANYQYLHPAFRSSEEYPEVEIEINKEQSC
+>match$111_97_119
+IYILGLKIFIPIAVLALLIIVPV
+>match$112_560_584
+RHQIINVYKQEYESAGAFWPHVHTR
+>match$113_97_121
+IYILGLKIFIPIAVLALLIIVPVNF
+>match$114_153_172
+FWIHMLMEYVFTFWTFYMLY
+>match$115_410_420
+RSSLQRRTAAK
+>match$116_529_559
+LYFLLGLVYAVVTPLLLPFILVFFAFTYLVY
+>match$117_329_353
+LIISVAVFALVFFYMIPIAFVQSLA
+>match$118_1_5
+MATLG
+>match$119_122_152
+SGGTLFSLRTHIVYNDIDKLSISNVNAGSQR
+>match$120_627_737
+KSRFEPAFRKYPLEVEAMEKDMKEKAAEPDFDLKEYLTKANYQYLHPAFRSSEEYPEVEI
+EINKEQSCIASSVRSEIQSPSSPQYANDNSYNQHSYYNQDLSPPHYIYEGV
+>match$121_536_558
+VYAVVTPLLLPFILVFFAFTYLV
+>match$122_6_28
+DVAVSAVINIANVIVFLLAFALL
+>match$123_233_316
+VGFLGLCGSKVDAIDYYQKKIRELKITSECESILRDPKAIMPVAFVTFDSRWGAAVCAQT
+QQSKDPTEWLTDRAPEPRDVYWNN
+>match$124_354_388
+NLEGLERVVPFLRPVVEVKVIKSFLQGYLPGRALK
+>match$125_389_409
+IFLYFLPTVLLIMSKVEGYIS
+>match$126_6_28
+DVAVSAVINIANVIVFLLAFALL
+>match$127_585_602
+IVASVLISQLLLLGLLST
+>match$128_421_440
+YYYFILVNVFLGSIVTGTAF
+>match$129_389_408
+IFLYFLPTVLLIMSKVEGYI
+>match$130_561_582
+IVHNSTIVSLILMQLIGVGIFI
+>match$131_361_383
+TVVSQVITGYLPSLILQLFVSLI
+>match$132_294_581
+QLIVIVASVILTIVFLGPVSLVQGLANLDKLEKWLPFLKNILRLYLLTSFLVVVGIIISM
+ALITFQLTVVSQVITGYLPSLILQLFVSLIPPVMKLFSTMQGFVATSQIEISACAKVLLF
+NIWNIFFVNTVTGSIASQLRKLLDPQNIPFVLAMAVPGQATFFTTYVVTSWTSLATELTR
+TWPLISNLIGRQCLGWMSDDFEAPSIPYHSEIPRILVFGLLGLVYFLLMPLILPFIIIYF
+CIGYIVYRNQLINVYVPKYDSGGRYWPIVHNSTIVSLILMQLIGVGIF
+>match$133_99_118
+AFSVAGIIGICVLVPVNYVG
+>match$134_167_294
+NELKYICEKRLAHFNASKPLPQHFTILVRGVPLKDGKTCRESVDNFFMEYYPSTYLSNAV
+VRRHNKLRELMEVPVAFVSFKTRYDAATTRRIQQSDNPIEWVTEEVPEPHDVYWPFFSTS
+YITRFLSQ
+>match$135_608_662
+RRRFLPMFQSYSAQSLIRKDREDEKNPAMDEFFSKLANAYRNPELDEDEHTTPLI
+>match$136_441_463
+IPFVLAMAVPGQATFFTTYVVTS
+>match$137_410_429
+VLLFNIWNIFFVNTVTGSIA
+>match$138_391_409
+STMQGFVATSQIEISACAK
+>match$139_297_319
+VIVASVILTIVFLGPVSLVQGLA
+>match$140_147_166
+LWVHFSAAYLITAFVCYLLY
+>match$141_5_168
+ALLTSVGINLALCVLLFALYSVLRKQQTNARVYAARWVAEGKTQRRPEEHFNIENLLPSA
+SWIRRAWSFSEEELLESAGLDAVVFNRIFTFSLKAFSVAGIIGICVLVPVNYVGEQSIDI
+SELPTTDLESFSILNVSVGSNRLWVHFSAAYLITAFVCYLLYNE
+>match$142_316_334
+QGLANLDKLEKWLPFLKNI
+>match$143_588_607
+LASTLMVPLLVVTLVFNAYC
+>match$144_441_461
+IPFVLAMAVPGQATFFTTYVV
+>match$145_462_507
+TSWTSLATELTRTWPLISNLIGRQCLGWMSDDFEAPSIPYHSEIPR
+>match$146_119_146
+EQSIDISELPTTDLESFSILNVSVGSNR
+>match$147_92_114
+IFTFSLKAFSVAGIIGICVLVPV
+>match$148_588_607
+LASTLMVPLLVVTLVFNAYC
+>match$149_239_281
+VPVAFVSFKTRYDAATTRRIQQSDNPIEWVTEEVPEPHDVYWP
+>match$150_541_560
+RNQLINVYVPKYDSGGRYWP
+>match$151_147_166
+LWVHFSAAYLITAFVCYLLY
+>match$152_1_5
+MNLSA
+>match$153_359_369
+QLTVVSQVITG
+>match$154_335_358
+LRLYLLTSFLVVVGIIISMALITF
+>match$155_6_27
+LLTSVGINLALCVLLFALYSVL
+>match$156_583_587
+LRGLP
+>match$157_28_98
+RKQQTNARVYAARWVAEGKTQRRPEEHFNIENLLPSASWIRRAWSFSEEELLESAGLDAV
+VFNRIFTFSLK
+>match$158_334_356
+ILRLYLLTSFLVVVGIIISMALI
+>match$159_239_654
+VPVAFVSFKTRYDAATTRRIQQSDNPIEWVTEEVPEPHDVYWPFFSTSYITRFLSQLIVI
+VASVILTIVFLGPVSLVQGLANLDKLEKWLPFLKNILRLYLLTSFLVVVGIIISMALITF
+QLTVVSQVITGYLPSLILQLFVSLIPPVMKLFSTMQGFVATSQIEISACAKVLLFNIWNI
+FFVNTVTGSIASQLRKLLDPQNIPFVLAMAVPGQATFFTTYVVTSWTSLATELTRTWPLI
+SNLIGRQCLGWMSDDFEAPSIPYHSEIPRILVFGLLGLVYFLLMPLILPFIIIYFCIGYI
+VYRNQLINVYVPKYDSGGRYWPIVHNSTIVSLILMQLIGVGIFILRGLPLASTLMVPLLV
+VTLVFNAYCRRRFLPMFQSYSAQSLIRKDREDEKNPAMDEFFSKLANAYRNPELDE
+>match$160_5_27
+ALLTSVGINLALCVLLFALYSVL
+>match$161_508_540
+ILVFGLLGLVYFLLMPLILPFIIIYFCIGYIVY
+>match$162_295_315
+LIVIVASVILTIVFLGPVSLV
+>match$163_518_540
+YFLLMPLILPFIIIYFCIGYIVY
+>match$164_430_440
+SQLRKLLDPQN
+>match$165_561_583
+IVHNSTIVSLILMQLIGVGIFIL
+>match$166_398_420
+ATSQIEISACAKVLLFNIWNIFF
+>match$167_370_390
+YLPSLILQLFVSLIPPVMKLF
+>match$168_457_479
+IQGFLPGIALKIFLILLPTILMA
+>match$169_607_637
+LYFLLGLVYAVVTPILLPFIVVFFALAYVVF
+>match$170_500_522
+YYLFCLVNVFLGSIITGTAFQQL
+>match$171_638_662
+RHQVINVYHQKYESAGAFWPDVHRR
+>match$172_480_499
+MSKVEGFTSLSTLDRRSASK
+>match$173_29_100
+RLQPINDRVYFPKWYLKGIRSSPRKSGNIVSNFVNLDCNTYLRFLNWMPAALKMPQPELI
+DHAGLDSAVYIR
+>match$174_406_678
+RRLIMAVTLFFLTFFFMIPIAAVQSLANIESIEKVLPFLKSIIERPAIKSFIQGFLPGIA
+LKIFLILLPTILMAMSKVEGFTSLSTLDRRSASKYYLFCLVNVFLGSIITGTAFQQLHHF
+LHESANEIPRTIGVSIPMKATFFITYIMVDGWAGVAAEIIRLKPLVMYHIKNTLLVKTDK
+DREQAMDPGSLEFASSEPRIQLYFLLGLVYAVVTPILLPFIVVFFALAYVVFRHQVINVY
+HQKYESAGAFWPDVHRRLIAAMIISQVLLMGLM
+>match$175_705_796
+KNRFEPAFVKFPLQDAMVKDTLERATEPNLNLRAYLQDAYIHPVFKKEEELDNVIALDEE
+ESGFVVPTKRTSRKGTPVDSKHGSDAGGEMDF
+>match$176_520_606
+QQLHHFLHESANEIPRTIGVSIPMKATFFITYIMVDGWAGVAAEIIRLKPLVMYHIKNTL
+LVKTDKDREQAMDPGSLEFASSEPRIQ
+>match$177_500_519
+YYLFCLVNVFLGSIITGTAF
+>match$178_1_5
+MATLG
+>match$179_124_155
+NWTDNTLEKLTDVTYSDIDKLSISNVRSGSER
+>match$180_156_175
+FWAHLVMAYVFTCWTCYVLY
+>match$181_663_680
+LIAAMIISQVLLMGLMST
+>match$182_176_407
+QEYKIIATLRLHFLASESRRPDQFTAEVTQKQPPPRHVCVHLTLPGPHWDGFITATLLCQ
+VLVRNVPPDPDESVSQHVGHFFSVNHRDHYLTHQVVYDANYLAKLVDKRKGLENWLVYYQ
+NKAVRNPGKRPRTKTGFLGLWGKNVDAIDYYTAEIEKLLKEEDTERERIKDDPNSIMPAA
+FVSFKTRWGAAVCAQTQQTSNPTLWLTEWAPEPRDVYWPNLAIPFVALTVRR
+>match$183_771_796
+PTKRTSRKGTPVDSKHGSDAGGEMDF
+>match$184_7_756
+IGLAAAINILSAFVFFVAFAVLRLQPINDRVYFPKWYLKGIRSSPRKSGNIVSNFVNLDC
+NTYLRFLNWMPAALKMPQPELIDHAGLDSAVYIRIYLLGLKIFVPLTVLAFCVLVPVNWT
+DNTLEKLTDVTYSDIDKLSISNVRSGSERFWAHLVMAYVFTCWTCYVLYQEYKIIATLRL
+HFLASESRRPDQFTAEVTQKQPPPRHVCVHLTLPGPHWDGFITATLLCQVLVRNVPPDPD
+ESVSQHVGHFFSVNHRDHYLTHQVVYDANYLAKLVDKRKGLENWLVYYQNKAVRNPGKRP
+RTKTGFLGLWGKNVDAIDYYTAEIEKLLKEEDTERERIKDDPNSIMPAAFVSFKTRWGAA
+VCAQTQQTSNPTLWLTEWAPEPRDVYWPNLAIPFVALTVRRLIMAVTLFFLTFFFMIPIA
+AVQSLANIESIEKVLPFLKSIIERPAIKSFIQGFLPGIALKIFLILLPTILMAMSKVEGF
+TSLSTLDRRSASKYYLFCLVNVFLGSIITGTAFQQLHHFLHESANEIPRTIGVSIPMKAT
+FFITYIMVDGWAGVAAEIIRLKPLVMYHIKNTLLVKTDKDREQAMDPGSLEFASSEPRIQ
+LYFLLGLVYAVVTPILLPFIVVFFALAYVVFRHQVINVYHQKYESAGAFWPDVHRRLIAA
+MIISQVLLMGLMSTKSASQSTPLLIALPVITIWFHKYCKNRFEPAFVKFPLQDAMVKDTL
+ERATEPNLNLRAYLQDAYIHPVFKKEEELD
+>match$185_101_123
+IYLLGLKIFVPLTVLAFCVLVPV
+>match$186_9_177
+LAAAINILSAFVFFVAFAVLRLQPINDRVYFPKWYLKGIRSSPRKSGNIVSNFVNLDCNT
+YLRFLNWMPAALKMPQPELIDHAGLDSAVYIRIYLLGLKIFVPLTVLAFCVLVPVNWTDN
+TLEKLTDVTYSDIDKLSISNVRSGSERFWAHLVMAYVFTCWTCYVLYQE
+>match$187_408_430
+LIMAVTLFFLTFFFMIPIAAVQS
+>match$188_607_629
+LYFLLGLVYAVVTPILLPFIVVF
+>match$189_681_685
+KSASQ
+>match$190_101_123
+IYLLGLKIFVPLTVLAFCVLVPV
+>match$191_10_28
+AAAINILSAFVFFVAFAVL
+>match$192_156_175
+FWAHLVMAYVFTCWTCYVLY
+>match$193_6_28
+DIGLAAAINILSAFVFFVAFAVL
+>match$194_452_479
+AIKSFIQGFLPGIALKIFLILLPTILMA
+>match$195_236_395
+VLVRNVPPDPDESVSQHVGHFFSVNHRDHYLTHQVVYDANYLAKLVDKRKGLENWLVYYQ
+NKAVRNPGKRPRTKTGFLGLWGKNVDAIDYYTAEIEKLLKEEDTERERIKDDPNSIMPAA
+FVSFKTRWGAAVCAQTQQTSNPTLWLTEWAPEPRDVYWPN
+>match$196_686_704
+STPLLIALPVITIWFHKYC
+>match$197_408_432
+LIMAVTLFFLTFFFMIPIAAVQSLA
+>match$198_433_451
+NIESIEKVLPFLKSIIERP
+>match$199_545_567
+ATFFITYIMVDGWAGVAAEIIRL
+>match$200_87_109
+TLLAAIALTIAFVVPVTFVQGLS
+>match$201_341_360
+IASGFTVPLIILTLLFNEYC
+>match$202_85_105
+IATLLAAIALTIAFVVPVTFV
+>match$203_106_124
+QGLSRLEELQQRLRFLKVS
+>match$204_414_451
+SSSCHNSFKDEGSSNCTGSSRDHRRKEPKKDISHPSLK
+>match$205_154_172
+STLEGPVSHSVRKKSTCSK
+>match$206_16_422
+RSPPQSLVLLLIESSAAFVFFRSRYGALVASEVLQSSNPMLWVTDPAPEPRDIYWSNLWL
+PYRQLWLRRIATLLAAIALTIAFVVPVTFVQGLSRLEELQQRLRFLKVSFVSQLITGYLP
+SAVLQLFLLFVPPVMMLFSTLEGPVSHSVRKKSTCSKVLYFTIWNVFFVNVLSGSVIDQI
+NVLSSPKGIPNQLAKAVPKQCWTSLSSEVMQLFPVIVHHFRRYILRLTEDPDSVPSFPYH
+TEVPRVLLFGLLGFTCSVLAPLILPFLLVYFCLGYVVYRNQIINVYSAKYETGGLMWPMM
+HNTTIFSLVLAQTIALGVFGLKRSPIASGFTVPLIILTLLFNEYCRQRFHPIFKSFSAQD
+IIDMDKEDEQHGRMEEIHNKLLSAYRQFPDDNDSCGSNSSSCHNSFK
+>match$207_314_335
+MMHNTTIFSLVLAQTIALGVFG
+>match$208_83_334
+RRIATLLAAIALTIAFVVPVTFVQGLSRLEELQQRLRFLKVSFVSQLITGYLPSAVLQLF
+LLFVPPVMMLFSTLEGPVSHSVRKKSTCSKVLYFTIWNVFFVNVLSGSVIDQINVLSSPK
+GIPNQLAKAVPKQCWTSLSSEVMQLFPVIVHHFRRYILRLTEDPDSVPSFPYHTEVPRVL
+LFGLLGFTCSVLAPLILPFLLVYFCLGYVVYRNQIINVYSAKYETGGLMWPMMHNTTIFS
+LVLAQTIALGVF
+>match$209_266_288
+LLGFTCSVLAPLILPFLLVYFCL
+>match$210_124_146
+SFVSQLITGYLPSAVLQLFLLFV
+>match$211_37_84
+RSRYGALVASEVLQSSNPMLWVTDPAPEPRDIYWSNLWLPYRQLWLRR
+>match$212_261_293
+VLLFGLLGFTCSVLAPLILPFLLVYFCLGYVVY
+>match$213_29_72
+SSAAFVFFRSRYGALVASEVLQSSNPMLWVTDPAPEPRDIYWSN
+>match$214_1_19
+MNRSWPVRECDARDRRSPP
+>match$215_309_331
+GLMWPMMHNTTIFSLVLAQTIAL
+>match$216_173_192
+VLYFTIWNVFFVNVLSGSVI
+>match$217_20_36
+QSLVLLLIESSAAFVFF
+>match$218_193_260
+DQINVLSSPKGIPNQLAKAVPKQCWTSLSSEVMQLFPVIVHHFRRYILRLTEDPDSVPSF
+PYHTEVPR
+>match$219_341_360
+IASGFTVPLIILTLLFNEYC
+>match$220_361_478
+RQRFHPIFKSFSAQDIIDMDKEDEQHGRMEEIHNKLLSAYRQFPDDNDSCGSNSSSCHNS
+FKDEGSSNCTGSSRDHRRKEPKKDISHPSLKGFPAARLRRAVNLITMLMAFQRNKIPT
+>match$221_336_340
+LKRSP
+>match$222_125_153
+FVSQLITGYLPSAVLQLFLLFVPPVMMLF
+>match$223_173_192
+VLYFTIWNVFFVNVLSGSVI
+>match$224_294_313
+RNQIINVYSAKYETGGLMWP
+>match$225_43_62
+YLLNISIAGAASCVLLFLLI
+>match$226_111_133
+FFTLLALSLLALAFALPLNLLAG
+>match$227_133_155
+GDASLPDAFAHTTLSHLRTASPF
+>match$228_736_741
+SVQGDS
+>match$229_401_423
+VAVNTCLLVMLLFCSSPLAAITA
+>match$230_715_737
+RVLCIMHFCVVLFLLSMMLFFSV
+>match$231_111_132
+FFTLLALSLLALAFALPLNLLA
+>match$232_399_584
+RKVAVNTCLLVMLLFCSSPLAAITAVKSAARIINAEAMDNAQQWLAWFEGSSWFAALILQ
+FLPNVLIFVSMYIIIPSVLSYLSKFERHLTVSGEQRAALLKMVCFFLVNLILLRAMVESS
+LESAILKMGRCYLDGEDCKRIEQYMSASFLSRSCLSTIAFLIMSTLLGISFDLLAPIPWI
+KNTLKK
+>match$232_648_735
+QKFDFAQYYAFNLTIFALTMIYSLFAPLVVPVGAVYFGYRYLVDKYNFLFVYRVRGFPAG
+NDGKLIDRVLCIMHFCVVLFLLSMMLFF
+>match$233_478_496
+SYLSKFERHLTVSGEQRAA
+>match$234_742_759
+MKLQAIFTLCMLFFYKVF
+>match$235_199_388
+FTIMVQGVPKPLAADREPLLEYFQHKYPGKIYRVIVPFDLATLERLTSQWAEVQDKISWL
+EARLDARTLFDDSGEDPQDASFVGRLKEAWAMLATRLGLTDEDKLRRLHNLKSLIESKLL
+DYKEGRAPGAGIAFVVFKDVFTANKAVMDFRTERKNRPIGRFFPLMELQLGRSRWRVGRA
+PAASDIYWNH
+>match$236_712_735
+LIDRVLCIMHFCVVLFLLSMMLFF
+>match$237_516_555
+ESSLESAILKMGRCYLDGEDCKRIEQYMSASFLSRSCLST
+>match$238_43_62
+YLLNISIAGAASCVLLFLLI
+>match$239_1_21
+MTTPSLSPTSSSMVAPPNFSS
+>match$239_1_27
+MTTPSLSPTSSSMVAPPNFSSAPPPPS
+>match$240_451_477
+WFAALILQFLPNVLIFVSMYIIIPSVL
+>match$241_425_450
+KSAARIINAEAMDNAQQWLAWFEGSS
+>match$242_178_400
+EDDLRVTRLRDNPADPTSVSIFTIMVQGVPKPLAADREPLLEYFQHKYPGKIYRVIVPFD
+LATLERLTSQWAEVQDKISWLEARLDARTLFDDSGEDPQDASFVGRLKEAWAMLATRLGL
+TDEDKLRRLHNLKSLIESKLLDYKEGRAPGAGIAFVVFKDVFTANKAVMDFRTERKNRPI
+GRFFPLMELQLGRSRWRVGRAPAASDIYWNHLGLSKVSLTLRK
+>match$243_155_177
+FLWLHLILTAVVAAVVHFGISYA
+>match$244_687_711
+RYLVDKYNFLFVYRVRGFPAGNDGK
+>match$245_655_677
+YYAFNLTIFALTMIYSLFAPLVV
+>match$246_760_802
+PFGSDRFQLSILEGLQTVHSFVDGPTDYEIFSQPDIDWNLYQL
+>match$247_42_760
+QYLLNISIAGAASCVLLFLLIKLRHDHSGLPGVSALFYKLLAAVAASPSQIALHCGADAA
+QFLLIERASFFTLLALSLLALAFALPLNLLAGDASLPDAFAHTTLSHLRTASPFLWLHLI
+LTAVVAAVVHFGISYAEDDLRVTRLRDNPADPTSVSIFTIMVQGVPKPLAADREPLLEYF
+QHKYPGKIYRVIVPFDLATLERLTSQWAEVQDKISWLEARLDARTLFDDSGEDPQDASFV
+GRLKEAWAMLATRLGLTDEDKLRRLHNLKSLIESKLLDYKEGRAPGAGIAFVVFKDVFTA
+NKAVMDFRTERKNRPIGRFFPLMELQLGRSRWRVGRAPAASDIYWNHLGLSKVSLTLRKV
+AVNTCLLVMLLFCSSPLAAITAVKSAARIINAEAMDNAQQWLAWFEGSSWFAALILQFLP
+NVLIFVSMYIIIPSVLSYLSKFERHLTVSGEQRAALLKMVCFFLVNLILLRAMVESSLES
+AILKMGRCYLDGEDCKRIEQYMSASFLSRSCLSTIAFLIMSTLLGISFDLLAPIPWIKNT
+LKKFRKNDMLQLVPEPRDDYPLEANNSDGSLRMPLVSETDEDPGLNGIEGQDLSVYPVNR
+SFHMPKQKFDFAQYYAFNLTIFALTMIYSLFAPLVVPVGAVYFGYRYLVDKYNFLFVYRV
+RGFPAGNDGKLIDRVLCIMHFCVVLFLLSMMLFFSVQGDSMKLQAIFTLCMLFFYKVFP
+>match$248_401_424
+VAVNTCLLVMLLFCSSPLAAITAV
+>match$249_579_654
+KNTLKKFRKNDMLQLVPEPRDDYPLEANNSDGSLRMPLVSETDEDPGLNGIEGQDLSVYP
+VNRSFHMPKQKFDFAQ
+>match$250_75_174
+SALFYKLLAAVAASPSQIALHCGADAAQFLLIERASFFTLLALSLLALAFALPLNLLAGD
+ASLPDAFAHTTLSHLRTASPFLWLHLILTAVVAAVVHFGI
+>match$251_63_110
+KLRHDHSGLPGVSALFYKLLAAVAASPSQIALHCGADAAQFLLIERAS
+>match$252_744_763
+LQAIFTLCMLFFYKVFPFGS
+>match$253_556_578
+IAFLIMSTLLGISFDLLAPIPWI
+>match$254_497_515
+LLKMVCFFLVNLILLRAMV
+>match$255_451_473
+WFAALILQFLPNVLIFVSMYIII
+>match$256_655_686
+YYAFNLTIFALTMIYSLFAPLVVPVGAVYFGY
+>match$257_156_177
+LWLHLILTAVVAAVVHFGISYA
+>match$258_494_516
+RAALLKMVCFFLVNLILLRAMVE
+>match$259_556_578
+IAFLIMSTLLGISFDLLAPIPWI
+>match$260_1_42
+MTTPSLSPTSSSMVAPPNFSSAPPPPSSDFDPSTAWYGGDLQ
+>match$261_1_11
+MAAGMDADGLL
+>match$262_368_387
+VFYFLVGNVFFFSLLSGTLI
+>match$263_549_568
+AAAITTLVLLVLTIFFNEYC
+>match$264_367_387
+MVFYFLVGNVFFFSLLSGTLI
+>match$265_456_475
+FLFGFPYYRFIPIVLLAVLI
+>match$266_569_636
+KLRFLPSFSRCSIQIATDNDELDEKEGTIEVNRENATNAYCAPWTRDNDHGSRENGSSKE
+PLLSRWLP
+>match$267_481_485
+VVAPL
+>match$268_10_154
+LLASATINIGLAIVVLSLFSAMKKQPANSPVYYARRIARHEPLPLCYRFSFARLLPSFGW
+IPRAIAITEAEILRDHGLDALVFIRLFKLGINFFTVCSVLGLVVLVPVNYTSQDRSPKSD
+SKVLYTMDSFTISNIKKGSDRLWEY
+>match$269_9_31
+GLLASATINIGLAIVVLSLFSAM
+>match$270_611_636
+PWTRDNDHGSRENGSSKEPLLSRWLP
+>match$270_614_625
+RDNDHGSRENGS
+>match$271_92_114
+FIRLFKLGINFFTVCSVLGLVVL
+>match$272_522_544
+EIHHFIFIIMVIMQVVMVGLFAL
+>match$273_275_542
+KIVVFVAATILTIFFAFPVAAVQGILQFDKIQQWFPPARAIQLIPSLNSIVTGYFPSLIL
+NGFIYLIPYAMFGMAWLEGCVSRSQLELKACSMVFYFLVGNVFFFSLLSGTLIDQIGESF
+SHPKEVPSKLARAVAAQADFFISYILTNGLSGFSLEILQFGLTLWHFIRSCIFCQRSKDD
+TFLFGFPYYRFIPIVLLAVLIGMVYAVVAPLLLPFLIVYFLLGYAVFINQIQDVYEMFYQ
+TYGLYWPEIHHFIFIIMVIMQVVMVGLF
+>match$274_506_525
+QDVYEMFYQTYGLYWPEIHH
+>match$275_442_461
+IRSCIFCQRSKDDTFLFGFP
+>match$276_276_300
+IVVFVAATILTIFFAFPVAAVQGIL
+>match$277_52_71
+LPLCYRFSFARLLPSFGWIP
+>match$278_277_299
+VVFVAATILTIFFAFPVAAVQGI
+>match$279_214_618
+HDRKKELPSAFVLFKSRVGAAIAAQTPQHVHPLLWITEFAPEPRDVLWNNLDIPYRRAAV
+HKIVVFVAATILTIFFAFPVAAVQGILQFDKIQQWFPPARAIQLIPSLNSIVTGYFPSLI
+LNGFIYLIPYAMFGMAWLEGCVSRSQLELKACSMVFYFLVGNVFFFSLLSGTLIDQIGES
+FSHPKEVPSKLARAVAAQADFFISYILTNGLSGFSLEILQFGLTLWHFIRSCIFCQRSKD
+DTFLFGFPYYRFIPIVLLAVLIGMVYAVVAPLLLPFLIVYFLLGYAVFINQIQDVYEMFY
+QTYGLYWPEIHHFIFIIMVIMQVVMVGLFALKSKAAAAITTLVLLVLTIFFNEYCKLRFL
+PSFSRCSIQIATDNDELDEKEGTIEVNRENATNAYCAPWTRDNDH
+>match$280_12_31
+ASATINIGLAIVVLSLFSAM
+>match$281_388_414
+DQIGESFSHPKEVPSKLARAVAAQADF
+>match$282_480_502
+AVVAPLLLPFLIVYFLLGYAVFI
+>match$283_333_355
+ILNGFIYLIPYAMFGMAWLEGCV
+>match$284_327_346
+GYFPSLILNGFIYLIPYAMF
+>match$285_486_505
+LLPFLIVYFLLGYAVFINQI
+>match$286_91_117
+VFIRLFKLGINFFTVCSVLGLVVLVPV
+>match$287_526_544
+FIFIIMVIMQVVMVGLFAL
+>match$288_301_326
+QFDKIQQWFPPARAIQLIPSLNSIVT
+>match$289_550_568
+AAITTLVLLVLTIFFNEYC
+>match$290_216_263
+RKKELPSAFVLFKSRVGAAIAAQTPQHVHPLLWITEFAPEPRDVLWNN
+>match$291_347_366
+GMAWLEGCVSRSQLELKACS
+>match$292_72_90
+RAIAITEAEILRDHGLDAL
+>match$293_545_549
+KSKAA
+>match$294_118_275
+NYTSQDRSPKSDSKVLYTMDSFTISNIKKGSDRLWEYKCILHLRIQQISNQRHKPDQFTV
+LVRGIPLCTDHNAYGCSVDHFFSKYHPYTFQSYQIVHDRKKELPSAFVLFKSRVGAAIAA
+QTPQHVHPLLWITEFAPEPRDVLWNNLDIPYRRAAVHK
+>match$295_32_51
+KKQPANSPVYYARRIARHEP
+>match$296_415_441
+FISYILTNGLSGFSLEILQFGLTLWHF
+>match$297_462_480
+YYRFIPIVLLAVLIGMVYA
+>match$298_414_436
+FFISYILTNGLSGFSLEILQFGL
+>match$299_1_11
+MATLEDIGVSA
+>match$300_126_156
+SDGTLFNLRTQIVYSDIDKLSISNVNAGSQR
+>match$301_394_425
+VQSLANLEGLERVAPFLRSVVELKVIKSFLQG
+>match$302_446_465
+MSKVEGYISRSSLQRRAAAK
+>match$303_655_675
+ASSTPLLIILPILTIWFHKYC
+>match$304_5_739
+EDIGVSAFINIASAFAFLLAFALLRIQPINDRIYFPKWYLIGDRRSTASRGGVGKFVTLD
+VWTYFTFLNWIPDALKKMNQAELINHAGLDSVVYLRIYVLGLKIFIPIALLALLIIVPVN
+FSDGTLFNLRTQIVYSDIDKLSISNVNAGSQRFWIHMLMEYVFTFWTFYMLYKEYANVAL
+MRLHFLASQHRRVDQFTVVVRNIPHLNQHSISESVEQFFQRNHPDHYLCHQVVYNANRFA
+KLVTKKERLQNWLDYYELKCDRCQGRRPTIKVGFLGLCGRRVDAIEYYQERISELDKKIA
+LERKRLPSDHKAIMPVAFVTFDSRWGAAVCAQTQQSKNPTQWLTDWAPEPRDVYWRNLAI
+PFFSLNIRRLIISVAVFALVFFYMIPIAFVQSLANLEGLERVAPFLRSVVELKVIKSFLQ
+GYLPGLALKIFLYFLPTVLLIMSKVEGYISRSSLQRRAAAKYYYFILVNVFLGSIVAGTA
+FEQLNSFLHQSPTERYIPRIPRTIGVSIPMKATFFMTYIMVDGWAGSAAEILRLKPLVLY
+HLKNVFLVKTEKDREKAMDPGGIELNENLPNLQLYFLLGLVYAVVTPLLLPFILVFFAFT
+YLVYRHQIINVYNQEYESAGAFWPHVHTRIVAGLLISQLLLLGLLSTKKAASSTPLLIIL
+PILTIWFHKYCKSRFEPAFRKYPLEEAMEKDMMEKEAEPDFNLKDYLTKAHPYLHPVFRS
+SEHYPEVNIEINKEQ
+>match$305_31_100
+QPINDRIYFPKWYLIGDRRSTASRGGVGKFVTLDVWTYFTFLNWIPDALKKMNQAELINH
+AGLDSVVYLR
+>match$306_466_485
+YYYFILVNVFLGSIVAGTAF
+>match$307_426_445
+YLPGLALKIFLYFLPTVLLI
+>match$308_199_361
+QFTVVVRNIPHLNQHSISESVEQFFQRNHPDHYLCHQVVYNANRFAKLVTKKERLQNWLD
+YYELKCDRCQGRRPTIKVGFLGLCGRRVDAIEYYQERISELDKKIALERKRLPSDHKAIM
+PVAFVTFDSRWGAAVCAQTQQSKNPTQWLTDWAPEPRDVYWRN
+>match$309_423_445
+LQGYLPGLALKIFLYFLPTVLLI
+>match$310_655_674
+ASSTPLLIILPILTIWFHKY
+>match$311_650_654
+STKKA
+>match$312_12_30
+FINIASAFAFLLAFALLRI
+>match$313_7_178
+IGVSAFINIASAFAFLLAFALLRIQPINDRIYFPKWYLIGDRRSTASRGGVGKFVTLDVW
+TYFTFLNWIPDALKKMNQAELINHAGLDSVVYLRIYVLGLKIFIPIALLALLIIVPVNFS
+DGTLFNLRTQIVYSDIDKLSISNVNAGSQRFWIHMLMEYVFTFWTFYMLYKE
+>match$314_372_649
+RRLIISVAVFALVFFYMIPIAFVQSLANLEGLERVAPFLRSVVELKVIKSFLQGYLPGLA
+LKIFLYFLPTVLLIMSKVEGYISRSSLQRRAAAKYYYFILVNVFLGSIVAGTAFEQLNSF
+LHQSPTERYIPRIPRTIGVSIPMKATFFMTYIMVDGWAGSAAEILRLKPLVLYHLKNVFL
+VKTEKDREKAMDPGGIELNENLPNLQLYFLLGLVYAVVTPLLLPFILVFFAFTYLVYRHQ
+IINVYNQEYESAGAFWPHVHTRIVAGLLISQLLLLGLL
+>match$315_629_651
+HVHTRIVAGLLISQLLLLGLLST
+>match$316_586_608
+YAVVTPLLLPFILVFFAFTYLVY
+>match$317_374_393
+LIISVAVFALVFFYMIPIAF
+>match$318_289_309
+IEYYQERISELDKKIALERKR
+>match$319_157_176
+FWIHMLMEYVFTFWTFYMLY
+>match$320_486_577
+EQLNSFLHQSPTERYIPRIPRTIGVSIPMKATFFMTYIMVDGWAGSAAEILRLKPLVLYH
+LKNVFLVKTEKDREKAMDPGGIELNENLPNLQ
+>match$321_10_28
+SAFINIASAFAFLLAFALL
+>match$322_101_123
+IYVLGLKIFIPIALLALLIIVPV
+>match$323_101_125
+IYVLGLKIFIPIALLALLIIVPVNF
+>match$324_578_608
+LYFLLGLVYAVVTPLLLPFILVFFAFTYLVY
+>match$325_609_628
+RHQIINVYNQEYESAGAFWP
+>match$326_177_373
+KEYANVALMRLHFLASQHRRVDQFTVVVRNIPHLNQHSISESVEQFFQRNHPDHYLCHQV
+VYNANRFAKLVTKKERLQNWLDYYELKCDRCQGRRPTIKVGFLGLCGRRVDAIEYYQERI
+SELDKKIALERKRLPSDHKAIMPVAFVTFDSRWGAAVCAQTQQSKNPTQWLTDWAPEPRD
+VYWRNLAIPFFSLNIRR
+>match$327_466_485
+YYYFILVNVFLGSIVAGTAF
+>match$328_676_784
+KSRFEPAFRKYPLEEAMEKDMMEKEAEPDFNLKDYLTKAHPYLHPVFRSSEHYPEVNIEI
+NKEQSCVASPVRSEIQSQSPPQYAYENSYYQHSYYNQDVSPPHYIYEGV
+>match$329_629_649
+HVHTRIVAGLLISQLLLLGLL
+>match$330_157_176
+FWIHMLMEYVFTFWTFYMLY
+>match$331_374_396
+LIISVAVFALVFFYMIPIAFVQS
+>match$332_380_398
+RLDELQQRFPFLKGILKNK
+>match$333_143_165
+WIWVHCVALYIVSFSACILLYIE
+>match$334_428_446
+STLEGPVSHSRRKKTACSK
+>match$335_356_378
+AALLLAIAFMLAFVAPVTFVQGL
+>match$336_513_545
+VLLFGLLGFTCSVLAPLILPFLLVYFFLGYVVY
+>match$337_566_588
+MMHNTTIFSIVLAQIIALGVFGI
+>match$338_165_354
+EYNNIARMRLIHKTRSASNLSHFTILVRGIPKSEEEPFSARVENFFRKYHASTYLSHQMI
+YKTGKVQSIMSLTKKACKNCVHLESAAVDHIVHPRRFGCCFCGAGSNSFCNRDDYELQAN
+KSDLDRRSELEKEECSAAFVFFRSRYGALVASEVLQSSNPMLWVTDTAPEPRDVYWSNLW
+LPYRQLWLRK
+>match$339_5_488
+GLLTSAGINIGVCAVLLSLYSVLQRQPENAGVYFGRRFAEEPGYERDVFVLERLVPSPSW
+IVKACRYTEEEISAIGGLDAVVFVRLIVFSIRIFTIAAVICIGGVVTVNYYGQDTIHGRF
+REEPLEVFTIANVKEGSKWIWVHCVALYIVSFSACILLYIEYNNIARMRLIHKTRSASNL
+SHFTILVRGIPKSEEEPFSARVENFFRKYHASTYLSHQMIYKTGKVQSIMSLTKKACKNC
+VHLESAAVDHIVHPRRFGCCFCGAGSNSFCNRDDYELQANKSDLDRRSELEKEECSAAFV
+FFRSRYGALVASEVLQSSNPMLWVTDTAPEPRDVYWSNLWLPYRQLWLRKIAALLLAIAF
+MLAFVAPVTFVQGLSRLDELQQRFPFLKGILKNKVVSQLITGYLPSAVLQLFLLLVPPIM
+MLFSTLEGPVSHSRRKKTACSKVLIFTIWNVFFVNVLSGSVIDQLHLLSSPKGIPNQLAK
+AVPR
+>match$340_186_342
+HFTILVRGIPKSEEEPFSARVENFFRKYHASTYLSHQMIYKTGKVQSIMSLTKKACKNCV
+HLESAAVDHIVHPRRFGCCFCGAGSNSFCNRDDYELQANKSDLDRRSELEKEECSAAFVF
+FRSRYGALVASEVLQSSNPMLWVTDTAPEPRDVYWSN
+>match$341_467_512
+DQLHLLSSPKGIPNQLAKAVPRRYILRLTDDPDMVPTFPYHTEVPR
+>match$342_143_164
+WIWVHCVALYIVSFSACILLYI
+>match$343_566_588
+MMHNTTIFSIVLAQIIALGVFGI
+>match$344_412_434
+VLQLFLLLVPPIMMLFSTLEGPV
+>match$345_594_612
+ASGFTIPLIILTLLFNEYC
+>match$346_589_593
+KRSPM
+>match$347_28_96
+QRQPENAGVYFGRRFAEEPGYERDVFVLERLVPSPSWIVKACRYTEEEISAIGGLDAVVF
+VRLIVFSIR
+>match$348_97_116
+IFTIAAVICIGGVVTVNYYG
+>match$349_447_466
+VLIFTIWNVFFVNVLSGSVI
+>match$350_353_487
+RKIAALLLAIAFMLAFVAPVTFVQGLSRLDELQQRFPFLKGILKNKVVSQLITGYLPSAV
+LQLFLLLVPPIMMLFSTLEGPVSHSRRKKTACSKVLIFTIWNVFFVNVLSGSVIDQLHLL
+SSPKGIPNQLAKAVP
+>match$350_501_586
+VPTFPYHTEVPRVLLFGLLGFTCSVLAPLILPFLLVYFFLGYVVYRNQIVNVYSAKYQSG
+GLMWPMMHNTTIFSIVLAQIIALGVF
+>match$351_92_114
+VFSIRIFTIAAVICIGGVVTVNY
+>match$352_6_165
+LLTSAGINIGVCAVLLSLYSVLQRQPENAGVYFGRRFAEEPGYERDVFVLERLVPSPSWI
+VKACRYTEEEISAIGGLDAVVFVRLIVFSIRIFTIAAVICIGGVVTVNYYGQDTIHGRFR
+EEPLEVFTIANVKEGSKWIWVHCVALYIVSFSACILLYIE
+>match$353_399_427
+VVSQLITGYLPSAVLQLFLLLVPPIMMLF
+>match$354_1_5
+MELYG
+>match$355_6_27
+LLTSAGINIGVCAVLLSLYSVL
+>match$356_593_612
+MASGFTIPLIILTLLFNEYC
+>match$357_546_565
+RNQIVNVYSAKYQSGGLMWP
+>match$358_117_142
+QDTIHGRFREEPLEVFTIANVKEGSK
+>match$359_447_466
+VLIFTIWNVFFVNVLSGSVI
+>match$360_675_699
+YNSFRRNSFKDEGPSNGGEEGMDHR
+>match$361_613_740
+RQRFHPTFKSFSAQLKSSIGTFQDIIDMDEEDEQEGRVEEIHKELLSAYRQFEDDDHNNC
+GSYNSFRRNSFKDEGPSNGGEEGMDHRKKEQKILMSHPSIRGFPVARLRGAVNLLSTLMA
+FERNKIPT
+>match$362_355_379
+IAALLLAIAFMLAFVAPVTFVQGLS
+>match$363_5_27
+GLLTSAGINIGVCAVLLSLYSVL
+>match$364_513_545
+VLLFGLLGFTCSVLAPLILPFLLVYFFLGYVVY
+>match$365_628_658
+LYFLLGLVYATVAPFSLPFILVFFGLAYVVF
+>match$366_1_11
+MATLKDIGVSA
+>match$367_158_177
+FCTHIIMAYIFSFWTCYVLL
+>match$368_6_785
+DIGVSALINIITTIGFLLAFAFLRLQPINDRVYFPKWYLKGVRSSPTNSRHLVQRVVNLD
+YRAYLRFLEWMPAALKMPEPELIDHAGLDSAVFLRIYLLGLKIFVPITFMAFAVLVPVNW
+TNSTLENNPNKDFQYNDIDKLSISNIANGSPRFCTHIIMAYIFSFWTCYVLLKEYGRIAT
+MRLQFLLSEKRRPDQFTVLVKNVPPDPDESVSELVEHFFLVNHPDHYLAHQQVIKIRDVM
+CRPEHAGSERIRHQHSRFPTVPPFRSTRIDFQLCTDRFGRHRTVKVVYNANNLDKLIKKK
+EKMENWRDYYQLKYDRNPNKRPTTKTGFLGLCGEKVDAINHYTSEVERLNKEEAAERVKV
+KGDPKSIMPVAFVSFKSRWGAAVCAQTQQSTNPTLWLTEWAPEPRDIYWQNLSIPFVSLT
+VRRLIVAVAFFFLTFFFIIPITFVQSLANIEGIEKKAPFLKAIIEIGFIKSIIQGVLPGI
+ALKIFLIFLPTILMLMSKFEGYVSTSSLERKSAAKYYLFQLINVFFVSVLTGTALDQLST
+FLNQSPNEFPKTIGNSIPSRATFFITYVMVDGWTGVAGEILRVKPLVIFHLKNFFLVKTE
+KDRENAMDPGSIGFDTAEPQIQLYFLLGLVYATVAPFSLPFILVFFGLAYVVFRHQVINV
+YNQEYESAAAFWPDVYRRILIALGISQLALLGLLSTKNAAQSTPALLVLPVLTVWFHWYC
+KNRYEPAFKKYPLQEAMKKDILERTKDPKFDLKTYLLTAYMPPVFKDEIDEDSLSAGEGQ
+>match$369_429_453
+LIVAVAFFFLTFFFIIPITFVQSLA
+>match$370_659_683
+RHQVINVYNQEYESAAAFWPDVYRR
+>match$371_31_100
+QPINDRVYFPKWYLKGVRSSPTNSRHLVQRVVNLDYRAYLRFLEWMPAALKMPEPELIDH
+AGLDSAVFLR
+>match$372_726_824
+KNRYEPAFKKYPLQEAMKKDILERTKDPKFDLKTYLLTAYMPPVFKDEIDEDSLSAGEGQ
+ELEDILVPTKRQSRRNTPVPSRHNGSSSPSLQDLQQQGP
+>match$373_707_725
+STPALLVLPVLTVWFHWYC
+>match$374_158_177
+FCTHIIMAYIFSFWTCYVLL
+>match$375_12_30
+LINIITTIGFLLAFAFLRL
+>match$376_178_428
+KEYGRIATMRLQFLLSEKRRPDQFTVLVKNVPPDPDESVSELVEHFFLVNHPDHYLAHQQ
+VIKIRDVMCRPEHAGSERIRHQHSRFPTVPPFRSTRIDFQLCTDRFGRHRTVKVVYNANN
+LDKLIKKKEKMENWRDYYQLKYDRNPNKRPTTKTGFLGLCGEKVDAINHYTSEVERLNKE
+EAAERVKVKGDPKSIMPVAFVSFKSRWGAAVCAQTQQSTNPTLWLTEWAPEPRDIYWQNL
+SIPFVSLTVRR
+>match$377_501_520
+MSKFEGYVSTSSLERKSAAK
+>match$378_521_540
+YYLFQLINVFFVSVLTGTAL
+>match$379_427_699
+RRLIVAVAFFFLTFFFIIPITFVQSLANIEGIEKKAPFLKAIIEIGFIKSIIQGVLPGIA
+LKIFLIFLPTILMLMSKFEGYVSTSSLERKSAAKYYLFQLINVFFVSVLTGTALDQLSTF
+LNQSPNEFPKTIGNSIPSRATFFITYVMVDGWTGVAGEILRVKPLVIFHLKNFFLVKTEK
+DRENAMDPGSIGFDTAEPQIQLYFLLGLVYATVAPFSLPFILVFFGLAYVVFRHQVINVY
+NQEYESAAAFWPDVYRRILIALGISQLALLGLL
+>match$380_705_724
+AQSTPALLVLPVLTVWFHWY
+>match$381_429_451
+LIVAVAFFFLTFFFIIPITFVQS
+>match$382_521_540
+YYLFQLINVFFVSVLTGTAL
+>match$383_541_627
+DQLSTFLNQSPNEFPKTIGNSIPSRATFFITYVMVDGWTGVAGEILRVKPLVIFHLKNFF
+LVKTEKDRENAMDPGSIGFDTAEPQIQ
+>match$384_6_28
+DIGVSALINIITTIGFLLAFAFL
+>match$385_101_123
+IYLLGLKIFVPITFMAFAVLVPV
+>match$386_126_157
+TNSTLENNPNKDFQYNDIDKLSISNIANGSPR
+>match$387_684_701
+ILIALGISQLALLGLLST
+>match$388_454_472
+NIEGIEKKAPFLKAIIEIG
+>match$389_101_125
+IYLLGLKIFVPITFMAFAVLVPVNW
+>match$390_7_179
+IGVSALINIITTIGFLLAFAFLRLQPINDRVYFPKWYLKGVRSSPTNSRHLVQRVVNLDY
+RAYLRFLEWMPAALKMPEPELIDHAGLDSAVFLRIYLLGLKIFVPITFMAFAVLVPVNWT
+NSTLENNPNKDFQYNDIDKLSISNIANGSPRFCTHIIMAYIFSFWTCYVLLKE
+>match$391_636_658
+YATVAPFSLPFILVFFGLAYVVF
+>match$392_702_706
+KNAAQ
+>match$393_478_500
+IQGVLPGIALKIFLIFLPTILML
+>match$394_684_701
+ILIALGISQLALLGLLST
+>match$395_783_824
+EGQELEDILVPTKRQSRRNTPVPSRHNGSSSPSLQDLQQQGP
+>match$395_810_824
+GSSSPSLQDLQQQGP
+>match$396_473_500
+FIKSIIQGVLPGIALKIFLIFLPTILML
+>match$397_287_416
+RTVKVVYNANNLDKLIKKKEKMENWRDYYQLKYDRNPNKRPTTKTGFLGLCGEKVDAINH
+YTSEVERLNKEEAAERVKVKGDPKSIMPVAFVSFKSRWGAAVCAQTQQSTNPTLWLTEWA
+PEPRDIYWQN
+>match$398_505_527
+TFFITYVALQFFVGYGLELSRLV
+>match$399_369_391
+LVYIIVFLTIFFYMIPIGFISAF
+>match$400_566_588
+LIVTIVLCYSVIAPVIIPFGVVY
+>match$401_415_440
+TILEAYLPQIALIVFLALLPKFLMFL
+>match$402_642_661
+FLFAPLLLPLIIVSFIYAYI
+>match$403_82_107
+AVYLVFLCSVLGILLLSGIVLLPVLL
+>match$404_460_482
+YFYFVVFNVFLGVTIGGTLFGSL
+>match$405_483_502
+KDITDHPKSIVNMLATSLPK
+>match$406_522_564
+ELSRLVPLVIFHLKRKYLCKTDAEIREAWAPGDFGYATRVAND
+>match$407_642_661
+FLFAPLLLPLIIVSFIYAYI
+>match$408_637_641
+MGLKK
+>match$409_369_394
+LVYIIVFLTIFFYMIPIGFISAFTTL
+>match$410_597_616
+RNQALKVYVPSYESNGQMWP
+>match$411_28_81
+SRKPSNEVVYYPNRILRGLDPWEGRRLTRNPFTWIREAYSATEAEVVAAAGLDA
+>match$412_1_6
+MDFSAF
+>match$413_662_734
+SKIRFYKSFHHTPLEVASQPMKETPNLSSVYASYIPPSLKPPKLGDIEQPENQSQSTTEH
+FHNVQAHAAALGQ
+>match$414_166_368
+KSYNHVLTLRAAARAGSVVLPEDFAVLVRDIPPGPKDQTMKEHVDAYFKALHPETFYKSL
+IITENKKVNEIWKEIQDCKKKVAHAEASYRESKTVGKPDGTRPTNRAGFLGLLGPKVDTI
+DYYSDKIKELIPKLEDEQNVTLRDKQKASALVFFNTRPAAASAAQTIHAQKTDQWTVNEA
+PEPRDLLWKNLPMRFYQRQIRQS
+>match$415_188_355
+DFAVLVRDIPPGPKDQTMKEHVDAYFKALHPETFYKSLIITENKKVNEIWKEIQDCKKKV
+AHAEASYRESKTVGKPDGTRPTNRAGFLGLLGPKVDTIDYYSDKIKELIPKLEDEQNVTL
+RDKQKASALVFFNTRPAAASAAQTIHAQKTDQWTVNEAPEPRDLLWKN
+>match$416_367_637
+QSLVYIIVFLTIFFYMIPIGFISAFTTLENLRRLFPFLKSVLKYKTINTILEAYLPQIAL
+IVFLALLPKFLMFLSKAEGIPSQSHVVRATCGKYFYFVVFNVFLGVTIGGTLFGSLKDIT
+DHPKSIVNMLATSLPKSATFFITYVALQFFVGYGLELSRLVPLVIFHLKRKYLCKTDAEI
+REAWAPGDFGYATRVANDMLIVTIVLCYSVIAPVIIPFGVVYFSLGWIIARNQALKVYVP
+SYESNGQMWPHMFKRILAALILFQITMFGYM
+>match$417_146_165
+LWPFMLAVYWVSFVTFFVLW
+>match$418_503_521
+SATFFITYVALQFFVGYGL
+>match$419_565_596
+MLIVTIVLCYSVIAPVIIPFGVVYFSLGWIIA
+>match$420_617_636
+HMFKRILAALILFQITMFGY
+>match$421_460_482
+YFYFVVFNVFLGVTIGGTLFGSL
+>match$422_395_414
+ENLRRLFPFLKSVLKYKTIN
+>match$423_5_27
+AFLTSLGTSFVIFLVLMLVFTWL
+>match$424_5_166
+AFLTSLGTSFVIFLVLMLVFTWLSRKPSNEVVYYPNRILRGLDPWEGRRLTRNPFTWIRE
+AYSATEAEVVAAAGLDAAVYLVFLCSVLGILLLSGIVLLPVLLPVAATDNHQMSVADSTS
+NGTFNNIDKLSMGNIEERSPRLWPFMLAVYWVSFVTFFVLWK
+>match$425_419_441
+AYLPQIALIVFLALLPKFLMFLS
+>match$426_7_27
+LTSLGTSFVIFLVLMLVFTWL
+>match$427_85_107
+LVFLCSVLGILLLSGIVLLPVLL
+>match$428_441_459
+SKAEGIPSQSHVVRATCGK
+>match$429_146_165
+LWPFMLAVYWVSFVTFFVLW
+>match$430_1_707
+MDFSAFLTSLGTSFVIFLVLMLVFTWLSRKPSNEVVYYPNRILRGLDPWEGRRLTRNPFT
+WIREAYSATEAEVVAAAGLDAAVYLVFLCSVLGILLLSGIVLLPVLLPVAATDNHQMSVA
+DSTSNGTFNNIDKLSMGNIEERSPRLWPFMLAVYWVSFVTFFVLWKSYNHVLTLRAAARA
+GSVVLPEDFAVLVRDIPPGPKDQTMKEHVDAYFKALHPETFYKSLIITENKKVNEIWKEI
+QDCKKKVAHAEASYRESKTVGKPDGTRPTNRAGFLGLLGPKVDTIDYYSDKIKELIPKLE
+DEQNVTLRDKQKASALVFFNTRPAAASAAQTIHAQKTDQWTVNEAPEPRDLLWKNLPMRF
+YQRQIRQSLVYIIVFLTIFFYMIPIGFISAFTTLENLRRLFPFLKSVLKYKTINTILEAY
+LPQIALIVFLALLPKFLMFLSKAEGIPSQSHVVRATCGKYFYFVVFNVFLGVTIGGTLFG
+SLKDITDHPKSIVNMLATSLPKSATFFITYVALQFFVGYGLELSRLVPLVIFHLKRKYLC
+KTDAEIREAWAPGDFGYATRVANDMLIVTIVLCYSVIAPVIIPFGVVYFSLGWIIARNQA
+LKVYVPSYESNGQMWPHMFKRILAALILFQITMFGYMGLKKFLFAPLLLPLIIVSFIYAY
+ISKIRFYKSFHHTPLEVASQPMKETPNLSSVYASYIPPSLKPPKLGD
+>match$431_108_145
+PVAATDNHQMSVADSTSNGTFNNIDKLSMGNIEERSPR
+>match$432_95_117
+FSLRAFSVAGITGICVLVPVNYV
+>match$433_518_537
+RNQLINVYLPKYDSGGRYWP
+>match$434_565_584
+LASTLMVPLPVVTLVFNAYC
+>match$435_99_118
+AFSVAGITGICVLVPVNYVG
+>match$436_239_630
+VPVAFVSFKSRYDAATILRIQQSDNPIEWVTEEVPEPRDVYWPFFSTSYVTRFLSQLIVI
+VASIILTIFFIGPVTLVQALANLKSLQKLLPSLKNILRLAVVSQVITGYLPGLILQLFLS
+LIPPTMKLFSTMQGFVATSQIERSACAKVVLFNIWNIFFINTVTGSIASQLQTLLDPKNI
+PFVLASALPSQATFFITYAVTSWTSLATELTRTWPLISNLVGRQWLGWMSDDFEAPSIPY
+HSEIPRILVFGLLGHVYFLVMPLILPFIIIYFCIGYIVYRNQLINVYLPKYDSGGRYWPI
+VHNSNIFSLILMQIIGVGIFFQRGLPLASTLMVPLPVVTLVFNAYCRRRFLPMFQSYSAQ
+SLIKKDREDEKNPAMDEFFSKLANAYRNPELD
+>match$437_167_294
+NELKYICAKRLAHFNASKPLPQHFTILVRGIPLKDGKTCRETVDNFFMEYHPSTYLSNAV
+VRRHNKLRELIEVPVAFVSFKSRYDAATILRIQQSDNPIEWVTEEVPEPRDVYWPFFSTS
+YVTRFLSQ
+>match$438_565_584
+LASTLMVPLPVVTLVFNAYC
+>match$439_147_166
+LWVHFSAAYLITAFVCYLLY
+>match$440_560_564
+QRGLP
+>match$441_189_238
+HFTILVRGIPLKDGKTCRETVDNFFMEYHPSTYLSNAVVRRHNKLRELIE
+>match$441_239_281
+VPVAFVSFKSRYDAATILRIQQSDNPIEWVTEEVPEPRDVYWP
+>match$442_294_558
+QLIVIVASIILTIFFIGPVTLVQALANLKSLQKLLPSLKNILRLAVVSQVITGYLPGLIL
+QLFLSLIPPTMKLFSTMQGFVATSQIERSACAKVVLFNIWNIFFINTVTGSIASQLQTLL
+DPKNIPFVLASALPSQATFFITYAVTSWTSLATELTRTWPLISNLVGRQWLGWMSDDFEA
+PSIPYHSEIPRILVFGLLGHVYFLVMPLILPFIIIYFCIGYIVYRNQLINVYLPKYDSGG
+RYWPIVHNSNIFSLILMQIIGVGIF
+>match$443_5_168
+ALLTSVGINLALCVLLFALYSVLRKQQTNARVYAARWVAEGKTQRRPDEHFNIENLLPSA
+SWIRRAWSFSEDELLESAGLDAVVFNRIFTFSLRAFSVAGITGICVLVPVNYVGDQSIDI
+SELPTTDLESFSILNVSMGSNRLWVHFSAAYLITAFVCYLLYNE
+>match$444_495_517
+YFLVMPLILPFIIIYFCIGYIVY
+>match$445_338_360
+AVVSQVITGYLPGLILQLFLSLI
+>match$446_119_146
+DQSIDISELPTTDLESFSILNVSMGSNR
+>match$447_339_360
+VVSQVITGYLPGLILQLFLSLI
+>match$448_538_560
+IVHNSNIFSLILMQIIGVGIFFQ
+>match$449_147_166
+LWVHFSAAYLITAFVCYLLY
+>match$450_1_5
+MNLSA
+>match$451_6_27
+LLTSVGINLALCVLLFALYSVL
+>match$452_361_417
+PPTMKLFSTMQGFVATSQIERSACAKVVLFNIWNIFFINTVTGSIASQLQTLLDPKN
+>match$453_296_318
+IVIVASIILTIFFIGPVTLVQAL
+>match$454_439_493
+TSWTSLATELTRTWPLISNLVGRQWLGWMSDDFEAPSIPYHSEIPRILVFGLLGH
+>match$455_295_319
+LIVIVASIILTIFFIGPVTLVQALA
+>match$456_320_338
+NLKSLQKLLPSLKNILRLA
+>match$457_28_98
+RKQQTNARVYAARWVAEGKTQRRPDEHFNIENLLPSASWIRRAWSFSEDELLESAGLDAV
+VFNRIFTFSLR
+>match$458_585_639
+RRRFLPMFQSYSAQSLIKKDREDEKNPAMDEFFSKLANAYRNPELDEDERTTPLI
+>match$459_494_517
+VYFLVMPLILPFIIIYFCIGYIVY
+>match$460_5_27
+ALLTSVGINLALCVLLFALYSVL
+>match$461_387_409
+VVLFNIWNIFFINTVTGSIASQL
+>match$462_538_559
+IVHNSNIFSLILMQIIGVGIFF
+>match$463_418_438
+IPFVLASALPSQATFFITYAV

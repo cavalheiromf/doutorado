@@ -1,0 +1,15 @@
+Status	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP1C/VP1C_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP1F/VP1F_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP1R/VP1R_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP2C/VP2C_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP2F/VP2F_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP2R/VP2R_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP3C/VP3C_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP3F/VP3F_Aligned.sortedByCoord.out.bam	/home/mfcaval/github/doutorado/analyses/05_rnaseq/results/04_alignment/Vper/VP3R/VP3R_Aligned.sortedByCoord.out.bam
+Assigned	20355012	20331019	24892766	17420627	23351253	13584397	24957650	33274278	17879236
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	2699838	2836722	3756665	1941906	2913013	1872276	3069513	6084588	2315984
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	1566315	772365	1600789	1160067	1334917	811945	1862104	1425231	1419350
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	146626	230016	222530	90351	207868	91066	149367	372370	180949

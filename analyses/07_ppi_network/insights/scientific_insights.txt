@@ -1,0 +1,11 @@
+================================================================================
+SCIENTIFIC INSIGHTS: OSCA PPI NETWORK ANALYSIS (07_ppi_network)
+================================================================================
+
+[PORTUGUÊS]
+A reconstrução da rede de interação proteína-proteína (PPI) utilizando dados integrados do STRING-db e análises de rede com NetworkX revelou o posicionamento topológico estratégico da família OSCA nas redes de transdução de sinal primário e mecanosensibilidade. As proteínas OSCA apresentaram fortes conexões de vizinhança e co-expressão funcional com componentes essenciais do transporte celular de íons, como transportadores do tipo H+-ATPase, canais de cálcio dependentes de voltagem e proteínas de parede celular envolvidas em estresse mecânico. As análises de enriquecimento funcional apontaram para uma sobrerrepresentação significativa de processos associados à homeostase de cálcio citosólico, resposta ao estresse osmótico e regulação de volume celular. A centralidade de canais específicos como OSCA1.2 e OSCA3.1 na topologia da rede reforça o papel dessas proteínas como hubs mecânicos que acoplam a deformação física da membrana plasmática e as pressões de turgor celular a cascatas de sinalização bioquímica imediatas.
+
+[ENGLISH]
+Protein-protein interaction (PPI) network reconstruction using integrated STRING-db data and topological network analysis with NetworkX revealed the strategic positioning of the OSCA family within primary signal transduction and mechanosensory cascades. OSCA proteins exhibited strong neighborhood connectivity and functional co-expression with essential ion transport components, including H+-ATPases, voltage-dependent calcium channels, and cell wall proteins involved in mechanical stress signaling. Functional enrichment analyses indicated a significant overrepresentation of biological processes associated with cytosolic calcium homeostasis, responses to osmotic stress, and cellular volume regulation. The network centrality of specific channels, such as OSCA1.2 and OSCA3.1, reinforces their roles as mechanical hubs that couple physical plasma membrane deformation and turgor pressure changes to immediate downstream biochemical signaling cascades.
+
+================================================================================

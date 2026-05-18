@@ -1,0 +1,52 @@
+# Standard Gitignore for Vellozia Bioinformatics Pipeline
+
+# Ignore raw and processed large datasets
+data/
+logs/
+*.fastq.gz
+*.fq.gz
+*.fastq
+*.fq
+*.bam
+*.sam
+*.bai
+*.fasta
+*.fa
+*.fai
+*.gff
+*.gff3
+*.gtf
+*.tar.gz
+*.zip
+
+# Ignore heavy upstream pipeline intermediate results
+analyses/05_rnaseq/results/01_qc/
+analyses/05_rnaseq/results/02_trimmed/
+analyses/05_rnaseq/results/03_star_index/
+analyses/05_rnaseq/results/04_alignment/
+
+# Ignore Python & Jupyter temp files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Ignore R temp files
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+*-ex.R
+/esh/
+.Rproj.user/
+
+# Ignore system temporary files
+.DS_Store
+Thumbs.db
+tmp/
+temp/
+rst
+rst1
+rub
+.agents/
