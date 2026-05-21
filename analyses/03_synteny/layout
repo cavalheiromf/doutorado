@@ -1,5 +1,0 @@
-# y, xstart, xend, rotation, color, label, va,  bed
- .6,     .1,    .8,       0,      #ffb2b2, Vper, top, Vper.bed
- .4,     .1,    .8,       0,      #b2ffb2, Vtub, top, Vtub.bed
-# edges
-e, 0, 1, Vper.Vtub.simple

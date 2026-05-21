@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Extracts local synteny block for the core OSCA1.3/1.4/1.5 cluster on chr7A,
+writing outputs into the microsynteny/ subdirectory.
+"""
 
 import os
 
@@ -7,12 +11,12 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SYNTENY_DIR = os.path.dirname(SCRIPT_DIR)
 PROJECT_DIR = os.path.dirname(os.path.dirname(SYNTENY_DIR))
 
-BED_VPER = os.path.join(SYNTENY_DIR, "Vper.bed")
-BED_VTUB = os.path.join(SYNTENY_DIR, "Vtub.bed")
-ANCHORS_FILE = os.path.join(SYNTENY_DIR, "Vper.Vtub.anchors")
+BED_VPER = os.path.join(SYNTENY_DIR, "data", "Vper.bed")
+BED_VTUB = os.path.join(SYNTENY_DIR, "data", "Vtub.bed")
+ANCHORS_FILE = os.path.join(SYNTENY_DIR, "intergenomic", "intermediates", "Vper.Vtub.anchors")
 
-OUT_BLOCKS = os.path.join(SYNTENY_DIR, "osca_cluster.blocks")
-OUT_LAYOUT = os.path.join(SYNTENY_DIR, "osca_cluster.layout")
+OUT_BLOCKS = os.path.join(SYNTENY_DIR, "microsynteny", "osca_cluster.blocks")
+OUT_LAYOUT = os.path.join(SYNTENY_DIR, "microsynteny", "osca_cluster.layout")
 
 
 def read_bed_genes(bed_path):
@@ -85,13 +89,11 @@ def main():
 
     # Write the .blocks file
     with open(OUT_BLOCKS, "w") as f:
-        # Write gene pairs
         for g1, g2 in local_anchors:
             f.write(f"{g1}\t{g2}\n")
     print(f"Wrote local blocks to {OUT_BLOCKS}")
 
     # Write the micro-synteny layout file
-    # Format: x, y, rotation, ha, va, color, ratio, label
     layout_content = """# x,   y, rotation,   ha,     va,   color, ratio,            label
 0.5, 0.6,        0, left, center,       m,     1,       vp_chr7A
 0.5, 0.4,        0, left, center, #fc8d62,     1,       vt_chr7A

@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Prepares the BED and CDS fasta files from GFF3 and original fasta,
+placing them into the data/ subdirectory for organization.
+"""
 
 import os
 import shutil
@@ -12,13 +16,15 @@ GFF_VPER = os.path.join(PROJECT_DIR, "data", "genomes", "Vper", "Vper.hapA.v1.so
 GFF_VTUB = os.path.join(PROJECT_DIR, "data", "genomes", "Vtub", "Vtub.hapA.v1.softmasked.gff3")
 
 CDS_VPER = os.path.join(PROJECT_DIR, "data", "genomes", "Vper", "Vper.hapA.v1.softmasked.cds.fasta")
-CDS_VTUB = os.path.join(PROJECT_DIR, "data", "genomes", "Vtub", "Vtub.hapA.v1.softmasked.cds.fasta")
+PROJECT_CDS_VTUB = os.path.join(PROJECT_DIR, "data", "genomes", "Vtub", "Vtub.hapA.v1.softmasked.cds.fasta")
 
-OUT_BED_VPER = os.path.join(SYNTENY_DIR, "Vper.bed")
-OUT_BED_VTUB = os.path.join(SYNTENY_DIR, "Vtub.bed")
+OUT_BED_VPER = os.path.join(SYNTENY_DIR, "data", "Vper.bed")
+OUT_BED_VTUB = os.path.join(SYNTENY_DIR, "data", "Vtub.bed")
 
-OUT_CDS_VPER = os.path.join(SYNTENY_DIR, "Vper.cds")
-OUT_CDS_VTUB = os.path.join(SYNTENY_DIR, "Vtub.cds")
+# For JCVI, CDS files are usually placed in the same folder during indexing
+# We'll save them inside data/ to keep things tidy
+OUT_CDS_VPER = os.path.join(SYNTENY_DIR, "data", "Vper.cds")
+OUT_CDS_VTUB = os.path.join(SYNTENY_DIR, "data", "Vtub.cds")
 
 
 def gff_to_bed(gff_path, bed_path, prefix):
@@ -57,8 +63,7 @@ def gff_to_bed(gff_path, bed_path, prefix):
                 # Prefix chromosome to avoid MCscan layout clashes
                 prefixed_chrom = f"{prefix}_{chrom}"
                 
-                # Write standard 6-column BED format for JCVI:
-                # chrom, start, end, gene_id, score (0), strand
+                # Write standard 6-column BED format for JCVI
                 outfile.write(f"{prefixed_chrom}\t{start}\t{end}\t{gene_id}\t0\t{strand}\n")
                 count += 1
                 
@@ -66,22 +71,21 @@ def gff_to_bed(gff_path, bed_path, prefix):
 
 
 def prepare_cds():
-    """Copies/links the CDS fasta files to the synteny folder."""
-    print("Preparing CDS FASTA files...")
+    """Symlinks the CDS fasta files to the data folder to avoid duplication."""
+    print("Preparing CDS FASTA files via symlinks...")
     
-    # We copy them to ensure they exist locally and are named exactly as expected
-    print(f"Copying {CDS_VPER} -> {OUT_CDS_VPER}")
-    shutil.copy2(CDS_VPER, OUT_CDS_VPER)
-    
-    print(f"Copying {CDS_VTUB} -> {OUT_CDS_VTUB}")
-    shutil.copy2(CDS_VTUB, OUT_CDS_VTUB)
-    
+    for src, dst in [(CDS_VPER, OUT_CDS_VPER), (PROJECT_CDS_VTUB, OUT_CDS_VTUB)]:
+        if os.path.lexists(dst):
+            os.remove(dst)
+        print(f"Symlinking {src} -> {dst}")
+        os.symlink(src, dst)
+        
     print("CDS files prepared successfully.")
 
 
 def main():
-    # Make sure target directory exists
-    os.makedirs(SYNTENY_DIR, exist_ok=True)
+    # Make sure target directories exist
+    os.makedirs(os.path.join(SYNTENY_DIR, "data"), exist_ok=True)
     
     # 1. Convert GFFs to BED with species-specific chromosome prefixes
     gff_to_bed(GFF_VPER, OUT_BED_VPER, "vp")

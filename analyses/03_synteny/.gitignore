@@ -1,0 +1,43 @@
+# Local gitignore for Synteny and Selection Analysis (03_synteny)
+
+# Ignore large binary LAST databases
+last_db/
+*.bck
+*.des
+*.prj
+*.sds
+*.ssp
+*.suf
+*.tis
+
+# Ignore heavy intermediate alignments from LAST and MCscan (JCVI)
+*.last
+*.last.filtered
+*.lifted.anchors
+*.anchors
+*.inverse
+*.inverse.filtered
+
+# Ignore temporary SLURM cluster execution outputs and errors
+*.out
+*.err
+*hyphy_slurm_*
+
+# Ignore local datasets, bed, and cds files (including symlinks)
+data/
+*.cds
+*.bed
+seqids
+layout
+osca_cluster.layout
+
+# Ignore local mock scripts
+ete4.py
+
+# Ignore python and notebook checkpoints
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Ignore specific large log files
+errors.log

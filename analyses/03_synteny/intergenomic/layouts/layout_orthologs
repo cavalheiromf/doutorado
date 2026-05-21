@@ -1,0 +1,5 @@
+# y, xstart, xend, rotation, color, label, va,  bed
+ .6,     .1,    .8,       0,      #ffb2b2, Vper, top, data/Vper.bed
+ .4,     .1,    .8,       0,      #b2ffb2, Vtub, top, data/Vtub.bed
+# edges
+e, 0, 1, intergenomic/intermediates/Vper.Vtub.orthologs.simple
