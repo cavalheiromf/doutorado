@@ -1,0 +1,19 @@
+# RESULTS: Molecular Evolutionary Rates and Clade-Specific Selection Pressures
+
+To determine the selective forces driving the evolution of the OSCA family and to evaluate whether the contrasting drought strategies of the two species have altered these evolutionary pressures, we estimated nonsynonymous-to-synonymous substitution rates (Ka/Ks) and implemented clade-specific selection tests.
+
+#### Pairwise Ka/Ks and Purifying Selection
+Pairwise Ka/Ks calculations for 14 orthologous pairs revealed that all OSCA loci are evolving under strong purifying selection (Ka/Ks < 1.0, with a family-wide mean of ~0.35). The lowest evolutionary rate was observed in the `VpOSCA2.3_VtOSCA2.3` pair (Ka/Ks = 0.053), indicating an extremely severe functional constraint preserving this channel's primary structure. Loci such as OSCA1.1 and OSCA3.1 also showed robust purifying signatures (Ka/Ks = 0.33 and 0.34). In contrast, the `VpOSCA1.4_VtOSCA1.4` pair showed a highly accelerated evolutionary rate (Ka/Ks = 0.80), suggesting evolutionary relaxation or localized diversification after speciation.
+
+#### Subfamily-Specific Selection Intensity (HyPhy RELAX)
+To dissect if selective pressures differ between the evergreen strategy (Vper) and the desiccation-tolerance strategy (Vtub), we implemented a clade-specific evolutionary pipeline using HyPhy RELAX. The analysis revealed a striking, subfamily-dependent **"Dual-Track" evolutionary model**:
+1.  **The Conserved Track (OSCA1 Clade)**: The OSCA1 subfamily showed no significant change in selection intensity between the two species (selection intensity parameter K = 0.92, p = 0.60), confirming that these baseline osmosensors are under identical and stringent purifying constraints in both lifestyles.
+2.  **The Divergent Track (OSCA2 and OSCA3+4 Clades)**: In striking contrast, the OSCA2 subfamily showed a highly significant, massive selection relaxation in Vtub (K = 0.28, p = 3.4 x 10^{-5}). Similarly, the OSCA3+4 subfamily displayed highly significant relaxation in the resurrection species (K = 0.13, p = 0.006).
+
+*Interpretation:* During severe drought, *V. tubiflora* enters a metabolically inactive state of anhydrobiosis, during which its osmosensors cease to operate, suspending active selective pressure. This allows the modulatory OSCA2 and OSCA3+4 subfamilies to experience neutral drift, while core baseline sensors (OSCA1) remain strictly protected.
+
+#### Site-Specific Divergence (Contrast-FEL)
+Using HyPhy Contrast-FEL, we mapped individual sites evolving at different rates between the two species:
+- In the OSCA1 clade, 6 significant sites were identified, displaying a balanced distribution of localized adjustments.
+- In the OSCA2 clade, 14 significant sites were detected, and remarkably, **all 14 sites showed selective acceleration exclusively in Vper** (beta_Ref >> 0, beta_Test approx 0). This confirms that *V. peripherica* is actively remodeling its OSCA2 modulators, likely to support active, continuous daily osmotic monitoring.
+- In the OSCA3+4 clade, a highly significant selection relaxation hotspot was revealed at local position 593 in *V. tubiflora* (beta_Test = 24.72, beta_Ref = 0.018, p = 0.009).

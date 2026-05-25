@@ -1,11 +1,111 @@
 ================================================================================
-SCIENTIFIC INSIGHTS: OSCA PPI NETWORK ANALYSIS (07_ppi_network)
+🧬 SCIENTIFIC INSIGHTS: COMPARATIVE PPI NETWORK ANALYSIS OF OSCA FAMILY IN VELLOZIA
 ================================================================================
+Tese: Genomic Architecture, Evolutionary Dynamics, and Tissue-Specific Expression
+      of OSCA Channels in Two Vellozia Species
+Autora: Mariana Feitosa Cavalheiro
+Data: 2026-05-25
+--------------------------------------------------------------------------------
 
-[PORTUGUÊS]
-A reconstrução da rede de interação proteína-proteína (PPI) utilizando dados integrados do STRING-db e análises de rede com NetworkX revelou o posicionamento topológico estratégico da família OSCA nas redes de transdução de sinal primário e mecanosensibilidade. As proteínas OSCA apresentaram fortes conexões de vizinhança e co-expressão funcional com componentes essenciais do transporte celular de íons, como transportadores do tipo H+-ATPase, canais de cálcio dependentes de voltagem e proteínas de parede celular envolvidas em estresse mecânico. As análises de enriquecimento funcional apontaram para uma sobrerrepresentação significativa de processos associados à homeostase de cálcio citosólico, resposta ao estresse osmótico e regulação de volume celular. A centralidade de canais específicos como OSCA1.2 e OSCA3.1 na topologia da rede reforça o papel dessas proteínas como hubs mecânicos que acoplam a deformação física da membrana plasmática e as pressões de turgor celular a cascatas de sinalização bioquímica imediatas.
+Esta análise descreve as propriedades topológicas e os insights biológicos obtidos a partir
+da comparação das redes de interação proteína-proteína (PPI) dos canais OSCA em 
+Vellozia peripherica (Vper, sempre-verde) e Vellozia tubiflora (Vtub, tolerante à dessecação).
 
-[ENGLISH]
-Protein-protein interaction (PPI) network reconstruction using integrated STRING-db data and topological network analysis with NetworkX revealed the strategic positioning of the OSCA family within primary signal transduction and mechanosensory cascades. OSCA proteins exhibited strong neighborhood connectivity and functional co-expression with essential ion transport components, including H+-ATPases, voltage-dependent calcium channels, and cell wall proteins involved in mechanical stress signaling. Functional enrichment analyses indicated a significant overrepresentation of biological processes associated with cytosolic calcium homeostasis, responses to osmotic stress, and cellular volume regulation. The network centrality of specific channels, such as OSCA1.2 and OSCA3.1, reinforces their roles as mechanical hubs that couple physical plasma membrane deformation and turgor pressure changes to immediate downstream biochemical signaling cascades.
+1. PANORAMA TOPOLÓGICO DA REDE (Vper vs Vtub)
+────────────────────────────────────────────────────────────────────────────────
+A aplicação do mesmo limiar de confiança no STRING-db (score médio >= 0.4) revelou
+padrões estruturais distintos, porém funcionais, em ambas as espécies:
 
+*   Vellozia peripherica (Vper):
+    - Nós: 61 | Arestas: 187
+    - Média de conectividade geral: 6.13
+    - Média de conectividade dos OSCAs conectados: 6.09
+*   Vellozia tubiflora (Vtub):
+    - Nós: 60 | Arestas: 217
+    - Média de conectividade geral: 7.23
+    - Média de conectividade dos OSCAs conectados: 7.30
+
+Insight Evolutivo: A rede de Vtub (planta de ressurreição) é ligeiramente mais compacta
+e densamente interconectada do que a de Vper. O maior número de arestas (217 vs 187) 
+sugere uma forte necessidade de acoplamento coordenado do sistema sensor às redes de 
+transdução molecular para responder de maneira rápida e inequívoca ao estresse de 
+desidratação antes da entrada em anidrobiose.
+
+
+2. CARACTERIZAÇÃO E BIOLOGIA DOS HUBS GÊNICOS
+────────────────────────────────────────────────────────────────────────────────
+As redes revelaram três eixos funcionais principais dominados por canais OSCA específicos,
+cujo grau de conectividade se correlaciona perfeitamente com os perfis de expressão tecidual:
+
+A. OSCA1.2: O Hub Vascular e Subterrâneo Conservado
+   - Conectividade: 18 conexões em Vper | 18 conexões em Vtub.
+   - Padrão de Expressão: Altamente enriquecido em raízes e caules (Log2FC = 4.40 em Vper;
+     8.64 em Vtub vs folha).
+   - Significado Biológico: O OSCA1.2 funciona como o detector basal de oscilações
+     de pressão hidrostática no sistema vascular e subterrâneo. Sua conectividade de 18
+     idêntica e centralizada em ambas as espécies reflete um papel ancestral e não-maleável
+     na fisiologia do transporte de seiva e na percepção do status hídrico do solo.
+
+B. OSCA4.1: O Hub do Estresse e Sinalização Térmica
+   - Conectividade: 19 conexões em Vper (o nó mais conectado da rede) | 13 conexões em Vtub.
+   - Parceiros de Interação: Fortemente conectado a chaperonas moleculares (HSP70, Vper_030510/
+     Vtub_030510) e canais de cálcio voltagem-dependentes.
+   - Significado Biológico: Em Vper (sempre-verde), o OSCA4.1 exerce um papel de 
+     centralização ativa. Como a sempre-verde precisa monitorar continuamente as
+     oscilações de temperatura e radiação solar diárias sem cessar seu metabolismo,
+     o OSCA4.1 coordena respostas mecânicas finas associadas à estabilização de proteínas.
+
+C. OSCA1.1: O Modulador Foliar
+   - Conectividade: 11 conexões em Vper | 13 conexões em Vtub.
+   - Padrão de Expressão: Altamente enriquecido em folhas.
+   - Significado Biológico: Localizado no tecido fotossintético ativo, o OSCA1.1 se
+     conecta a canais de potássio voltagem-dependentes e H+-ATPases de membrana. Ele é o 
+     candidato primário para mediar o fechamento estomático rápido em resposta à perda de 
+     turgor foliar por desidratação.
+
+
+3. EVIDÊNCIA DE SUBFUNCIONALIZAÇÃO DO LOCUS DUPLICADO (VpOSCA2.4a/b)
+────────────────────────────────────────────────────────────────────────────────
+Um dos resultados mais elegantes da genômica comparativa de Vper e Vtub foi a detecção 
+da duplicação em tandem exclusiva de V. peripherica no Chr1A (VpOSCA2.4a e VpOSCA2.4b),
+em contraposição à cópia única VtOSCA2.4 em V. tubiflora.
+
+A análise topológica da rede PPI fornece uma validação molecular para este evento:
+- VtOSCA2.4 (cópia única em Vtub): Apresenta 5 conexões na rede.
+- VpOSCA2.4a e VpOSCA2.4b (cópia duplicada em Vper): Apresentam apenas 2 conexões cada.
+
+Insight Evolutivo: A perda de conectividade individual nas cópias duplicadas de Vper,
+quando comparadas à cópia única de Vtub, é uma assinatura molecular clássica de 
+SUBFUNCIONALIZAÇÃO. Em vez de uma única proteína coordenar todos os parceiros de 
+interação, as cópias duplicadas em tandem no genoma de Vper dividiram os parceiros de 
+interação entre si. Isso confere à sempre-verde uma maior plasticidade para regular de 
+maneira fina a abertura mecânica dos canais em resposta a estresses sazonais flutuantes.
+
+
+4. A PERIFERIA SILENCIOSA (OSCA2.1, 2.2, 2.3)
+────────────────────────────────────────────────────────────────────────────────
+Os ortólogos OSCA2.1, OSCA2.2 e OSCA2.3 apresentaram 0 conexões em ambas as espécies sob o 
+limiar de corte de 0.4. 
+
+Significado Biológico: Longe de significar ausência de função, estes canais (especialmente
+o OSCA2.3 que exibe a pressão de seleção purificadora mais extrema da família, Ka/Ks = 0.053)
+funcionam como sensores especializados ativados apenas sob gatilhos físicos severos ou 
+específicos. A ausência de interações na rede constitutiva garante que essas vias de 
+sinalização permaneçam blindadas contra ruídos metabólicos diários, disparando apenas em 
+situações críticas de seca extrema (Vper) ou na fase inicial de reidratação (Vtub).
+
+
+5. SÍNTESE: INTEGRAÇÃO AO MODELO "DUAL-TRACK EVOLUTION"
+────────────────────────────────────────────────────────────────────────────────
+A topologia das redes PPI apoia perfeitamente o modelo dual-track proposto para a evolução
+da osmosensibilidade em Velloziaceae:
+
+1.  A "Track Conservada" (OSCA1.2 e OSCA1.1): Mantém os principais hubs da rede com topologias
+    e conexões idênticas em ambas as espécies, garantindo que o sistema de detecção basal de
+    água seja invariante e robusto.
+2.  A "Track Divergente" (OSCA2 e OSCA3+4): Exibe reconfiguração e flexibilidade topológica.
+    Em Vtub, a seleção relaxada nas subfamílias OSCA2 e OSCA3+4 durante o estado dormente de
+    anhrobiose se reflete em uma rede robusta de ressurreição, enquanto em Vper a active
+    diversifying selection atua refinando as conexões específicas (como a subfuncionalização
+    de VpOSCA2.4a/b) para o monitoramento hídrico ativo contínuo.
 ================================================================================

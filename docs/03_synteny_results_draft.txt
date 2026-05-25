@@ -1,0 +1,14 @@
+# RESULTS: Comparative Synteny and Chromosomal Collinearity
+
+To investigate the structural conservation of the chromosomal regions harboring the OSCA genes and characterize the duplication events that shaped the family's architecture, we performed a comparative synteny analysis between *V. peripherica* and *V. tubiflora* using MCScan/JCVI.
+
+#### Global Collinearity and Macrosynteny
+Global comparative profiling revealed an extraordinary level of macro-collinearity between the two genomes, with 297 syntenic blocks successfully mapped across their 9 chromosomes. No major inter-chromosomal translocations or large-scale rearrangements were detected, confirming that the spatial architecture of their genomes has remained remarkably stable since their evolutionary divergence.
+
+#### Microsynteny of the OSCA1.3/1.4/1.5 Tandem Cluster
+At the microsynteny level, we identified a perfectly conserved physical cluster on Chromosome 7A in both genomes. This cluster contains a physically contiguous tandem duplication of three genes: `OSCA1.3`, `OSCA1.4`, and `OSCA1.5`, displaying a physical gap of zero intermediate genes in both species. The local region is flanked by 24 highly syntenic, orthologous gene pairs, displaying absolute micro-collinearity (Fig. 2). The perfect preservation of this contiguous layout suggests that the tandem expansion of these Clade 1 channels occurred prior to the speciation event and has been strictly maintained, likely due to a non-negotiable functional requirement for coordinated transcription or gene conversion.
+
+#### Ancestral Paleoduplication and Lineage-Specific Tandem Duplication
+Self-synteny analysis revealed two major duplication events that contributed to the expansion of the OSCA family in *Vellozia*:
+1.  **Ancestral Segmental Duplication (Chr1A ↔ Chr5A)**: A highly conserved ancestral duplication block was identified linking Chromosome 1A and Chromosome 5A in both species. This block simultaneously harbors duplicated members of the OSCA2 subfamily (OSCA2.1/2.2) and the OSCA3 subfamily (OSCA3.1/3.2). This ancestral segment confirms that these clades were expanded through a shared ancient whole-genome duplication (WGD) event.
+2.  **Lineage-Specific Tandem Duplication on Chr1A**: A recent tandem duplication of the OSCA2.4 locus was identified exclusively on Chromosome 1A of *V. peripherica*, yielding two adjacent genes (`VpOSCA2.4a` and `VpOSCA2.4b`) with zero intermediate genes. In contrast, *V. tubiflora* retains a single ancestral copy (`VtOSCA2.4`). This recent expansion represents a targeted diversification event in the evergreen species.
