@@ -1,0 +1,2 @@
+9b6a8fb7244aeed13defc3f574a72b0a4e22bc49be62ecef2c3a5471e956ace8  /home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_validation_20260716/filtered_alignments/gap20/global/global_codon_gap_filtered.fasta
+8e7684a5420d340a46b0abea396e9fb62dde6f70ea32f26b1a68d3d08979f2ac  /home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_analysis/vellozia_oscas_labeled.treefile

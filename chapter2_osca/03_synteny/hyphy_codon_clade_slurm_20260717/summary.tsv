@@ -1,0 +1,5 @@
+dataset	codons_tested	RELAX_K	RELAX_LRT	RELAX_p	ContrastFEL_nominal_p_le_0.05	ContrastFEL_FDR_q_le_0.20
+global	639	0.7064	12.8509	0.0003373	11	0
+osca1	761	0.9262	0.2630	0.60804999	6	0
+osca2	601	0.8191	0.8931	0.34463117	11	0
+osca3_4	671	0.2404	8.3459	0.00386561	1	0

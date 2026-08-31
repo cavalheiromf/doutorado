@@ -1,0 +1,3 @@
+clade	n_leaves	support	leaves
+cross_species_2.4b	2	83	Vper.hapA.v1.chr1A.g023020.t1;Vtub.hapA.v1.chr1A.g020650.t1
+osca2.4_cluster	3	100	Vper.hapA.v1.chr1A.g023020.t1;Vper.hapA.v1.chr1A.g023030.t1;Vtub.hapA.v1.chr1A.g020650.t1

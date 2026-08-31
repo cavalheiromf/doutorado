@@ -1,0 +1,5 @@
+parameter	value
+filter	gap20
+threads	4
+starting_points	1
+models	MG94xREV

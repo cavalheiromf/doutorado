@@ -1,0 +1,89 @@
+CODONML (in paml version 4.10.10, 29 Jan 2026)  codon.paml
+Model: One dN/dS ratio, 
+Codon frequency model: F3x4
+ns =   2  ls = 672
+
+Codon usage in sequences
+----------------------------------------------------------------------
+Phe TTT  21  22 | Ser TCT  14  13 | Tyr TAT  10  10 | Cys TGT   8   7
+    TTC  22  22 |     TCC   1   5 |     TAC  15  14 |     TGC   8   8
+Leu TTA  10  10 |     TCA  13  13 | *** TAA   0   0 | *** TGA   0   0
+    TTG  12  13 |     TCG   9   8 |     TAG   0   0 | Trp TGG   9   9
+----------------------------------------------------------------------
+Leu CTT  22  19 | Pro CCT  11  12 | His CAT  10  10 | Arg CGT   9  10
+    CTC  12  11 |     CCC   5   5 |     CAC   4   4 |     CGC   3   4
+    CTA   9  11 |     CCA   5   7 | Gln CAA  10  12 |     CGA   5   5
+    CTG  12   9 |     CCG  12   9 |     CAG  11  12 |     CGG   7   4
+----------------------------------------------------------------------
+Ile ATT  19  21 | Thr ACT   6   8 | Asn AAT  12  16 | Ser AGT  10  10
+    ATC  13  13 |     ACC   6   5 |     AAC  15  15 |     AGC   2   2
+    ATA  14  15 |     ACA   7   6 | Lys AAA  15  15 | Arg AGA  11  10
+Met ATG  16  14 |     ACG   6   7 |     AAG  11  11 |     AGG   8   9
+----------------------------------------------------------------------
+Val GTT  20  21 | Ala GCT  16  15 | Asp GAT  15  14 | Gly GGT   7   7
+    GTC  10   9 |     GCC   6   6 |     GAC   9   8 |     GGC   8   8
+    GTA  12  13 |     GCA  17  16 | Glu GAA  20  20 |     GGA  14  14
+    GTG  15  14 |     GCG   4   4 |     GAG  19  18 |     GGG  10  10
+----------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Vper.hapA.v1.chr5A.g140750.t1
+position  1:    T:0.22619    C:0.21875    A:0.25446    G:0.30060
+position  2:    T:0.35565    C:0.20536    A:0.26190    G:0.17708
+position  3:    T:0.31250    C:0.20685    A:0.24107    G:0.23958
+Average         T:0.29812    C:0.21032    A:0.25248    G:0.23909
+
+#2: Vtub.hapA.v1.chr5A.g127830.t1
+position  1:    T:0.22917    C:0.21429    A:0.26339    G:0.29315
+position  2:    T:0.35268    C:0.20685    A:0.26637    G:0.17411
+position  3:    T:0.31994    C:0.20685    A:0.24851    G:0.22470
+Average         T:0.30060    C:0.20933    A:0.25942    G:0.23065
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      43 | Ser S TCT      27 | Tyr Y TAT      20 | Cys C TGT      15
+      TTC      44 |       TCC       6 |       TAC      29 |       TGC      16
+Leu L TTA      20 |       TCA      26 | *** * TAA       0 | *** * TGA       0
+      TTG      25 |       TCG      17 |       TAG       0 | Trp W TGG      18
+------------------------------------------------------------------------------
+Leu L CTT      41 | Pro P CCT      23 | His H CAT      20 | Arg R CGT      19
+      CTC      23 |       CCC      10 |       CAC       8 |       CGC       7
+      CTA      20 |       CCA      12 | Gln Q CAA      22 |       CGA      10
+      CTG      21 |       CCG      21 |       CAG      23 |       CGG      11
+------------------------------------------------------------------------------
+Ile I ATT      40 | Thr T ACT      14 | Asn N AAT      28 | Ser S AGT      20
+      ATC      26 |       ACC      11 |       AAC      30 |       AGC       4
+      ATA      29 |       ACA      13 | Lys K AAA      30 | Arg R AGA      21
+Met M ATG      30 |       ACG      13 |       AAG      22 |       AGG      17
+------------------------------------------------------------------------------
+Val V GTT      41 | Ala A GCT      31 | Asp D GAT      29 | Gly G GGT      14
+      GTC      19 |       GCC      12 |       GAC      17 |       GGC      16
+      GTA      25 |       GCA      33 | Glu E GAA      40 |       GGA      28
+      GTG      29 |       GCG       8 |       GAG      37 |       GGG      20
+------------------------------------------------------------------------------
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.22768    C:0.21652    A:0.25893    G:0.29688
+position  2:    T:0.35417    C:0.20610    A:0.26414    G:0.17560
+position  3:    T:0.31622    C:0.20685    A:0.24479    G:0.23214
+Average         T:0.29936    C:0.20982    A:0.25595    G:0.23487
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+Vper.hapA.v1.chr5A.g140750.t1
+Vtub.hapA.v1.chr5A.g127830.t1 0.2381 (0.0213 0.0894)
+
+pairwise comparison, codon frequencies: F3x4.
+
+
+2 (Vtub.hapA.v1.chr5A.g127830.t1) ... 1 (Vper.hapA.v1.chr5A.g140750.t1)
+lnL =-3095.511152
+  0.11610  3.06428  0.28698
+
+t= 0.1161  S=   583.7  N=  1432.3  dN/dS=  0.2870  dN = 0.0225  dS = 0.0784

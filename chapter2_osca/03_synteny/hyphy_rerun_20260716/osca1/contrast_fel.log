@@ -1,0 +1,97 @@
+
+Analysis Description
+--------------------
+Contrast-FEL (Fixed Effects Likelihood) investigates whether or not
+selective pressures differ between two or more sets of branches at a
+site. Site-specific synonymous (alpha) and non-synonymous (beta, one per
+branch set) substitution rates are estimated and then beta rates are
+tested for equality at each site. LRT and permutation tests ar used to
+assess significance at each site, and FDR is applied alignment wide to
+call sites with different selective profiles. Version 0.6 adds detailed
+ancestral state reconstruction. Version 0.61 adds storing root states in
+constant sites for ASR.
+
+- __Additional information__: http://www.hyphy.org/methods/other/contrast-fel/
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree; only single partition
+data are supported
+
+- __Citation__: Mol Biol Evol (2021), (38)3 1184–1198
+
+- __Written by__: Sergei L Kosakovsky Pond and Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 0.61
+
+
+>code => Universal
+/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_subclades/osca1/osca1_labeled.treefile
+/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_subclades/osca1/osca1_labeled.treefile
+
+>Loaded a multiple sequence alignment with **10** sequences, **1029** codons, and **1** partitions from `/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_subclades/osca1/osca1_codon.fasta`
+
+>branch-set => {
+ "0":"Test",
+ "1":"Reference"
+}
+
+>srv => Yes
+
+>permutations => Yes
+
+>Select nominal p-value threshold to use when testing for selection (FDR correction will be performed on all sites) (permissible range = [0,1], default value = 0.1): 
+>p-value => 0.05
+
+>Select nominal the q-value threshold to use when testing for selection (FDR reporting) (permissible range = [0,1], default value = 0.2): 
+>q-value => 0.20
+Only analyze sites whose 1-based indices match the following list (null to skip) : 
+>limit-to-sites => null
+For sites whose 1-based indices match the following list, write out likelihood function snapshots (null string to skip) : 
+>save-lf-for-sites => null
+
+
+### Branches to use as the test set in the FEL-contrast analysis
+Selected 3 sets of branches to test
+
+* Selected 5 branches in group _Reference_ : \`Vper_hapA_v1_chr4A_g117080_t1, Vper_hapA_v1_chr7A_g186390_t1, Vper_hapA_v1_chr7A_g186400_t1, Vper_hapA_v1_chr7A_g186410_t1, Vper_hapA_v1_chr9A_g255760_t1\`
+* Selected 5 branches in group _Test_ : \`Vtub_hapA_v1_chr4A_g106800_t1, Vtub_hapA_v1_chr7A_g166590_t1, Vtub_hapA_v1_chr7A_g166600_t1, Vtub_hapA_v1_chr7A_g166610_t1, Vtub_hapA_v1_chr9A_g230740_t1\`
+* 7 branches are in the background group : \`Node10, Node13, Node16, Node2, Node3, Node4, Node7\`
+
+### **1** test will be performed at each site
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+* Log(L) = -12626.72, AIC-c = 25303.48 (25 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  1.118
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -12122.24, AIC-c = 24312.72 (34 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  1.261
+* non-synonymous/synonymous rate ratio for *Reference* =   0.3308
+* non-synonymous/synonymous rate ratio for *Test* =   0.3350
+* non-synonymous/synonymous rate ratio for *background* =   0.2370
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -12045.02
+* non-synonymous/synonymous rate ratio for *Reference* =   0.4859
+* non-synonymous/synonymous rate ratio for *Test* =   0.5259
+* non-synonymous/synonymous rate ratio for *background* =   0.1350
+
+### For partition 1 these sites are significant at p <=0.05
+
+| Codon  |     alpha      |             beta             |        substitutions         |                  test                  |LRT p-value|Permutation p-value|
+|:------:|:--------------:|:----------------------------:|:----------------------------:|:--------------------------------------:|:---------:|:-----------------:|
+|   98   |        0.000   |        0.000 :      0.000    |             0, 0             |           Reference vs Test            |  0.0095   |      0.2000       |
+|  181   |        1.479   |        0.025 :      8.133    |             0, 2             |           Reference vs Test            |  0.0354   |      0.1429       |
+|  252   |        1.768   |       11.716 :      0.030    |             2, 0             |           Reference vs Test            |  0.0290   |      1.0000       |
+|  430   |        1.735   |       18.407 :      0.000    |             2, 0             |           Reference vs Test            |  0.0072   |      0.1667       |
+|  710   |        0.000   |        0.000 :      7.710    |             0, 2             |           Reference vs Test            |  0.0199   |      0.5000       |
+|  973   |        0.985   |        9.209 :      0.012    |             3, 0             |           Reference vs Test            |  0.0257   |      0.2500       |
+
+### ** Found _6_ sites with different _Reference vs Test_ dN/dS at p <= 0.05**
+
+### ### False discovery rate correction
+There are no sites where the overall p-value passes the False Discovery Rate threshold of 0.2

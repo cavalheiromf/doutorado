@@ -1,0 +1,4 @@
+     2
+Vper.hapA.v1.chr7A.g186400.t1 
+Vtub.hapA.v1.chr7A.g166600.t1   0.2827
+

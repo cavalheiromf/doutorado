@@ -1,0 +1,3 @@
+     2
+Vper.hapA.v1.chr1A.g023030.t1 
+Vper.hapA.v1.chr1A.g023020.t1   0.1942

@@ -1,0 +1,6 @@
+OpenAlex license notification
+
+The user was notified on 2026-08-30 to review the current OpenAlex terms at
+https://developers.openalex.org/ and to verify the license of every retrieved
+paper before reuse, because Open Access status does not by itself remove all
+reuse restrictions.

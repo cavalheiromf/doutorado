@@ -44,8 +44,8 @@ Ancestral Vellozia OSCA─┤
 Para refinar a resolução do Dual-Track em nível de resíduos individuais de aminoácidos, a tese utilizou o método **HyPhy Contrast-FEL** (Kosakovsky Pond et al.), que avalia a ocorrência de divergência nas taxas não-sinônimas sítio por sítio entre as duas linhagens.
 
 #### A. Aceleração Adaptativa e Remodelamento em *V. peripherica* (OSCA2)
-No clado OSCA2, o teste identificou **14 sítios de divergência significativa**, onde **todos os 14 resíduos apresentaram aceleração seletiva extrema exclusivamente na sempre-verde *V. peripherica*** (beta_Ref >> 0, beta_Test approx 0). 
-*   **Significado**: Ao contrário do relaxamento de Vtub, a espécie sempre-verde Vper é submetida a uma pressão evolutiva contínua de refinamento. Para manter suas folhas verdes e turgidas, a *V. peripherica* depende de um monitoramento hidrostático ultra-sensível e de respostas dinâmicas diárias de regulação de turgor. A seleção natural acelera a evolução desses 14 resíduos chave em Vper para remodelar a conformação mecânica e o gating de seus canais OSCA2, adaptando-os à sua estratégia de evitação ativa.
+No clado OSCA2, o teste identificou **11 sítios de divergência significativa**, onde **todos os 11 resíduos apresentaram aceleração seletiva extrema exclusivamente na sempre-verde *V. peripherica*** (beta_Ref >> 0, beta_Test approx 0). 
+*   **Significado**: Ao contrário do relaxamento de Vtub, a espécie sempre-verde Vper é submetida a uma pressão evolutiva contínua de refinamento. Para manter suas folhas verdes e turgidas, a *V. peripherica* depende de um monitoramento hidrostático ultra-sensível e de respostas dinâmicas diárias de regulação de turgor. A seleção natural acelera a evolução desses 11 resíduos chave em Vper para remodelar a conformação mecânica e o gating de seus canais OSCA2, adaptando-os à sua estratégia de evitação ativa.
 
 #### B. O Hotspot de Sobrevivência 593 em *V. tubiflora* (OSCA3+4)
 No clado OSCA3+4, o Contrast-FEL expôs um único resíduo na posição local 593 com aceleração adaptativa gigantesca em Vtub (beta_Test = 24.72, beta_Ref = 0.018, p = 0.009).

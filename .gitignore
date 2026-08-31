@@ -3,6 +3,7 @@
 # Ignore raw and processed large datasets
 data/
 logs/
+chapter3/
 *.fastq.gz
 *.fq.gz
 *.fastq
@@ -18,12 +19,15 @@ logs/
 *.gtf
 *.tar.gz
 *.zip
+*.db
+*.sqlite
+*.bt2
+*.sa
 
 # Ignore heavy upstream pipeline intermediate results
-analyses/05_rnaseq/results/01_qc/
-analyses/05_rnaseq/results/02_trimmed/
-analyses/05_rnaseq/results/03_star_index/
-analyses/05_rnaseq/results/04_alignment/
+chapter2_osca/05_rnaseq/results*/
+chapter2_osca/05_rnaseq/raw_data/
+chapter_macroevolution/01_orthology/results*/
 
 # Ignore Python & Jupyter temp files
 __pycache__/
@@ -51,3 +55,7 @@ rst1
 rub
 .agents/
 errors.log
+
+# Environment variables & editor
+.env
+.vscode
