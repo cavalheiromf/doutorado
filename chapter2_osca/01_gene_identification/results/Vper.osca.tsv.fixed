@@ -1,4 +1,4 @@
-gene	start	end	domain
+GeneID	StartPos	EndPos	DomainName
 VpOSCA1.1	7	179	PF13967
 VpOSCA1.1	287	416	PF14703
 VpOSCA1.1	427	699	PF02714

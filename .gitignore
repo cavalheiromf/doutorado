@@ -4,6 +4,7 @@
 data/
 logs/
 chapter3/
+teamwork/02_literature_library/papers_openalex_pdf/
 *.fastq.gz
 *.fq.gz
 *.fastq
@@ -28,6 +29,7 @@ chapter3/
 chapter2_osca/05_rnaseq/results*/
 chapter2_osca/05_rnaseq/raw_data/
 chapter_macroevolution/01_orthology/results*/
+**/work/
 
 # Ignore Python & Jupyter temp files
 __pycache__/

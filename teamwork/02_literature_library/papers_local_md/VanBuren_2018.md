@@ -1,6 +1,11 @@
-# VanBuren_2018
+# Extreme haplotype variation in the desiccation-tolerant clubmoss Selaginella lepidophylla
 
-**Source PDF:** 
+**Authors:** Robert VanBuren, Ching Man Wai, Shujun Ou, Jeremy Pardo, Doug Bryant, Ning Jiang, Todd C. Mockler, Patrick Edger, Todd P. Michael  
+**Year:** 2018  
+**Journal:** Nature Communications  
+**Volume:** 9  
+**Pages:** 13  
+**DOI:** 10.1038/s41467-017-02546-5  
 
 ---
 

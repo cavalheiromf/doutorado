@@ -3,7 +3,7 @@ library(dplyr)
 
 # Data extracted from contrast_fel_summary.tsv
 data <- data.frame(
-  Clade = c(rep("OSCA1", 5), rep("OSCA2", 11), rep("OSCA3+4", 1)),
+  Clade = c(rep("OSCA1", 5), rep("OSCA2", 11), rep("OSCA3", 1)),
   Site = c(
     98, 181, 252, 710, 973, 
     8, 71, 76, 147, 191, 308, 394, 395, 432, 596, 720, 
@@ -17,7 +17,7 @@ data <- data.frame(
 )
 
 # Set Clade as factor with desired order
-data$Clade <- factor(data$Clade, levels = c("OSCA1", "OSCA2", "OSCA3+4"))
+data$Clade <- factor(data$Clade, levels = c("OSCA1", "OSCA2", "OSCA3"))
 
 # Create the Lollipop plot
 p <- ggplot(data) +
@@ -31,7 +31,7 @@ p <- ggplot(data) +
   facet_wrap(~ Clade, ncol = 1, strip.position = "right") +
   theme_minimal() +
   scale_y_continuous(limits = c(-0.5, 2.0), breaks = NULL) +
-  scale_color_manual(values = c("OSCA1" = "#1b9e77", "OSCA2" = "#d95f02", "OSCA3+4" = "#7570b3")) +
+  scale_color_manual(values = c("OSCA1" = "#1b9e77", "OSCA2" = "#d95f02", "OSCA3" = "#7570b3")) +
   labs(title = "Contrast-FEL: Significant Sites of Selective Divergence",
        subtitle = "Sites with significantly different evolutionary rates between V. peripherica and V. tubiflora",
        x = "Codon Position (Alignment)",
