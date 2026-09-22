@@ -398,7 +398,7 @@ class TestFig3GeneFamilyCAFE5(BaseFigureTestCase):
         corpus = self.extract_all_text_corpus(root, raw_content)
 
         required_empirical_values = [
-            ("0.638", "CAFE5 global turnover rate lambda (Gamma model)"),
+            ("0.0036", "CAFE5 global turnover rate lambda (Gamma model)"),
             ("+55", "TOC/TIC translocon expansion in V. tubiflora (OG0000016)"),
             ("+29", "NDH complex expansion in V. tubiflora (OG0000036)"),
             ("+57", "LRR-RLK receptor kinase expansion in V. peripherica (OG0000012)"),
