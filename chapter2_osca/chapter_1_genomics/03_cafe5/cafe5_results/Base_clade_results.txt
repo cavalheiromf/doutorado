@@ -1,3 +1,0 @@
-#Taxon_ID	Increase	Decrease
-Vtub.pep<1>	924	147
-Vper.pep<2>	1549	84
