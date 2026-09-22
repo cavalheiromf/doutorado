@@ -9,7 +9,7 @@ $^{*}$ Corresponding author: Mariana Feitosa Cavalheiro (marianacavalheiro@unica
 
 ---
 
-<!-- Working revision, 2026-09-15. Consolidated master; previous manuscript preserved in the review archive. Decisions and unresolved checks: ../../chapter_macroevolution/docs/reviews/volpato_master_review_2026-09-15.md -->
+
 
 ## Abstract
 
@@ -63,7 +63,7 @@ The pairwise sequence-divergence analysis used a different inclusion criterion: 
 
 ## 2.3 Phylogenomic inference and concordance
 
-The concatenated alignment was analyzed with IQ-TREE v2.3.6 under a partitioned maximum-likelihood framework (Minh et al., 2020). ModelFinder selected amino acid models for the locus partitions, and branch support was assessed using 1,000 ultrafast bootstrap replicates (Kalyaanamoorthy et al., 2017; Hoang et al., 2018). The results reported here come from `iqtree_pan_velloziaceae_7taxa.iqtree`, rather than the earlier six-taxon report.
+The concatenated alignment was analyzed with IQ-TREE v2.3.6 under a partitioned maximum-likelihood framework (Minh et al., 2020). ModelFinder selected amino acid models for the locus partitions, and branch support was assessed using 1,000 ultrafast bootstrap replicates (Kalyaanamoorthy et al., 2017; Hoang et al., 2018).
 
 Gene and site concordance factors (gCF and sCF) were used to describe disagreement among loci and sites. The gCF denominator is the number of decisive gene trees for a branch; the archived table records 1,513 decisive trees for each of the four evaluated branches. Individual gene trees were also supplied to ASTRAL-III for a coalescent species-tree estimate (Zhang et al., 2018a). Concordance and coalescent results complement bootstrap support and do not identify the biological cause of discordance on their own.
 
