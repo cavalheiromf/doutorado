@@ -1,5 +1,0 @@
-dataset	sequences	nucleotides	codons	variable_codon_sites	sites_with_any_gap	sites_gap_fraction_gt_0.20	sites_gap_fraction_gt_0.50	all_gap_sites	partial_gap_codon_cells	internal_stop_codons	tree_alignment_ids_match
-global	27	5091	1697	1334	1360	1058	962	361	0	0	True
-osca1	10	3087	1029	984	569	268	257	0	0	0	True
-osca2	11	2667	889	876	507	288	238	0	0	0	True
-osca3_4	6	2712	904	870	233	233	171	0	0	0	True

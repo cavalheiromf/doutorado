@@ -1,9 +1,0 @@
-{
-  "datasets": 4,
-  "all_alignments_in_frame": true,
-  "all_tree_alignment_ids_match": true,
-  "total_internal_stop_codons": 0,
-  "total_partial_gap_codon_cells": 0,
-  "nominal_sites_audited": 35,
-  "nominal_sites_gap_fraction_gt_0.20": 8
-}

@@ -1,5 +1,0 @@
-dataset	tree_leaves	alignment_sequences	test_labels_in_file	reference_labels_in_file	test_leaves_by_prefix	reference_leaves_by_prefix	missing_from_tree	missing_from_alignment	pure_reference_internal_clades	pure_test_internal_clades	mixed_internal_clades	zero_length_terminal_branches	zero_length_internal_branches
-global	27	27	13	14	13	14			0	0	26	1	0
-osca1	10	10	5	5	5	5			0	0	9	0	0
-osca2	11	11	5	6	5	6			0	0	10	1	0
-osca3_4	6	6	3	3	3	3			0	0	5	0	0

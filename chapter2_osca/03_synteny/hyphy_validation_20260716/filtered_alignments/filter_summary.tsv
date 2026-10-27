@@ -1,9 +1,0 @@
-dataset	filter	maximum_allowed_gap_fraction	original_codons	retained_codons	removed_codons	retained_fraction
-global	gap20	0.2	1697	639	1058	0.376547
-global	gap50	0.5	1697	735	962	0.433117
-osca1	gap20	0.2	1029	761	268	0.739553
-osca1	gap50	0.5	1029	772	257	0.750243
-osca2	gap20	0.2	889	601	288	0.676040
-osca2	gap50	0.5	889	651	238	0.732283
-osca3_4	gap20	0.2	904	671	233	0.742257
-osca3_4	gap50	0.5	904	733	171	0.810841

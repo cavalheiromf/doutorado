@@ -1,2 +1,0 @@
-26e8ba3d9d305ae1cdadff4b05ee9799c1de4cba9aea8b950a49076ea8b3d80a  /home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_validation_20260716/filtered_alignments/gap20/osca1/osca1_codon_gap_filtered.fasta
-6f519f2ada94ec4aeb8d3237fba101192dc5d4462363a74b82376024a2b14dad  /home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_subclades/osca1/osca1_labeled.treefile

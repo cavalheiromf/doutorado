@@ -1,4 +1,0 @@
-dataset	sequences	nucleotide_sites	selected_breakpoint_end_nt_1based	breakpoint_containing_codon	selected_breakpoint_count	reached_configured_maximum_of_5	all_breakpoints_on_codon_boundary	gap_fraction_at_breakpoint_codon	max_gap_fraction_within_3_codons	baseline_aicc	best_partitioned_aicc	delta_aicc_vs_baseline	single_tree_aicc	delta_aicc_partitioned_vs_single_tree	topology_evidence_ratio	topology_evidence_ratio_ge_100	models_evaluated	runtime_seconds
-osca1	10	3087	451,1402,1758,2205,2840	151,468,586,735,947	5	True	False	0.000,0.000,0.000,0.000,0.000	0.900,0.100,0.000,0.000,0.000	25303.862762	24601.981667	701.881095	24886.267835	284.286168	5.39457e+61	True	13729	1791
-osca2	11	2667	942,2437	314,813	2	False	False	0.000,0.000	0.000,0.000	27314.119869	27074.288382	239.831487	27084.493202	10.204820	164.418	True	5399	725
-osca3_4	6	2712	2005,2329	669,777	2	False	False	0.000,0.000	0.000,0.667	17733.718542	17724.445676	9.272866	17732.393964	7.948288	53.2046	False	5687	210
