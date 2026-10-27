@@ -1,0 +1,319 @@
+[
+  {
+    "key": "Buchfink_2021",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "Sensitive protein alignments at tree-of-life scale using DIAMOND",
+    "doi": "10.1038/s41592-021-01101-x",
+    "pdf_file": "Buchfink_2021 - Sensitive protein alignments at tree-of-life scale using DIAMOND.pdf"
+  },
+  {
+    "key": "Cabral_2022",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "Phylogenetic analysis ofDioscorea(Dioscoreaceae) from Japan and adjacent regions based on plastid and nuclear DNA sequences, with special reference to the taxonomic status of selected taxa",
+    "doi": "10.1093/botlinnean/boab052"
+  },
+  {
+    "key": "Cantalapiedra_2021",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "eggNOG-mapper v2: Functional Annotation, Orthology Assignments, and Domain Prediction at the Metagenomic Scale",
+    "doi": "10.1093/molbev/msab293",
+    "pdf_file": "Cantalapiedra_2021 - eggNOG-mapper v2 functional annotation and orthology.pdf"
+  },
+  {
+    "key": "Enright_2002",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "An efficient algorithm for large-scale detection of protein families",
+    "doi": "10.1093/nar/30.7.1575",
+    "pdf_file": "Enright_2002 - An efficient algorithm for large-scale detection of protein families (MCL).pdf"
+  },
+  {
+    "key": "Givnish_2004",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": false,
+    "pdf_downloaded": true,
+    "title": "Ancient Vicariance or Recent Long‐Distance Dispersal? Inferences about Phylogeny and South American–African Disjunctions in Rapateaceae and Bromeliaceae Based onndhF Sequence Data",
+    "doi": "10.1086/421067",
+    "pdf_file": "Givnish_2004 - Ancient vicariance or recent long-distance dispersal Rapateaceae and Bromeliaceae.pdf"
+  },
+  {
+    "key": "Givnish_2011",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "Phylogeny, adaptive radiation, and historical biogeography in Bromeliaceae: Insights from an eight‐locus plastid phylogeny",
+    "doi": "10.3732/ajb.1000059",
+    "pdf_file": "Givnish_2011 - Phylogeny adaptive radiation and historical biogeography in Bromeliaceae.pdf"
+  },
+  {
+    "key": "Herting_2021",
+    "status": "OA_METADATA",
+    "is_oa": true,
+    "pdf_downloaded": false,
+    "title": "(2843) Proposal to conserve the name Bertolonia carmoi against B. ovata (Melastomataceae)",
+    "doi": "10.1002/tax.12586"
+  },
+  {
+    "key": "Hoang_2018",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "UFBoot2: Improving the Ultrafast Bootstrap Approximation",
+    "doi": "10.1093/molbev/msx281",
+    "pdf_file": "Hoang_2018 - UFBoot2 improving the ultrafast bootstrap approximation.pdf"
+  },
+  {
+    "key": "Hopper_2009",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": false,
+    "pdf_downloaded": true,
+    "title": "OCBIL theory: towards an integrated understanding of the evolution, ecology and conservation of biodiversity on old, climatically buffered, infertile landscapes",
+    "doi": "10.1007/s11104-009-0068-0",
+    "pdf_file": "Hopper_2009 - OCBIL theory biodiversity on old climatically buffered infertile landscapes.pdf"
+  },
+  {
+    "key": "Huerta-Cepas_2019",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses",
+    "doi": "10.1093/nar/gky1085",
+    "pdf_file": "Huerta-Cepas_2019 - eggNOG 5.0 hierarchical orthology resource.pdf"
+  },
+  {
+    "key": "Kalyaanamoorthy_2017",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "ModelFinder: fast model selection for accurate phylogenetic estimates",
+    "doi": "10.1038/nmeth.4285",
+    "pdf_file": "Kalyaanamoorthy_2017 - ModelFinder fast model selection for accurate phylogenetic estimates.pdf"
+  },
+  {
+    "key": "Katoh_2013",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability",
+    "doi": "10.1093/molbev/mst010",
+    "pdf_file": "Katoh_2013 - MAFFT multiple sequence alignment software version 7.pdf"
+  },
+  {
+    "key": "Lynch_2003",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": false,
+    "pdf_downloaded": true,
+    "title": "The Origins of Genome Complexity",
+    "doi": "10.1126/science.1089370",
+    "pdf_file": "Lynch_2003 - The origins of genome complexity.pdf"
+  },
+  {
+    "key": "Magallon_2015",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": false,
+    "pdf_downloaded": true,
+    "title": "A metacalibrated time‐tree documents the early rise of flowering plant phylogenetic diversity",
+    "doi": "10.1111/nph.13264",
+    "pdf_file": "Magallon_2015 - A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity.pdf"
+  },
+  {
+    "key": "Minh_2020",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era",
+    "doi": "10.1093/molbev/msaa015",
+    "pdf_file": "Minh_2020 - IQ-TREE 2 new models and efficient methods for phylogenetic inference.pdf"
+  },
+  {
+    "key": "Neves_2018",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "Lack of floristic identity in campos rupestres —A hyperdiverse mosaic of rocky montane savannas in South America",
+    "doi": "10.1016/j.flora.2017.03.011",
+    "pdf_file": "Neves_2018 - Lack of floristic identity in campos rupestres.pdf"
+  },
+  {
+    "key": "Renner_2004",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": false,
+    "pdf_downloaded": true,
+    "title": "Phylogeny, Molecular and Fossil Dating, and Biogeographic History of Annonaceae and Myristicaceae (Magnoliales)",
+    "doi": "10.1086/421068",
+    "pdf_file": "Renner_2004 - Plant dispersal across the tropical Atlantic by wind and sea currents.pdf"
+  },
+  {
+    "key": "Silvestro_2021",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "Fossil data support a pre-Cretaceous origin of flowering plants",
+    "doi": "10.1038/s41559-020-01387-8",
+    "pdf_file": "Silvestro_2021 - Fossil data support a pre-Cretaceous origin of flowering plants.pdf"
+  },
+  {
+    "key": "Thorne_1998",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "The complete mitochondrial DNA sequence of the shark Mustelus manazo: evaluating rooting contradictions to living bony vertebrates",
+    "doi": "10.1093/oxfordjournals.molbev.a025891",
+    "pdf_file": "Thorne_1998 - Estimating the rate of evolution of the rate of molecular evolution.pdf"
+  },
+  {
+    "key": "VanDongen_2000",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "Graph Clustering by Flow Simulation",
+    "doi": ""
+  },
+  {
+    "key": "Yang_2000",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": false,
+    "pdf_downloaded": true,
+    "title": "Estimating Synonymous and Nonsynonymous Substitution Rates Under Realistic Evolutionary Models",
+    "doi": "10.1093/oxfordjournals.molbev.a026236",
+    "pdf_file": "Yang_2000 - Estimating synonymous and nonsynonymous substitution rates (yn00).pdf"
+  },
+  {
+    "key": "Yang_2007",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "PAML 4: Phylogenetic Analysis by Maximum Likelihood",
+    "doi": "10.1093/molbev/msm088",
+    "pdf_file": "Yang_2007 - PAML 4 phylogenetic analysis by maximum likelihood.pdf"
+  },
+  {
+    "key": "dosReis_2011",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": false,
+    "pdf_downloaded": true,
+    "title": "Approximate Likelihood Calculation on a Phylogeny for Bayesian Estimation of Divergence Times",
+    "doi": "10.1093/molbev/msr045",
+    "pdf_file": "dosReis_2011 - Approximate likelihood calculation on a phylogeny for Bayesian estimation of divergence times.pdf"
+  },
+  {
+    "key": "Chaves_2003",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "Understanding plant responses to drought — from genes to the whole plant",
+    "doi": "10.1071/fp02076"
+  },
+  {
+    "key": "Gilbert_2016",
+    "status": "PDF_DOWNLOADED",
+    "is_oa": true,
+    "pdf_downloaded": true,
+    "title": "Drought Adaptation Mechanisms Should Guide Experimental Design",
+    "doi": "10.1016/j.tplants.2016.03.003",
+    "pdf_file": "Gilbert_2016 - Drought Adaptation Mechanisms Should Guide Experimental Design.pdf"
+  },
+  {
+    "key": "Vicca_2012",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "Urgent need for a common metric to make precipitation manipulation experiments comparable",
+    "doi": "10.1111/j.1469-8137.2012.04224.x"
+  },
+  {
+    "key": "Alpert_2006",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "Constraints of tolerance: why are desiccation-tolerant organisms so small or rare?",
+    "doi": "10.1242/jeb.02179"
+  },
+  {
+    "key": "Alpert_2000",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "The discovery, scope, and puzzle of desiccation tolerance in plants",
+    "doi": "10.1023/a:1026513800380"
+  },
+  {
+    "key": "Moore_2008",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "Adaptations of higher plant cell walls to water loss: drought vs desiccation",
+    "doi": "10.1111/j.1399-3054.2008.01134.x"
+  },
+  {
+    "key": "Berger_2016",
+    "status": "OA_METADATA",
+    "is_oa": true,
+    "pdf_downloaded": false,
+    "title": "Review: An integrated framework for crop adaptation to dry environments: Responses to transient and terminal drought",
+    "doi": "10.1016/j.plantsci.2016.09.007"
+  },
+  {
+    "key": "Kooyers_2015",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "The evolution of drought escape and avoidance in natural herbaceous populations",
+    "doi": "10.1016/j.plantsci.2015.02.012"
+  },
+  {
+    "key": "Gillespie_2017",
+    "status": "OA_METADATA",
+    "is_oa": true,
+    "pdf_downloaded": false,
+    "title": "Are winter and summer dormancy symmetrical seasonal adaptive strategies? The case of temperate herbaceous perennials",
+    "doi": "10.1093/aob/mcw264"
+  },
+  {
+    "key": "Reich_2014",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "The world-wide ‘fast–slow’ plant economics spectrum: a traits manifesto",
+    "doi": "10.1111/1365-2745.12211"
+  },
+  {
+    "key": "Bielenberg_2011",
+    "status": "PAYWALLED_METADATA",
+    "is_oa": false,
+    "pdf_downloaded": false,
+    "title": "Knowing when not to grow",
+    "doi": "10.1111/j.1469-8137.2010.03566.x"
+  },
+  {
+    "key": "Brodribb_2009",
+    "status": "OA_METADATA",
+    "is_oa": true,
+    "pdf_downloaded": false,
+    "title": "Hydraulic Failure Defines the Recovery and Point of Death in Water-Stressed Conifers",
+    "doi": "10.1104/pp.108.129783"
+  },
+  {
+    "key": "VanBuren_2018b",
+    "status": "OA_METADATA",
+    "is_oa": true,
+    "pdf_downloaded": false,
+    "title": "Desiccation Tolerance Evolved through Gene Duplication and Network Rewiring in Lindernia",
+    "doi": "10.1105/tpc.18.00517"
+  },
+  {
+    "key": "Chavez_Montes_2022",
+    "status": "OA_METADATA",
+    "is_oa": true,
+    "pdf_downloaded": false,
+    "title": "A comparative genomics examination of desiccation tolerance and sensitivity in two sister grass species",
+    "doi": "10.1073/pnas.2118886119"
+  }
+]

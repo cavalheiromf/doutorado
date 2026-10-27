@@ -1,92 +1,42 @@
-# Genômica Comparativa, Macroevolução e Sensores de Estresse Osmótico em Velloziaceae
+# Doutorado — genômica e história evolutiva de Velloziaceae
 
-**Tese de Doutorado em Biologia Vegetal / Genômica**  
-**Candidata:** Mariana Feitosa Cavalheiro  
-**Instituição:** Universidade Estadual de Campinas (UNICAMP)  
+Repositório de Mariana Feitosa Cavalheiro, Universidade Estadual de Campinas. O enquadramento da tese reúne formação computacional, recursos genômicos e análises comparativas para apoiar investigações de respostas à limitação hídrica em Velloziaceae.
 
----
+## Onde começar
 
-## 📌 Visão Geral do Projeto
+| Trabalho | Entrada principal |
+|---|---|
+| Escrita, revisão e apresentações | [teamwork](teamwork/README.md) |
+| Macroevolução: manuscritos e comunicação | [Área de trabalho](teamwork/chapters/macroevolution/README.md) |
+| Macroevolução: resultados atuais | [CURRENT_OUTPUTS](chapter_macroevolution/04_gene_families/CURRENT_OUTPUTS.md) |
+| OSCA: manuscrito e tabelas suplementares | [Manuscrito](chapter2_osca/manuscript/chapter_2_osca_mechanosensation.md) |
+| OSCA: revisão dos resultados | [Auditoria](chapter2_osca/audits/relatorio_auditoria_capitulo2.md) |
+| Visão operacional do repositório | [PROJECT](PROJECT.md) |
 
-Este repositório contém os dados, scripts, pipelines bioinformáticos e manuscritos referentes à tese de doutorado focada na história evolutiva, adaptação ecológica e mecanismos moleculares de tolerância à dessecação na família **Velloziaceae** (Monocotiledôneas, Pandanales), com ênfase no contraste adaptativo entre as espécies *Vellozia tubiflora* e *Vellozia peripherica* e na caracterização de sensores de estresse da família de canais de cálcio mecanossensíveis **OSCA**.
+## Função das pastas
 
----
+- `data/`: dados de referência compartilhados; manter caminhos usados pelos pipelines.
+- `chapter_macroevolution/`: ortologia, filogenômica, datação, famílias gênicas, Ka/Ks e seus produtos analíticos.
+- `chapter2_osca/`: projeto temático OSCA, com identificação, filogenia, sintenia, taxas, promotores, RNA-seq, expressão e redes.
+- `teamwork/chapters/`: manuscritos, revisões, slides e arquivo histórico por tema.
+- `teamwork/shared/`: literatura, revisões transversais, matrizes e bibliografias.
+- `docs/`: documentação institucional e qualificação; os demais materiais foram distribuídos no teamwork, com links nos caminhos anteriores.
+- `logs/`: registros de execução; `reports/` é um link para documentos OSCA centralizados em `teamwork/chapters/osca/reviews/root_reports/`, ainda sem nova validação científica.
 
-## 📂 Estrutura do Repositório
+Os nomes chapter1/chapter2 de arquivos antigos não definem a numeração atual da tese. Os projetos de macroevolução e OSCA são áreas temáticas; este repositório não foi inventariado como contendo integralmente os quatro capítulos descritos na Introdução.
 
-```text
-doutorado/
-├── chapter_macroevolution/     # Capítulo de Macroevolução, Filogenômica e Seleção em Velloziaceae
-│   ├── 00_data/                # GFFs, sequências CDS e anotações dos táxons
-│   ├── 01_orthology/           # Ortologia pura e sem viés (OrthoFinder)
-│   ├── 02_phylogenomics/       # Filogenômica baseada em 1:1 cópia única (MAFFT, IQ-TREE 2)
-│   ├── 03_dating/              # Datação molecular com calibrações fósseis (MCMCtree / PAML)
-│   ├── 04_gene_families/       # Dinâmica de expansão/contração de famílias gênicas (CAFE5)
-│   ├── 05_selection/           # Testes de seleção positiva e divergência adaptativa (HyPhy)
-│   ├── docs/                   # Documentação do capítulo
-│   └── scripts/                # Scripts em Python e SLURM para cada etapa do pipeline
-│
-├── chapter2_osca/              # Capítulo da Família Gênica OSCA (Canais Mecanossensíveis)
-│   ├── 01_gene_identification/ # Identificação e mineração genômica (HMMER / InterProScan)
-│   ├── 02_phylogeny/           # Filogenia de Máxima Verossimilhança dos canais OSCA (IQ-TREE 2)
-│   ├── 03_synteny/             # Análise de sintenia e duplicações (tandem/segmental)
-│   ├── 04_evolutionary_rates/  # Taxas de evolução molecular (Ka/Ks)
-│   ├── 04_promoters/           # Análise de elementos cis-regulatórios em promotores
-│   ├── 05_rnaseq/              # Pipeline de alinhamento e quantificação de RNA-seq (STAR)
-│   ├── 06_expression/          # Análise de expressão diferencial sob seca (DESeq2)
-│   ├── 07_ppi_network/         # Redes de interação proteína-proteína (PPI)
-│   ├── 08_structural/          # Estrutura 3D e topologia transmembrana
-│   └── scripts/                # Scripts utilitários e validações específicas do OSCA
-│
-├── data/                       # Genomas de referência e anotações estruturais
-│   ├── genomes/Vper/           # Montagem e anotação de Vellozia peripherica (hapA.v1)
-│   └── genomes/Vtub/           # Montagem e anotação de Vellozia tubiflora (hapA.v1)
-│
-├── teamwork/                   # Organização de redação, literatura e figuras da tese
-│   ├── 01_drafts_and_outlines/ # Rascunhos dos capítulos, outlines e revisões de literatura (ABNT)
-│   ├── 02_literature_library/  # Biblioteca de artigos em Markdown e PDF (OpenAlex & Local)
-│   ├── 03_figures/             # Figuras finais prontas para publicação e scripts geradores
-│   └── 04_audits_and_reports/  # Relatórios de auditoria, matrizes de evidência e iterações
-│
-├── reports/                    # Relatórios de validação bioinformática
-└── docs/ & workflow/           # Documentação geral e funções auxiliares de workflow
-```
+## Resultados e limites
 
----
+Na macroevolução, a referência atual contém 196 famílias de consenso entre modelos e 58 adicionais apoiadas por k=3. As análises de Ka/Ks de referência são descritivas; razões ω > 1 não equivalem a confirmação estatística de seleção positiva. A comparação evolutiva oferece uma base para investigar possíveis relações com respostas à seca e à dessecação.
 
-## 🧬 Capítulos da Tese
+Os relatórios de auditoria OSCA e os índices de macroevolução têm precedência sobre planos antigos com números substituídos. Uma figura ou relatório de QA visual não valida sozinho as inferências científicas.
 
-### 1. Macroevolução e Dinâmica Genômica de Velloziaceae (`chapter_macroevolution/`)
+## Organização e reprodução
 
-* **Abordagem "Funil":** Do tempo profundo e origem da tolerância à dessecação na família até a divergência ecológica entre *V. tubiflora* e *V. peripherica*.
-* **Fluxo Metodológico:**
-  1. Inferência de ortologia com proteomas primários representativos (`OrthoFinder v3`).
-  2. Alinhamento de ortólogos 1:1 de cópia única e filogenômica de supermatriz com partição (`MAFFT` + `IQ-TREE 2`).
-  3. Relógio molecular relaxado calibrado por fósseis para testar hipótese de vicariância gondwânica (`MCMCtree`).
-  4. Modelagem de turnover de famílias gênicas na árvore ultramétrica (`CAFE5`).
-  5. Testes de seleção episódica e positiva nos ramos focais (`HyPhy aBSREL / BUSTED`).
+Dados e resultados volumosos permanecem junto aos pipelines. A área de escrita usa `manuscripts`, `reviews`, `slides` e `archive`. Os caminhos antigos preservados como links não são cópias adicionais; consultar teamwork para os caminhos principais.
 
-### 2. Caracterização Genômica e Funcional dos Canais OSCA (`chapter2_osca/`)
+Antes de reproduzir uma análise, conferir o script, ambiente, dados e execução de referência do módulo. Não há um comando único validado para reexecutar todo o repositório. As reorganizações não reexecutaram análises ou converteram rascunhos em resultados finais.
 
-* **Foco Funcional:** Análise exaustiva da família de canais de cálcio permeáveis disparados por hiperosmolalidade (**OSCA/TMEM63**), cruciais na osmosensibilização e resposta ao dessecamento.
-* **Fluxo Metodológico:**
-  1. Identificação estrutural via modelo HMM (domínio DUF221 / PF02714).
-  2. Reconstrução filogenética e separação em clados homólogos (OSCA1–4).
-  3. Arquitetura cromossômica, colinearidade e modos de duplicação gênica.
-  4. Perfil de expressão espaço-temporal sob dessecação severa e reidratação via RNA-seq.
+O [README anterior](teamwork/shared/evidence_matrices/README_repository_before_2026-10-05.md) está preservado para rastreabilidade.
 
----
-
-## 💻 Ambiente Computacional e Requisitos
-
-As análises são executadas em cluster de alto desempenho (HPC) gerenciado via **SLURM**, utilizando ambientes **Conda/Mamba** e módulos de software dedicados.
-
-* **Alinhamento & Filogenia:** `MAFFT v7.520`, `IQ-TREE v2.3.6`
-* **Ortologia & Evolução:** `OrthoFinder v3.1.5`, `DIAMOND`, `PAML v4.10 (MCMCtree)`, `CAFE5`, `HyPhy v2.5`
-* **Expressão & Genômica:** `STAR`, `SAMtools`, `DESeq2 (R 4.5.1)`, `HMMER 3.3`
-
----
-
-## 📧 Contato
-
-* **Mariana Feitosa Cavalheiro** — cavalheiromf@gmail.com
+Para uma navegação com menos caminhos duplicados no VS Code, abrir [doutorado.code-workspace](doutorado.code-workspace). Esse workspace oculta apenas os acessos de compatibilidade indicados e mantém os arquivos disponíveis; não altera as configurações atuais do editor.

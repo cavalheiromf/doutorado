@@ -1,0 +1,169 @@
+Ontology	TermID	TermName	Label_A	Label_B	k_a	n_a	k_b	n_b	p_difference	FDR_difference
+GO_CC	GO:0016020	membrane	Vtub	Xvis	1	9	16	28	0.022667829119442026	1
+GO_MF	GO:0043168	anion binding	Vtub	Xvis	0	7	10	21	0.03017127799736502	1
+KEGG	ath00195	Photosynthesis - Arabidopsis thaliana (thale cress)	Vtub	Xvis	6	20	0	14	0.031052774026993725	1
+KEGG	ath01100	ath01100	Vtub	Xvis	16	20	6	14	0.03557334236107752	1
+GO_BP	GO:0032502	developmental process	Vtub	Xvis	4	7	3	22	0.03774138571739771	1
+GO_BP	GO:0048856	anatomical structure development	Vtub	Xvis	4	7	3	22	0.03774138571739771	1
+GO_CC	GO:0005886	plasma membrane	Vtub	Xvis	1	9	14	28	0.05568190057491906	1
+GO_CC	GO:0071944	cell periphery	Vtub	Xvis	1	9	14	28	0.05568190057491906	1
+GO_MF	GO:0000166	nucleotide binding	Vtub	Xvis	0	7	9	21	0.06213134691395565	1
+GO_MF	GO:0017076	purine nucleotide binding	Vtub	Xvis	0	7	9	21	0.06213134691395565	1
+GO_MF	GO:0032553	ribonucleotide binding	Vtub	Xvis	0	7	9	21	0.06213134691395565	1
+GO_MF	GO:0032555	purine ribonucleotide binding	Vtub	Xvis	0	7	9	21	0.06213134691395565	1
+GO_MF	GO:0097367	carbohydrate derivative binding	Vtub	Xvis	0	7	9	21	0.06213134691395565	1
+GO_MF	GO:1901265	nucleoside phosphate binding	Vtub	Xvis	0	7	9	21	0.06213134691395565	1
+GO_MF	GO:1901363	heterocyclic compound binding	Vtub	Xvis	0	7	9	21	0.06213134691395565	1
+GO_BP	GO:0009059	macromolecule biosynthetic process	Vtub	Xvis	4	7	4	22	0.06756621689155416	1
+GO_BP	GO:0099402	plant organ development	Vtub	Xvis	3	7	2	22	0.07474211612142642	1
+GO_MF	GO:0030554	adenyl nucleotide binding	Vtub	Xvis	0	7	8	21	0.07493665754535324	1
+GO_MF	GO:0032559	adenyl ribonucleotide binding	Vtub	Xvis	0	7	8	21	0.07493665754535324	1
+GO_MF	GO:0035639	purine ribonucleoside triphosphate binding	Vtub	Xvis	0	7	8	21	0.07493665754535324	1
+GO_CC	GO:0031974	membrane-enclosed lumen	Vtub	Xvis	0	9	9	28	0.07858127440342973	1
+GO_CC	GO:0043233	organelle lumen	Vtub	Xvis	0	9	9	28	0.07858127440342973	1
+GO_CC	GO:0070013	intracellular organelle lumen	Vtub	Xvis	0	9	9	28	0.07858127440342973	1
+GO_MF	GO:0003824	catalytic activity	Vtub	Xvis	2	7	14	21	0.10308435525826838	1
+GO_BP	GO:0007275	multicellular organism development	Vtub	Xvis	3	7	3	22	0.1314765694076039	1
+GO_BP	GO:0032501	multicellular organismal process	Vtub	Xvis	3	7	3	22	0.1314765694076039	1
+GO_BP	GO:0048731	system development	Vtub	Xvis	3	7	3	22	0.1314765694076039	1
+GO_BP	GO:0160109	plant gross anatomical part developmental process	Vtub	Xvis	3	7	3	22	0.1314765694076039	1
+GO_CC	GO:0005739	mitochondrion	Vtub	Xvis	2	9	15	28	0.1371165887294918	1
+GO_CC	GO:0012505	endomembrane system	Vtub	Xvis	3	9	3	28	0.14041046393987572	1
+GO_MF	GO:0005524	ATP binding	Vtub	Xvis	0	7	7	21	0.14137022397891982	1
+GO_MF	GO:0003729	mRNA binding	Vtub	Xvis	3	7	3	21	0.14425863991081378	1
+GO_CC	GO:0031981	nuclear lumen	Vtub	Xvis	0	9	8	28	0.15886595582990273	1
+GO_CC	GO:0005730	nucleolus	Vtub	Xvis	0	9	7	28	0.15995692086773675	1
+GO_BP	GO:0009058	biosynthetic process	Vtub	Xvis	5	7	8	22	0.19167083125104115	1
+GO_MF	GO:0003723	RNA binding	Vtub	Xvis	4	7	6	21	0.20745920745920737	1
+GO_MF	GO:0005515	protein binding	Vtub	Xvis	3	7	15	21	0.20745920745920737	1
+GO_CC	GO:0005634	nucleus	Vtub	Xvis	5	9	22	28	0.21478731888991662	1
+GO_MF	GO:0005198	structural molecule activity	Vtub	Xvis	0	7	6	21	0.2882943143812709	1
+GO_BP	GO:0044085	cellular component biogenesis	Vtub	Xvis	0	7	6	22	0.28854995579133513	1
+GO_BP	GO:0048583	regulation of response to stimulus	Vtub	Xvis	0	7	6	22	0.28854995579133513	1
+GO_MF	GO:0016740	transferase activity	Vtub	Xvis	0	7	5	21	0.2895299145299147	1
+GO_BP	GO:0098542	defense response to other organism	Vtub	Xvis	0	7	5	22	0.29649277925139994	1
+GO_BP	GO:0010467	gene expression	Vtub	Xvis	3	7	4	22	0.3110463998769847	1
+GO_BP	GO:0033993	response to lipid	Vtub	Xvis	3	7	4	22	0.3110463998769847	1
+GO_BP	GO:0009719	response to endogenous stimulus	Vtub	Xvis	3	7	5	22	0.35680621227847603	1
+GO_BP	GO:0009725	response to hormone	Vtub	Xvis	3	7	5	22	0.35680621227847603	1
+GO_MF	GO:0043169	cation binding	Vtub	Xvis	3	7	5	21	0.3714806932198237	1
+GO_MF	GO:0046872	metal ion binding	Vtub	Xvis	3	7	5	21	0.3714806932198237	1
+GO_BP	GO:0043170	macromolecule metabolic process	Vtub	Xvis	4	7	7	22	0.3745819397993311	1
+GO_CC	GO:0032991	protein-containing complex	Vtub	Xvis	1	9	9	28	0.3932447464149356	1
+GO_MF	GO:0036094	small molecule binding	Vtub	Xvis	3	7	13	21	0.41835748792270555	1
+GO_MF	GO:0043167	ion binding	Vtub	Xvis	3	7	13	21	0.41835748792270555	1
+GO_CC	GO:0005576	extracellular region	Vtub	Xvis	2	9	11	28	0.4462796500616301	1
+GO_CC	GO:0043228	membraneless organelle	Vtub	Xvis	2	9	11	28	0.4462796500616301	1
+GO_CC	GO:0043232	intracellular membraneless organelle	Vtub	Xvis	2	9	11	28	0.4462796500616301	1
+GO_MF	GO:0003677	DNA binding	Vtub	Xvis	0	7	4	21	0.5452991452991455	1
+GO_MF	GO:0016462	pyrophosphatase activity	Vtub	Xvis	0	7	4	21	0.5452991452991455	1
+GO_MF	GO:0016817	hydrolase activity, acting on acid anhydrides	Vtub	Xvis	0	7	4	21	0.5452991452991455	1
+GO_MF	GO:0016818	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	Vtub	Xvis	0	7	4	21	0.5452991452991455	1
+GO_MF	GO:0017111	ribonucleoside triphosphate phosphatase activity	Vtub	Xvis	0	7	4	21	0.5452991452991455	1
+GO_MF	GO:0140096	catalytic activity, acting on a protein	Vtub	Xvis	0	7	4	21	0.5452991452991455	1
+GO_BP	GO:0002376	immune system process	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0006955	immune response	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0006996	organelle organization	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0007049	cell cycle	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0022402	cell cycle process	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0022607	cellular component assembly	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0045087	innate immune response	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0051716	cellular response to stimulus	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0080134	regulation of response to stress	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_BP	GO:0140546	defense response to symbiont	Vtub	Xvis	0	7	4	22	0.5461243737105805	1
+GO_MF	GO:0004672	protein kinase activity	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0004674	protein serine/threonine kinase activity	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0016301	kinase activity	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0016772	transferase activity, transferring phosphorus-containing groups	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0016773	phosphotransferase activity, alcohol group as acceptor	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0016887	ATP hydrolysis activity	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0030527	structural constituent of chromatin	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0046982	protein heterodimerization activity	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0106310	protein serine kinase activity	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_MF	GO:0140657	ATP-dependent activity	Vtub	Xvis	0	7	3	21	0.5512820512820513	1
+GO_BP	GO:0000280	nuclear division	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0002237	response to molecule of bacterial origin	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0002682	regulation of immune system process	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0002831	regulation of response to biotic stimulus	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0007059	chromosome segregation	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0007154	cell communication	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0007165	signal transduction	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0023052	signaling	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0031347	regulation of defense response	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0032101	regulation of response to external stimulus	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0033554	cellular response to stress	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0036211	protein modification process	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0043412	macromolecule modification	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0043933	protein-containing complex organization	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0048285	organelle fission	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0048518	positive regulation of biological process	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0050776	regulation of immune response	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0065003	protein-containing complex assembly	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0070887	cellular response to chemical stimulus	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0070925	organelle assembly	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0098813	nuclear chromosome segregation	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_BP	GO:0140694	membraneless organelle assembly	Vtub	Xvis	0	7	3	22	0.557471264367816	1
+GO_CC	GO:0000785	chromatin	Vtub	Xvis	0	9	3	28	0.5621621621621621	1
+GO_CC	GO:0000786	nucleosome	Vtub	Xvis	0	9	3	28	0.5621621621621621	1
+GO_CC	GO:0005694	chromosome	Vtub	Xvis	0	9	3	28	0.5621621621621621	1
+GO_CC	GO:0009526	plastid envelope	Vtub	Xvis	0	9	3	28	0.5621621621621621	1
+GO_CC	GO:0009941	chloroplast envelope	Vtub	Xvis	0	9	3	28	0.5621621621621621	1
+GO_CC	GO:0031967	organelle envelope	Vtub	Xvis	0	9	3	28	0.5621621621621621	1
+GO_CC	GO:0032993	protein-DNA complex	Vtub	Xvis	0	9	3	28	0.5621621621621621	1
+GO_BP	GO:0009737	response to abscisic acid	Vtub	Xvis	2	7	3	22	0.5688181550250516	1
+GO_BP	GO:0097305	response to alcohol	Vtub	Xvis	2	7	3	22	0.5688181550250516	1
+GO_BP	GO:0009628	response to abiotic stimulus	Vtub	Xvis	2	7	4	22	0.6119363395225466	1
+GO_BP	GO:0009987	cellular process	Vtub	Xvis	5	7	18	22	0.6119363395225466	1
+GO_BP	GO:0050794	regulation of cellular process	Vtub	Xvis	2	7	4	22	0.6119363395225466	1
+GO_MF	GO:0046914	transition metal ion binding	Vtub	Xvis	2	7	4	21	0.6219063545150502	1
+KEGG	ath01110	Biosynthesis of secondary metabolites - Arabidopsis thaliana (thale cress)	Vtub	Xvis	3	20	1	14	0.6271778506123857	1
+GO_BP	GO:0051179	localization	Vtub	Xvis	1	7	7	22	0.6349440664283242	1
+GO_BP	GO:0071840	cellular component organization or biogenesis	Vtub	Xvis	1	7	7	22	0.6349440664283242	1
+GO_BP	GO:1901700	response to oxygen-containing compound	Vtub	Xvis	3	7	6	22	0.6423941875216239	1
+GO_CC	GO:0005773	vacuole	Vtub	Xvis	1	9	7	28	0.6487092578174173	1
+GO_CC	GO:0000325	plant-type vacuole	Vtub	Xvis	1	9	6	28	0.6563460130822559	1
+GO_CC	GO:0005737	cytoplasm	Vtub	Xvis	6	9	22	28	0.6573617391519636	1
+GO_BP	GO:0008152	metabolic process	Vtub	Xvis	5	7	12	22	0.6645267110034726	1
+GO_MF	GO:0003676	nucleic acid binding	Vtub	Xvis	4	7	9	21	0.6702898550724637	1
+GO_BP	GO:0044238	primary metabolic process	Vtub	Xvis	4	7	10	22	0.6816591704147926	1
+GO_CC	GO:0005829	cytosol	Vtub	Xvis	4	9	9	28	0.6905680397403227	1
+KEGG	ath00190	Oxidative phosphorylation - Arabidopsis thaliana (thale cress)	Vtub	Xvis	8	20	4	14	0.7169802195676355	1
+GO_BP	GO:0006952	defense response	Vtub	Xvis	2	7	6	22	0.9999999999999999	1
+GO_BP	GO:0019538	protein metabolic process	Vtub	Xvis	2	7	6	22	0.9999999999999999	1
+GO_CC	GO:0009536	plastid	Vtub	Xvis	4	9	14	28	0.9999999999999999	1
+GO_BP	GO:0001101	response to acid chemical	Vtub	Xvis	1	7	3	22	1	1
+GO_BP	GO:0006139	nucleobase-containing compound metabolic process	Vtub	Xvis	1	7	3	22	1	1
+GO_BP	GO:0006412	translation	Vtub	Xvis	1	7	3	22	1	1
+GO_BP	GO:0006810	transport	Vtub	Xvis	1	7	5	22	1	1
+GO_BP	GO:0006950	response to stress	Vtub	Xvis	3	7	9	22	1	1
+GO_BP	GO:0009414	response to water deprivation	Vtub	Xvis	1	7	3	22	1	1
+GO_BP	GO:0009415	response to water	Vtub	Xvis	1	7	3	22	1	1
+GO_BP	GO:0009605	response to external stimulus	Vtub	Xvis	2	7	7	22	1	1
+GO_BP	GO:0009607	response to biotic stimulus	Vtub	Xvis	2	7	7	22	1	1
+GO_BP	GO:0009617	response to bacterium	Vtub	Xvis	1	7	5	22	1	1
+GO_BP	GO:0016043	cellular component organization	Vtub	Xvis	1	7	5	22	1	1
+GO_BP	GO:0034654	nucleobase-containing compound biosynthetic process	Vtub	Xvis	1	7	3	22	1	1
+GO_BP	GO:0042221	response to chemical	Vtub	Xvis	3	7	8	22	1	1
+GO_BP	GO:0043207	response to external biotic stimulus	Vtub	Xvis	2	7	7	22	1	1
+GO_BP	GO:0044419	biological process involved in interspecies interaction between organisms	Vtub	Xvis	2	7	7	22	1	1
+GO_BP	GO:0050789	regulation of biological process	Vtub	Xvis	2	7	7	22	1	1
+GO_BP	GO:0050896	response to stimulus	Vtub	Xvis	3	7	11	22	1	1
+GO_BP	GO:0051234	establishment of localization	Vtub	Xvis	1	7	5	22	1	1
+GO_BP	GO:0051707	response to other organism	Vtub	Xvis	2	7	7	22	1	1
+GO_BP	GO:0065007	biological regulation	Vtub	Xvis	2	7	7	22	1	1
+GO_BP	GO:0160307	protein biosynthetic process	Vtub	Xvis	1	7	3	22	1	1
+GO_MF	GO:0005488	binding	Vtub	Xvis	7	7	21	21	1	1
+GO_MF	GO:0016787	hydrolase activity	Vtub	Xvis	1	7	5	21	1	1
+GO_MF	GO:0046983	protein dimerization activity	Vtub	Xvis	1	7	3	21	1	1
+GO_CC	GO:0005911	cell-cell junction	Vtub	Xvis	2	9	5	28	1	1
+GO_CC	GO:0009506	plasmodesma	Vtub	Xvis	2	9	5	28	1	1
+GO_CC	GO:0009507	chloroplast	Vtub	Xvis	4	9	13	28	1	1
+GO_CC	GO:0030054	cell junction	Vtub	Xvis	2	9	5	28	1	1
+GO_CC	GO:0043226	organelle	Vtub	Xvis	9	9	28	28	1	1
+GO_CC	GO:0043227	membrane-bounded organelle	Vtub	Xvis	9	9	28	28	1	1
+GO_CC	GO:0043229	intracellular organelle	Vtub	Xvis	9	9	28	28	1	1
+GO_CC	GO:0043231	intracellular membrane-bounded organelle	Vtub	Xvis	9	9	28	28	1	1
+GO_CC	GO:0055044	symplast	Vtub	Xvis	2	9	5	28	1	1
+GO_CC	GO:0070161	anchoring junction	Vtub	Xvis	2	9	5	28	1	1
+GO_CC	GO:1902494	catalytic complex	Vtub	Xvis	1	9	3	28	1	1
+KEGG	ath03010	Ribosome - Arabidopsis thaliana (thale cress)	Vtub	Xvis	4	20	2	14	1	1

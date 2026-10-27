@@ -1,0 +1,8 @@
+# Triuridaceae fossil flowers from the Upper Cretaceous of New Jersey
+
+**Authors:** Gandolfo, M. A., Nixon, K. C., & Crepet, W. L. (2002)
+**DOI:** 10.3732/ajb.89.12.1940
+
+## Abstract
+
+We report here on a series of fossil flowers exhibiting a mosaic of characters present in the extant monocot family Triuridaceae. Phylogenetic analyses of morphological data from a broad sample of extant monocots confirm the affinities of the fossils with modern Triuridaceae. The fossil flowers were collected from outcrops of the Raritan Formation (Upper Cretaceous, ∼90 million years before present), New Jersey, USA. These are the oldest known unequivocal monocot flowers. Because other reports of "earliest" monocots are all based on equivocal character suites and/or ambiguously preserved fossil material, the Triuridaceae fossils reported here should also be considered as the oldest unequivocal fossil monocots. Flowers are minute and unisexual (only male flowers are known); the perianth is composed of six tepals, lacking stomata. The unicyclic androecium is of three stamens with dithecal, monosporangiate, extrorse anthers that open by longitudinal slits. The endothecium has U-shaped type thickenings. Pollen grains are monosulcate. The triurid fossil flowers can be separated into three distinctive species. On the basis of phylogenetic analyses of morphological characters, the fossil taxa nest within the completely saprophytic achlorophyllous Triuridaceae supporting the interpretation that the extinct plants were also achlorophyllous and saprophytic. If so, this represents the earliest known fossil occurrence of the saprophytic/mycotrophic habit in angiosperms.

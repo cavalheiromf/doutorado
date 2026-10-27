@@ -61,3 +61,10 @@ errors.log
 # Environment variables & editor
 .env
 .vscode
+
+# Canonical literature-library path after workspace organization
+teamwork/shared/literature_library/papers_openalex_pdf/
+
+# Ignore binary Word documents
+*.docx
+*.doc

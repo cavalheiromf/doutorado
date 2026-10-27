@@ -1,0 +1,8 @@
+# Juicer Provides a One-Click System for Analyzing Loop-Resolution Hi-C Experiments
+
+**Authors:** Durand, N. C., et al. (2016)
+**DOI:** 10.1016/j.cels.2016.07.002
+
+## Abstract
+
+Hi-C experiments explore the 3D structure of the genome, generating terabases of data to create high-resolution contact maps. Here, we introduce Juicer, an open-source tool for analyzing terabase-scale Hi-C datasets. Juicer allows users without a computational background to transform raw sequence data into normalized contact maps with one click. Juicer produces a hic file containing compressed contact matrices at many resolutions, facilitating visualization and analysis at multiple scales. Structural features, such as loops and domains, are automatically annotated. Juicer is available as open source software at http://aidenlab.org/juicer/.

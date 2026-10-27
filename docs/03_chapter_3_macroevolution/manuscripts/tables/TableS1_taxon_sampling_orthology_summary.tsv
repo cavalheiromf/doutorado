@@ -1,0 +1,8 @@
+Species	Family_Order	Drought_Strategy	Assembly_Accession_or_Source	Primary_Proteins_N	Genes_in_Orthogroups_N	Genes_in_Orthogroups_pct	Unassigned_Genes_N	Orthogroups_Containing_Species_N	Species_Specific_Orthogroups_N	Genes_in_Species_Specific_Orthogroups_N
+Vellozia peripherica	Velloziaceae (Pandanales)	Dehydration-avoidant evergreen	This study (NCBI BioProject PRJNA984512; Vper.hap1.v1)	26466	25141	95.0%	1325	13988	124	552
+Vellozia tubiflora	Velloziaceae (Pandanales)	Desiccation-tolerant (poikilochlorophyllous)	de Almeida et al., in prep.; Chapter 1 (NCBI BioProject PRJNA984512; Vtub.hap1.v1)	25551	24729	96.8%	822	14395	39	159
+Xerophyta schlechteri (published as X. viscosa)	Velloziaceae (Pandanales)	Desiccation-tolerant (poikilochlorophyllous)	NCBI GCA_002076135.1 (Costa et al., 2017; Behnke et al., 2013; Radermacher et al., 2019)	26969	25229	93.5%	1740	13486	226	1016
+Acanthochlamys bracteata	Velloziaceae (Pandanales)	Desiccation-tolerant alpine herb	NCBI GCA_019914995.1 (Gao et al., 2021)	22914	20785	90.7%	2129	12393	157	535
+Pandanus tectorius	Pandanaceae (Pandanales)	Coastal tree (non-resurrection outgroup)	NCBI GCA_058218965.1 (Xu et al., 2026)	28399	26739	94.2%	1660	13298	243	1135
+Dioscorea alata	Dioscoreaceae (Dioscoreales)	Herbaceous vine (monocot outgroup)	NCBI GCA_020875875.1 (Bredeson et al., 2022)	33227	30986	93.3%	2241	13661	639	2721
+Arabidopsis thaliana	Brassicaceae (Brassicales)	Annual eudicot reference	NCBI RefSeq GCF_000001735.4 / TAIR10.1 (Cheng et al., 2017)	27549	24410	88.6%	3139	13152	870	3967

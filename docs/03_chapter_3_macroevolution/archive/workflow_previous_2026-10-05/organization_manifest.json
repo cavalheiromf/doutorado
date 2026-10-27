@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-05",
+  "moves": [
+    {
+      "original": "chapter_macroevolution/docs/scripts",
+      "destination": "chapter_macroevolution/workflow/scripts",
+      "sha256": {
+        "extract_align_concatenate_single_copy.py": "4dc2995c0292f33c2c855065354ef6bd22f9f4082599d984212814190e729605",
+        "run_phylogenomics_iqtree.slurm": "42d8322e966bcb8333be89fb42373e62caa0c39c6eee972e4e33fd44d2a55b24",
+        "prep_mcmctree_inputs.py": "1b4047a51b1a3f580bb892f19a76a6a74e0889db4bb9dfd147812b4b6a0b6742",
+        "run_mcmctree_dating.slurm": "5dc7486558066f1a009a0dd91f22f63ffdec7f8d77ae0943dc51e1ec1817313a",
+        "parse_mcmctree_results.py": "bdff1140f1979116490e67a11ad386c6d3b5f65a4aaeda16e21e08fd9eb062b8",
+        "prep_hyphy_codon_alignments.py": "bf6dba558f2d0e9332208f619ac6849059c96a0b9589679623323d6081bdd54d",
+        "prep_family_cafe5.py": "e7090d700ec920f62e973df88a29287bcba5ea3d4327dda5919011482aab2402",
+        "calibrate_tree_for_cafe.R": "06f7d51e446ef9faeb5e0bf95d5b3465dd5b564687335a08708b35f86d5ede41",
+        "calculate_kaks_1to1.py": "bc83531fd4dbf9ccc874c3fc5713942df32acfc6137b6649a9b9403916f2c657",
+        "run_selection_kaks.slurm": "e11916ef639d91b3c7eafd0325caa80b9d1d295914fc780b26715638ed276a75",
+        "select_error_model.py": "f929b18da6e354c089a04845474091c19010b54d19328ccdcfc51909a35adea4",
+        "run_cafe5_multirep_stage1.slurm": "4b4bba20176d5048342d77205aa4c6d316adfd35f9b477830fc61aa72cbfb8a5",
+        "evaluate_cafe5_models.py": "d9d159a025204260d4cb4f4471eea2616f3f00a19a890248706d7adf5a6734a7",
+        "run_cafe5_multirep_stage2.slurm": "b83b5184ad95ce51bef87bad6d3dc547c533322a8a32c5ca62b12eef3263e3ef",
+        "plot_cafe5_thesis_figures.py": "0178161493a0ac3ad1124ab96d86ebd9083afa72d80769a005f120f079395534",
+        "build_comparative_master_table_v2.py": "368d5afd5efd5ef0d052418db9aec4135c531acffa4cdfbf19acf7835fd6e185",
+        "test_calculate_kaks_1to1.py": "9a9d21abd250a43c3598230ce6514fc119b1c72d32d161f756fd71de932446d7",
+        "verify_kaks_run.py": "8f9bc9d974b2c76c3274f28cbbd2dab49995522609a7c8a6237e690023bdb597",
+        "test_pair_specific_kaks.py": "acd1fa87b80722cdbb06fb8e46f722e34c755a220dfaf6e45bbb3c4fa1ed8563",
+        "pair_specific_kaks.py": "71a036b36dfb215c26b7c7800610282b13f7b0573f73bbf0bd8355154c544e6c",
+        "verify_pair_specific_kaks.py": "3c7f07fd2edcabd75899f8be4473e84ce0d2c57c67a26a8ae1842b9932635ec6",
+        "report_pair_specific_kaks.py": "a3f70213f6669976b5a943f28fec34db5f378a00c3190ece00e5b33e4b181ae3",
+        "verify_orthofinder_pair_proteins.py": "822941ba46796935696a9d34a3a293ca397d5174eeb5ecd8f11bef2262df993d",
+        "test_audit_pair_specific_kaks.py": "26e77c7020cd283f763185cac91b3a4b20748f4c186a02a98f8eebbb473b3d9f",
+        "gene_tree_qc_candidates.py": "37e84f9be0c64c893ebe9df652e91f05814c2123a1090a1f607dad74bf71b06b",
+        "test_gene_tree_qc_candidates.py": "ecb9530b49f3c2c726e3c93a322e89f13fa83067c82cd1850d5ccc29d9856e99",
+        "review_pair_only_alignments.py": "f67a810e45ae78b330aa61f8a176698c529c7668a2c3528f929d8514be814a00",
+        "generate_fig3.py": "96e59bac4c03f8808d7f27032b20b4ccb0f78ffcf8ee035e38e236208792c326",
+        "generate_fig5.py": "91431e4868f22b795f3e924ad25242ec1134934c48d9b8584c9afa3fe8042228",
+        "plot_current_turnover.py": "f86ffc21a7e9208773ca089246f036de614c2e57fe120439ca60f5bb3ae656d7",
+        "plot_lineage_family_profiles.py": "630ba7ca85d0d8af35c9ac3d596f05ce2009a02964cca8f970cf19e8b8c7b3ad",
+        "build_supervisor_slides.py": "a0b7d2fd304a213b4b2bedea3e368f42631a0b2a4a18f6ae4741d9c52a33e3ac",
+        "plot_focal_lineage_heatmap.py": "6d7e599f24ae6a04e96b80277888338337e478f53d1e588d799067af113803b4",
+        "__pycache__/calculate_kaks_1to1.cpython-312.pyc": "c9cd1c24f0c574e7b5949512f8e67fd5fd6daf909f73183a555566e562e85b49",
+        "__pycache__/test_calculate_kaks_1to1.cpython-312.pyc": "9570038efa52b2781f4848a5143abc73562dd2bf6a1c352e0c0b857e2f3fb04d",
+        "__pycache__/test_pair_specific_kaks.cpython-312.pyc": "8e09855d8300a744fd4777d7587cc03cc019bb0d5af058aa382c50818b9f3761",
+        "__pycache__/pair_specific_kaks.cpython-312.pyc": "00d144f45420bb02e71baef6aa450e48aa264f74ebbe964ecd3ffc4ccaca685f",
+        "__pycache__/test_audit_pair_specific_kaks.cpython-312.pyc": "b0cf88a06aabea59de456ae3d1bd96723ca59a9c24935ba8ce68e8b2dcce6061",
+        "__pycache__/gene_tree_qc_candidates.cpython-312.pyc": "382e0481ec72d00544b63a115412f028d74cb2816bcbba3fda38082a7cc2af34",
+        "__pycache__/test_empirical_challenger.cpython-312.pyc": "afa456f0adba9d33d481c7c8acaca15597bf4d7fc3650a3809a6fd722b7ce2f4",
+        "__pycache__/test_gene_tree_qc_candidates.cpython-312.pyc": "7fb47d190f27602369ce67f3ab4b1f822554a2899e258d03813422eb4bdb4ae1",
+        "__pycache__/review_pair_only_alignments.cpython-312.pyc": "9b9d412f1bef88c304f217493947bae6927b806b7ba11b08c43981176c03069a",
+        "__pycache__/evaluate_cafe5_models.cpython-312.pyc": "c800f2dd2d5b64bbd4f7718ab869468f2ba800782825c9bd5a43840d7f7c309a",
+        "__pycache__/build_comparative_master_table_v2.cpython-312.pyc": "d72b5d36a7fde9f8f1b6b92040da230b83628aa37dc03b7816544e00c76f9a9e",
+        "__pycache__/plot_cafe5_thesis_figures.cpython-312.pyc": "39d8f2594f40e857250046d9f6712e145c8e2ff663d5943834492083dbc007e1",
+        "__pycache__/plot_current_turnover.cpython-312.pyc": "3bdbb64498c98f951ed05f4ddfb0303e11c26553d3a741ab086abeb0dd063905",
+        "__pycache__/plot_lineage_family_profiles.cpython-312.pyc": "d1940bcbc379c9457c8e6c1384fdc522c655334a501aa7135fe8780a40ef8c31"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/workflow/scripts/generate_fig3.py",
+      "destination": "teamwork/chapters/macroevolution/archive/workflow_previous_2026-10-05/conceptual_figures/generate_fig3.py",
+      "sha256": {
+        ".": "96e59bac4c03f8808d7f27032b20b4ccb0f78ffcf8ee035e38e236208792c326"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/workflow/scripts/generate_fig5.py",
+      "destination": "teamwork/chapters/macroevolution/archive/workflow_previous_2026-10-05/conceptual_figures/generate_fig5.py",
+      "sha256": {
+        ".": "91431e4868f22b795f3e924ad25242ec1134934c48d9b8584c9afa3fe8042228"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/scripts/evaluate_cafe5_models.py",
+      "destination": "teamwork/chapters/macroevolution/archive/workflow_previous_2026-10-05/evaluate_cafe5_models_root_previous.py",
+      "sha256": {
+        ".": "d8f80e612ec55f1b381217b82d2819f46a60271cc19e035bff3f5869b7f60711"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/scripts/select_error_model.py",
+      "destination": "teamwork/chapters/macroevolution/archive/workflow_previous_2026-10-05/select_error_model_root_copy.py",
+      "sha256": {
+        ".": "f929b18da6e354c089a04845474091c19010b54d19328ccdcfc51909a35adea4"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/03_dating/run_prior.log",
+      "destination": "chapter_macroevolution/03_dating/logs/run_prior.log",
+      "sha256": {
+        ".": "48e185396f4c6dcf9d6604bb4ce9bfd85c5c879521aaab0a05ab2be439c53d08"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/03_dating/mcmctree_819976.log",
+      "destination": "chapter_macroevolution/03_dating/logs/mcmctree_819976.log",
+      "sha256": {
+        ".": "72a7c31c67abc13e18871c104f6b48fc604404c167a7ee18c890b8e0e575fbb9"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/03_dating/mcmctree_819976.err",
+      "destination": "chapter_macroevolution/03_dating/logs/mcmctree_819976.err",
+      "sha256": {
+        ".": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/03_dating/run_step1.log",
+      "destination": "chapter_macroevolution/03_dating/logs/run_step1.log",
+      "sha256": {
+        ".": "3f518ce4fd314c641a928cd43fd8c6f4e54b50c8249c273da4f6311525d881a3"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/03_dating/run_step2.log",
+      "destination": "chapter_macroevolution/03_dating/logs/run_step2.log",
+      "sha256": {
+        ".": "c1d4ee1eba495aaf1f30c2246d7a4f141b640e866ee363f775cae27ce39c6ee2"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/03_dating/run_step1_new.log",
+      "destination": "chapter_macroevolution/03_dating/logs/run_step1_new.log",
+      "sha256": {
+        ".": "b316de173e075cc67467dbc2ca9d6c5420c06a807363757e2d095a91dfee150d"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_820428.log",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_820428.log",
+      "sha256": {
+        ".": "99d56dc2fc21020f445005ba06553a3204a1ab0a6b970fec52902d87e6110976"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_stage1_820545.log",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_stage1_820545.log",
+      "sha256": {
+        ".": "286c5899118825d0fddd0101a6b4be2c76ac558929c8b07b202c3452c9518545"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_stage2_820546.log",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_stage2_820546.log",
+      "sha256": {
+        ".": "f91a926b2a97df70c5496502626d1ad85f7f661be3b233c1d1637e494c803eae"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_stage2_820546.err",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_stage2_820546.err",
+      "sha256": {
+        ".": "3e1f5d8ac56e1e8586e2811a739818612e9314071709d5759fc69a92b107796c"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_stage1_825694.log",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_stage1_825694.log",
+      "sha256": {
+        ".": "d284c1218a0cc8862b69b2f0af98abc1e80a2dc2653e7ea72fb97fc1b9dcfa2f"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_stage1_825694.err",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_stage1_825694.err",
+      "sha256": {
+        ".": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_stage2_825695.log",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_stage2_825695.log",
+      "sha256": {
+        ".": "8c1dcc53ed965942d042ec8ce41e8c84b9a404fc02959760fc5ea73c191ef503"
+      }
+    },
+    {
+      "original": "chapter_macroevolution/04_gene_families/cafe5_stage2_825695.err",
+      "destination": "chapter_macroevolution/04_gene_families/logs/cafe5_stage2_825695.err",
+      "sha256": {
+        ".": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "entrypoint_override": "scripts/evaluate_cafe5_models.py now points to current workflow evaluator; previous bytes preserved in archive",
+  "policy": "no analytical execution; raw model/chain outputs unchanged"
+}

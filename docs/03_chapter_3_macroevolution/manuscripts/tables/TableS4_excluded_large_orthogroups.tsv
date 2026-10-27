@@ -1,0 +1,13 @@
+Orthogroup_ID	Functional_Annotation	Vellozia_tubiflora	Vellozia_peripherica	Xerophyta_schlechteri	Acanthochlamys_bracteata	Pandanus_tectorius	Dioscorea_alata	Biological_and_Chromosomal_Behavior
+OG0000000	Retrotransposon gag-pol protein / LTR retrotransposon	541	1	13	0	0	0	Massive expansion of gag retroelement coding clusters in V. tubiflora (541 copies) dispersed across all 9 chromosomes; 1 copy in V. peripherica, 13 in X. schlechteri
+OG0000003	Auxin-responsive / ABC transporter signaling domain	1	2	0	2	226	6	Hypertrophic lineage-specific expansion restricted to coastal monocot outgroup Pandanus tectorius (226 copies; <= 6 in all other taxa)
+OG0000007	Chloroplast protein import translocon (Toc/Tic complex)	105	14	72	1	7	3	Remarkable convergent retention and expansion in both resurrection lineages (105 in V. tubiflora, 72 in X. schlechteri; vs. 14 in V. peripherica, <= 7 in outgroups) for plastid proteome maintenance during desiccation
+OG0000009	Lineage-conserved stress-associated protein	106	15	49	0	0	0	Hyper-expansion in large tandem clusters in V. tubiflora (106 copies, chr3 and chr6) and substantial retention in X. schlechteri (49 copies); 15 copies in V. peripherica
+OG0000013	Plant Mobile Domain (PMD) / FHY3-FAR1 transposase-derived factor	14	138	1	1	1	1	Massive tandem and proximal duplicate proliferation in V. peripherica (138 copies; chr1, chr2, chr5); 14 in V. tubiflora, 1 in X. schlechteri
+OG0000018	CCR4-associated factor 1 (homolog 11)	2	2	2	2	135	2	Outgroup-specific expansion restricted to Pandanus tectorius (135 copies; 2 copies across all other monocots)
+OG0000021	Retrotransposon gag protein family	39	102	0	0	0	0	Chromosomal dispersion in V. peripherica (102 copies; chr3, chr4, chr5); 39 in V. tubiflora, 0 in X. schlechteri
+OG0000022	Xerophyta-specific uncharacterized family	0	0	135	0	0	0	Massive lineage-specific expansion restricted to Xerophyta schlechteri (135 copies; 0 in all other monocots)
+OG0000023	Lineage-specific uncharacterized protein	133	1	0	0	0	0	Large chromosomal tandem blocks in V. tubiflora (133 copies; chr2, chr1, chr5); 1 in V. peripherica, 0 in X. schlechteri
+OG0000028	UBX domain-containing tethering protein	2	1	0	1	109	2	Outgroup-specific expansion restricted to Pandanus tectorius (109 copies; <= 2 across all other monocots)
+OG0000031	Lineage-specific uncharacterized protein	1	110	0	0	0	0	Large chromosomal tandem blocks in V. peripherica (110 copies; chr3, chr4, chr1); 1 in V. tubiflora, 0 in X. schlechteri
+OG0000033	Xerophyta-specific uncharacterized family	0	0	107	0	0	0	Massive lineage-specific expansion restricted to Xerophyta schlechteri (107 copies; 0 in all other monocots)

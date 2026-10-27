@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-15",
+  "primary": "teamwork/01_drafts_and_outlines/chapter_macroevolution_master_draft.md",
+  "primary_sha256": "0b9c368bb72e0593e67f2bd6bf1179e49dafd6127abeec5e9342a59854d54f9f",
+  "synchronized_copy": "teamwork/01_drafts_and_outlines/chapter_macroevolution_master_draft_volpato_revised.md",
+  "backup_original": "chapter_macroevolution/docs/reviews/pre_integration_2026-09-15/chapter_macroevolution_master_draft.md",
+  "backup_original_sha256": "dd54d4ff1dda37ea0bdd1557b023db2e0322e8b6827aa2a9cdfb53a52c173652",
+  "backup_reviewed": "chapter_macroevolution/docs/reviews/pre_integration_2026-09-15/chapter_macroevolution_master_draft_volpato_revised.md",
+  "references_retained": 23,
+  "unused_references_archived": 44,
+  "gene_positions_exported": 65,
+  "analyses_rerun": false
+}

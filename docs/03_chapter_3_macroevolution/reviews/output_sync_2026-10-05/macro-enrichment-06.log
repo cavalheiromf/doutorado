@@ -1,0 +1,18 @@
+/home/mfcaval/github/doutorado/chapter_macroevolution/04_gene_families/functional_enrichment/scripts/06_make_figures.py:91: SyntaxWarning: invalid escape sequence '\l'
+  ax_b.set_xlabel("Total Proteins per Family ($\log_{10}$ scale)", fontsize=9.5)
+/home/mfcaval/github/doutorado/chapter_macroevolution/04_gene_families/functional_enrichment/scripts/06_make_figures.py:92: SyntaxWarning: invalid escape sequence '\l'
+  ax_b.set_ylabel("Arabidopsis Loci per Family ($\log_{10}$ scale)", fontsize=9.5)
+/home/mfcaval/github/doutorado/chapter_macroevolution/04_gene_families/functional_enrichment/scripts/06_make_figures.py:471: SyntaxWarning: invalid escape sequence '\l'
+  ax_left.set_title("A. Species Copy Number ($\log_{1p}$ Counts)", fontsize=10.5, fontweight="bold")
+[*] Generating Figure 1: annotation_coverage...
+[*] Saved Figure 1: /home/mfcaval/github/doutorado/chapter_macroevolution/04_gene_families/functional_enrichment/figures/annotation_coverage.pdf
+[*] Generating Figure 2: enrichment_dotplot...
+[*] Saved Figure 2: /home/mfcaval/github/doutorado/chapter_macroevolution/04_gene_families/functional_enrichment/figures/enrichment_dotplot.pdf
+[*] Generating Figure 3: enrichment_upset...
+    Conditional contrasts with robust terms: []
+    No conditional contrasts with robust terms; creating empty placeholder.
+[*] Generating Figure 4: representative_families_heatmap...
+    Selected 24 representative families for readable heatmap layout.
+[*] Saved Figure 4: /home/mfcaval/github/doutorado/chapter_macroevolution/04_gene_families/functional_enrichment/figures/representative_families_heatmap.pdf
+
+[*] [PASSED] All 4 figure outputs generated (including explicit null results where applicable) in PDF and PNG formats.

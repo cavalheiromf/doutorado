@@ -1,0 +1,90 @@
+[
+  {
+    "file": "teamwork/01_drafts_and_outlines/chapter_macroevolution_master_draft.md",
+    "sha256": "087628efb9bc862fdf2f66a4e0fab06dd4531b979e0d30639e985c63f41be4de"
+  },
+  {
+    "file": "teamwork/01_drafts_and_outlines/chapter_macroevolution_master_draft_volpato_revised.md",
+    "sha256": "4290aab71b7cd2c56f34804008409c2d0e56c24a714b5824609aae9a1d795ec4"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/base_error_replicates_summary.tsv",
+    "sha256": "7fea0a068534b875f8f8df0b341317ebb99bf5ba058e8de8b30a95b15c90ba09"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/all_models_summary.tsv",
+    "sha256": "cd8613ee5778b3082956436cfa00d6ee0235bad633d276f5bef08c0d35fb9fe9"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_01_base_noerror_rep05.tsv",
+    "sha256": "70a6fda48159e30e1aa27e1f6a0fbd920ade5b040843590256f588a6dbebebeb"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_02_base_error_rep01.tsv",
+    "sha256": "bfb4bc71165df1b37074b87d4f29a64daed462a253ef9040a3cca4bb120d0f50"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_03_gamma_k2_rep02.tsv",
+    "sha256": "c93d6415c093484721219af5c79b0b7f272c69e3a88d401d2dad5424d924cc95"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_04_gamma_k3_rep03.tsv",
+    "sha256": "72372cc02faeec374663c23a2bd30df09b1ca5ab65ff0ed30ababb0dd018d1d3"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_05_gamma_k4_sensitivity_rep01.tsv",
+    "sha256": "ec139714e0b162fe530a771c01caf83722a5b71e5608ea54e80885bcda9b12ac"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/high_confidence_core_188_families.tsv",
+    "sha256": "b6528a49e77009a3a42f1a828b1b193743aba30249803e4bc3bd177c3b763de6"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/k3_additional_heterogeneity_43_families.tsv",
+    "sha256": "230bd605cba98b1c1d6a4d21a0882867c4d4ea7087233ae6044feb7655d21c91"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/master_family_table.tsv",
+    "sha256": "441314ad71902b25151c43c419d132d970f33cfcf9ebc5689b33c00f727e8349"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/high_confidence_core_196_families.tsv",
+    "sha256": "b6528a49e77009a3a42f1a828b1b193743aba30249803e4bc3bd177c3b763de6"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/tier_b_rate_heterogeneity_58_families.tsv",
+    "sha256": "5d5db97a2d40805ed569deda66c8ae6d8cecd38b24eb406e29a01afe142fc41c"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/supplementary_table_ultra_large_families_excluded.tsv",
+    "sha256": "9e2cae1e78b8fc42208a1c94f4c552055560a7c12866d974dd309aad63632c00"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_01_base_noerror_rep02.tsv",
+    "sha256": "69005bbfc4dc96f413c73289fb20bf03e7bca457856ac8aaf03491e9fcaf48f0"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_03_gamma_k2_rep01.tsv",
+    "sha256": "9a4cd9867cfae4f30caa926aa1a10f928f47daef95a3935def1e077e47c9327d"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_04_gamma_k3_rep01.tsv",
+    "sha256": "162b5dcdb68dabfff1944cb375571e1b619d25919b9395071f57eac2e72924d6"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/summary/fdr_05_gamma_k4_sensitivity_rep02.tsv",
+    "sha256": "b4c3e59c41ba635418565d05af5c9bdd5f94ae164d68640f479ebb5fec2b5c73"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/comparative_axes/comparative_families_master_table_v2.tsv",
+    "sha256": "07387fc1129420dac2073b1b28529f2995992b4bd99a9485997ec6e1d08de0e2"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/functional_enrichment/raw_annotations/manifest.tsv",
+    "sha256": "8337f32f90cbf386ac6f677c194947f6313e7f35ecbb92ded5b51d97000f7a66"
+  },
+  {
+    "file": "chapter_macroevolution/04_gene_families/functional_enrichment/config/enrichment_config.yaml",
+    "sha256": "9625f38926285bbaf89f01cde169a1288a861fd76b68f8aaa18458b2847f28ba"
+  }
+]

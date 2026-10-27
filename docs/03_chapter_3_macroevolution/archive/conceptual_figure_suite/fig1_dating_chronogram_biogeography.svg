@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 940" width="1200px" height="940px">
+  <defs>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&amp;display=swap");
+      text { font-family: "Roboto", Arial, "Helvetica Neue", "DejaVu Sans", sans-serif; }
+      .label-species { font-style: italic; font-weight: 700; font-size: 13px; }
+      .label-authority { font-style: normal; font-weight: 400; font-size: 10px; fill: #666666; }
+      .label-desc { font-style: normal; font-weight: 400; font-size: 9.5px; fill: #444444; }
+      .node-age { font-weight: 700; font-size: 11px; fill: #111111; }
+      .node-hpd { font-weight: 400; font-size: 9px; fill: #444444; }
+      .panel-title { font-weight: 700; font-size: 15px; fill: #1A1A1A; }
+      .panel-subtitle { font-weight: 400; font-size: 10.5px; fill: #555555; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+    <filter id="badge-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow-gold" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#D55E00"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0072B2"/>
+    </marker>
+    <marker id="arrow-wind" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 2 L 8 5 L 0 8 z" fill="#0288D1"/>
+    </marker>
+    <linearGradient id="grad-card-refuted" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8F8"/>
+      <stop offset="100%" stop-color="#FFEEEE"/>
+    </linearGradient>
+    <linearGradient id="grad-card-supported" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F4FAF6"/>
+      <stop offset="100%" stop-color="#E8F6ED"/>
+    </linearGradient>
+    <linearGradient id="grad-card-timeline" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAFAFB"/>
+      <stop offset="100%" stop-color="#F0F2F5"/>
+    </linearGradient>
+    <linearGradient id="grad-ocean" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E1F5FE"/>
+      <stop offset="50%" stop-color="#B3E5FC"/>
+      <stop offset="100%" stop-color="#E1F5FE"/>
+    </linearGradient>
+  </defs>
+  <g id="background_layer">
+    <rect width="1200" height="940" fill="#FFFFFF"/>
+  </g>
+  <!-- ===================================================== -->
+  <!-- PANEL A: BAYESIAN CHRONOGRAM & GEOLOGICAL TIMESCALE   -->
+  <!-- ===================================================== -->
+  <g id="panel_a">
+    <g id="panel_a_frame">
+      <rect x="25" y="18" width="1150" height="495" rx="8" fill="#FAFCFD" stroke="#DCE3E8" stroke-width="1.2"/>
+    </g>
+    <g id="panel_a_header">
+      <rect x="38" y="30" width="28" height="28" rx="5" fill="#1A365D"/>
+      <text x="52" y="49" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">A</text>
+      <text x="76" y="42" class="panel-title">Fossil-Calibrated Bayesian Chronogram across 732,066 Amino Acid Sites (MCMCtree)</text>
+      <text x="76" y="56" class="panel-subtitle">7 Monocot &amp; Outgroup Genomes | 1,513 Partitioned 1:1 Orthologs | Independent Rates Clock | 100% UFBoot at All Nodes</text>
+    </g>
+    <g id="panel_a_stratigraphy_background">
+      <rect x="106.83" y="70" width="194.32" height="375" fill="#B7E4B2" fill-opacity="0.10"/>
+      <line x1="301.15" y1="70" x2="301.15" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <rect x="301.15" y="70" width="150.65" height="375" fill="#D1EED0" fill-opacity="0.10"/>
+      <line x1="451.80" y1="70" x2="451.80" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <rect x="451.80" y="70" width="43.67" height="375" fill="#FEE6CE" fill-opacity="0.10"/>
+      <line x1="495.47" y1="70" x2="495.47" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <rect x="495.47" y="70" width="96.50" height="375" fill="#FDD0A2" fill-opacity="0.10"/>
+      <line x1="591.97" y1="70" x2="591.97" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <rect x="591.97" y="70" width="47.47" height="375" fill="#C6DBEF" fill-opacity="0.22"/>
+      <line x1="639.44" y1="70" x2="639.44" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <rect x="639.44" y="70" width="77.29" height="375" fill="#E5F5E0" fill-opacity="0.22"/>
+      <line x1="716.73" y1="70" x2="716.73" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <rect x="716.73" y="70" width="12.01" height="375" fill="#FFF8CC" fill-opacity="0.10"/>
+      <line x1="728.73" y1="70" x2="728.73" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <rect x="728.73" y="70" width="11.27" height="375" fill="#FFF2B2" fill-opacity="0.10"/>
+      <line x1="740.00" y1="70" x2="740.00" y2="445" stroke="#D0D7DE" stroke-width="0.8" stroke-dasharray="2,3"/>
+      <line x1="451.80" y1="70" x2="451.80" y2="445" stroke="#D32F2F" stroke-width="1.2" stroke-dasharray="4,3"/>
+      <text x="447.80" y="82" text-anchor="end" font-size="8.5" font-weight="700" fill="#D32F2F">K-Pg (66 Ma)</text>
+      <line x1="591.97" y1="70" x2="591.97" y2="445" stroke="#0288D1" stroke-width="1.2" stroke-dasharray="4,3"/>
+      <text x="587.97" y="82" text-anchor="end" font-size="8.5" font-weight="700" fill="#0288D1">EOT (33.9 Ma)</text>
+    </g>
+    <g id="hpd_confidence_bars">
+      <rect x="105.74" y="140.16" width="65.28" height="10" rx="3" ry="3" fill="#90CAF9" fill-opacity="0.55" stroke="#1565C0" stroke-width="1.2"/>
+      <rect x="180.24" y="193.31" width="56.77" height="10" rx="3" ry="3" fill="#90CAF9" fill-opacity="0.55" stroke="#1565C0" stroke-width="1.2"/>
+      <rect x="278.53" y="245.62" width="45.81" height="10" rx="3" ry="3" fill="#90CAF9" fill-opacity="0.55" stroke="#1565C0" stroke-width="1.2"/>
+      <rect x="362.98" y="296.25" width="54.32" height="10" rx="3" ry="3" fill="#90CAF9" fill-opacity="0.55" stroke="#1565C0" stroke-width="1.2"/>
+      <rect x="549.35" y="343.50" width="106.55" height="10" rx="3" ry="3" fill="#FFB74D" fill-opacity="0.65" stroke="#E65100" stroke-width="1.2"/>
+      <rect x="674.37" y="384.00" width="42.53" height="10" rx="3" ry="3" fill="#81C784" fill-opacity="0.65" stroke="#2E7D32" stroke-width="1.2"/>
+    </g>
+    <g id="tree_branches" stroke="#263238" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="85.00" y1="145.16" x2="135.30" y2="145.16"/>
+      <line x1="135.30" y1="145.16" x2="135.30" y2="92.00"/>
+      <line x1="135.30" y1="92.00" x2="740.00" y2="92.00"/>
+      <line x1="135.30" y1="145.16" x2="135.30" y2="198.31"/>
+      <line x1="135.30" y1="198.31" x2="207.70" y2="198.31"/>
+      <line x1="207.70" y1="198.31" x2="207.70" y2="146.00"/>
+      <line x1="207.70" y1="146.00" x2="740.00" y2="146.00"/>
+      <line x1="207.70" y1="198.31" x2="207.70" y2="250.62"/>
+      <line x1="207.70" y1="250.62" x2="297.83" y2="250.62"/>
+      <line x1="297.83" y1="250.62" x2="297.83" y2="200.00"/>
+      <line x1="297.83" y1="200.00" x2="740.00" y2="200.00"/>
+      <line x1="297.83" y1="250.62" x2="297.83" y2="301.25"/>
+      <line x1="297.83" y1="301.25" x2="398.48" y2="301.25"/>
+      <line x1="398.48" y1="301.25" x2="398.48" y2="254.00"/>
+      <line x1="398.48" y1="254.00" x2="740.00" y2="254.00"/>
+      <line x1="398.48" y1="301.25" x2="398.48" y2="348.50"/>
+      <line x1="398.48" y1="348.50" x2="600.62" y2="348.50"/>
+      <line x1="600.62" y1="348.50" x2="600.62" y2="308.00"/>
+      <line x1="600.62" y1="308.00" x2="740.00" y2="308.00"/>
+      <line x1="600.62" y1="348.50" x2="600.62" y2="389.00"/>
+      <line x1="600.62" y1="389.00" x2="697.47" y2="389.00"/>
+      <line x1="697.47" y1="389.00" x2="697.47" y2="362.00"/>
+      <line x1="697.47" y1="362.00" x2="740.00" y2="362.00"/>
+      <line x1="697.47" y1="389.00" x2="697.47" y2="416.00"/>
+      <line x1="697.47" y1="416.00" x2="740.00" y2="416.00"/>
+    </g>
+    <g id="node_markers">
+      <circle cx="135.30" cy="145.16" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="2"/>
+      <circle cx="135.30" cy="145.16" r="2" fill="#263238"/>
+      <circle cx="207.70" cy="198.31" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="2"/>
+      <circle cx="207.70" cy="198.31" r="2" fill="#263238"/>
+      <circle cx="297.83" cy="250.62" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="2"/>
+      <circle cx="297.83" cy="250.62" r="2" fill="#263238"/>
+      <circle cx="398.48" cy="301.25" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="2"/>
+      <circle cx="398.48" cy="301.25" r="2" fill="#263238"/>
+      <circle cx="600.62" cy="348.50" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="2"/>
+      <circle cx="600.62" cy="348.50" r="2" fill="#263238"/>
+      <circle cx="697.47" cy="389.00" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="2"/>
+      <circle cx="697.47" cy="389.00" r="2" fill="#263238"/>
+    </g>
+    <g id="node_callouts_and_calibrations">
+      <g transform="translate(55, 114)">
+        <rect x="0" y="0" width="92" height="26" rx="4" fill="#FFFFFF" stroke="#1565C0" stroke-width="1.2" filter="url(#badge-shadow)"/>
+        <text x="5" y="11" class="node-age">138.48 Ma</text>
+        <text x="5" y="21" class="node-hpd">[130.30–145.25]</text>
+        <rect x="52" y="3" width="36" height="10" rx="2" fill="#E3F2FD"/>
+        <text x="70" y="10.5" text-anchor="middle" font-size="7" font-weight="700" fill="#0D47A1">⚓ 130–145</text>
+      </g>
+      <g transform="translate(138, 168)">
+        <rect x="0" y="0" width="90" height="26" rx="4" fill="#FFFFFF" stroke="#1565C0" stroke-width="1.2" filter="url(#badge-shadow)"/>
+        <text x="5" y="11" class="node-age">121.90 Ma</text>
+        <text x="5" y="21" class="node-hpd">[115.19–128.19]</text>
+        <rect x="50" y="3" width="36" height="10" rx="2" fill="#E3F2FD"/>
+        <text x="68" y="10.5" text-anchor="middle" font-size="7" font-weight="700" fill="#0D47A1">⚓ 115–128</text>
+      </g>
+      <g transform="translate(232, 220)">
+        <rect x="0" y="0" width="90" height="26" rx="4" fill="#FFFFFF" stroke="#1565C0" stroke-width="1.2" filter="url(#badge-shadow)"/>
+        <text x="5" y="11" class="node-age">101.26 Ma</text>
+        <text x="5" y="21" class="node-hpd">[95.19–105.68]</text>
+        <rect x="50" y="3" width="36" height="10" rx="2" fill="#E3F2FD"/>
+        <text x="68" y="10.5" text-anchor="middle" font-size="7" font-weight="700" fill="#0D47A1">⚓ 90–105</text>
+      </g>
+      <g transform="translate(334, 270)">
+        <rect x="0" y="0" width="92" height="27" rx="4" fill="#FFFFFF" stroke="#6A1B9A" stroke-width="1.4" filter="url(#badge-shadow)"/>
+        <text x="5" y="12" font-size="11" font-weight="700" fill="#4A148C">78.21 Ma</text>
+        <text x="5" y="22" class="node-hpd">[73.90–86.34]</text>
+        <rect x="49" y="3" width="39" height="10" rx="2" fill="#F3E5F5"/>
+        <text x="68.5" y="10.5" text-anchor="middle" font-size="7" font-weight="700" fill="#4A148C">⚓ 75–90 Ma</text>
+      </g>
+      <g transform="translate(432, 290)" filter="url(#shadow)">
+        <rect x="0" y="0" width="162" height="48" rx="6" fill="#FFFDE7" stroke="#E65100" stroke-width="1.8"/>
+        <rect x="0" y="0" width="162" height="15" rx="5" fill="#E65100"/>
+        <text x="81" y="11" text-anchor="middle" font-size="8" font-weight="700" fill="#FFFFFF">★ TRANS-ATLANTIC DISJUNCTION</text>
+        <text x="6" y="28" font-size="12.5" font-weight="700" fill="#BF360C">31.92 Ma</text>
+        <text x="60" y="28" font-size="9" font-weight="700" fill="#E65100">(Oligocene, Rupelian)</text>
+        <text x="6" y="41" font-size="8.5" font-weight="700" fill="#D84315">95% HPD: 19.26–43.66 Ma</text>
+        <rect x="110" y="32" width="48" height="11" rx="2" fill="#FFCC80"/>
+        <text x="134" y="40.5" text-anchor="middle" font-size="6.8" font-weight="800" fill="#BF360C">UNCONSTRAINED</text>
+        <path d="M 162 38 C 180 38, 158.61599999999999 58.5, 168.61599999999999 58.5" fill="none" stroke="#E65100" stroke-width="1.4" stroke-dasharray="2,2"/>
+      </g>
+      <g transform="translate(565, 395)" filter="url(#badge-shadow)">
+        <rect x="0" y="0" width="128" height="35" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+        <text x="5" y="12" font-size="10.5" font-weight="700" fill="#1B5E20">9.74 Ma (Late Miocene)</text>
+        <text x="5" y="22" font-size="8" fill="#2E7D32">95% HPD: 5.29–15.03 Ma</text>
+        <text x="5" y="31" font-size="7.5" font-weight="700" fill="#388E3C">⚓ Calib: 2–25 Ma (Espinhaço)</text>
+        <path d="M 128 15 C 135 15, 126.46866666666665 -6.0, 132.46866666666665 -6.0" fill="none" stroke="#2E7D32" stroke-width="1.2" stroke-dasharray="2,2"/>
+      </g>
+    </g>
+    <g id="species_leaves_metadata">
+      <circle cx="740.0" cy="92" r="4" fill="#56B4E9" stroke="#263238" stroke-width="1.5"/>
+      <line x1="740.0" y1="92" x2="752.0" y2="92" stroke="#90A4AE" stroke-width="1"/>
+      <g transform="translate(758.0, 92)">
+        <text x="0" y="-3" class="label-species" fill="#1A1A1A">Arabidopsis thaliana <tspan class="label-authority">(L.) Heynh.</tspan></text>
+        <text x="0" y="9" class="label-desc">Model Annual Herb | Global Temperate</text>
+        <rect x="260" y="-11" width="125" height="18" rx="9" fill="#56B4E9" fill-opacity="0.18" stroke="#56B4E9" stroke-width="1"/>
+        <text x="322.5" y="1.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#56B4E9">Eudicot Outgroup</text>
+      </g>
+      <circle cx="740.0" cy="146" r="4" fill="#56B4E9" stroke="#263238" stroke-width="1.5"/>
+      <line x1="740.0" y1="146" x2="752.0" y2="146" stroke="#90A4AE" stroke-width="1"/>
+      <g transform="translate(758.0, 146)">
+        <text x="0" y="-3" class="label-species" fill="#1A1A1A">Dioscorea alata <tspan class="label-authority">L.</tspan></text>
+        <text x="0" y="9" class="label-desc">Tuberous Monocot Vine | Pantropical</text>
+        <rect x="260" y="-11" width="125" height="18" rx="9" fill="#56B4E9" fill-opacity="0.18" stroke="#56B4E9" stroke-width="1"/>
+        <text x="322.5" y="1.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#56B4E9">Basal Monocot</text>
+      </g>
+      <circle cx="740.0" cy="200" r="4" fill="#56B4E9" stroke="#263238" stroke-width="1.5"/>
+      <line x1="740.0" y1="200" x2="752.0" y2="200" stroke="#90A4AE" stroke-width="1"/>
+      <g transform="translate(758.0, 200)">
+        <text x="0" y="-3" class="label-species" fill="#1A1A1A">Pandanus tectorius <tspan class="label-authority">Parkinson ex Du Roi</tspan></text>
+        <text x="0" y="9" class="label-desc">Halophytic Tree | Indo-Pacific Littoral</text>
+        <rect x="260" y="-11" width="125" height="18" rx="9" fill="#56B4E9" fill-opacity="0.18" stroke="#56B4E9" stroke-width="1"/>
+        <text x="322.5" y="1.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#56B4E9">Pandanales Sister</text>
+      </g>
+      <circle cx="740.0" cy="254" r="4" fill="#CC79A7" stroke="#263238" stroke-width="1.5"/>
+      <line x1="740.0" y1="254" x2="752.0" y2="254" stroke="#90A4AE" stroke-width="1"/>
+      <g transform="translate(758.0, 254)">
+        <text x="0" y="-3" class="label-species" fill="#1A1A1A">Acanthochlamys bracteata <tspan class="label-authority">P.C.Kao</tspan></text>
+        <text x="0" y="9" class="label-desc">Alpine Scree Saxicole | Hengduan Mts., SW China</text>
+        <rect x="260" y="-11" width="125" height="18" rx="9" fill="#CC79A7" fill-opacity="0.18" stroke="#CC79A7" stroke-width="1"/>
+        <text x="322.5" y="1.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#CC79A7">Hengduan Alpine Sister</text>
+      </g>
+      <circle cx="740.0" cy="308" r="4" fill="#E69F00" stroke="#263238" stroke-width="1.5"/>
+      <line x1="740.0" y1="308" x2="752.0" y2="308" stroke="#90A4AE" stroke-width="1"/>
+      <g transform="translate(758.0, 308)">
+        <text x="0" y="-3" class="label-species" fill="#1A1A1A">Xerophyta viscosa <tspan class="label-authority">Baker</tspan></text>
+        <text x="0" y="9" class="label-desc">Poikilochlorophyllous Resurrection Saxicole | Southern Africa</text>
+        <rect x="260" y="-11" width="125" height="18" rx="9" fill="#E69F00" fill-opacity="0.18" stroke="#E69F00" stroke-width="1"/>
+        <text x="322.5" y="1.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#E69F00">African Resurrection</text>
+      </g>
+      <circle cx="740.0" cy="362" r="4" fill="#009E73" stroke="#263238" stroke-width="1.5"/>
+      <line x1="740.0" y1="362" x2="752.0" y2="362" stroke="#90A4AE" stroke-width="1"/>
+      <g transform="translate(758.0, 362)">
+        <text x="0" y="-3" class="label-species" fill="#1A1A1A">Vellozia peripherica <tspan class="label-authority">Mello-Silva</tspan></text>
+        <text x="0" y="9" class="label-desc">Desiccation-Sensitive Montane Evergreen | Serra do Cipó, Brazil</text>
+        <rect x="260" y="-11" width="125" height="18" rx="9" fill="#009E73" fill-opacity="0.18" stroke="#009E73" stroke-width="1"/>
+        <text x="322.5" y="1.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#009E73">S. American Evergreen</text>
+      </g>
+      <circle cx="740.0" cy="416" r="4" fill="#E69F00" stroke="#263238" stroke-width="1.5"/>
+      <line x1="740.0" y1="416" x2="752.0" y2="416" stroke="#90A4AE" stroke-width="1"/>
+      <g transform="translate(758.0, 416)">
+        <text x="0" y="-3" class="label-species" fill="#1A1A1A">Vellozia tubiflora <tspan class="label-authority">(Kunth) Kunth</tspan></text>
+        <text x="0" y="9" class="label-desc">Poikilochlorophyllous Resurrection Saxicole | Espinhaço Range, Brazil</text>
+        <rect x="260" y="-11" width="125" height="18" rx="9" fill="#E69F00" fill-opacity="0.18" stroke="#E69F00" stroke-width="1"/>
+        <text x="322.5" y="1.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#E69F00">S. American Resurrection</text>
+      </g>
+    </g>
+    <g id="geological_timescale_banner">
+      <rect x="106.83" y="450" width="344.97" height="18" fill="#A1D99B" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="279.32" y="463" text-anchor="middle" font-size="9" font-weight="700" fill="#1B4D21">Cretaceous</text>
+      <rect x="451.80" y="450" width="187.64" height="18" fill="#FDD0A2" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="545.62" y="463" text-anchor="middle" font-size="9" font-weight="700" fill="#7F3B00">Paleogene</text>
+      <rect x="639.44" y="450" width="89.30" height="18" fill="#FFFFD4" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="684.08" y="463" text-anchor="middle" font-size="9" font-weight="700" fill="#665200">Neogene</text>
+      <rect x="728.73" y="450" width="11.27" height="18" fill="#FFFFB2" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="734.37" y="463" text-anchor="middle" font-size="9" font-weight="700" fill="#665200">Q.</text>
+      <rect x="106.83" y="468" width="194.32" height="24" fill="#B7E4B2" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="203.99" y="483" text-anchor="middle" font-size="9" font-weight="700" fill="#1B4D21">Early Cretaceous</text>
+      <rect x="301.15" y="468" width="150.65" height="24" fill="#D1EED0" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="376.48" y="483" text-anchor="middle" font-size="9" font-weight="700" fill="#236B2B">Late Cretaceous</text>
+      <rect x="451.80" y="468" width="43.67" height="24" fill="#FEE6CE" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="473.63" y="483" text-anchor="middle" font-size="7.5" font-weight="700" fill="#8C3B00">Paleocene</text>
+      <rect x="495.47" y="468" width="96.50" height="24" fill="#FDD0A2" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="543.72" y="483" text-anchor="middle" font-size="9" font-weight="700" fill="#8C3B00">Eocene</text>
+      <rect x="591.97" y="468" width="47.47" height="24" fill="#C6DBEF" stroke="#0288D1" stroke-width="1.4"/>
+      <text x="615.70" y="483" text-anchor="middle" font-size="7.5" font-weight="700" fill="#084594">Oligocene</text>
+      <rect x="639.44" y="468" width="77.29" height="24" fill="#E5F5E0" stroke="#0288D1" stroke-width="1.4"/>
+      <text x="678.08" y="483" text-anchor="middle" font-size="9" font-weight="700" fill="#005A32">Miocene</text>
+      <rect x="716.73" y="468" width="12.01" height="24" fill="#FFF8CC" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="722.73" y="483" text-anchor="middle" font-size="7.5" font-weight="700" fill="#665200">Plio.</text>
+      <rect x="728.73" y="468" width="11.27" height="24" fill="#FFF2B2" stroke="#90A4AE" stroke-width="0.8"/>
+      <text x="734.37" y="483" text-anchor="middle" font-size="7.5" font-weight="700" fill="#665200">Pleist.</text>
+      <line x1="85.00" y1="445" x2="85.00" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="85.00" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">150</text>
+      <line x1="128.67" y1="445" x2="128.67" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="128.67" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">140</text>
+      <line x1="216.00" y1="445" x2="216.00" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="216.00" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">120</text>
+      <line x1="303.33" y1="445" x2="303.33" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="303.33" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">100</text>
+      <line x1="390.67" y1="445" x2="390.67" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="390.67" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">80</text>
+      <line x1="478.00" y1="445" x2="478.00" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="478.00" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">60</text>
+      <line x1="565.33" y1="445" x2="565.33" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="565.33" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">40</text>
+      <line x1="652.67" y1="445" x2="652.67" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="652.67" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">20</text>
+      <line x1="740.00" y1="445" x2="740.00" y2="450" stroke="#37474F" stroke-width="1.2"/>
+      <text x="740.00" y="442" text-anchor="middle" font-size="8.5" font-weight="700" fill="#37474F">0</text>
+      <text x="50.0" y="442" text-anchor="start" font-size="9" font-weight="700" fill="#37474F">Time (Ma):</text>
+      <text x="746.0" y="442" text-anchor="start" font-size="8.5" font-weight="700" fill="#2E7D32">0 (Present)</text>
+    </g>
+  </g> <!-- end panel_a -->
+  <!-- ===================================================== -->
+  <!-- PANEL B: HISTORICAL BIOGEOGRAPHY & HYPOTHESIS TESTING  -->
+  <!-- ===================================================== -->
+  <g id="panel_b">
+    <g id="panel_b_frame">
+      <rect x="25" y="525" width="1150" height="395" rx="8" fill="#FAFCFD" stroke="#DCE3E8" stroke-width="1.2"/>
+    </g>
+    <g id="panel_b_header">
+      <rect x="38" y="538" width="28" height="28" rx="5" fill="#1A365D"/>
+      <text x="52" y="557" text-anchor="middle" font-weight="700" font-size="18" fill="#FFFFFF">B</text>
+      <text x="76" y="550" class="panel-title">Testing Biogeographical Hypotheses: Gondwanan Vicariance vs. Cenozoic Long-Distance Dispersal</text>
+      <text x="76" y="564" class="panel-subtitle">Empirical Resolution of the Intercontinental Disjunction between African Xerophyta and South American Vellozia</text>
+    </g>
+    <g id="hypothesis_1_card" transform="translate(40, 578)">
+      <rect x="0" y="0" width="345" height="328" rx="6" fill="url(#grad-card-refuted)" stroke="#EF9A9A" stroke-width="1.4" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="345" height="26" rx="5" fill="#D32F2F"/>
+      <text x="172.5" y="17" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">HYPOTHESIS 1: STRICT GONDWANAN VICARIANCE</text>
+      <g id="map_cretaceous_vicariance" transform="translate(15, 36)">
+        <rect x="0" y="0" width="315" height="118" rx="4" fill="#ECEFF1" stroke="#CFD8DC"/>
+        <text x="8" y="14" font-size="9" font-weight="700" fill="#546E7A">Mid-Cretaceous Configuration (~100–110 Ma)</text>
+        <path d="M 45 25 C 75 25, 90 40, 85 75 C 80 95, 60 108, 45 102 C 30 95, 35 50, 45 25 Z" fill="#B0BEC5" stroke="#78909C" stroke-width="1.2"/>
+        <text x="58" y="65" text-anchor="middle" font-size="9" font-weight="700" fill="#37474F">Proto-S. America</text>
+        <path d="M 125 22 C 165 20, 195 40, 190 75 C 185 98, 155 108, 135 102 C 120 90, 115 50, 125 22 Z" fill="#B0BEC5" stroke="#78909C" stroke-width="1.2"/>
+        <text x="155" y="65" text-anchor="middle" font-size="9" font-weight="700" fill="#37474F">Proto-Africa</text>
+        <path d="M 90 60 L 115 60" stroke="#D32F2F" stroke-width="2.5" stroke-dasharray="3,2"/>
+        <polygon points="90,57 82,60 90,63" fill="#D32F2F"/>
+        <polygon points="115,57 123,60 115,63" fill="#D32F2F"/>
+        <text x="103" y="50" text-anchor="middle" font-size="8" font-weight="700" fill="#C62828">Rifting</text>
+        <text x="103" y="75" text-anchor="middle" font-size="7.5" font-weight="700" fill="#C62828">~100 Ma</text>
+        <circle cx="268" cy="60" r="25" fill="#FFCDD2" stroke="#E53935" stroke-width="1.5"/>
+        <line x1="251" y1="43" x2="285" y2="77" stroke="#B71C1C" stroke-width="3.5" stroke-linecap="round"/>
+        <line x1="285" y1="43" x2="251" y2="77" stroke="#B71C1C" stroke-width="3.5" stroke-linecap="round"/>
+      </g>
+      <g id="card1_text" transform="translate(15, 164)">
+        <text x="0" y="10" font-size="10" font-weight="700" fill="#C62828">• Theoretical Postulate:</text>
+        <text x="10" y="24" font-size="9" fill="#37474F">Trans-Atlantic split driven by South Atlantic opening.</text>
+        <text x="10" y="37" font-size="9" fill="#37474F">Expected divergence age: <tspan font-weight="700" fill="#111111">100–120 Ma (Cretaceous)</tspan>.</text>
+        <text x="0" y="57" font-size="10" font-weight="700" fill="#C62828">• Empirical Genomic Test (MCMCtree):</text>
+        <text x="10" y="71" font-size="9" fill="#37474F">Unconstrained split date = <tspan font-weight="700" fill="#C62828">31.92 Ma</tspan> (19.26–43.66 Ma).</text>
+        <text x="10" y="84" font-size="9" font-weight="700" fill="#C62828">Temporal Mismatch: Δt ≈ 68–88 Myr too young!</text>
+        <rect x="0" y="102" width="315" height="30" rx="4" fill="#FFCDD2" stroke="#D32F2F" stroke-width="1.2"/>
+        <text x="157.5" y="121" text-anchor="middle" font-size="10" font-weight="800" fill="#B71C1C">❌ REFUTED BY BAYESIAN MOLECULAR DATING</text>
+      </g>
+    </g>
+    <g id="hypothesis_2_card" transform="translate(400, 578)">
+      <rect x="0" y="0" width="410" height="328" rx="6" fill="url(#grad-card-supported)" stroke="#A5D6A7" stroke-width="1.4" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="410" height="26" rx="5" fill="#2E7D32"/>
+      <text x="205" y="17" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">HYPOTHESIS 2: MID-CENOZOIC LONG-DISTANCE DISPERSAL (LDD)</text>
+      <g id="map_cenozoic_ldd" transform="translate(15, 36)">
+        <rect x="0" y="0" width="380" height="118" rx="4" fill="url(#grad-ocean)" stroke="#81D4FA"/>
+        <text x="8" y="14" font-size="9" font-weight="700" fill="#0277BD">Oligocene Trans-Atlantic Basin (~32 Ma, ~2,500 km)</text>
+        <path d="M 35 20 C 65 20, 80 40, 75 80 C 70 102, 45 112, 30 106 C 15 100, 20 45, 35 20 Z" fill="#A5D6A7" stroke="#2E7D32" stroke-width="1.2"/>
+        <text x="48" y="62" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1B5E20">Vellozia</text>
+        <text x="48" y="74" text-anchor="middle" font-size="8" fill="#2E7D32">S. America</text>
+        <circle cx="68" cy="58" r="4" fill="#E65100" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="76" y="55" font-size="8" font-weight="700" fill="#BF360C">Espinhaço</text>
+        <path d="M 290 18 C 340 15, 370 40, 365 80 C 360 105, 325 112, 300 106 C 285 92, 280 45, 290 18 Z" fill="#FFE082" stroke="#F57F17" stroke-width="1.2"/>
+        <text x="325" y="62" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B78103">Xerophyta</text>
+        <text x="325" y="74" text-anchor="middle" font-size="8" fill="#B78103">Africa</text>
+        <ellipse cx="225" cy="76" rx="15" ry="6.5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+        <text x="225" y="91" text-anchor="middle" font-size="7.5" font-weight="700" fill="#4E342E">Walvis Ridge</text>
+        <ellipse cx="145" cy="68" rx="15" ry="6.5" fill="#8D6E63" stroke="#5D4037" stroke-width="0.8"/>
+        <text x="145" y="83" text-anchor="middle" font-size="7.5" font-weight="700" fill="#4E342E">Rio Grande Rise</text>
+        <path d="M 285 38 C 220 28, 160 32, 85 45" fill="none" stroke="#0288D1" stroke-width="1.8" stroke-dasharray="4,3" marker-end="url(#arrow-wind)"/>
+        <text x="185" y="28" text-anchor="middle" font-size="8" font-weight="700" fill="#0288D1">Easterly Trade Winds &amp; Currents</text>
+        <path d="M 295 64 C 230 50, 150 52, 78 58" fill="none" stroke="#D55E00" stroke-width="3" marker-end="url(#arrow-gold)"/>
+        <rect x="145" y="44" width="98" height="16" rx="3" fill="#FFFDE7" stroke="#D55E00" stroke-width="1"/>
+        <text x="194" y="55.5" text-anchor="middle" font-size="8" font-weight="800" fill="#BF360C">LDD Transit (~31.92 Ma)</text>
+      </g>
+      <g id="card2_text" transform="translate(15, 164)">
+        <text x="0" y="10" font-size="10" font-weight="700" fill="#2E7D32">• Empirical Support &amp; Transport Mechanism:</text>
+        <text x="10" y="24" font-size="9" fill="#37474F">1. <tspan font-weight="700">Timing:</tspan> Oligocene date (<tspan font-weight="700" fill="#BF360C">31.92 Ma</tspan>) aligns with post-EOT marine lowstands.</text>
+        <text x="10" y="37" font-size="9" fill="#37474F">2. <tspan font-weight="700">Stepping Stones:</tspan> Walvis Ridge &amp; Rio Grande Rise exposed as archipelagos.</text>
+        <text x="10" y="50" font-size="9" fill="#37474F">3. <tspan font-weight="700">Vector:</tspan> Westward Equatorial winds + desiccation-tolerant propagules.</text>
+        <text x="10" y="63" font-size="9" fill="#37474F">4. <tspan font-weight="700">Homology:</tspan> Shared poikilochlorophylly between <tspan font-style="italic">Xerophyta</tspan> and <tspan font-style="italic">V. tubiflora</tspan>.</text>
+        <rect x="0" y="80" width="380" height="44" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.4"/>
+        <text x="190" y="97" text-anchor="middle" font-size="10.5" font-weight="800" fill="#1B5E20">✅ EMPIRICALLY SUPPORTED BY GENOMIC DATING</text>
+        <text x="190" y="112" text-anchor="middle" font-size="8.5" font-weight="700" fill="#2E7D32">31.92 Ma Westward LDD from Africa to Eastern South America</text>
+      </g>
+    </g>
+    <g id="timeline_synthesis_card" transform="translate(825, 578)">
+      <rect x="0" y="0" width="340" height="328" rx="6" fill="url(#grad-card-timeline)" stroke="#B0BEC5" stroke-width="1.4" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="340" height="26" rx="5" fill="#37474F"/>
+      <text x="170" y="17" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">MACROEVOLUTIONARY TIMELINE SYNTHESIS</text>
+      <g id="milestone_list" transform="translate(14, 38)">
+        <line x1="8" y1="6" x2="8" y2="255" stroke="#90A4AE" stroke-width="2"/>
+        <circle cx="8" cy="6" r="3.5" fill="#1565C0" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="20" y="5" font-size="9.5" font-weight="700" fill="#1565C0">138.5 Ma <tspan font-weight="400" font-size="8" fill="#607D8B">(Early Cretaceous)</tspan></text>
+        <text x="20" y="17" font-size="8.5" font-weight="500" fill="#263238">Angiosperm Root Divergence (Ath ↔ Monocots)</text>
+        <circle cx="8" cy="46" r="3.5" fill="#1565C0" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="20" y="45" font-size="9.5" font-weight="700" fill="#1565C0">101.3 Ma <tspan font-weight="400" font-size="8" fill="#607D8B">(Cenomanian)</tspan></text>
+        <text x="20" y="57" font-size="8.5" font-weight="500" fill="#263238">Pandanales divergence (Pandaniocarpon fossil)</text>
+        <circle cx="8" cy="86" r="3.5" fill="#C62828" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="20" y="85" font-size="9.5" font-weight="700" fill="#C62828">~100 Ma <tspan font-weight="400" font-size="8" fill="#607D8B">(Mid-Cretaceous)</tspan></text>
+        <text x="20" y="97" font-size="8.5" font-weight="500" fill="#263238">S. Atlantic opens (Final Gondwana split)</text>
+        <circle cx="8" cy="126" r="3.5" fill="#6A1B9A" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="20" y="125" font-size="9.5" font-weight="700" fill="#6A1B9A">78.2 Ma <tspan font-weight="400" font-size="8" fill="#607D8B">(Late Cretaceous)</tspan></text>
+        <text x="20" y="137" font-size="8.5" font-weight="500" fill="#263238">Crown Velloziaceae (Acanthochlamys Hengduan)</text>
+        <circle cx="8" cy="166" r="3.5" fill="#0288D1" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="20" y="165" font-size="9.5" font-weight="700" fill="#0288D1">33.9 Ma <tspan font-weight="400" font-size="8" fill="#607D8B">(Eocene-Oligocene)</tspan></text>
+        <text x="20" y="177" font-size="8.5" font-weight="500" fill="#263238">EOT Glaciation &amp; Oceanic Regression</text>
+        <circle cx="8" cy="206" r="4.5" fill="#E65100" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="20" y="205" font-size="9.5" font-weight="700" fill="#E65100">31.92 Ma <tspan font-weight="400" font-size="8" fill="#607D8B">(Mid-Oligocene)</tspan></text>
+        <text x="20" y="217" font-size="8.5" font-weight="500" fill="#263238">★ Trans-Atlantic LDD into South America</text>
+        <circle cx="8" cy="246" r="4.5" fill="#2E7D32" stroke="#FFFFFF" stroke-width="1.2"/>
+        <text x="20" y="245" font-size="9.5" font-weight="700" fill="#2E7D32">9.74 Ma <tspan font-weight="400" font-size="8" fill="#607D8B">(Late Miocene)</tspan></text>
+        <text x="20" y="257" font-size="8.5" font-weight="500" fill="#263238">★ Speciation in campos rupestres (Vper ↔ Vtub)</text>
+      </g>
+    </g>
+  </g> <!-- end panel_b -->
+</svg>

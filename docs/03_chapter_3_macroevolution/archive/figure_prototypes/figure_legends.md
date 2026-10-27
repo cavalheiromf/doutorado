@@ -1,0 +1,35 @@
+# Scientific Figure Legends: Chapter 1
+
+**Manuscript Title:** Large-Scale Comparative Genomics of *Vellozia tubiflora* and *Vellozia peripherica*  
+**Candidate:** Mariana Feitosa Cavalheiro  
+**Advisor:** Isabel Rodrigues Gerhardt  
+**Institution:** Universidade Estadual de Campinas (UNICAMP)  
+
+---
+
+### Figure 1. Pairwise assembly quality, chromosomal macrosynteny, and karyotypic stasis between *Vellozia tubiflora* and *Vellozia peripherica*.
+**(A)** High-resolution pairwise chromosomal dotplot between *Vellozia tubiflora* (X-axis, Chr1A–Chr9A, cumulative Mb) and *Vellozia peripherica* (Y-axis, Chr1A–Chr9A, cumulative Mb). Blue dots depict 1:1 collinear syntenic anchors extracted from MCScanX/JCVI alignments. Purple off-diagonal dots highlight the ancestral whole-genome paleoduplication block between Chromosome 1A and Chromosome 5A ($2n = 18, x = 9$; BRAZ et al., 2025). Alternating grey shaded regions delineate individual chromosome boundaries.  
+**(B)** Whole-genome dual-track macrosynteny ribbon map across all 9 homologous chromosome pairs (Chr1A–Chr9A) between *V. tubiflora* (top, amber) and *V. peripherica* (bottom, green). Colored Bezier ribbons represent 297 high-confidence 1:1 collinear synteny blocks, demonstrating complete macrosyntenic stasis with zero inter-chromosomal translocations.  
+**(C)** Pairwise evaluation of nuclear genome assembly completeness and contiguity. Stacked horizontal bars show Benchmarking Universal Single-Copy Orthologs (BUSCO v5.4.3, Embryophyta ODB10) for *V. tubiflora* ($>95.2\%$) and *V. peripherica* ($>95.6\%$), partitioned into complete single-copy (blue), complete duplicated (sky blue), fragmented (orange), and missing (rust) fractions. The inset box summarizes chromosomal scaffolding stats ($>97.8\%$ anchored to 9 pseudomolecules).
+
+---
+
+### Figure 2. Orthology landscape, core proteome partitions, and chromosomal gene distributions.
+**(A)** Proteome overlap and orthology partition matrix between *Vellozia tubiflora* and *Vellozia peripherica*. Bars delineate the shared Velloziaceae core proteome (18,690 orthologous genes/pairs, including 7,061 universal single-copy 1:1:1 orthologs), species-specific family expansions (2,019 genes in *Vtub* vs. 3,526 genes in *Vper*), and unassigned species-specific singletons.  
+**(B)** Violin and box plot distributions of orthogroup cluster sizes (genes per orthogroup, $\log_{10}$ scale) for *V. tubiflora* (amber) and *V. peripherica* (green), illustrating comparable median cluster compactness and multi-copy duplicate retention.  
+**(C)** Chromosomal gene distribution and 1:1 ortholog density across the 9 homologous pseudomolecules (Chr1A–Chr9A) in *V. tubiflora* (amber) and *V. peripherica* (green), with solid darker overlays indicating the number of 1:1 single-copy orthologs per chromosome.
+
+---
+
+### Figure 3. Macroevolutionary gene family dynamics (CAFE5) and statistical functional enrichment.
+**(A)** Calibrated phylogenetic tree displaying branch-specific gene family expansion ($+$) and contraction ($-$) node badges modeled via CAFE5 ($\lambda = 0.07456$ gains/losses per gene per million years, 412 statistically significant families at $p \le 0.05$). Nodes reflect divergence times calibrated from Cretaceous radiation (~145 Mya) to the Neogene *Vellozia* radiation (~25 Mya).  
+**(B)** Functional overrepresentation bubble plot of expanding gene families evaluated via two-sided Fisher's exact tests against the whole-genome background. The $x$-axis indicates Fold Enrichment ($\ge 2.0\times$) and the $y$-axis shows statistical significance ($-\log_{10}[\text{FDR } q\text{-value}]$). Bubble size is proportional to the number of expanding genes per term. Amber bubbles represent *V. tubiflora* adaptations (TOC/TIC translocons, NDH electron transport, PSII reaction center, ACC lipid repair, plastid ribosome biogenesis); green bubbles represent *V. peripherica* adaptations (LRR receptor kinases, U-box E3 ubiquitin ligases, UDP-glycosyltransferases, Cytochrome P450s, NB-ARC disease sentinels).  
+**(C)** Comparative gene copy-number trajectories across the ancestral node, *V. tubiflora*, and *V. peripherica* for the top 10 diagnostic adaptive gene families, with exact copy-number net changes ($\Delta$) indicated next to each bar.
+
+---
+
+### Figure 4. Genome-wide coding-sequence divergence, selective constraints, and candidate locus screening between *Vellozia tubiflora* and *Vellozia peripherica*.
+**(A)** Pairwise coding-sequence divergence distribution ($\omega = Ka/Ks = dN/dS$) across 16,567 quality-filtered 1:1 ortholog pairs between *V. tubiflora* and *V. peripherica*. The panel combines a density histogram (light blue), kernel density estimate (solid blue curve), and raw jitter strip (bottom points). The dashed orange line indicates the genome-wide median ratio ($\omega = 0.2852$), and the dotted grey line denotes the neutral threshold ($\omega = 1.0$). The vast majority of the proteome (98.6%, 16,334 pairs) evolves under strong purifying constraint, while 233 pairs (1.41%) display accelerated divergence ($\omega > 1$).  
+**(B)** Scatter plot of nonsynonymous substitution rate ($Ka$, $dN$) versus synonymous substitution rate ($Ks$, $dS$) across all 16,567 1:1 ortholog pairs (light blue points). Evolutionary isoclines delineate neutral divergence ($\omega = 1.0$, dashed red line), moderate purifying selection ($\omega = 0.5$, dotted orange line), and strong purifying constraint ($\omega = 0.2$, dash-dotted blue line). Orange filled circles highlight the 17 prioritized high-information review pairs ($\ge 100$ retained codons, $SE(dS)/dS < 0.5$, $\omega \ge 1.5$), with key stress-responsive and regulatory candidates annotated (HSP20, stress-responsive A/B barrel, EF-hand, reticulon-like, cytochrome b5, and GGL domain).  
+**(C)** Selective constraint ($\omega$) across prioritized functional modules and turnover families. Boxplots depict median (solid black bar), interquartile range (colored boxes), and whiskers (1.5× IQR) for the genome-wide baseline (N=16,567), organellar pentatricopeptide repeat (PPR) RNA-editing factors (N=343; median $\omega = 0.310$, maximum 0.821, zero pairs with $\omega > 1$), canonical seed-maturation desiccation chaperones (LEAs and dehydrins, N=5; median $\omega = 0.258$, all $\omega \le 0.57$), avoidant root barrier components (CASP and PIP aquaporins, N=7; median $\omega = 0.205$, all $\omega \le 0.40$), and chromosome-anchored tandem arrays (P450 and NDH-associated loci, N=14). Overlaid black points show individual locus values for smaller sets.  
+**(D)** Methodological quality-control funnel and classification breakdown of the 233 candidate pairs with $\omega > 1$. Horizontal bars delineate technical flags attributable to sequence/alignment noise (53 pairs: low coverage $< 70\%$, high estimation error $SE(dS) \ge dS$, low identity $< 70\%$, and extreme low $dS < 0.01$) versus clean candidates passing all operational filters (180 pairs), highlighting the 152 resolved sister pairs and the 17 high-information pairs subjected to codon-level alignment review.
