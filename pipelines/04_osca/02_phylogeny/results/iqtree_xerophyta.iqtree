@@ -1,0 +1,446 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: chapter2_osca/02_phylogeny/results/allOSCAs_with_Xerophyta.aligned.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 627355
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 84 sequences with 1691 amino-acid sites
+Number of constant sites: 689 (= 40.7451% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 689 (= 40.7451% of all sites)
+Number of parsimony informative sites: 853
+Number of distinct site patterns: 1216
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.PLANT+R5
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.0887,0.0980) (0.1561,0.2787) (0.3093,0.5943) (0.2716,1.1989) (0.1743,2.5147)
+
+ Category  Relative_rate  Proportion
+  1         0.0980         0.0887
+  2         0.2787         0.1561
+  3         0.5943         0.3093
+  4         1.1989         0.2716
+  5         2.5147         0.1743
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -52714.7430 (s.e. 1420.2706)
+Unconstrained log-likelihood (without tree): -11365.0086
+Number of free parameters (#branches + #model parameters): 173
+Akaike information criterion (AIC) score: 105775.4861
+Corrected Akaike information criterion (AICc) score: 105815.1723
+Bayesian information criterion (BIC) score: 106715.4081
+
+Total tree length (sum of branch lengths): 27.9603
+Sum of internal branch lengths: 19.6059 (70.1205% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ZmOSCA1.2/GRMZM2G456000' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--ZmOSCA1.2/GRMZM2G456000
+|
+|                                               +--ZmOSCA2.5/GRMZM2G402708
+|                                            +--| (100)
+|                                            |  +--Sobic.003G427000
+|                                         +--| (100)
+|                                         |  +--OsOSCA2.5/LOC_Os01g72210
+|                                      +--| (97)
+|                                      |  +----OSCA2.5/AT3G54510
+|                              +-------| (100)
+|                              |       |  +--Vtub.hapA.v1.chr9A.g231910.t1
+|                              |       +--| (100)
+|                              |          +--Vper.hapA.v1.chr9A.g257040.t1
+|                          +---| (100)
+|                          |   |                  +--ZmOSCA2.3/GRMZM2G164470
+|                          |   |               +--| (100)
+|                          |   |               |  +--Sobic.001G106800
+|                          |   |            +--| (100)
+|                          |   |            |  +--OsOSCA2.3/LOC_Os03g51620
+|                          |   |         +--| (73)
+|                          |   |         |  |     +--Vtub.hapA.v1.chr1A.g012080.t1
+|                          |   |         |  |  +--| (100)
+|                          |   |         |  |  |  +--Vper.hapA.v1.chr1A.g013600.t1
+|                          |   |         |  +--| (100)
+|                          |   |         |     +--XsOSCA2.3/MP001327
+|                          |   |      +--| (69)
+|                          |   |      |  |           +--ZmOSCA2.2/GRMZM2G409093
+|                          |   |      |  |        +--| (100)
+|                          |   |      |  |        |  +--Sobic.001G140000
+|                          |   |      |  |     +--| (100)
+|                          |   |      |  |     |  +--OsOSCA2.2/LOC_Os03g47070
+|                          |   |      |  |  +--| (100)
+|                          |   |      |  |  |  |     +--ZmOSCA2.1/GRMZM2G163059
+|                          |   |      |  |  |  |  +--| (100)
+|                          |   |      |  |  |  |  |  +--Sobic.008G187100
+|                          |   |      |  |  |  +--| (100)
+|                          |   |      |  |  |     +--OsOSCA2.1/LOC_Os12g43720
+|                          |   |      |  +--| (96)
+|                          |   |      |     |     +--Vtub.hapA.v1.chr1A.g019410.t1
+|                          |   |      |     |  +--| (100)
+|                          |   |      |     |  |  +--Vper.hapA.v1.chr1A.g021690.t1
+|                          |   |      |     +--| (100)
+|                          |   |      |        |     +--Vtub.hapA.v1.chr5A.g127830.t1
+|                          |   |      |        |  +--| (100)
+|                          |   |      |        |  |  +--Vper.hapA.v1.chr5A.g140750.t1
+|                          |   |      |        +--| (99)
+|                          |   |      |           |  +--XsOSCA2.1/MP002111
+|                          |   |      |           +--| (100)
+|                          |   |      |              +**XsOSCA2.2/MP013956
+|                          |   |  +---| (100)
+|                          |   |  |   |   +--OSCA2.1/AT1G58520
+|                          |   |  |   +---| (100)
+|                          |   |  |       +--OSCA2.2/AT1G10090
+|                          |   +--| (99)
+|                          |      |           +--ZmOSCA2.4/GRMZM2G039186
+|                          |      |        +--| (100)
+|                          |      |        |  +--Sobic.008G144900
+|                          |      |     +--| (100)
+|                          |      |     |  +--OsOSCA2.4/LOC_Os12g39320
+|                          |      |  +--| (95)
+|                          |      |  |  |         +--Vtub.hapA.v1.chr1A.g020650.t1
+|                          |      |  |  |      +--| (99)
+|                          |      |  |  |      |  +--Vper.hapA.v1.chr1A.g023020.t1
+|                          |      |  |  |   +--| (100)
+|                          |      |  |  |   |  +--Vper.hapA.v1.chr1A.g023030.t1
+|                          |      |  |  +---| (100)
+|                          |      |  |      +--XsOSCA2.4/MP002250
+|                          |      +--| (100)
+|                          |         |  +-----OSCA2.4/AT1G69450
+|                          |         +--| (99)
+|                          |            +---OSCA2.3/AT3G01100
+|                 +--------| (100)
+|                 |        |                      +--ZmOSCA3.1/GRMZM2G162253
+|                 |        |                   +--| (100)
+|                 |        |                   |  +--Sobic.002G034500
+|                 |        |                +--| (100)
+|                 |        |                |  +--OsOSCA3.1/LOC_Os07g05570
+|                 |        |             +--| (91)
+|                 |        |             |  +---OSCA3.1/AT1G30360
+|                 |        |   +---------| (100)
+|                 |        |   |         |        +--Vtub.hapA.v1.chr1A.g018250.t1
+|                 |        |   |         |     +--| (100)
+|                 |        |   |         |     |  +--Vper.hapA.v1.chr1A.g020450.t1
+|                 |        |   |         |  +--| (70)
+|                 |        |   |         |  |  |     +--Vtub.hapA.v1.chr5A.g129040.t1
+|                 |        |   |         |  |  |  +--| (100)
+|                 |        |   |         |  |  |  |  +--Vper.hapA.v1.chr5A.g142080.t1
+|                 |        |   |         |  |  +--| (100)
+|                 |        |   |         |  |     +--XsOSCA3.2/MP014080
+|                 |        |   |         +--| (98)
+|                 |        |   |            +--XsOSCA3.1/MP001991
+|                 |        +---| (99)
+|                 |            |                                           +--ZmOSCA4.1/GRMZM2G059891
+|                 |            |                                        +--| (100)
+|                 |            |                                        |  +--Sobic.001G512400
+|                 |            |                                     +--| (100)
+|                 |            |                                     |  +--OsOSCA4.1/LOC_Os03g04450
+|                 |            |                                  +--| (97)
+|                 |            |                                  |  |     +--Vtub.hapA.v1.chr8A.g207990.t1
+|                 |            |                                  |  |  +--| (100)
+|                 |            |                                  |  |  |  +--Vper.hapA.v1.chr8A.g231320.t1
+|                 |            |                                  |  +--| (100)
+|                 |            |                                  |     +--XsOSCA4.1/MP022802
+|                 |            +----------------------------------| (100)
+|                 |                                               +--OSCA4.1/AT4G35870
+|              +--| (95)
+|              |  |           +--ZmOSCA1.4/GRMZM2G128641
+|              |  |        +--| (100)
+|              |  |        |  +--Sobic.001G282700
+|              |  |     +--| (100)
+|              |  |     |  +--OsOSCA1.4/LOC_Os10g42820
+|              |  |  +--| (79)
+|              |  |  |  |        +--Vtub.hapA.v1.chr7A.g166590.t1
+|              |  |  |  |     +--| (99)
+|              |  |  |  |     |  +--Vper.hapA.v1.chr7A.g186390.t1
+|              |  |  |  |  +--| (51)
+|              |  |  |  |  |  |  +--Vtub.hapA.v1.chr7A.g166600.t1
+|              |  |  |  |  |  +--| (58)
+|              |  |  |  |  |     +--Vper.hapA.v1.chr7A.g186400.t1
+|              |  |  |  +--| (100)
+|              |  |  |     |  +--Vtub.hapA.v1.chr7A.g166610.t1
+|              |  |  |     +--| (100)
+|              |  |  |        +--Vper.hapA.v1.chr7A.g186410.t1
+|              |  +--| (93)
+|              |     +--OSCA1.8/AT1G32090
+|           +--| (81)
+|           |  |           +--ZmOSCA1.3/GRMZM2G181206
+|           |  |        +--| (100)
+|           |  |        |  +--Sobic.009G145000
+|           |  |     +--| (100)
+|           |  |     |  +--OsOSCA1.3/LOC_Os05g32720
+|           |  |  +--| (81)
+|           |  |  |  +--OSCA1.7/AT4G02900
+|           |  +--| (94)
+|           |     |  +--Vtub.hapA.v1.chr9A.g230740.t1
+|           |     +--| (100)
+|           |        +--Vper.hapA.v1.chr9A.g255760.t1
+|        +--| (100)
+|        |  |        +--OSCA1.1/AT4G04340
+|        |  |     +--| (100)
+|        |  |     |  +--OSCA1.2/AT4G22120
+|        |  |  +--| (100)
+|        |  |  |  |  +--OSCA1.4/AT1G62320
+|        |  |  |  +--| (100)
+|        |  |  |     +--OSCA1.3/AT1G11960
+|        |  +--| (98)
+|        |     |  +--OSCA1.6/AT4G15430
+|        |     +--| (100)
+|        |        +--OSCA1.5/AT3G21620
+|     +--| (100)
+|     |  |     +--Vtub.hapA.v1.chr4A.g106800.t1
+|     |  |  +--| (100)
+|     |  |  |  +--Vper.hapA.v1.chr4A.g117080.t1
+|     |  +--| (100)
+|     |     +--XsOSCA1.1/MP011677
+|  +--| (100)
+|  |  |        +--ZmOSCA1.1a/GRMZM2G064189
+|  |  |     +--| (100)
+|  |  |     |  +**ZmOSCA1.1b/GRMZM2G021194
+|  |  |  +--| (100)
+|  |  |  |  +--Sobic.003G181600
+|  |  +--| (100)
+|  |     +--OsOSCA1.1/LOC_Os01g35050
++--| (100)
+|  +--OsOSCA1.2/LOC_Os05g51630
+|
++--Sobic.009G258100
+
+Tree in newick format:
+
+(ZmOSCA1.2/GRMZM2G456000:0.0390561483,((((((((((((ZmOSCA2.5/GRMZM2G402708:0.1054489810,Sobic.003G427000:0.0454863191)100:0.0862725386,OsOSCA2.5/LOC_Os01g72210:0.1448230082)100:0.3934862133,OSCA2.5/AT3G54510:0.6659607575)97:0.1236920054,(Vtub.hapA.v1.chr9A.g231910.t1:0.0110126003,Vper.hapA.v1.chr9A.g257040.t1:0.0362884768)100:0.3369969122)100:0.9940418211,((((((ZmOSCA2.3/GRMZM2G164470:0.0347378601,Sobic.001G106800:0.0246875656)100:0.1420818540,OsOSCA2.3/LOC_Os03g51620:0.1378957303)100:0.4534300883,((Vtub.hapA.v1.chr1A.g012080.t1:0.0031111051,Vper.hapA.v1.chr1A.g013600.t1:0.0086520932)100:0.0390551712,XsOSCA2.3/MP001327:0.0487858460)100:0.2551130472)73:0.0771570991,((((ZmOSCA2.2/GRMZM2G409093:0.0317135635,Sobic.001G140000:0.0406163822)100:0.1117631289,OsOSCA2.2/LOC_Os03g47070:0.1113139856)100:0.0633919366,((ZmOSCA2.1/GRMZM2G163059:0.0228826369,Sobic.008G187100:0.0140530767)100:0.0837978763,OsOSCA2.1/LOC_Os12g43720:0.0861526237)100:0.0841690528)100:0.1991349289,((Vtub.hapA.v1.chr1A.g019410.t1:0.0409546206,Vper.hapA.v1.chr1A.g021690.t1:0.0875811848)100:0.0649549406,((Vtub.hapA.v1.chr5A.g127830.t1:0.0186158556,Vper.hapA.v1.chr5A.g140750.t1:0.0352383003)100:0.0987029254,(XsOSCA2.1/MP002111:0.0016470037,XsOSCA2.2/MP013956:0.0000014018)100:0.0867485879)99:0.0269420220)100:0.3757156440)96:0.1041328609)69:0.0756188236,(OSCA2.1/AT1G58520:0.2106776074,OSCA2.2/AT1G10090:0.1938185382)100:0.4873999747)100:0.4887560934,((((ZmOSCA2.4/GRMZM2G039186:0.0639606743,Sobic.008G144900:0.0372269219)100:0.0827304997,OsOSCA2.4/LOC_Os12g39320:0.0708903661)100:0.4375441690,(((Vtub.hapA.v1.chr1A.g020650.t1:0.0129993533,Vper.hapA.v1.chr1A.g023020.t1:0.0342169226)99:0.0332201449,Vper.hapA.v1.chr1A.g023030.t1:0.0635057151)100:0.0845955243,XsOSCA2.4/MP002250:0.1137403716)100:0.4718409668)95:0.0737829580,(OSCA2.4/AT1G69450:0.7294588732,OSCA2.3/AT3G01100:0.5316636873)99:0.1248585005)100:0.3186517397)99:0.3967667844)100:0.5413343712,(((((ZmOSCA3.1/GRMZM2G162253:0.2568044265,Sobic.002G034500:0.0411990251)100:0.1172648990,OsOSCA3.1/LOC_Os07g05570:0.1392017899)100:0.3005503881,OSCA3.1/AT1G30360:0.5662639246)91:0.0877793273,(((Vtub.hapA.v1.chr1A.g018250.t1:0.0368630730,Vper.hapA.v1.chr1A.g020450.t1:0.0165120805)100:0.0554035350,((Vtub.hapA.v1.chr5A.g129040.t1:0.0291851373,Vper.hapA.v1.chr5A.g142080.t1:0.0245603529)100:0.0939647585,XsOSCA3.2/MP014080:0.1058229218)100:0.0927862106)70:0.0269044482,XsOSCA3.1/MP001991:0.0743712426)98:0.1504722772)100:1.2399781980,((((ZmOSCA4.1/GRMZM2G059891:0.0180938867,Sobic.001G512400:0.0116926115)100:0.0554015222,OsOSCA4.1/LOC_Os03g04450:0.0669844846)100:0.1990013495,((Vtub.hapA.v1.chr8A.g207990.t1:0.0178863624,Vper.hapA.v1.chr8A.g231320.t1:0.0165731688)100:0.0385265844,XsOSCA4.1/MP022802:0.0607210398)100:0.2715793151)97:0.2108210728,OSCA4.1/AT4G35870:0.3824996193)100:4.1267726900)99:0.5286859982)100:1.0384160160,((((ZmOSCA1.4/GRMZM2G128641:0.0385220791,Sobic.001G282700:0.0271383153)100:0.0847624609,OsOSCA1.4/LOC_Os10g42820:0.1025035017)100:0.1871607577,(((Vtub.hapA.v1.chr7A.g166590.t1:0.0344024416,Vper.hapA.v1.chr7A.g186390.t1:0.0224527190)99:0.0218453952,(Vtub.hapA.v1.chr7A.g166600.t1:0.1012173657,Vper.hapA.v1.chr7A.g186400.t1:0.1235014091)58:0.0291591096)51:0.0073836787,(Vtub.hapA.v1.chr7A.g166610.t1:0.1017866829,Vper.hapA.v1.chr7A.g186410.t1:0.0820364252)100:0.0921344179)100:0.2252861932)79:0.0771357775,OSCA1.8/AT1G32090:0.3432373075)93:0.1266494051)95:0.2381045654,((((ZmOSCA1.3/GRMZM2G181206:0.0238028942,Sobic.009G145000:0.0317905234)100:0.0814884938,OsOSCA1.3/LOC_Os05g32720:0.0664585485)100:0.2203637599,OSCA1.7/AT4G02900:0.3371677642)81:0.0694368738,(Vtub.hapA.v1.chr9A.g230740.t1:0.0696720390,Vper.hapA.v1.chr9A.g255760.t1:0.0071383923)100:0.1740637401)94:0.1102257684)81:0.0526337663,(((OSCA1.1/AT4G04340:0.1212999890,OSCA1.2/AT4G22120:0.0899854765)100:0.1128565845,(OSCA1.4/AT1G62320:0.1323698860,OSCA1.3/AT1G11960:0.1427173662)100:0.1555763187)100:0.0704837214,(OSCA1.6/AT4G15430:0.2282824724,OSCA1.5/AT3G21620:0.1361391908)100:0.1861320310)98:0.0658210162)100:0.0583569848,((Vtub.hapA.v1.chr4A.g106800.t1:0.0122136954,Vper.hapA.v1.chr4A.g117080.t1:0.0175446524)100:0.0541780675,XsOSCA1.1/MP011677:0.0362185130)100:0.2024952197)100:0.1100244777,(((ZmOSCA1.1a/GRMZM2G064189:0.0071030027,ZmOSCA1.1b/GRMZM2G021194:0.0000014018)100:0.0285793602,Sobic.003G181600:0.0116984318)100:0.0465428414,OsOSCA1.1/LOC_Os01g35050:0.0500408034)100:0.0691300658)100:0.0945006120,OsOSCA1.2/LOC_Os05g51630:0.1136070565)100:0.1012061311,Sobic.009G258100:0.0182519211);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -52714.741238
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ZmOSCA1.2/GRMZM2G456000
+|
+|                                               +--ZmOSCA2.5/GRMZM2G402708
+|                                            +--| (100)
+|                                            |  +--Sobic.003G427000
+|                                         +--| (100)
+|                                         |  +--OsOSCA2.5/LOC_Os01g72210
+|                                      +--| (97)
+|                                      |  +----OSCA2.5/AT3G54510
+|                              +-------| (100)
+|                              |       |  +--Vtub.hapA.v1.chr9A.g231910.t1
+|                              |       +--| (100)
+|                              |          +--Vper.hapA.v1.chr9A.g257040.t1
+|                          +---| (100)
+|                          |   |                  +--ZmOSCA2.3/GRMZM2G164470
+|                          |   |               +--| (100)
+|                          |   |               |  +--Sobic.001G106800
+|                          |   |            +--| (100)
+|                          |   |            |  +--OsOSCA2.3/LOC_Os03g51620
+|                          |   |         +--| (73)
+|                          |   |         |  |     +--Vtub.hapA.v1.chr1A.g012080.t1
+|                          |   |         |  |  +--| (100)
+|                          |   |         |  |  |  +--Vper.hapA.v1.chr1A.g013600.t1
+|                          |   |         |  +--| (100)
+|                          |   |         |     +--XsOSCA2.3/MP001327
+|                          |   |      +--| (69)
+|                          |   |      |  |           +--ZmOSCA2.2/GRMZM2G409093
+|                          |   |      |  |        +--| (100)
+|                          |   |      |  |        |  +--Sobic.001G140000
+|                          |   |      |  |     +--| (100)
+|                          |   |      |  |     |  +--OsOSCA2.2/LOC_Os03g47070
+|                          |   |      |  |  +--| (100)
+|                          |   |      |  |  |  |     +--ZmOSCA2.1/GRMZM2G163059
+|                          |   |      |  |  |  |  +--| (100)
+|                          |   |      |  |  |  |  |  +--Sobic.008G187100
+|                          |   |      |  |  |  +--| (100)
+|                          |   |      |  |  |     +--OsOSCA2.1/LOC_Os12g43720
+|                          |   |      |  +--| (96)
+|                          |   |      |     |     +--Vtub.hapA.v1.chr1A.g019410.t1
+|                          |   |      |     |  +--| (100)
+|                          |   |      |     |  |  +--Vper.hapA.v1.chr1A.g021690.t1
+|                          |   |      |     +--| (100)
+|                          |   |      |        |     +--Vtub.hapA.v1.chr5A.g127830.t1
+|                          |   |      |        |  +--| (100)
+|                          |   |      |        |  |  +--Vper.hapA.v1.chr5A.g140750.t1
+|                          |   |      |        +--| (99)
+|                          |   |      |           |  +--XsOSCA2.1/MP002111
+|                          |   |      |           +--| (100)
+|                          |   |      |              +--XsOSCA2.2/MP013956
+|                          |   |  +---| (100)
+|                          |   |  |   |   +--OSCA2.1/AT1G58520
+|                          |   |  |   +---| (100)
+|                          |   |  |       +--OSCA2.2/AT1G10090
+|                          |   +--| (99)
+|                          |      |           +--ZmOSCA2.4/GRMZM2G039186
+|                          |      |        +--| (100)
+|                          |      |        |  +--Sobic.008G144900
+|                          |      |     +--| (100)
+|                          |      |     |  +--OsOSCA2.4/LOC_Os12g39320
+|                          |      |  +--| (95)
+|                          |      |  |  |         +--Vtub.hapA.v1.chr1A.g020650.t1
+|                          |      |  |  |      +--| (99)
+|                          |      |  |  |      |  +--Vper.hapA.v1.chr1A.g023020.t1
+|                          |      |  |  |   +--| (100)
+|                          |      |  |  |   |  +--Vper.hapA.v1.chr1A.g023030.t1
+|                          |      |  |  +---| (100)
+|                          |      |  |      +--XsOSCA2.4/MP002250
+|                          |      +--| (100)
+|                          |         |  +-----OSCA2.4/AT1G69450
+|                          |         +--| (99)
+|                          |            +---OSCA2.3/AT3G01100
+|                 +--------| (100)
+|                 |        |                      +--ZmOSCA3.1/GRMZM2G162253
+|                 |        |                   +--| (100)
+|                 |        |                   |  +--Sobic.002G034500
+|                 |        |                +--| (100)
+|                 |        |                |  +--OsOSCA3.1/LOC_Os07g05570
+|                 |        |             +--| (91)
+|                 |        |             |  +---OSCA3.1/AT1G30360
+|                 |        |   +---------| (100)
+|                 |        |   |         |        +--Vtub.hapA.v1.chr1A.g018250.t1
+|                 |        |   |         |     +--| (100)
+|                 |        |   |         |     |  +--Vper.hapA.v1.chr1A.g020450.t1
+|                 |        |   |         |  +--| (70)
+|                 |        |   |         |  |  |     +--Vtub.hapA.v1.chr5A.g129040.t1
+|                 |        |   |         |  |  |  +--| (100)
+|                 |        |   |         |  |  |  |  +--Vper.hapA.v1.chr5A.g142080.t1
+|                 |        |   |         |  |  +--| (100)
+|                 |        |   |         |  |     +--XsOSCA3.2/MP014080
+|                 |        |   |         +--| (98)
+|                 |        |   |            +--XsOSCA3.1/MP001991
+|                 |        +---| (99)
+|                 |            |                                           +--ZmOSCA4.1/GRMZM2G059891
+|                 |            |                                        +--| (100)
+|                 |            |                                        |  +--Sobic.001G512400
+|                 |            |                                     +--| (100)
+|                 |            |                                     |  +--OsOSCA4.1/LOC_Os03g04450
+|                 |            |                                  +--| (97)
+|                 |            |                                  |  |     +--Vtub.hapA.v1.chr8A.g207990.t1
+|                 |            |                                  |  |  +--| (100)
+|                 |            |                                  |  |  |  +--Vper.hapA.v1.chr8A.g231320.t1
+|                 |            |                                  |  +--| (100)
+|                 |            |                                  |     +--XsOSCA4.1/MP022802
+|                 |            +----------------------------------| (100)
+|                 |                                               +--OSCA4.1/AT4G35870
+|              +--| (95)
+|              |  |           +--ZmOSCA1.4/GRMZM2G128641
+|              |  |        +--| (100)
+|              |  |        |  +--Sobic.001G282700
+|              |  |     +--| (100)
+|              |  |     |  +--OsOSCA1.4/LOC_Os10g42820
+|              |  |  +--| (79)
+|              |  |  |  |        +--Vtub.hapA.v1.chr7A.g166590.t1
+|              |  |  |  |     +--| (99)
+|              |  |  |  |     |  +--Vper.hapA.v1.chr7A.g186390.t1
+|              |  |  |  |  +--| (51)
+|              |  |  |  |  |  |  +--Vtub.hapA.v1.chr7A.g166600.t1
+|              |  |  |  |  |  +--| (58)
+|              |  |  |  |  |     +--Vper.hapA.v1.chr7A.g186400.t1
+|              |  |  |  +--| (100)
+|              |  |  |     |  +--Vtub.hapA.v1.chr7A.g166610.t1
+|              |  |  |     +--| (100)
+|              |  |  |        +--Vper.hapA.v1.chr7A.g186410.t1
+|              |  +--| (93)
+|              |     +--OSCA1.8/AT1G32090
+|           +--| (81)
+|           |  |           +--ZmOSCA1.3/GRMZM2G181206
+|           |  |        +--| (100)
+|           |  |        |  +--Sobic.009G145000
+|           |  |     +--| (100)
+|           |  |     |  +--OsOSCA1.3/LOC_Os05g32720
+|           |  |  +--| (81)
+|           |  |  |  +--OSCA1.7/AT4G02900
+|           |  +--| (94)
+|           |     |  +--Vtub.hapA.v1.chr9A.g230740.t1
+|           |     +--| (100)
+|           |        +--Vper.hapA.v1.chr9A.g255760.t1
+|        +--| (100)
+|        |  |        +--OSCA1.1/AT4G04340
+|        |  |     +--| (100)
+|        |  |     |  +--OSCA1.2/AT4G22120
+|        |  |  +--| (100)
+|        |  |  |  |  +--OSCA1.4/AT1G62320
+|        |  |  |  +--| (100)
+|        |  |  |     +--OSCA1.3/AT1G11960
+|        |  +--| (98)
+|        |     |  +--OSCA1.6/AT4G15430
+|        |     +--| (100)
+|        |        +--OSCA1.5/AT3G21620
+|     +--| (100)
+|     |  |     +--Vtub.hapA.v1.chr4A.g106800.t1
+|     |  |  +--| (100)
+|     |  |  |  +--Vper.hapA.v1.chr4A.g117080.t1
+|     |  +--| (100)
+|     |     +--XsOSCA1.1/MP011677
+|  +--| (100)
+|  |  |        +--ZmOSCA1.1a/GRMZM2G064189
+|  |  |     +--| (100)
+|  |  |     |  +--ZmOSCA1.1b/GRMZM2G021194
+|  |  |  +--| (100)
+|  |  |  |  +--Sobic.003G181600
+|  |  +--| (100)
+|  |     +--OsOSCA1.1/LOC_Os01g35050
++--| (100)
+|  +--OsOSCA1.2/LOC_Os05g51630
+|
++--Sobic.009G258100
+
+
+Consensus tree in newick format: 
+
+(ZmOSCA1.2/GRMZM2G456000:0.0390027644,((((((((((((ZmOSCA2.5/GRMZM2G402708:0.1052106063,Sobic.003G427000:0.0453695500)100:0.0860156194,OsOSCA2.5/LOC_Os01g72210:0.1445685956)100:0.3924815098,OSCA2.5/AT3G54510:0.6643037861)97:0.1235650973,(Vtub.hapA.v1.chr9A.g231910.t1:0.0110019557,Vper.hapA.v1.chr9A.g257040.t1:0.0361930139)100:0.3362534190)100:0.9913879477,((((((ZmOSCA2.3/GRMZM2G164470:0.0346588473,Sobic.001G106800:0.0246193766)100:0.1416455163,OsOSCA2.3/LOC_Os03g51620:0.1376169223)100:0.4521599770,((Vtub.hapA.v1.chr1A.g012080.t1:0.0031027974,Vper.hapA.v1.chr1A.g013600.t1:0.0086285517)100:0.0389373259,XsOSCA2.3/MP001327:0.0486791603)100:0.2543679079)73:0.0770364456,((((ZmOSCA2.2/GRMZM2G409093:0.0316438860,Sobic.001G140000:0.0404939284)100:0.1114747933,OsOSCA2.2/LOC_Os03g47070:0.1110204543)100:0.0632575544,((ZmOSCA2.1/GRMZM2G163059:0.0228167554,Sobic.008G187100:0.0140141640)100:0.0835740679,OsOSCA2.1/LOC_Os12g43720:0.0859313769)100:0.0839338884)100:0.1986622627,((Vtub.hapA.v1.chr1A.g019410.t1:0.0408533269,Vper.hapA.v1.chr1A.g021690.t1:0.0873612360)100:0.0648329380,((Vtub.hapA.v1.chr5A.g127830.t1:0.0185721730,Vper.hapA.v1.chr5A.g140750.t1:0.0351455826)100:0.0984606139,(XsOSCA2.1/MP002111:0.0016428969,XsOSCA2.2/MP013956:0.0000024478)100:0.0865145111)99:0.0268666970)100:0.3746060657)96:0.1039066143)69:0.0756277498,(OSCA2.1/AT1G58520:0.2102165837,OSCA2.2/AT1G10090:0.1932865097)100:0.4859696124)100:0.4874139538,((((ZmOSCA2.4/GRMZM2G039186:0.0637937108,Sobic.008G144900:0.0371263436)100:0.0825171637,OsOSCA2.4/LOC_Os12g39320:0.0707401571)100:0.4363215679,(((Vtub.hapA.v1.chr1A.g020650.t1:0.0129777055,Vper.hapA.v1.chr1A.g023020.t1:0.0341289013)99:0.0331284010,Vper.hapA.v1.chr1A.g023030.t1:0.0633611101)100:0.0843551508,XsOSCA2.4/MP002250:0.1134957193)100:0.4705530427)95:0.0736754950,(OSCA2.4/AT1G69450:0.7274696047,OSCA2.3/AT3G01100:0.5301284402)99:0.1247390885)100:0.3178708414)99:0.3960765328)100:0.5404078208,(((((ZmOSCA3.1/GRMZM2G162253:0.2562575184,Sobic.002G034500:0.0410719008)100:0.1170644897,OsOSCA3.1/LOC_Os07g05570:0.1389407259)100:0.2999180276,OSCA3.1/AT1G30360:0.5649502897)91:0.0880304785,(((Vtub.hapA.v1.chr1A.g018250.t1:0.0367901990,Vper.hapA.v1.chr1A.g020450.t1:0.0164766619)100:0.0552966209,((Vtub.hapA.v1.chr5A.g129040.t1:0.0291308235,Vper.hapA.v1.chr5A.g142080.t1:0.0245090935)100:0.0937707519,XsOSCA3.2/MP014080:0.1056268764)100:0.0925950020)70:0.0268566817,XsOSCA3.1/MP001991:0.0742268170)98:0.1498269841)100:1.2366349710,((((ZmOSCA4.1/GRMZM2G059891:0.0180633544,Sobic.001G512400:0.0116662509)100:0.0552693122,OsOSCA4.1/LOC_Os03g04450:0.0668857983)100:0.1986346857,((Vtub.hapA.v1.chr8A.g207990.t1:0.0178535628,Vper.hapA.v1.chr8A.g231320.t1:0.0165408922)100:0.0384558996,XsOSCA4.1/MP022802:0.0606142704)100:0.2710007434)97:0.2058405397,OSCA4.1/AT4G35870:0.3870544938)100:4.1183084333)99:0.5283175935)100:1.0360343983,((((ZmOSCA1.4/GRMZM2G128641:0.0384692856,Sobic.001G282700:0.0270796337)100:0.0845917765,OsOSCA1.4/LOC_Os10g42820:0.1023556425)100:0.1868457701,(((Vtub.hapA.v1.chr7A.g166590.t1:0.0343425691,Vper.hapA.v1.chr7A.g186390.t1:0.0224086123)99:0.0218112115,(Vtub.hapA.v1.chr7A.g166600.t1:0.1010321894,Vper.hapA.v1.chr7A.g186400.t1:0.1232623419)58:0.0291123402)51:0.0073714540,(Vtub.hapA.v1.chr7A.g166610.t1:0.1015911053,Vper.hapA.v1.chr7A.g186410.t1:0.0818751963)100:0.0919646988)100:0.2248372206)79:0.0770370258,OSCA1.8/AT1G32090:0.3425989700)93:0.1269085023)95:0.2372639726,((((ZmOSCA1.3/GRMZM2G181206:0.0237684796,Sobic.009G145000:0.0317316203)100:0.0813279920,OsOSCA1.3/LOC_Os05g32720:0.0663742106)100:0.2199353536,OSCA1.7/AT4G02900:0.3365468036)81:0.0693731092,(Vtub.hapA.v1.chr9A.g230740.t1:0.0695365463,Vper.hapA.v1.chr9A.g255760.t1:0.0071298138)100:0.1737438738)94:0.1100975609)81:0.0525366567,(((OSCA1.1/AT4G04340:0.1211214324,OSCA1.2/AT4G22120:0.0898201767)100:0.1126837110,(OSCA1.4/AT1G62320:0.1321748681,OSCA1.3/AT1G11960:0.1424610962)100:0.1553152147)100:0.0703790264,(OSCA1.6/AT4G15430:0.2278907297,OSCA1.5/AT3G21620:0.1358881254)100:0.1858372390)98:0.0657540613)100:0.0582713141,((Vtub.hapA.v1.chr4A.g106800.t1:0.0121963492,Vper.hapA.v1.chr4A.g117080.t1:0.0175153041)100:0.0540869062,XsOSCA1.1/MP011677:0.0361732560)100:0.2021871186)100:0.1098510765,(((ZmOSCA1.1a/GRMZM2G064189:0.0070918896,ZmOSCA1.1b/GRMZM2G021194:0.0000020930)100:0.0285335346,Sobic.003G181600:0.0116828309)100:0.0464659805,OsOSCA1.1/LOC_Os01g35050:0.0499744695)100:0.0690167510)100:0.0943719875,OsOSCA1.2/LOC_Os05g51630:0.1134335247)100:0.1010448895,Sobic.009G258100:0.0182194453);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t chapter2_osca/02_phylogeny/results/iqtree_xerophyta.treefile -m "Q.PLANT+R5{0.0886683,0.0980123,0.156099,0.278673,0.309281,0.594271,0.27165,1.19893,0.174303,2.51473}" --length 1691
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s chapter2_osca/02_phylogeny/results/allOSCAs_with_Xerophyta.aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s chapter2_osca/02_phylogeny/results/allOSCAs_with_Xerophyta.aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct 22 17:21:13 2026
+Total CPU time used: 1832.100048 seconds (0h:30m:32s)
+Total wall-clock time used: 231.868993 seconds (0h:3m:51s)
+

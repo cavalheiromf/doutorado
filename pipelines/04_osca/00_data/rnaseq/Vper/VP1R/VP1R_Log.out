@@ -1,0 +1,385 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2024-11-12T21:37:28-03:00 biotec02:/home/program2/src/STAR/STAR-2.7.11b/source
+STAR git: 
+##### Command Line:
+STAR --genomeDir /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vper --readFilesIn /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R1.fastq.gz /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_ --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --runThreadN 16
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_
+###### All USER parameters from Command Line:
+genomeDir                     /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vper     ~RE-DEFINED
+readFilesIn                   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R1.fastq.gz   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R2.fastq.gz        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+outFileNamePrefix             /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_     ~RE-DEFINED
+outSAMtype                    BAM   SortedByCoordinate        ~RE-DEFINED
+quantMode                     GeneCounts        ~RE-DEFINED
+runThreadN                    16     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        16
+genomeDir                         /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vper
+readFilesIn                       /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R1.fastq.gz   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R2.fastq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_
+outSAMtype                        BAM   SortedByCoordinate   
+quantMode                         GeneCounts   
+
+-------------------------------
+##### Final effective command line:
+STAR   --runThreadN 16   --genomeDir /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vper   --readFilesIn /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R1.fastq.gz   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R2.fastq.gz      --readFilesCommand zcat      --outFileNamePrefix /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_   --outSAMtype BAM   SortedByCoordinate      --quantMode GeneCounts   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-rw-r-- 1 mfcaval mfcaval 1167682436 Jul 17 15:01 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R1.fastq.gz
+
+   readsCommandsFile:
+exec > "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R__STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R1.fastq.gz"
+
+
+   Input read files for mate 2 :
+-rw-rw-r-- 1 mfcaval mfcaval 1185830087 Jul 17 15:01 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R2.fastq.gz
+
+   readsCommandsFile:
+exec > "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R__STARtmp/tmp.fifo.read2"
+echo FILE 0
+zcat      "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R2.fastq.gz"
+
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+WARNING: --limitBAMsortRAM=0, will use genome size as RAM limit for BAM sorting
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate      --runThreadN 24   --genomeDir /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vper   --genomeFastaFiles /home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.fasta      --genomeSAindexNbases 13   --sjdbGTFfile /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vper/annotation.gtf   --sjdbOverhang 99
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              /home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.fasta        ~RE-DEFINED
+genomeSAindexNbases           13     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  99     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vper/annotation.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               557498706   4286104114        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 183
+1	chr1A	73545696	0
+2	chr2A	70932818	73662464
+3	chr3A	68726971	144703488
+4	chr4A	64680346	213647360
+5	chr5A	58649856	278396928
+6	chr6A	52686453	337117184
+7	chr7A	48733133	389808128
+8	chr8A	25506087	438566912
+9	chr9A	20216504	464257024
+10	ctg10	350651	484704256
+11	ctg11	277468	485228544
+12	ctg12	277468	485752832
+13	ctg13	250000	486277120
+14	ctg14	220035	486539264
+15	ctg15	208732	486801408
+16	ctg16	189259	487063552
+17	ctg17	180167	487325696
+18	ctg18	155466	487587840
+19	ctg19	150272	487849984
+20	ctg20	131628	488112128
+21	ctg21	127956	488374272
+22	ctg22	125000	488636416
+23	ctg23	125000	488898560
+24	ctg24	125000	489160704
+25	ctg25	125000	489422848
+26	ctg26	125000	489684992
+27	ctg27	125000	489947136
+28	ctg28	125000	490209280
+29	ctg29	125000	490471424
+30	ctg30	114543	490733568
+31	ctg31	112240	490995712
+32	ctg32	112240	491257856
+33	ctg33	104900	491520000
+34	ctg34	103139	491782144
+35	ctg35	96012	492044288
+36	ctg36	94034	492306432
+37	ctg37	93435	492568576
+38	ctg38	93346	492830720
+39	ctg39	93110	493092864
+40	ctg40	85817	493355008
+41	ctg41	84684	493617152
+42	ctg42	82237	493879296
+43	ctg43	81152	494141440
+44	ctg44	79395	494403584
+45	ctg45	79218	494665728
+46	ctg46	78786	494927872
+47	ctg47	75895	495190016
+48	ctg48	75580	495452160
+49	ctg49	74940	495714304
+50	ctg50	73586	495976448
+51	ctg51	66827	496238592
+52	ctg52	65727	496500736
+53	ctg53	64099	496762880
+54	ctg54	63354	497025024
+55	ctg55	62092	497287168
+56	ctg56	61459	497549312
+57	ctg57	60579	497811456
+58	ctg58	60083	498073600
+59	ctg59	59106	498335744
+60	ctg60	58674	498597888
+61	ctg61	55939	498860032
+62	ctg62	55587	499122176
+63	ctg63	53313	499384320
+64	ctg64	53143	499646464
+65	ctg65	52345	499908608
+66	ctg66	50982	500170752
+67	ctg67	50966	500432896
+68	ctg68	50645	500695040
+69	ctg69	50110	500957184
+70	ctg70	50000	501219328
+71	ctg71	50000	501481472
+72	ctg72	50000	501743616
+73	ctg73	50000	502005760
+74	ctg74	50000	502267904
+75	ctg75	48719	502530048
+76	ctg76	41934	502792192
+77	ctg77	41694	503054336
+78	ctg78	41301	503316480
+79	ctg79	40736	503578624
+80	ctg80	39655	503840768
+81	ctg81	39247	504102912
+82	ctg82	39035	504365056
+83	ctg83	38771	504627200
+84	ctg84	38747	504889344
+85	ctg85	38685	505151488
+86	ctg86	38411	505413632
+87	ctg87	38344	505675776
+88	ctg88	38323	505937920
+89	ctg89	36097	506200064
+90	ctg90	36019	506462208
+91	ctg91	35991	506724352
+92	ctg92	35160	506986496
+93	ctg93	35029	507248640
+94	ctg94	34670	507510784
+95	ctg95	34061	507772928
+96	ctg96	34057	508035072
+97	ctg97	33706	508297216
+98	ctg98	33579	508559360
+99	ctg99	33365	508821504
+100	ctg100	33332	509083648
+101	ctg101	33220	509345792
+102	ctg102	33044	509607936
+103	ctg103	32974	509870080
+104	ctg104	32895	510132224
+105	ctg105	31817	510394368
+106	ctg106	31518	510656512
+107	ctg107	31484	510918656
+108	ctg108	30956	511180800
+109	ctg109	30778	511442944
+110	ctg110	30626	511705088
+111	ctg111	30055	511967232
+112	ctg112	28654	512229376
+113	ctg113	28260	512491520
+114	ctg114	27931	512753664
+115	ctg115	27856	513015808
+116	ctg116	27661	513277952
+117	ctg117	27491	513540096
+118	ctg118	27473	513802240
+119	ctg119	27266	514064384
+120	ctg120	26925	514326528
+121	ctg121	26867	514588672
+122	ctg122	26761	514850816
+123	ctg123	26708	515112960
+124	ctg124	26010	515375104
+125	ctg125	25992	515637248
+126	ctg126	25983	515899392
+127	ctg127	25915	516161536
+128	ctg128	25888	516423680
+129	ctg129	25435	516685824
+130	ctg130	25243	516947968
+131	ctg131	25176	517210112
+132	ctg132	25056	517472256
+133	ctg133	25000	517734400
+134	ctg134	25000	517996544
+135	ctg135	24956	518258688
+136	ctg136	24601	518520832
+137	ctg137	24471	518782976
+138	ctg138	23922	519045120
+139	ctg139	23487	519307264
+140	ctg140	23446	519569408
+141	ctg141	23242	519831552
+142	ctg142	22832	520093696
+143	ctg143	22659	520355840
+144	ctg144	22630	520617984
+145	ctg145	22335	520880128
+146	ctg146	22264	521142272
+147	ctg147	22168	521404416
+148	ctg148	22156	521666560
+149	ctg149	22130	521928704
+150	ctg150	21802	522190848
+151	ctg151	21664	522452992
+152	ctg152	21424	522715136
+153	ctg153	21388	522977280
+154	ctg154	21297	523239424
+155	ctg155	21130	523501568
+156	ctg156	21124	523763712
+157	ctg157	21060	524025856
+158	ctg158	21012	524288000
+159	ctg159	20661	524550144
+160	ctg160	20518	524812288
+161	ctg161	20036	525074432
+162	ctg162	19813	525336576
+163	ctg163	19775	525598720
+164	ctg164	19726	525860864
+165	ctg165	18789	526123008
+166	ctg166	18201	526385152
+167	ctg167	18007	526647296
+168	ctg168	16952	526909440
+169	ctg169	16803	527171584
+170	ctg170	16195	527433728
+171	ctg171	15999	527695872
+172	ctg172	15497	527958016
+173	ctg173	15029	528220160
+174	ctg174	14135	528482304
+175	ctg175	13827	528744448
+176	ctg176	13325	529006592
+177	ctg177	12941	529268736
+178	ctg178	12930	529530880
+179	ctg179	12908	529793024
+180	ctg180	10000	530055168
+181	ctg181	9747	530317312
+182	ctg182	9114	530579456
+183	ctg183	8532	530841600
+--sjdbOverhang = 99 taken from the generated genome
+Started loading the genome: Fri Jul 17 15:01:16 2026
+
+Genome: size given as a parameter = 557498706
+SA: size given as a parameter = 4286104114
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=13  nSAi=89478484
+nGenome=557498706;  nSAbyte=4286104114
+GstrandBit=32   SA number of indices=1039055542
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 557498706 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 557498706 bytes
+SA file size: 4286104114 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 4286104114 bytes
+Loading SAindex ... done: 391468491 bytes
+Finished loading the genome: Fri Jul 17 15:01:20 2026
+
+Processing splice junctions database sjdbN=132638,   pGe.sjdbOverhang=99 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Created thread # 1
+Starting to map file # 0
+mate 1:   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R1.fastq.gz
+mate 2:   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vper/VP1R/VP1R_raw_merged_R2.fastq.gz
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Created thread # 8
+Created thread # 9
+Created thread # 10
+Created thread # 11
+Created thread # 12
+Created thread # 13
+Created thread # 14
+Created thread # 15
+BAM sorting: 192175 mapped reads
+BAM sorting bins genomic start loci:
+1	0	5204429
+2	0	12204236
+3	0	18182475
+4	0	21038411
+5	0	32919249
+6	0	67785120
+7	1	1014594
+8	1	3326073
+9	1	9074731
+10	1	57412667
+11	1	60303527
+12	1	62154847
+13	1	65977031
+14	1	67997590
+15	2	3138840
+16	2	8686345
+17	2	54932771
+18	2	62077429
+19	2	66876745
+20	3	4624550
+21	3	9156454
+22	3	13450193
+23	3	17409056
+24	3	56111613
+25	4	619777
+26	4	3229559
+27	4	6746652
+28	4	15387625
+29	4	54025241
+30	5	3309680
+31	5	10163243
+32	5	47217687
+33	6	1960719
+34	6	6725413
+35	6	10658545
+36	6	14008198
+37	6	34447451
+38	7	1645943
+39	7	12291032
+40	7	16759422
+41	7	17864678
+42	7	21645915
+43	7	21654534
+44	7	22407986
+45	8	2361090
+46	8	6156826
+47	8	11273000
+48	8	16851036
+Thread #6 end of input stream, nextChar=-1
+Completed: thread #0
+Completed: thread #11
+Completed: thread #2
+Completed: thread #4
+Completed: thread #6
+Completed: thread #10
+Completed: thread #7
+Completed: thread #12
+Completed: thread #3
+Completed: thread #8
+Completed: thread #1
+Joined thread # 1
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Completed: thread #15
+Completed: thread #14
+Completed: thread #9
+Completed: thread #13
+Completed: thread #5
+Joined thread # 5
+Joined thread # 6
+Joined thread # 7
+Joined thread # 8
+Joined thread # 9
+Joined thread # 10
+Joined thread # 11
+Joined thread # 12
+Joined thread # 13
+Joined thread # 14
+Joined thread # 15
+Jul 17 15:04:45 ..... finished mapping
+RAM after mapping:
+VmPeak:	 8865832 kB; VmSize:	 8679972 kB; VmHWM:	 7712812 kB; VmRSS:	 7712372 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 8865832 kB; VmSize:	 3567588 kB; VmHWM:	 7712812 kB; VmRSS:	 2599992 kB; 
+Jul 17 15:04:46 ..... started sorting BAM
+Max memory needed for sorting = 187449773
+ALL DONE!

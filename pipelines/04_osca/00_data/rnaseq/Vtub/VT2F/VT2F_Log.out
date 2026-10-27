@@ -1,0 +1,628 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2024-11-12T21:37:28-03:00 biotec02:/home/program2/src/STAR/STAR-2.7.11b/source
+STAR git: 
+##### Command Line:
+STAR --genomeDir /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vtub --readFilesIn /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R1.fastq.gz /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_ --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --runThreadN 16
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_
+###### All USER parameters from Command Line:
+genomeDir                     /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vtub     ~RE-DEFINED
+readFilesIn                   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R1.fastq.gz   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R2.fastq.gz        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+outFileNamePrefix             /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_     ~RE-DEFINED
+outSAMtype                    BAM   SortedByCoordinate        ~RE-DEFINED
+quantMode                     GeneCounts        ~RE-DEFINED
+runThreadN                    16     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        16
+genomeDir                         /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vtub
+readFilesIn                       /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R1.fastq.gz   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R2.fastq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_
+outSAMtype                        BAM   SortedByCoordinate   
+quantMode                         GeneCounts   
+
+-------------------------------
+##### Final effective command line:
+STAR   --runThreadN 16   --genomeDir /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vtub   --readFilesIn /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R1.fastq.gz   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R2.fastq.gz      --readFilesCommand zcat      --outFileNamePrefix /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_   --outSAMtype BAM   SortedByCoordinate      --quantMode GeneCounts   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-rw-r-- 1 mfcaval mfcaval 1559260688 Jul 17 15:14 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R1.fastq.gz
+
+   readsCommandsFile:
+exec > "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F__STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R1.fastq.gz"
+
+
+   Input read files for mate 2 :
+-rw-rw-r-- 1 mfcaval mfcaval 1569101578 Jul 17 15:14 /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R2.fastq.gz
+
+   readsCommandsFile:
+exec > "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F__STARtmp/tmp.fifo.read2"
+echo FILE 0
+zcat      "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R2.fastq.gz"
+
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+WARNING: --limitBAMsortRAM=0, will use genome size as RAM limit for BAM sorting
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate      --runThreadN 24   --genomeDir /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vtub   --genomeFastaFiles /home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.fasta      --genomeSAindexNbases 13   --sjdbGTFfile /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vtub/annotation.gtf   --sjdbOverhang 99
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              /home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.fasta        ~RE-DEFINED
+genomeSAindexNbases           13     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  99     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/03_star_index/Vtub/annotation.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               571541636   4083790750        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 426
+1	chr1A	63722978	0
+2	chr2A	73413042	63963136
+3	chr3A	49831073	137625600
+4	chr4A	49019654	187695104
+5	chr5A	58382001	236716032
+6	chr6A	38462185	295174144
+7	chr7A	41695273	333709312
+8	chr8A	28906612	375652352
+9	chr9A	19795093	404750336
+10	ctg10	1015127	424673280
+11	ctg11	1015127	425721856
+12	ctg12	756135	426770432
+13	ctg13	569090	427556864
+14	ctg14	567641	428343296
+15	ctg15	484518	429129728
+16	ctg16	472618	429654016
+17	ctg17	456985	430178304
+18	ctg18	416710	430702592
+19	ctg19	401840	431226880
+20	ctg20	338910	431751168
+21	ctg21	329533	432275456
+22	ctg22	328096	432799744
+23	ctg23	318880	433324032
+24	ctg24	311476	433848320
+25	ctg25	309368	434372608
+26	ctg26	307661	434896896
+27	ctg27	288357	435421184
+28	ctg28	288226	435945472
+29	ctg29	281970	436469760
+30	ctg30	281275	436994048
+31	ctg31	271965	437518336
+32	ctg32	271164	438042624
+33	ctg33	268612	438566912
+34	ctg34	265320	439091200
+35	ctg35	262722	439615488
+36	ctg36	259496	440139776
+37	ctg37	257357	440401920
+38	ctg38	254289	440664064
+39	ctg39	253323	440926208
+40	ctg40	250900	441188352
+41	ctg41	248586	441450496
+42	ctg42	248092	441712640
+43	ctg43	246455	441974784
+44	ctg44	245605	442236928
+45	ctg45	243630	442499072
+46	ctg46	241634	442761216
+47	ctg47	240867	443023360
+48	ctg48	240178	443285504
+49	ctg49	228433	443547648
+50	ctg50	220773	443809792
+51	ctg51	219886	444071936
+52	ctg52	218603	444334080
+53	ctg53	217413	444596224
+54	ctg54	216617	444858368
+55	ctg55	215829	445120512
+56	ctg56	215169	445382656
+57	ctg57	214818	445644800
+58	ctg58	212832	445906944
+59	ctg59	212044	446169088
+60	ctg60	210849	446431232
+61	ctg61	210537	446693376
+62	ctg62	209856	446955520
+63	ctg63	208757	447217664
+64	ctg64	208654	447479808
+65	ctg65	208296	447741952
+66	ctg66	206635	448004096
+67	ctg67	202370	448266240
+68	ctg68	201371	448528384
+69	ctg69	199384	448790528
+70	ctg70	197576	449052672
+71	ctg71	195760	449314816
+72	ctg72	193464	449576960
+73	ctg73	192387	449839104
+74	ctg74	190434	450101248
+75	ctg75	189808	450363392
+76	ctg76	189515	450625536
+77	ctg77	188658	450887680
+78	ctg78	186891	451149824
+79	ctg79	186005	451411968
+80	ctg80	185009	451674112
+81	ctg81	177598	451936256
+82	ctg82	177474	452198400
+83	ctg83	177024	452460544
+84	ctg84	172248	452722688
+85	ctg85	170947	452984832
+86	ctg86	168032	453246976
+87	ctg87	166354	453509120
+88	ctg88	166121	453771264
+89	ctg89	165027	454033408
+90	ctg90	161723	454295552
+91	ctg91	161036	454557696
+92	ctg92	159767	454819840
+93	ctg93	159443	455081984
+94	ctg94	157612	455344128
+95	ctg95	156956	455606272
+96	ctg96	156457	455868416
+97	ctg97	155902	456130560
+98	ctg98	153705	456392704
+99	ctg99	151495	456654848
+100	ctg100	150845	456916992
+101	ctg101	147344	457179136
+102	ctg102	147293	457441280
+103	ctg103	146584	457703424
+104	ctg104	146060	457965568
+105	ctg105	146038	458227712
+106	ctg106	143261	458489856
+107	ctg107	142827	458752000
+108	ctg108	139755	459014144
+109	ctg109	138996	459276288
+110	ctg110	136440	459538432
+111	ctg111	135290	459800576
+112	ctg112	134084	460062720
+113	ctg113	133995	460324864
+114	ctg114	129867	460587008
+115	ctg115	127832	460849152
+116	ctg116	126210	461111296
+117	ctg117	125998	461373440
+118	ctg118	125620	461635584
+119	ctg119	125057	461897728
+120	ctg120	123761	462159872
+121	ctg121	123475	462422016
+122	ctg122	122479	462684160
+123	ctg123	122124	462946304
+124	ctg124	121600	463208448
+125	ctg125	121452	463470592
+126	ctg126	120968	463732736
+127	ctg127	118919	463994880
+128	ctg128	117701	464257024
+129	ctg129	116457	464519168
+130	ctg130	115372	464781312
+131	ctg131	114917	465043456
+132	ctg132	114242	465305600
+133	ctg133	111861	465567744
+134	ctg134	111379	465829888
+135	ctg135	111292	466092032
+136	ctg136	110380	466354176
+137	ctg137	110011	466616320
+138	ctg138	107349	466878464
+139	ctg139	106956	467140608
+140	ctg140	105266	467402752
+141	ctg141	104501	467664896
+142	ctg142	104242	467927040
+143	ctg143	103398	468189184
+144	ctg144	102592	468451328
+145	ctg145	102397	468713472
+146	ctg146	101961	468975616
+147	ctg147	100214	469237760
+148	ctg148	99885	469499904
+149	ctg149	98272	469762048
+150	ctg150	96306	470024192
+151	ctg151	96074	470286336
+152	ctg152	96074	470548480
+153	ctg153	95380	470810624
+154	ctg154	95340	471072768
+155	ctg155	95022	471334912
+156	ctg156	94963	471597056
+157	ctg157	93837	471859200
+158	ctg158	93612	472121344
+159	ctg159	93221	472383488
+160	ctg160	93127	472645632
+161	ctg161	92476	472907776
+162	ctg162	91660	473169920
+163	ctg163	91081	473432064
+164	ctg164	90910	473694208
+165	ctg165	90687	473956352
+166	ctg166	90010	474218496
+167	ctg167	89606	474480640
+168	ctg168	88586	474742784
+169	ctg169	87667	475004928
+170	ctg170	85365	475267072
+171	ctg171	85271	475529216
+172	ctg172	84208	475791360
+173	ctg173	83451	476053504
+174	ctg174	82199	476315648
+175	ctg175	81063	476577792
+176	ctg176	80799	476839936
+177	ctg177	79364	477102080
+178	ctg178	78891	477364224
+179	ctg179	78196	477626368
+180	ctg180	77905	477888512
+181	ctg181	77712	478150656
+182	ctg182	76638	478412800
+183	ctg183	76433	478674944
+184	ctg184	75571	478937088
+185	ctg185	74998	479199232
+186	ctg186	74626	479461376
+187	ctg187	74491	479723520
+188	ctg188	74261	479985664
+189	ctg189	74218	480247808
+190	ctg190	73360	480509952
+191	ctg191	73359	480772096
+192	ctg192	73145	481034240
+193	ctg193	72993	481296384
+194	ctg194	72428	481558528
+195	ctg195	71764	481820672
+196	ctg196	71673	482082816
+197	ctg197	71346	482344960
+198	ctg198	71234	482607104
+199	ctg199	71039	482869248
+200	ctg200	70866	483131392
+201	ctg201	69820	483393536
+202	ctg202	69576	483655680
+203	ctg203	68750	483917824
+204	ctg204	67754	484179968
+205	ctg205	67671	484442112
+206	ctg206	67277	484704256
+207	ctg207	66447	484966400
+208	ctg208	66427	485228544
+209	ctg209	64287	485490688
+210	ctg210	63329	485752832
+211	ctg211	62674	486014976
+212	ctg212	62256	486277120
+213	ctg213	61694	486539264
+214	ctg214	61692	486801408
+215	ctg215	61238	487063552
+216	ctg216	60969	487325696
+217	ctg217	60802	487587840
+218	ctg218	60676	487849984
+219	ctg219	60524	488112128
+220	ctg220	59543	488374272
+221	ctg221	59543	488636416
+222	ctg222	58294	488898560
+223	ctg223	57917	489160704
+224	ctg224	57839	489422848
+225	ctg225	57555	489684992
+226	ctg226	56915	489947136
+227	ctg227	56676	490209280
+228	ctg228	56169	490471424
+229	ctg229	56074	490733568
+230	ctg230	54386	490995712
+231	ctg231	53901	491257856
+232	ctg232	53767	491520000
+233	ctg233	53723	491782144
+234	ctg234	53566	492044288
+235	ctg235	52828	492306432
+236	ctg236	52692	492568576
+237	ctg237	52476	492830720
+238	ctg238	52251	493092864
+239	ctg239	51642	493355008
+240	ctg240	51565	493617152
+241	ctg241	51565	493879296
+242	ctg242	51556	494141440
+243	ctg243	51545	494403584
+244	ctg244	50847	494665728
+245	ctg245	50747	494927872
+246	ctg246	50610	495190016
+247	ctg247	50171	495452160
+248	ctg248	50071	495714304
+249	ctg249	50028	495976448
+250	ctg250	49932	496238592
+251	ctg251	49745	496500736
+252	ctg252	49037	496762880
+253	ctg253	48944	497025024
+254	ctg254	48825	497287168
+255	ctg255	48803	497549312
+256	ctg256	48778	497811456
+257	ctg257	48670	498073600
+258	ctg258	48469	498335744
+259	ctg259	48319	498597888
+260	ctg260	47678	498860032
+261	ctg261	47614	499122176
+262	ctg262	47556	499384320
+263	ctg263	47449	499646464
+264	ctg264	47409	499908608
+265	ctg265	47068	500170752
+266	ctg266	46828	500432896
+267	ctg267	46663	500695040
+268	ctg268	46599	500957184
+269	ctg269	46584	501219328
+270	ctg270	46079	501481472
+271	ctg271	45837	501743616
+272	ctg272	45802	502005760
+273	ctg273	45753	502267904
+274	ctg274	45615	502530048
+275	ctg275	45367	502792192
+276	ctg276	45231	503054336
+277	ctg277	44300	503316480
+278	ctg278	44109	503578624
+279	ctg279	43220	503840768
+280	ctg280	43188	504102912
+281	ctg281	42239	504365056
+282	ctg282	42181	504627200
+283	ctg283	41783	504889344
+284	ctg284	41579	505151488
+285	ctg285	41461	505413632
+286	ctg286	40977	505675776
+287	ctg287	40966	505937920
+288	ctg288	40934	506200064
+289	ctg289	40930	506462208
+290	ctg290	40920	506724352
+291	ctg291	40908	506986496
+292	ctg292	40895	507248640
+293	ctg293	40533	507510784
+294	ctg294	40436	507772928
+295	ctg295	40365	508035072
+296	ctg296	40169	508297216
+297	ctg297	39704	508559360
+298	ctg298	39617	508821504
+299	ctg299	38848	509083648
+300	ctg300	38729	509345792
+301	ctg301	38541	509607936
+302	ctg302	38137	509870080
+303	ctg303	38108	510132224
+304	ctg304	37770	510394368
+305	ctg305	37765	510656512
+306	ctg306	37426	510918656
+307	ctg307	37417	511180800
+308	ctg308	37334	511442944
+309	ctg309	37202	511705088
+310	ctg310	37113	511967232
+311	ctg311	37097	512229376
+312	ctg312	37038	512491520
+313	ctg313	36796	512753664
+314	ctg314	36727	513015808
+315	ctg315	36520	513277952
+316	ctg316	36370	513540096
+317	ctg317	36341	513802240
+318	ctg318	36080	514064384
+319	ctg319	36054	514326528
+320	ctg320	35919	514588672
+321	ctg321	35882	514850816
+322	ctg322	35850	515112960
+323	ctg323	35745	515375104
+324	ctg324	35726	515637248
+325	ctg325	35717	515899392
+326	ctg326	35636	516161536
+327	ctg327	35593	516423680
+328	ctg328	35359	516685824
+329	ctg329	35296	516947968
+330	ctg330	35260	517210112
+331	ctg331	34550	517472256
+332	ctg332	34515	517734400
+333	ctg333	34399	517996544
+334	ctg334	34345	518258688
+335	ctg335	34273	518520832
+336	ctg336	34075	518782976
+337	ctg337	33803	519045120
+338	ctg338	33742	519307264
+339	ctg339	33711	519569408
+340	ctg340	33676	519831552
+341	ctg341	33492	520093696
+342	ctg342	33457	520355840
+343	ctg343	33369	520617984
+344	ctg344	33330	520880128
+345	ctg345	33297	521142272
+346	ctg346	33275	521404416
+347	ctg347	33242	521666560
+348	ctg348	32926	521928704
+349	ctg349	32836	522190848
+350	ctg350	32833	522452992
+351	ctg351	32832	522715136
+352	ctg352	32794	522977280
+353	ctg353	32753	523239424
+354	ctg354	32672	523501568
+355	ctg355	32648	523763712
+356	ctg356	32446	524025856
+357	ctg357	32332	524288000
+358	ctg358	32327	524550144
+359	ctg359	32228	524812288
+360	ctg360	32084	525074432
+361	ctg361	31793	525336576
+362	ctg362	31771	525598720
+363	ctg363	31748	525860864
+364	ctg364	31350	526123008
+365	ctg365	31274	526385152
+366	ctg366	31268	526647296
+367	ctg367	30762	526909440
+368	ctg368	30492	527171584
+369	ctg369	30444	527433728
+370	ctg370	30439	527695872
+371	ctg371	30378	527958016
+372	ctg372	30315	528220160
+373	ctg373	30280	528482304
+374	ctg374	30273	528744448
+375	ctg375	30268	529006592
+376	ctg376	29657	529268736
+377	ctg377	29627	529530880
+378	ctg378	29415	529793024
+379	ctg379	29343	530055168
+380	ctg380	29203	530317312
+381	ctg381	29055	530579456
+382	ctg382	28954	530841600
+383	ctg383	28946	531103744
+384	ctg384	28898	531365888
+385	ctg385	28753	531628032
+386	ctg386	28687	531890176
+387	ctg387	28534	532152320
+388	ctg388	28503	532414464
+389	ctg389	28472	532676608
+390	ctg390	28441	532938752
+391	ctg391	28319	533200896
+392	ctg392	28313	533463040
+393	ctg393	28218	533725184
+394	ctg394	28040	533987328
+395	ctg395	28030	534249472
+396	ctg396	27842	534511616
+397	ctg397	27834	534773760
+398	ctg398	27592	535035904
+399	ctg399	27289	535298048
+400	ctg400	27205	535560192
+401	ctg401	26794	535822336
+402	ctg402	26623	536084480
+403	ctg403	26480	536346624
+404	ctg404	26367	536608768
+405	ctg405	26150	536870912
+406	ctg406	26135	537133056
+407	ctg407	26017	537395200
+408	ctg408	25848	537657344
+409	ctg409	25664	537919488
+410	ctg410	25206	538181632
+411	ctg411	25164	538443776
+412	ctg412	25125	538705920
+413	ctg413	24748	538968064
+414	ctg414	24098	539230208
+415	ctg415	23787	539492352
+416	ctg416	23644	539754496
+417	ctg417	23527	540016640
+418	ctg418	23118	540278784
+419	ctg419	23025	540540928
+420	ctg420	22186	540803072
+421	ctg421	22053	541065216
+422	ctg422	20825	541327360
+423	ctg423	20712	541589504
+424	ctg424	20635	541851648
+425	ctg425	15000	542113792
+426	ctg426	10000	542375936
+--sjdbOverhang = 99 taken from the generated genome
+Started loading the genome: Fri Jul 17 15:14:49 2026
+
+Genome: size given as a parameter = 571541636
+SA: size given as a parameter = 4083790750
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=13  nSAi=89478484
+nGenome=571541636;  nSAbyte=4083790750
+GstrandBit=32   SA number of indices=990009878
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 571541636 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 571541636 bytes
+SA file size: 4083790750 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 4083790750 bytes
+Loading SAindex ... done: 391468491 bytes
+Finished loading the genome: Fri Jul 17 15:14:50 2026
+
+Processing splice junctions database sjdbN=145244,   pGe.sjdbOverhang=99 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Created thread # 1
+Starting to map file # 0
+mate 1:   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R1.fastq.gz
+mate 2:   /home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/raw_input/Vtub/VT2F/VT2F_raw_merged_R2.fastq.gz
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Created thread # 8
+Created thread # 9
+Created thread # 10
+Created thread # 11
+Created thread # 12
+Created thread # 13
+Created thread # 14
+Created thread # 15
+BAM sorting: 192605 mapped reads
+BAM sorting bins genomic start loci:
+1	0	3876447
+2	0	8232704
+3	0	15077503
+4	0	18226972
+5	0	23710008
+6	0	53695200
+7	0	60787778
+8	1	1360517
+9	1	5074956
+10	1	57864012
+11	1	62078806
+12	1	66311837
+13	1	69624853
+14	1	72448425
+15	2	1779570
+16	2	6255350
+17	2	32874129
+18	2	41894098
+19	2	46640066
+20	3	1891973
+21	3	5735054
+22	3	9963108
+23	3	11267358
+24	3	14719806
+25	3	22846043
+26	3	46139378
+27	4	514512
+28	4	4245567
+29	4	9798508
+30	4	12331957
+31	4	55426825
+32	5	2756969
+33	5	7591101
+34	5	34294467
+35	5	37238533
+36	6	3040009
+37	6	6788865
+38	6	10820603
+39	6	16481506
+40	7	397521
+41	7	11333076
+42	7	20262899
+43	7	24098011
+44	7	28864956
+45	8	3658749
+46	8	8259978
+47	8	14503127
+48	8	18590318
+Thread #15 end of input stream, nextChar=-1
+Completed: thread #9
+Completed: thread #1
+Completed: thread #5
+Completed: thread #2
+Completed: thread #10
+Completed: thread #3
+Completed: thread #4
+Completed: thread #11
+Completed: thread #8
+Completed: thread #15
+Completed: thread #0
+Joined thread # 1
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+Completed: thread #12
+Completed: thread #13
+Completed: thread #6
+Joined thread # 6
+Completed: thread #7
+Joined thread # 7
+Joined thread # 8
+Joined thread # 9
+Joined thread # 10
+Joined thread # 11
+Joined thread # 12
+Joined thread # 13
+Completed: thread #14
+Joined thread # 14
+Joined thread # 15
+Jul 17 15:27:08 ..... finished mapping
+RAM after mapping:
+VmPeak:	 8679616 kB; VmSize:	 8508704 kB; VmHWM:	 7598468 kB; VmRSS:	 7598244 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 8679616 kB; VmSize:	 3580180 kB; VmHWM:	 7598468 kB; VmRSS:	 2669720 kB; 
+Jul 17 15:27:08 ..... started sorting BAM
+Max memory needed for sorting = 225190368
+ALL DONE!

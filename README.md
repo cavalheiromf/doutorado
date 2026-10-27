@@ -1,42 +1,86 @@
-# Doutorado — genômica e história evolutiva de Velloziaceae
+# Genômica Comparativa e História Evolutiva de Velloziaceae
 
-Repositório de Mariana Feitosa Cavalheiro, Universidade Estadual de Campinas. O enquadramento da tese reúne formação computacional, recursos genômicos e análises comparativas para apoiar investigações de respostas à limitação hídrica em Velloziaceae.
+[![UNICAMP](https://img.shields.io/badge/UNICAMP-Instituto_de_Biologia-blue.svg)](https://www.ib.unicamp.br/)
+[![GCCRC](https://img.shields.io/badge/GCCRC-Genomics_Center-green.svg)](https://www.gccrc.unicamp.br/)
+[![BioProject](https://img.shields.io/badge/NCBI_BioProject-PRJNA984512-orange.svg)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA984512)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-## Onde começar
+Repositório oficial de dados, análises, pipelines computacionais e manuscritos da tese de doutorado de **Mariana Feitosa Cavalheiro**, desenvolvida no Programa de Pós-Graduação em Genética e Biologia Molecular do Instituto de Biologia da Universidade Estadual de Campinas (UNICAMP), em colaboração com o Centro de Pesquisa em Genômica Aplicada às Mudanças Climáticas (GCCRC), o Centro de Biologia Molecular e Engenharia Genética (CBMEG) e a Embrapa Agricultura Digital.
 
-| Trabalho | Entrada principal |
-|---|---|
-| Escrita, revisão e apresentações | [teamwork](teamwork/README.md) |
-| Macroevolução: manuscritos e comunicação | [Área de trabalho](teamwork/chapters/macroevolution/README.md) |
-| Macroevolução: resultados atuais | [CURRENT_OUTPUTS](chapter_macroevolution/04_gene_families/CURRENT_OUTPUTS.md) |
-| OSCA: manuscrito e tabelas suplementares | [Manuscrito](chapter2_osca/manuscript/chapter_2_osca_mechanosensation.md) |
-| OSCA: revisão dos resultados | [Auditoria](chapter2_osca/audits/relatorio_auditoria_capitulo2.md) |
-| Visão operacional do repositório | [PROJECT](PROJECT.md) |
+---
 
-## Função das pastas
+## Informações Institucionais
 
-- `data/`: dados de referência compartilhados; manter caminhos usados pelos pipelines.
-- `chapter_macroevolution/`: ortologia, filogenômica, datação, famílias gênicas, Ka/Ks e seus produtos analíticos.
-- `chapter2_osca/`: projeto temático OSCA, com identificação, filogenia, sintenia, taxas, promotores, RNA-seq, expressão e redes.
-- `teamwork/chapters/`: manuscritos, revisões, slides e arquivo histórico por tema.
-- `teamwork/shared/`: literatura, revisões transversais, matrizes e bibliografias.
-- `docs/`: documentação institucional e qualificação; os demais materiais foram distribuídos no teamwork, com links nos caminhos anteriores.
-- `logs/`: registros de execução; `reports/` é um link para documentos OSCA centralizados em `teamwork/chapters/osca/reviews/root_reports/`, ainda sem nova validação científica.
+* **Candidata**: Mariana Feitosa Cavalheiro
+* **Orientadora**: Dra. Isabel Rodrigues Gerhardt (Embrapa Agricultura Digital / GCCRC / UNICAMP)
+* **Coorientadores e Colaboradores Principais**: Dr. Ricardo Augusto Dante (Embrapa / GCCRC), Prof. Dr. Paulo Arruda (UNICAMP / CBMEG), Dra. Francine A. N. de Almeida (UNICAMP)
+* **Programa**: Pós-Graduação em Genética e Biologia Molecular (PPG-GBM), Instituto de Biologia, UNICAMP
+* **Apoio Financeiro**:
+  * Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP, bolsas e auxílios de pesquisa 2020/02084-0 e 2016/23218-0)
+  * Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, processo 140481/2020-6 e bolsa de produtividade em pesquisa)
+* **Conformidade Legal e Patrimônio Genético**:
+  * **SisGen**: Registros AF30A4D (*Vellozia peripherica*) e A5985A4 (*Vellozia tubiflora*), Ministério do Meio Ambiente, Brasil.
+  * **ICMBio**: Autorizações de coleta botânica no Parque Nacional da Serra da Canastra (Delfinópolis, MG, Brasil).
 
-Os nomes chapter1/chapter2 de arquivos antigos não definem a numeração atual da tese. Os projetos de macroevolução e OSCA são áreas temáticas; este repositório não foi inventariado como contendo integralmente os quatro capítulos descritos na Introdução.
+---
 
-## Resultados e limites
+## Estrutura da Tese de Doutorado
 
-Na macroevolução, a referência atual contém 196 famílias de consenso entre modelos e 58 adicionais apoiadas por k=3. As análises de Ka/Ks de referência são descritivas; razões ω > 1 não equivalem a confirmação estatística de seleção positiva. A comparação evolutiva oferece uma base para investigar possíveis relações com respostas à seca e à dessecação.
+| Componente | Título / Tema | Manuscrito Canônico | Pasta |
+| :--- | :--- | :--- | :--- |
+| **00_Introduction** | *Introdução Geral e Revisão Bibliográfica* | [Texto](docs/00_introduction/general_introduction_thesis_181026.md) | [docs/00_introduction/](docs/00_introduction/) |
+| **01_Chapter_1** | *A Haplotype-Resolved, Near Telomere-to-Telomere Genome Assembly of the Desiccation-Tolerant Plant Vellozia tubiflora* | [Manuscrito](docs/01_chapter_1_tubiflora/manuscripts/chapter_tubiflora_master_draft.md) | [docs/01_chapter_1_tubiflora/](docs/01_chapter_1_tubiflora/) |
+| **02_Chapter_2** | *Genomas Organelares: Plastoma e Mitocôndria em Velloziaceae* | *(Contextualização na tese)* | [docs/00_introduction/](docs/00_introduction/) |
+| **03_Chapter_3** | *Ancestral Gene-Family Expansion and Asymmetric Local Duplication in Two Vellozia Species with Contrasting Drought-Survival Strategies* | [Manuscrito](docs/03_chapter_3_macroevolution/manuscripts/chapter_macroevolution_article.md) | [docs/03_chapter_3_macroevolution/](docs/03_chapter_3_macroevolution/) |
+| **04_Chapter_4** | *Genome-Wide Identification, Comparative Synteny, and Evolutionary Divergence of OSCA Mechanosensitive Ion Channels in Resurrection and Evergreen Vellozia* | [Manuscrito](docs/04_chapter_4_osca/drafts/chapter_2_osca_mechanosensation.md) | [docs/04_chapter_4_osca/](docs/04_chapter_4_osca/) |
+| **05_Chapter_5** | *The Experience of Teaching Introductory Programming Skills to Bioscientists in Brazil* (*PLOS Comp. Biol.*, 2021) | [Manuscrito](docs/05_chapter_5_python/manuscripts/chapter_python_master_draft.md) | [docs/05_chapter_5_python/](docs/05_chapter_5_python/) |
+| **06_Discussion** | *Discussão Geral Transversal e Conclusões da Tese* | [Texto](docs/06_general_discussion_and_conclusions/discussao_transversal_tese.md) | [docs/06_general_discussion_and_conclusions/](docs/06_general_discussion_and_conclusions/) |
 
-Os relatórios de auditoria OSCA e os índices de macroevolução têm precedência sobre planos antigos com números substituídos. Uma figura ou relatório de QA visual não valida sozinho as inferências científicas.
+---
 
-## Organização e reprodução
+## Pipelines Analíticos e Reprodutibilidade
 
-Dados e resultados volumosos permanecem junto aos pipelines. A área de escrita usa `manuscripts`, `reviews`, `slides` e `archive`. Os caminhos antigos preservados como links não são cópias adicionais; consultar teamwork para os caminhos principais.
+Os códigos e scripts de bioinformática estão organizados em módulos analíticos reprodutíveis:
 
-Antes de reproduzir uma análise, conferir o script, ambiente, dados e execução de referência do módulo. Não há um comando único validado para reexecutar todo o repositório. As reorganizações não reexecutaram análises ou converteram rascunhos em resultados finais.
+* **[pipelines/03_macroevolution/](pipelines/03_macroevolution/)**:
+  - Delineamento de ortologia (OrthoFinder).
+  - Filogenômica por supermatriz concatenada e modelo multiespécies coalescente (ASTRAL-II).
+  - Datação molecular sob relógio relaxado calibrado por fósseis (MCMCtree).
+  - Modelagem estocástica de ganho e perda de famílias gênicas (CAFE5, modelo M5 com distribuição Gamma).
+  - Classificação de mecanismos de duplicação gênica e macrossintenia (MCScanX / JCVI).
+  - Taxas de substituição não-sinônima e sinônima (PAML / codeml) em trios ortólogos polarizados por *Xerophyta schlechteri*.
+  - Enriquecimento funcional (GO e KEGG) com correção de FDR e permutações estratificadas.
 
-O [README anterior](teamwork/shared/evidence_matrices/README_repository_before_2026-10-05.md) está preservado para rastreabilidade.
+* **[pipelines/04_osca/](pipelines/04_osca/)**:
+  - Identificação genômica e curadoria de domínios Pfam (PF02714, PF13967, PF14703 via HMMER e InterProScan).
+  - Filogenia molecular e topologia transmembrana (IQ-TREE e Phobius/TMHMM).
+  - Microssintenia comparativa e colinearidade física (MCScan).
+  - Análise de intensidades de seleção (HyPhy RELAX) e taxas evolutivas pareadas (PAML YN00).
+  - Perfis de expressão tecidual sob condições de campo (STAR, featureCounts, DESeq2).
+  - Modelagem de redes de associação funcional (STRING API v12) e enriquecimento modular.
+  - Arquitetura cis-regulatória e predição de promotores (PlantCARE).
 
-Para uma navegação com menos caminhos duplicados no VS Code, abrir [doutorado.code-workspace](doutorado.code-workspace). Esse workspace oculta apenas os acessos de compatibilidade indicados e mantém os arquivos disponíveis; não altera as configurações atuais do editor.
+---
+
+## Organização do Diretório `docs/`
+
+* **`docs/00_introduction/`** a **`docs/06_general_discussion_and_conclusions/`**: Manuscritos em formato Markdown com figuras de alta resolução embutidas, tabelas consolidadas e referências padronizadas (ABNT NBR 6023).
+* **[docs/literature/](docs/literature/)**: Biblioteca de referências bibliográficas da tese, metadados OpenAlex e arquivos BibTeX (`.bib`).
+* **[docs/qualification_and_forms/](docs/qualification_and_forms/)**: Roteiros e documentação institucional de qualificação.
+
+---
+
+## Disponibilidade de Dados
+
+1. **Dados Genômicos Brutos e Montagens**:
+   - Depositados no NCBI sob o BioProject **PRJNA984512**.
+2. **Pacotes Suplementares**:
+   - As tabelas suplementares completas de cada capítulo encontram-se disponíveis nos formatos `.xlsx` e `.tsv` nas respectivas pastas de `docs/` e `pipelines/`.
+3. **Imagens de Alta Resolução**:
+   - Disponíveis individualmente nos formatos vetoriais e rasterizados (`.svg`, `.pdf`, `.png`) nas pastas de figuras de cada capítulo.
+
+---
+
+## Como Citar
+
+> CAVALHEIRO, Mariana Feitosa. **Genômica Comparativa e História Evolutiva de Velloziaceae: Adaptações à Limitação Hídrica e Mecanismos de Sobrevivência à Seca e Dessecação em Campos Rupestres**. 2026. Tese (Doutorado em Genética e Biologia Molecular) — Instituto de Biologia, Universidade Estadual de Campinas, Campinas, 2026.

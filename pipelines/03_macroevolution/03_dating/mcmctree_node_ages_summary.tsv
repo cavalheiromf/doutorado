@@ -1,0 +1,7 @@
+Node_ID	Clade_Description	Mean_Age_Ma	CI95_Lower_Ma	CI95_Upper_Ma	HPD95_Lower_Ma	HPD95_Upper_Ma
+t_n8	Root (Eudicots vs Monocots)	138.48	130.17	145.15	130.30	145.25
+t_n9	Monocots Crown (Dioscoreales vs Pandanales)	121.90	115.05	128.07	115.19	128.19
+t_n10	Pandanales Crown (Pandanaceae vs Velloziaceae)	101.26	94.34	105.33	95.19	105.68
+t_n11	Velloziaceae Crown (Acanthochlamys vs Core Velloziaceae)	78.21	74.39	87.86	73.90	86.34
+t_n12	Core Velloziaceae (Xerophyta vs Vellozia) [UNCONSTRAINED]	31.92	22.47	50.65	19.26	43.66
+t_n13	Vellozia Sister Divergence (V. peripherica vs V. tubiflora)	9.74	5.71	15.91	5.29	15.03

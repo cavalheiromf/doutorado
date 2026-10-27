@@ -68,3 +68,29 @@ teamwork/shared/literature_library/papers_openalex_pdf/
 # Ignore binary Word documents
 *.docx
 *.doc
+
+# Heavy pipeline intermediate results
+pipelines/*/00_data/
+pipelines/*/01_orthology/
+pipelines/*/05_selection/
+pipelines/*/04_gene_families/
+pipelines/*/05_rnaseq/
+pipelines/*/exploratory_benchmark/
+pipelines/*/02_phylogenomics/input/
+pipelines/*/04_manuscript/
+pipelines/04_osca/03_synteny/results/
+pipelines/04_osca/04_promoters/results/
+pipelines/04_osca/06_expression/results_genecounts/
+pipelines/04_osca/01_gene_identification/results/
+pipelines/04_osca/02_phylogeny/results/
+pipelines/04_osca/02_phylogeny/results_support/
+pipelines/04_osca/07_ppi_network/results/
+
+# MCMCtree raw chain files
+pipelines/*/03_dating/*.txt
+pipelines/*/03_dating/*.BV
+pipelines/*/03_dating/chain*/
+
+# Workspace config & agent skills lock
+doutorado.code-workspace
+skills-lock.json

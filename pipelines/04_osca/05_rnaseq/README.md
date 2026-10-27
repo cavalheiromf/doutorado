@@ -1,0 +1,15 @@
+
+
+## Scientific Insights
+
+================================================================================
+SCIENTIFIC INSIGHTS: UPSTREAM RNA-SEQ PIPELINE (05_rnaseq)
+================================================================================
+
+[PORTUGUÊS]
+O processamento upstream dos dados de RNA-Seq—incluindo controle de qualidade rigoroso, remoção de adaptadores e reads de baixa qualidade com Trimmomatic, mapeamento genômico com o alinhador STAR e quantificação pelo featureCounts—gerou uma base de dados transcriptômica altamente robusta para as três condições teciduais (Raiz, Caule e Folha) de Vellozia peripherica e Vellozia tubiflora. O pipeline resultou em taxas elevadas de mapeamento único (STAR >80% na maioria das amostras), demonstrando a alta qualidade das montagens genômicas de referência (haplotipos hapA) de ambas as espécies. A exclusão de reads mal mapeadas e o ajuste fino do GTF garantiram que as tabelas de contagens finais representassem com extrema precisão a atividade transcricional ao nível gênico, viabilizando o subsequente perfilamento downstream de alta resolução.
+
+[ENGLISH]
+Upstream processing of RNA-Seq data—comprising rigorous quality control, trimming of adapters and low-quality reads using Trimmomatic, genomic mapping with the STAR aligner, and quantification with featureCounts—generated a highly robust transcriptomic framework for the three tissue types (Root, Stem, and Leaf) of Vellozia peripherica and Vellozia tubiflora. The pipeline achieved high unique mapping rates (STAR >80% for most samples), highlighting the high quality of the reference genome assemblies (hapA haplotypes) for both species. The filtering of misaligned reads and refinement of the GTF annotations ensured that the final gene-level count tables precisely capture transcriptional activity, enabling high-resolution downstream profiling.
+
+================================================================================

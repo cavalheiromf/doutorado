@@ -1,0 +1,30 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=6;
+TAXLABELS
+[1] 'Ath'
+[2] 'Ptec'
+[3] 'Abra'
+[4] 'Xvis'
+[5] 'Vper'
+[6] 'Vtub'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=6 nsplits=9;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	100	 1 2 3,
+	100	 1 2,
+	100	 1,
+;
+END; [Splits]
+
