@@ -22,7 +22,7 @@ Esta pasta reúne a estrutura completa e consolidada da tese de doutorado de **M
 
 * **[04_chapter_4_osca/](04_chapter_4_osca/)**: 
   - **Capítulo 4:** *Genome-Wide Identification, Comparative Synteny, and Evolutionary Divergence of OSCA Mechanosensitive Ion Channels in Resurrection and Evergreen Vellozia*.
-  - Manuscrito canônico (`drafts/chapter_2_osca_mechanosensation.md`), figuras vetoriais/rasterizadas e planilha suplementar consolidada (`Supplementary_Tables_OSCA.xlsx`).
+  - Manuscrito canônico (`manuscripts/chapter_4_osca_mechanosensation.md`), figuras vetoriais/rasterizadas e planilha suplementar consolidada (`Supplementary_Tables_OSCA.xlsx`).
 
 * **[05_chapter_5_python/](05_chapter_5_python/)**: 
   - **Capítulo 5:** *The Experience of Teaching Introductory Programming Skills to Bioscientists in Brazil*.

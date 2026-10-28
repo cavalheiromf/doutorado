@@ -4,7 +4,12 @@
 data/
 logs/
 chapter3/
+# Literature PDFs (Option A approved: keep Markdown and BibTeX, untrack PDFs)
+docs/literature/papers_local_pdf/
+docs/literature/papers_openalex_pdf/
+docs/literature/downloaded_papers/
 teamwork/02_literature_library/papers_openalex_pdf/
+teamwork/shared/literature_library/papers_openalex_pdf/
 *.fastq.gz
 *.fq.gz
 *.fastq
@@ -79,6 +84,7 @@ pipelines/*/exploratory_benchmark/
 pipelines/*/02_phylogenomics/input/
 pipelines/*/04_manuscript/
 pipelines/04_osca/03_synteny/results/
+pipelines/04_osca/04_evolutionary_rates/results/
 pipelines/04_osca/04_promoters/results/
 pipelines/04_osca/06_expression/results_genecounts/
 pipelines/04_osca/01_gene_identification/results/

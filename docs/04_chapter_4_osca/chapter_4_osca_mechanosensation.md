@@ -1,1 +1,1 @@
-drafts/chapter_2_osca_mechanosensation.md
+manuscripts/chapter_4_osca_mechanosensation.md
