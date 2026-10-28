@@ -5,11 +5,15 @@ from io import StringIO
 import networkx as nx
 import matplotlib.pyplot as plt
 
+from pathlib import Path
+
 # Definir os diretórios
-BASE_DIR = "/home/mfcaval/github/doutorado"
-RESULTS_DIR = os.path.join(BASE_DIR, "analyses/07_ppi_network/results")
-OSCA_IDS_FILE = os.path.join(BASE_DIR, "analyses/01_gene_identification/results/oscasIDs.txt")
-os.makedirs(RESULTS_DIR, exist_ok=True)
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+BASE_DIR = OSCA_DIR.parent.parent
+RESULTS_DIR = OSCA_DIR / "07_ppi_network" / "results"
+OSCA_IDS_FILE = OSCA_DIR / "01_gene_identification" / "results" / "oscasIDs.txt"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Parâmetros Flexíveis para Vtub
 TARGET_SPECIES = "Vtub"

@@ -7,19 +7,23 @@ runs the JCVI plotting utility, and stores resulting PDFs in results/microsynten
 import os
 import subprocess
 import shutil
+import sys
+from pathlib import Path
 
-# Define paths
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-SYNTENY_DIR = os.path.dirname(SCRIPT_DIR)
-PROJECT_DIR = os.path.dirname(os.path.dirname(SYNTENY_DIR))
+# Define paths dynamically
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+PROJECT_DIR = OSCA_DIR.parent.parent
+SYNTENY_DIR = OSCA_DIR / "03_synteny"
 
 BED_VPER = os.path.join(SYNTENY_DIR, "data", "Vper.bed")
 BED_VTUB = os.path.join(SYNTENY_DIR, "data", "Vtub.bed")
 ANCHORS_FILE = os.path.join(SYNTENY_DIR, "intergenomic", "intermediates", "Vper.Vtub.anchors")
-OSCA_IDS_FILE = os.path.join(PROJECT_DIR, "analyses", "01_gene_identification", "results", "oscasIDs.txt")
+OSCA_IDS_FILE = os.path.join(OSCA_DIR, "01_gene_identification", "results", "oscasIDs.txt")
 
 MICRO_DIR = os.path.join(SYNTENY_DIR, "microsynteny")
 RESULTS_DIR = os.path.join(SYNTENY_DIR, "results", "microsynteny_plots")
+PYTHON_BIN = os.environ.get("JCVI_PYTHON", sys.executable)
 
 
 def read_osca_ids(path):
@@ -146,7 +150,7 @@ e, 0, 1
         # Plot local synteny
         print(f"  Generating plot for {chrom}...")
         plot_command = [
-            "/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/python",
+            PYTHON_BIN,
             "-m", "jcvi.graphics.synteny",
             os.path.join("microsynteny", f"osca_{chrom}.blocks"),
             os.path.join("data", "all.bed"),

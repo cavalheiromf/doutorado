@@ -114,10 +114,12 @@ def calc_conditional_odds_ratio(a, b, c, d, alpha=0.05):
 
 def main():
     t_start = time.time()
-    base_dir = os.environ.get("FAMILY_ENRICHMENT_DIR", "/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/functional_enrichment")
+    default_macro = str(Path(__file__).resolve().parents[3])
+    default_enrich = str(Path(__file__).resolve().parents[3] / "04_gene_families" / "functional_enrichment")
+    base_dir = os.environ.get("FAMILY_ENRICHMENT_DIR", default_enrich)
     input_dir = os.path.join(base_dir, "input")
     results_dir = os.path.join(base_dir, "results")
-    macro_dir = os.environ.get("FAMILY_MACRO_DIR", "/home/mfcaval/github/doutorado/chapter_macroevolution_review")
+    macro_dir = os.environ.get("FAMILY_MACRO_DIR", default_macro)
     
     config_file = os.path.join(input_dir, "config", "enrichment_config.yaml")
     with open(config_file, "r") as f:

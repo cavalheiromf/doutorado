@@ -3,15 +3,15 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
 #SBATCH --time=24:00:00
-#SBATCH --output=/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_codon_clade_slurm_20260717/%x_%A_%a.out
-#SBATCH --error=/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_codon_clade_slurm_20260717/%x_%A_%a.err
+#SBATCH --output=logs/hyphy_%x_%A_%a.out
+#SBATCH --error=logs/hyphy_%x_%A_%a.err
 set -euo pipefail
 
-ROOT=/home/mfcaval/github/doutorado
-A=${ROOT}/analyses/03_synteny
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+A=${ROOT}/pipelines/04_osca/03_synteny
 I=${A}/hyphy_validation_20260716/filtered_alignments/gap20
 O=${A}/hyphy_codon_clade_slurm_20260717
-H=/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/hyphy
+H="${HYPHY_BIN:-$(which hyphy 2>/dev/null || echo hyphy)}"
 
 case "${SLURM_ARRAY_TASK_ID}" in
   0) D=global; M=relax; T=${A}/hyphy_analysis/vellozia_oscas_labeled.treefile;;

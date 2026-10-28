@@ -3,10 +3,10 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
-ANALYSIS_DIR="${ROOT_DIR}/analyses/03_synteny"
+ANALYSIS_DIR="${ROOT_DIR}/pipelines/04_osca/03_synteny"
 RUN_ID="${HYPHY_RUN_ID:-20260716}"
 OUT_DIR="${ANALYSIS_DIR}/hyphy_rerun_${RUN_ID}"
-HYPHY_BIN="${HYPHY_BIN:-/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/hyphy}"
+HYPHY_BIN="${HYPHY_BIN:-$(which hyphy 2>/dev/null || echo hyphy)}"
 PYTHON_BIN="${PYTHON_BIN:-python}"
 THREADS="${HYPHY_THREADS:-8}"
 

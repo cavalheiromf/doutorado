@@ -12,10 +12,13 @@ Atualiza estruturadamente o notebook 04_jcvi_mcscan.ipynb:
 """
 
 import json
+from pathlib import Path
 import os
 import uuid
 
-NOTEBOOK_PATH = "/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/scripts/04_jcvi_mcscan.ipynb"
+BASE_MACRO = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = BASE_MACRO.parent.parent
+NOTEBOOK_PATH = BASE_MACRO / "04_gene_families" / "synteny" / "01_jcvi_mcscan.ipynb"
 
 def make_cell(cell_type, source, outputs=None, execution_count=None):
     c = {
@@ -50,22 +53,25 @@ Este notebook realiza a análise de sintenia estrutural inter- e intra-genômica
 
     # Cell 1: Setup Paths
     cells.append(make_cell("code",
-"""import os
+"""from pathlib import Path
+import os
 import subprocess
 import pandas as pd
 from IPython.display import Image, display
 
-BASE_DIR = "/home/mfcaval/github/doutorado/chapter_macroevolution_review"
-DATA_DIR = os.path.join(BASE_DIR, "00_data")
-OUT_DIR = os.path.join(BASE_DIR, "04_gene_families", "synteny")
-DUP_DIR = os.path.join(OUT_DIR, "duplications")
-os.makedirs(OUT_DIR, exist_ok=True)
+BASE_DIR = Path.cwd()
+PROJECT_ROOT = BASE_DIR.parent.parent
+DATA_DIR = BASE_DIR / "00_data"
+OUT_DIR = BASE_DIR / "04_gene_families" / "synteny"
+DUP_DIR = OUT_DIR / "duplications"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Caminhos dos arquivos GFF3 e FASTA de proteínas
-VPER_GFF = "/home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.gff3"
-VTUB_GFF = "/home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.gff3"
-VPER_PEP = "/home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.proteins.fasta"
-VTUB_PEP = "/home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.proteins.fasta"
+GENOMES_DIR = PROJECT_ROOT / "data" / "genomes"
+VPER_GFF = str(GENOMES_DIR / "Vper" / "Vper.hapA.v1.softmasked.gff3")
+VTUB_GFF = str(GENOMES_DIR / "Vtub" / "Vtub.hapA.v1.softmasked.gff3")
+VPER_PEP = str(GENOMES_DIR / "Vper" / "Vper.hapA.v1.softmasked.proteins.fasta")
+VTUB_PEP = str(GENOMES_DIR / "Vtub" / "Vtub.hapA.v1.softmasked.proteins.fasta")
 
 print(f"Diretório de saída: {OUT_DIR}")"""))
 

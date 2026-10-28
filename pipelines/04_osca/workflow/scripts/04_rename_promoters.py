@@ -1,7 +1,11 @@
 import os
+from pathlib import Path
 
-mapping_file = "/home/mfcaval/github/doutorado/analyses/01_gene_identification/results/oscasIDs.txt"
-promoters_dir = "/home/mfcaval/github/doutorado/analyses/04_promoters/results"
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+
+mapping_file = OSCA_DIR / "01_gene_identification" / "results" / "oscasIDs.txt"
+promoters_dir = OSCA_DIR / "04_promoters" / "results"
 
 # Load mapping
 mapping = {}

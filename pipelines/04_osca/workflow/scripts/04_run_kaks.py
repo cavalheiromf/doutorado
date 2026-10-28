@@ -1,10 +1,14 @@
 import os
 import subprocess
 import glob
+import sys
+from pathlib import Path
 
-# Paths
-RESULTS_DIR = "/home/mfcaval/github/doutorado/analyses/04_evolutionary_rates/results"
-JCVI_ENV_BIN = "/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin"
+# Dynamic paths resolution
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+RESULTS_DIR = OSCA_DIR / "04_evolutionary_rates" / "results"
+PYTHON_BIN = os.environ.get("JCVI_PYTHON", sys.executable)
 
 def run_cmd(cmd):
     print(f"Running: {cmd}")
@@ -26,7 +30,7 @@ def main():
         
         # Run Ka/Ks using JCVI wrapper
         # Usage: ks.py calc [prot.fasta] cds.fasta > out.ks
-        jcvi_kaks_cmd = f"{JCVI_ENV_BIN}/python3 -m jcvi.compara.ks calc {pep_file} {cds_file} -o {outfile} --msa=muscle"
+        jcvi_kaks_cmd = f"{PYTHON_BIN} -m jcvi.compara.ks calc {pep_file} {cds_file} -o {outfile} --msa=muscle"
         
         run_cmd(jcvi_kaks_cmd)
 

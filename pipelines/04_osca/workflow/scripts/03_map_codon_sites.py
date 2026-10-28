@@ -1,9 +1,13 @@
 import os
 import sys
+from pathlib import Path
 from Bio import AlignIO
 
-global_fasta_path = "/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_analysis/vellozia_oscas_codon.fasta"
-base_dir = "/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_subclades"
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+
+global_fasta_path = os.environ.get("GLOBAL_OSCA_FASTA", str(OSCA_DIR / "03_synteny" / "hyphy_analysis" / "vellozia_oscas_codon.fasta"))
+base_dir = os.environ.get("HYPHY_SUBCLADES_DIR", str(OSCA_DIR / "03_synteny" / "hyphy_subclades"))
 
 clades = ["osca1", "osca2", "osca3_4"]
 

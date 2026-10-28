@@ -6,13 +6,13 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
-#SBATCH --output=/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/functional_enrichment/logs/slurm_enrichment_%j.out
-#SBATCH --error=/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/functional_enrichment/logs/slurm_enrichment_%j.err
+#SBATCH --output=logs/slurm_enrichment_%j.out
+#SBATCH --error=logs/slurm_enrichment_%j.err
 
 set -euo pipefail
 
-MACRO_DIR="/home/mfcaval/github/doutorado/chapter_macroevolution_review"
-SCRIPT_DIR="${MACRO_DIR}/workflow/scripts/03_functional_enrichment"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+MACRO_DIR="$(cd "${SCRIPT_DIR}/../../.." && pwd)"
 BASE_DIR="${MACRO_DIR}/04_gene_families/functional_enrichment"
 MASTER_TABLE="${MACRO_DIR}/04_gene_families/comparative_axes/comparative_families_master_table_v2.tsv"
 

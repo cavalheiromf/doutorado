@@ -1,7 +1,10 @@
 # Standard Gitignore for Vellozia Bioinformatics Pipeline
 
 # Ignore raw and processed large datasets
-data/
+data/*
+!data/README.md
+!data/checksums.sha256*
+!data/**/README.md
 logs/
 chapter3/
 # Literature PDFs (Option A approved: keep Markdown and BibTeX, untrack PDFs)

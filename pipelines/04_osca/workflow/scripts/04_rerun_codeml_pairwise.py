@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Pairwise codeml estimates from PAL2NAL codon alignments."""
 import csv
+import os
 import re
+import shutil
 import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "results_pal2nal_yn00"
 OUTPUT = ROOT / "results_codeml_pairwise"
-CODEML = Path("/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/codeml")
+CODEML = Path(os.environ.get("CODEML_BIN") or shutil.which("codeml") or "codeml")
 
 CTL = """seqfile = codon.paml
 outfile = codeml.out

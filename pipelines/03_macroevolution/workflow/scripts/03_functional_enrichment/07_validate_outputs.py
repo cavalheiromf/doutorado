@@ -27,10 +27,12 @@ def main():
     print("MANDATORY VALIDATION CONTROLS AUDIT (SECTION 14 + COVARIATE BALANCE)")
     print("=" * 80)
     
-    base_dir = os.environ.get("FAMILY_ENRICHMENT_DIR", "/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/functional_enrichment")
+    default_macro = str(Path(__file__).resolve().parents[3])
+    default_enrich = str(Path(__file__).resolve().parents[3] / "04_gene_families" / "functional_enrichment")
+    base_dir = os.environ.get("FAMILY_ENRICHMENT_DIR", default_enrich)
     input_dir = os.path.join(base_dir, "input")
     results_dir = os.path.join(base_dir, "results")
-    macro_dir = os.environ.get("FAMILY_MACRO_DIR", "/home/mfcaval/github/doutorado/chapter_macroevolution_review")
+    macro_dir = os.environ.get("FAMILY_MACRO_DIR", default_macro)
     
     all_passed = True
     

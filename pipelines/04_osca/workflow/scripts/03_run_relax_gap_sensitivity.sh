@@ -3,10 +3,10 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
-ANALYSIS_DIR="${ROOT_DIR}/analyses/03_synteny"
+ANALYSIS_DIR="${ROOT_DIR}/pipelines/04_osca/03_synteny"
 FILTERED_DIR="${ANALYSIS_DIR}/hyphy_validation_20260716/filtered_alignments"
 OUTPUT_DIR="${ANALYSIS_DIR}/hyphy_validation_20260716/relax_gap_sensitivity"
-HYPHY_BIN="${HYPHY_BIN:-/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/hyphy}"
+HYPHY_BIN="${HYPHY_BIN:-$(which hyphy 2>/dev/null || echo hyphy)}"
 THREADS="${THREADS:-4}"
 STARTING_POINTS="${STARTING_POINTS:-10}"
 

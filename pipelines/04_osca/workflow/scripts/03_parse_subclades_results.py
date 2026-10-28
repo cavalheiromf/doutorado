@@ -1,8 +1,11 @@
 import json
 import os
+from pathlib import Path
 
 clades = ["osca1", "osca2", "osca3_4"]
-base_dir = "/home/mfcaval/github/doutorado/analyses/03_synteny/hyphy_subclades"
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+base_dir = os.environ.get("HYPHY_SUBCLADES_DIR", str(OSCA_DIR / "03_synteny" / "hyphy_subclades"))
 
 print("================================================================================")
 print("             HYPHY SUBCLADE COMPARATIVE SELECTION ANALYSIS RESULTS              ")

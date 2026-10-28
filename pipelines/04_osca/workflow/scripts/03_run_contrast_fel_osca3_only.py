@@ -71,7 +71,7 @@ def main() -> None:
     parser.add_argument(
         "--hyphy",
         type=Path,
-        default=Path("/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/hyphy"),
+        default=Path(shutil.which("hyphy") or "hyphy"),
     )
     parser.add_argument("--threads", type=int, default=4)
     parser.add_argument("--p-value", type=float, default=0.05)

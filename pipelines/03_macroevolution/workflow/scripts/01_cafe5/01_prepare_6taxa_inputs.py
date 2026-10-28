@@ -22,7 +22,7 @@ import glob
 from pathlib import Path
 import pandas as pd
 
-BASE_DIR = Path("/home/mfcaval/github/doutorado/chapter_macroevolution_review")
+BASE_DIR = Path(__file__).resolve().parents[3]
 ORTHO_DIR = BASE_DIR / "01_orthology"
 TREE_OUT_DIR = BASE_DIR / "03_dating" / "final_trees"
 CAFE_IN_DIR = BASE_DIR / "04_gene_families" / "cafe5" / "input"

@@ -2,7 +2,8 @@
 set -e
 
 # Base directories
-BASE_DIR="/home/mfcaval/github/doutorado/chapter_macroevolution_review"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="${BASE_DIR:-$(cd "${SCRIPT_DIR}/../../.." && pwd)}"
 ORTHO_SEQ_DIR="$BASE_DIR/01_orthology/results/Results_Aug30/Orthogroup_Sequences"
 OUT_DIR="$BASE_DIR/04_gene_families/priority_gene_trees"
 

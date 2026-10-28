@@ -4,12 +4,15 @@
 from __future__ import annotations
 
 import argparse
+import os
+import shutil
 import subprocess
 from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
-GFFREAD_DEFAULT = "/home/mfcaval/.local/share/mamba/envs/bio_env/bin/gffread"
+OSCA_DIR = Path(__file__).resolve().parents[1]
+GFFREAD_DEFAULT = os.environ.get("GFFREAD_BIN") or shutil.which("gffread") or "gffread"
 
 
 def main() -> int:
@@ -24,7 +27,7 @@ def main() -> int:
     genome_dir = PROJECT_ROOT / "data" / "genomes" / args.species
     source_gff = genome_dir / f"{args.species}.hapA.v1.softmasked.gff3"
     fasta = genome_dir / f"{args.species}.hapA.v1.softmasked.fasta"
-    output = PROJECT_ROOT / "analyses" / "05_rnaseq" / "results_genecounts" / "03_star_index" / args.species
+    output = OSCA_DIR / "05_rnaseq" / "results_genecounts" / "03_star_index" / args.species
     gtf = output / "annotation.gtf"
     if not source_gff.exists() or not fasta.exists():
         raise SystemExit(f"Missing genome input for {args.species}: {source_gff} or {fasta}")

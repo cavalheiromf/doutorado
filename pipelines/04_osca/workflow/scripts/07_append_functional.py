@@ -1,7 +1,8 @@
 import json
 import os
+from pathlib import Path
 
-notebook_path = "/home/mfcaval/github/doutorado/analyses/07_ppi_network/scripts/PPI_Network.ipynb"
+notebook_path = Path(__file__).resolve().parent / "07_PPI_Network.ipynb"
 
 # Load existing notebook
 with open(notebook_path, "r") as f:

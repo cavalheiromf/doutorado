@@ -31,7 +31,9 @@ OSCA_IDS_FILE = os.path.join(PROJECT_DIR, "analyses", "01_gene_identification", 
 VPER_CDS = os.path.join(SYNTENY_DIR, "data", "Vper.cds")
 VTUB_CDS = os.path.join(SYNTENY_DIR, "data", "Vtub.cds")
 GLOBAL_TREE = os.path.join(PROJECT_DIR, "analyses", "02_phylogeny", "results", "iqtree.treefile")
-MUSCLE_EXE = "/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/muscle"
+import shutil
+
+MUSCLE_EXE = os.environ.get("MUSCLE_BIN") or shutil.which("muscle") or "muscle"
 SUBCLADES_DIR = os.path.join(SYNTENY_DIR, "hyphy_subclades")
 
 def read_fasta(fasta_path):

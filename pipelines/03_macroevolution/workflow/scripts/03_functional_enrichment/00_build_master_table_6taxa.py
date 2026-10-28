@@ -23,11 +23,12 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-BASE_MACRO = "/home/mfcaval/github/doutorado/chapter_macroevolution_review"
-CAFE_DIR = os.path.join(BASE_MACRO, "04_gene_families", "cafe5")
-COMP_DIR = os.path.join(BASE_MACRO, "04_gene_families", "comparative_axes")
-DUP_DIR = os.path.join(BASE_MACRO, "04_gene_families", "synteny", "duplications")
-M5_CONVERGENCE = Path(CAFE_DIR) / "summary" / "M5_gamma_convergence_summary.tsv"
+BASE_MACRO = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = BASE_MACRO.parent.parent
+CAFE_DIR = BASE_MACRO / "04_gene_families" / "cafe5"
+COMP_DIR = BASE_MACRO / "04_gene_families" / "comparative_axes"
+DUP_DIR = BASE_MACRO / "04_gene_families" / "synteny" / "duplications"
+M5_CONVERGENCE = CAFE_DIR / "summary" / "M5_gamma_convergence_summary.tsv"
 
 NODE_RENAME = {
     "Vper<1>": "Change_Vper",
@@ -211,7 +212,7 @@ def main():
     )
 
     # 6. Anotações funcionais (EggNOG de Vper e Vtub)
-    ann_dir = "/home/mfcaval/github/doutorado/data/genomes"
+    ann_dir = PROJECT_ROOT / "data" / "genomes"
     vper_ann = pd.read_csv(os.path.join(ann_dir, "Vper", "vper_master_annotation.tsv"), sep="\t")
     vtub_ann = pd.read_csv(os.path.join(ann_dir, "Vtub", "vtub_master_annotation.tsv"), sep="\t")
 

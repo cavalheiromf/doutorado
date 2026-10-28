@@ -10,7 +10,9 @@ import sys
 import pandas as pd
 import numpy as np
 
-WORKSPACE = "/home/mfcaval/github/doutorado/chapter2_osca"
+from pathlib import Path
+
+WORKSPACE = str(Path(__file__).resolve().parents[2])
 
 def run_tests():
     failures = []

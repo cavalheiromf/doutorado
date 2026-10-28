@@ -16,7 +16,7 @@ from pathlib import Path
 import pandas as pd
 from scipy.stats import fisher_exact
 
-BASE_DIR = Path("/home/mfcaval/github/doutorado/chapter_macroevolution_review")
+BASE_DIR = Path(__file__).resolve().parents[3]
 CAFE_SUMMARY_DIR = BASE_DIR / "04_gene_families" / "cafe5" / "summary"
 
 

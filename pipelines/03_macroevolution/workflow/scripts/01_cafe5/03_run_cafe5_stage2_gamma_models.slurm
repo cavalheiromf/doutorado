@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=cafe5_rev_s2
-#SBATCH --output=/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/cafe5/logs/cafe5_stage2_%j.log
-#SBATCH --error=/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/cafe5/logs/cafe5_stage2_%j.err
+#SBATCH --output=logs/cafe5_stage2_%j.log
+#SBATCH --error=logs/cafe5_stage2_%j.err
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
@@ -22,8 +22,9 @@
 
 set -euo pipefail
 
-BASE_DIR="/home/mfcaval/github/doutorado/chapter_macroevolution_review"
-CAFE_BIN="/home/mfcaval/.local/share/mamba/envs/cafe5_env/bin/cafe5"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="${BASE_DIR:-$(cd "${SCRIPT_DIR}/../../.." && pwd)}"
+CAFE_BIN="${CAFE_BIN:-$(which cafe5 2>/dev/null || which cafe 2>/dev/null || echo cafe5)}"
 INPUT_COUNTS="${BASE_DIR}/04_gene_families/cafe5/input/cafe_family_input_6taxa.tsv"
 TREE_FILE="${BASE_DIR}/03_dating/final_trees/velloziaceae_6taxa_ultrametric.tre"
 SELECTED_ERR="${BASE_DIR}/04_gene_families/cafe5/runs/stage1_error_calibration/selected_error_model.txt"

@@ -9,18 +9,22 @@ Usage:
 """
 
 import argparse
+import os
+import shutil
 import sys
 from pathlib import Path
 
 # Allow importing from workflow/ at the project root
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+SCRIPT_DIR   = Path(__file__).resolve().parent
+OSCA_DIR     = SCRIPT_DIR.parents[1]
+PROJECT_ROOT = OSCA_DIR.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from workflow.slurm_utils import generate_sbatch_script, submit_job
 
 # --- Project Paths ---
 DATA_DIR    = PROJECT_ROOT / "data"
-RESULTS_DIR = PROJECT_ROOT / "analyses" / "05_rnaseq" / "results"
+RESULTS_DIR = OSCA_DIR / "05_rnaseq" / "results"
 LOGS_DIR    = PROJECT_ROOT / "logs"
 
 # --- Module Mappings (Biotec02 cluster) ---
@@ -33,7 +37,7 @@ MODULES = {
     "samtools": "Bio/SAMtools/1.23",
 }
 
-GFFREAD = "/home/mfcaval/.local/share/mamba/envs/bio_env/bin/gffread"
+GFFREAD = os.environ.get("GFFREAD_BIN") or shutil.which("gffread") or "gffread"
 
 # --- Sample Groups ---
 SAMPLES = {
@@ -96,7 +100,7 @@ def submit_index(species_list):
 
         commands = [
             f"{GFFREAD} {gff_file} -T -o {gtf_file}",
-            f"python3 {PROJECT_ROOT}/analyses/05_rnaseq/scripts/fix_gtf.py {gtf_file}",
+            f"python3 {SCRIPT_DIR}/05_fix_gtf.py {gtf_file}",
             (
                 f"STAR --runMode genomeGenerate --genomeDir {index_dir}"
                 f" --genomeFastaFiles {genome_fa} --sjdbGTFfile {gtf_file}"
@@ -197,7 +201,7 @@ def submit_count(species_list, align_jids):
 
         commands = [
             f"{GFFREAD} {gff_file} -T -o {gtf_file}",
-            f"python3 {PROJECT_ROOT}/analyses/05_rnaseq/scripts/fix_gtf.py {gtf_file}",
+            f"python3 {SCRIPT_DIR}/05_fix_gtf.py {gtf_file}",
             (
                 f"featureCounts -T 16 -p -t exon -g gene_id"
                 f" -a {gtf_file} -o {count_file}"

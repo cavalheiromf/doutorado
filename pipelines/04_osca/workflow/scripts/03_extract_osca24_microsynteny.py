@@ -2,9 +2,14 @@
 """Generate a dedicated microsynteny plot for the OSCA2.4 locus."""
 
 from pathlib import Path
+import os
 import subprocess
+import sys
 
-ROOT = Path(__file__).resolve().parents[1]
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+ROOT = OSCA_DIR / "03_synteny"
+PYTHON_BIN = os.environ.get("JCVI_PYTHON", sys.executable)
 BED_VPER = ROOT / "data" / "Vper.bed"
 BED_VTUB = ROOT / "data" / "Vtub.bed"
 ANCHORS = ROOT / "intergenomic" / "intermediates" / "Vper.Vtub.anchors"
@@ -54,7 +59,7 @@ def main():
         "e, 0, 1\n"
     )
     command = [
-        "/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/python", "-m",
+        PYTHON_BIN, "-m",
         "jcvi.graphics.synteny", str(blocks), str(ROOT / "data" / "all.bed"),
         str(WORK / "osca24.layout"), "--notex",
     ]

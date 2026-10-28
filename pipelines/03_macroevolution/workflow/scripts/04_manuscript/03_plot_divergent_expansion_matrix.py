@@ -43,9 +43,10 @@ plt.rcParams.update({
     "ps.fonttype": 42
 })
 
-BASE_DIR = Path("/home/mfcaval/github/doutorado/chapter_macroevolution_review")
+BASE_DIR = Path(__file__).resolve().parents[3]
 FIG_DIR = BASE_DIR / "04_manuscript" / "figures"
-DOCS_FIG_DIR = Path("/home/mfcaval/github/doutorado/docs/macroevolution/manuscripts/figures")
+PROJECT_ROOT = BASE_DIR.parent.parent
+DOCS_FIG_DIR = PROJECT_ROOT / "docs" / "03_chapter_3_macroevolution" / "manuscripts" / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 DOCS_FIG_DIR.mkdir(parents=True, exist_ok=True)
 

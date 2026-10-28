@@ -47,7 +47,8 @@ def get_all_ancestors(term, parents_dict, memo=None):
     return anc
 
 def main():
-    base_dir = os.environ.get("FAMILY_ENRICHMENT_DIR", "/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_gene_families/functional_enrichment")
+    default_enrich = str(Path(__file__).resolve().parents[3] / "04_gene_families" / "functional_enrichment")
+    base_dir = os.environ.get("FAMILY_ENRICHMENT_DIR", default_enrich)
     input_dir = os.path.join(base_dir, "input")
     results_dir = os.path.join(base_dir, "results")
     obo_file = os.path.join(input_dir, "raw_annotations", "go-basic.obo")

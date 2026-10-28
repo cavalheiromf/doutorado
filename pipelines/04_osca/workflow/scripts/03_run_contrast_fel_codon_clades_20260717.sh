@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
-A="${ROOT_DIR}/analyses/03_synteny"
+A="${ROOT_DIR}/pipelines/04_osca/03_synteny"
 I="${A}/hyphy_validation_20260716/filtered_alignments/gap20"
 O="${A}/hyphy_codon_clade_rerun_20260717"
-H="${HYPHY_BIN:-/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/hyphy}"
+H="${HYPHY_BIN:-$(which hyphy 2>/dev/null || echo hyphy)}"
 mkdir -p "${O}/provenance"
 "${H}" --version > "${O}/provenance/hyphy_version.txt"
 DATASETS=( ${DATASETS:-global osca1 osca2 osca3_4} )

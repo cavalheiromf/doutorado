@@ -17,7 +17,8 @@ import numpy as np
 
 BASE_DIR = Path(__file__).resolve().parents[3]
 FIG_DIR = BASE_DIR / "04_manuscript/figures"
-DOCS_FIG_DIR = Path("/home/mfcaval/github/doutorado/docs/macroevolution/manuscripts/figures")
+PROJECT_ROOT = BASE_DIR.parent.parent
+DOCS_FIG_DIR = PROJECT_ROOT / "docs" / "03_chapter_3_macroevolution" / "manuscripts" / "figures"
 SYNTENY_DIR = BASE_DIR / "04_gene_families/synteny"
 
 os.makedirs(FIG_DIR, exist_ok=True)

@@ -6,12 +6,13 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=32G
 #SBATCH --time=02:00:00
-#SBATCH --output=/home/mfcaval/github/doutorado/chapter_macroevolution_review/05_selection/selection_job_%j.log
+#SBATCH --output=logs/selection_job_%j.log
 
 set -euo pipefail
 
-BASE_DIR="/home/mfcaval/github/doutorado/chapter_macroevolution_review"
-SCRIPTS_DIR="${BASE_DIR}/workflow/scripts/05_selection"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="${BASE_DIR:-$(cd "${SCRIPT_DIR}/../../.." && pwd)}"
+SCRIPTS_DIR="${SCRIPT_DIR}"
 OUT_DIR="${BASE_DIR}/05_selection/pair_specific_run"
 
 echo "=== START SELECTION PIPELINE: $(date) ==="

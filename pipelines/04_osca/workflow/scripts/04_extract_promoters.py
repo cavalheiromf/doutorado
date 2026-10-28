@@ -7,10 +7,13 @@ import subprocess
 from pathlib import Path
 
 # --- Project Paths ---
-PROJECT_ROOT = Path("/home/mfcaval/github/doutorado")
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+PROJECT_ROOT = OSCA_DIR.parent.parent
+
 DATA_DIR = PROJECT_ROOT / "data"
-RESULTS_DIR = PROJECT_ROOT / "analyses" / "04_promoters" / "results"
-OSCA_IDS_FILE = PROJECT_ROOT / "analyses" / "01_gene_identification" / "results" / "oscasIDs.txt"
+RESULTS_DIR = OSCA_DIR / "04_promoters" / "results"
+OSCA_IDS_FILE = OSCA_DIR / "01_gene_identification" / "results" / "oscasIDs.txt"
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -6,7 +6,7 @@ import shutil
 from pathlib import Path
 import pandas as pd
 
-BASE_DIR = Path("/home/mfcaval/github/doutorado/chapter_macroevolution_review")
+BASE_DIR = Path(__file__).resolve().parents[3]
 OUT_DIR = BASE_DIR / "04_manuscript" / "tables"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

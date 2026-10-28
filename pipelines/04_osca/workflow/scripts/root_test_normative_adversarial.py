@@ -19,7 +19,10 @@ import re
 import sys
 import unicodedata
 
-MANUSCRIPT_PATH = "/home/mfcaval/github/doutorado/chapter2_osca/manuscript/chapter_2_osca_mechanosensation.md"
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[4]
+MANUSCRIPT_PATH = str(PROJECT_ROOT / "docs" / "04_chapter_4_osca" / "manuscripts" / "chapter_4_osca_mechanosensation.md")
 
 def strip_accents(s):
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")

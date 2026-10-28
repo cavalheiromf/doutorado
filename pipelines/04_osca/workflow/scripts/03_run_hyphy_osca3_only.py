@@ -139,8 +139,8 @@ def run(command: list[str], stdout: Path, stderr: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--project", type=Path, default=Path(__file__).resolve().parents[2])
-    parser.add_argument("--muscle", type=Path, default=Path("/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/muscle"))
-    parser.add_argument("--hyphy", type=Path, default=Path("/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin/hyphy"))
+    parser.add_argument("--muscle", type=Path, default=Path(shutil.which("muscle") or "muscle"))
+    parser.add_argument("--hyphy", type=Path, default=Path(shutil.which("hyphy") or "hyphy"))
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
 

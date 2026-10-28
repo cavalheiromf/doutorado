@@ -17,10 +17,16 @@ import pandas as pd
 from Bio import SeqIO
 from Bio.Seq import Seq
 from scipy.stats import chi2
+import os
+import shutil
 from statsmodels.stats.multitest import multipletests
 
-MAFFT_BIN = "/home/program2/bin/MAFFT/7.526/bin/mafft"
-CODEML_BIN = "/home/mfcaval/.local/bin/codeml"
+SCRIPT_DIR = Path(__file__).resolve().parent
+MACRO_DIR = SCRIPT_DIR.parents[1]
+PROJECT_ROOT = MACRO_DIR.parent.parent
+
+MAFFT_BIN = os.environ.get("MAFFT_BIN") or shutil.which("mafft") or "mafft"
+CODEML_BIN = os.environ.get("CODEML_BIN") or shutil.which("codeml") or "codeml"
 STOPS = {"TAA", "TAG", "TGA"}
 
 
@@ -35,7 +41,7 @@ def parse_args():
 
 def load_trios_and_sequences():
     print("[1/4] Loading orthology tables and mapping 3-way 1:1:1 trios...")
-    kaks_path = "/home/mfcaval/github/doutorado/chapter_macroevolution_review/04_manuscript/tables/TableS6_reciprocal_1to1_orthologs_kaks.tsv"
+    kaks_path = MACRO_DIR / "04_manuscript" / "tables" / "TableS6_reciprocal_1to1_orthologs_kaks.tsv"
     df_kaks = pd.read_csv(kaks_path, sep="\t")
     vper_vtub = dict(zip(df_kaks["Vellozia_peripherica_Gene"], df_kaks["Vellozia_tubiflora_Gene"]))
     pair_map = dict(zip(df_kaks["Vellozia_peripherica_Gene"], df_kaks["Pair_ID"]))
@@ -43,8 +49,8 @@ def load_trios_and_sequences():
     pairwise_omega_map = dict(zip(df_kaks["Vellozia_peripherica_Gene"], df_kaks["Omega_KaKs"]))
     pairwise_flags_map = dict(zip(df_kaks["Vellozia_peripherica_Gene"], df_kaks["Flags"]))
 
-    vx_file = "/home/mfcaval/github/doutorado/chapter_macroevolution_review/01_orthology/results/Results_Aug30/Orthologues/Orthologues_Vper.pep/Vper.pep__v__Xvis.pep.tsv"
-    tx_file = "/home/mfcaval/github/doutorado/chapter_macroevolution_review/01_orthology/results/Results_Aug30/Orthologues/Orthologues_Vtub.pep/Vtub.pep__v__Xvis.pep.tsv"
+    vx_file = MACRO_DIR / "01_orthology" / "results" / "Results_Aug30" / "Orthologues" / "Orthologues_Vper.pep" / "Vper.pep__v__Xvis.pep.tsv"
+    tx_file = MACRO_DIR / "01_orthology" / "results" / "Results_Aug30" / "Orthologues" / "Orthologues_Vtub.pep" / "Vtub.pep__v__Xvis.pep.tsv"
     vx = pd.read_csv(vx_file, sep="\t")
     tx = pd.read_csv(tx_file, sep="\t")
     vx_11 = vx[~vx["Vper.pep"].str.contains(",") & ~vx["Xvis.pep"].str.contains(",")]
@@ -53,9 +59,13 @@ def load_trios_and_sequences():
     t_to_x = dict(zip(tx_11["Vtub.pep"], tx_11["Xvis.pep"]))
 
     print("[2/4] Indexing CDS fasta files into memory...")
-    vper_cds = {r.id.split()[0]: str(r.seq).upper() for r in SeqIO.parse("/home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.cds.fasta", "fasta")}
-    vtub_cds = {r.id.split()[0]: str(r.seq).upper() for r in SeqIO.parse("/home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.cds.fasta", "fasta")}
-    xvis_cds = {r.id.split()[0]: str(r.seq).upper() for r in SeqIO.parse("/home/mfcaval/github/doutorado/chapter_macroevolution_review/00_data/cds_outgroups/Xvis.cds.fa", "fasta")}
+    vper_cds_path = PROJECT_ROOT / "data" / "genomes" / "Vper" / "Vper.hapA.v1.softmasked.cds.fasta"
+    vtub_cds_path = PROJECT_ROOT / "data" / "genomes" / "Vtub" / "Vtub.hapA.v1.softmasked.cds.fasta"
+    xvis_cds_path = MACRO_DIR / "00_data" / "cds_outgroups" / "Xvis.cds.fa"
+
+    vper_cds = {r.id.split()[0]: str(r.seq).upper() for r in SeqIO.parse(vper_cds_path, "fasta")}
+    vtub_cds = {r.id.split()[0]: str(r.seq).upper() for r in SeqIO.parse(vtub_cds_path, "fasta")}
+    xvis_cds = {r.id.split()[0]: str(r.seq).upper() for r in SeqIO.parse(xvis_cds_path, "fasta")}
 
     trios = []
     for vp, vt in vper_vtub.items():

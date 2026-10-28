@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-SCRIPT_DIR="/home/mfcaval/github/doutorado/chapter_macroevolution_review/workflow/scripts"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 JOB1="846260"
 echo "[INFO] Etapa 1 já está em execução no SLURM (Job ID: ${JOB1})"

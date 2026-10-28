@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """Re-estimate pairwise Ka/Ks from explicit PAL2NAL codon alignments."""
 import csv
+import os
 import re
+import shutil
 import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "results"
 OUTPUT = ROOT / "results_pal2nal_yn00"
-BIN = Path("/home/mfcaval/.local/share/mamba/envs/jcviEnv/bin")
-PAL2NAL = BIN / "pal2nal.pl"
-YN00 = BIN / "yn00"
+
+PAL2NAL = os.environ.get("PAL2NAL_BIN") or shutil.which("pal2nal.pl") or shutil.which("pal2nal") or "pal2nal.pl"
+YN00 = os.environ.get("YN00_BIN") or shutil.which("yn00") or "yn00"
 
 
 def main():

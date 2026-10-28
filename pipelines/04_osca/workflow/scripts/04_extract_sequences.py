@@ -1,14 +1,19 @@
 import os
 import subprocess
+from pathlib import Path
 from Bio import SeqIO
 
-# Paths
-ID_MAPPING = "/home/mfcaval/github/doutorado/analyses/01_gene_identification/results/oscasIDs.txt"
-VPER_PROTEINS = "/home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.proteins.fasta"
-VPER_CDS = "/home/mfcaval/github/doutorado/data/genomes/Vper/Vper.hapA.v1.softmasked.cds.fasta"
-VTUB_PROTEINS = "/home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.proteins.fasta"
-VTUB_CDS = "/home/mfcaval/github/doutorado/data/genomes/Vtub/Vtub.hapA.v1.softmasked.cds.fasta"
-OUTPUT_DIR = "/home/mfcaval/github/doutorado/analyses/04_evolutionary_rates/results"
+# Dynamic paths resolution
+SCRIPT_DIR = Path(__file__).resolve().parent
+OSCA_DIR = SCRIPT_DIR.parents[1]
+PROJECT_ROOT = OSCA_DIR.parent.parent
+
+ID_MAPPING = OSCA_DIR / "01_gene_identification" / "results" / "oscasIDs.txt"
+VPER_PROTEINS = PROJECT_ROOT / "data" / "genomes" / "Vper" / "Vper.hapA.v1.softmasked.proteins.fasta"
+VPER_CDS = PROJECT_ROOT / "data" / "genomes" / "Vper" / "Vper.hapA.v1.softmasked.cds.fasta"
+VTUB_PROTEINS = PROJECT_ROOT / "data" / "genomes" / "Vtub" / "Vtub.hapA.v1.softmasked.proteins.fasta"
+VTUB_CDS = PROJECT_ROOT / "data" / "genomes" / "Vtub" / "Vtub.hapA.v1.softmasked.cds.fasta"
+OUTPUT_DIR = OSCA_DIR / "04_evolutionary_rates" / "results"
 
 # OSCA Pairs to analyze (VpOSCAx.y, VtOSCAx.y)
 pairs = [

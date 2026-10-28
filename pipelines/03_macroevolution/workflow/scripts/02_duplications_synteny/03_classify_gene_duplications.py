@@ -19,7 +19,7 @@ import sys
 import subprocess
 import pandas as pd
 
-BASE_DIR = "/home/mfcaval/github/doutorado/chapter_macroevolution_review"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 SYNTENY_DIR = os.path.join(BASE_DIR, "04_gene_families", "synteny")
 DUP_DIR = os.path.join(SYNTENY_DIR, "duplications")
 TOOLS_BIN = os.path.join(SYNTENY_DIR, "tools", "MCScanX_Assistant", "scripts", "MCScanX", "duplicate_gene_classifier")
