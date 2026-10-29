@@ -2,9 +2,10 @@
 
 Este documento fornece instruções detalhadas para reproduzir integralmente todos os resultados computacionais, análises filogenômicas, modelos evolutivos, análises de expressão e figuras da tese de doutorado:
 
-**"Genômica Evolutiva e Funcional de Velloziaceae: Adaptações à Dessecação e Radiação em Inselbergs"**  
-Autora: Mariana Ferreira Cavalheiro  
-Laboratório de Biologia Molecular e Genômica de Plantas, Instituto de Biologia, UNICAMP
+**"Computational and Genomic Approaches to Investigating Plant Responses to Drought Stress: *Velloziaceae* as a Model System"**  
+Autora: Mariana Feitosa Cavalheiro  
+Genomics for Climate Change Research Center (GCCRC), Universidade Estadual de Campinas (UNICAMP)  
+Programa de Pós-Graduação em Genética e Biologia Molecular (PPG-GBM), Instituto de Biologia, UNICAMP
 
 ---
 
@@ -168,5 +169,6 @@ pytest pipelines/04_osca/workflow/tests/ -v
 
 ## 8. Contato e Suporte
 
-- Mariana Ferreira Cavalheiro: [marianacavalheiro@unicamp.br](mailto:marianacavalheiro@unicamp.br)
-- Laboratório de Genômica e Expressão (LGE) / LBMGP — UNICAMP
+- Mariana Feitosa Cavalheiro: [marianacavalheiro@unicamp.br](mailto:marianacavalheiro@unicamp.br)
+- Genomics for Climate Change Research Center (GCCRC), UNICAMP
+
