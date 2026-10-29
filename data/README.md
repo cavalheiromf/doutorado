@@ -79,3 +79,4 @@ Para verificar se os arquivos de dados locais correspondem exatamente aos dados 
 sha256sum -c data/checksums.sha256
 ```
 *(Um exemplo de formato de checksums está disponível em `data/checksums.sha256.example`).*
+
