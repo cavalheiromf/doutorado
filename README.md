@@ -1,86 +1,87 @@
-# Genômica Comparativa e História Evolutiva de Velloziaceae
+# Comparative Genomics and Evolutionary History of Velloziaceae
 
-[![UNICAMP](https://img.shields.io/badge/UNICAMP-Instituto_de_Biologia-blue.svg)](https://www.ib.unicamp.br/)
+[![UNICAMP](https://img.shields.io/badge/UNICAMP-Institute_of_Biology-blue.svg)](https://www.ib.unicamp.br/)
 [![GCCRC](https://img.shields.io/badge/GCCRC-Genomics_Center-green.svg)](https://www.gccrc.unicamp.br/)
 [![BioProject](https://img.shields.io/badge/NCBI_BioProject-PRJNA984512-orange.svg)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA984512)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Repositório oficial de dados, análises, pipelines computacionais e manuscritos da tese de doutorado de **Mariana Feitosa Cavalheiro**, desenvolvida no Programa de Pós-Graduação em Genética e Biologia Molecular do Instituto de Biologia da Universidade Estadual de Campinas (UNICAMP), em colaboração com o Centro de Pesquisa em Genômica Aplicada às Mudanças Climáticas (GCCRC), o Centro de Biologia Molecular e Engenharia Genética (CBMEG) e a Embrapa Agricultura Digital.
+Official repository of data, analyses, computational pipelines, and manuscripts for the PhD thesis of **Mariana Feitosa Cavalheiro**, conducted within the Graduate Program in Genetics and Molecular Biology (PPG-GBM) at the Institute of Biology, University of Campinas (UNICAMP), in collaboration with the Genomics for Climate Change Research Center (GCCRC), the Center for Molecular Biology and Genetic Engineering (CBMEG), and Embrapa Digital Agriculture.
 
 ---
 
-## Informações Institucionais
+## Institutional Information
 
-* **Candidata**: Mariana Feitosa Cavalheiro
-* **Orientadora**: Dra. Isabel Rodrigues Gerhardt (Embrapa Agricultura Digital / GCCRC / UNICAMP)
-* **Coorientadores e Colaboradores Principais**: Dr. Ricardo Augusto Dante (Embrapa / GCCRC), Prof. Dr. Paulo Arruda (UNICAMP / CBMEG), Dra. Francine A. N. de Almeida (UNICAMP)
-* **Programa**: Pós-Graduação em Genética e Biologia Molecular (PPG-GBM), Instituto de Biologia, UNICAMP
-* **Apoio Financeiro**:
-  * Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP, bolsas e auxílios de pesquisa 2020/02084-0 e 2016/23218-0)
-  * Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq, processo 140481/2020-6 e bolsa de produtividade em pesquisa)
-* **Conformidade Legal e Patrimônio Genético**:
-  * **SisGen**: Registros AF30A4D (*Vellozia peripherica*) e A5985A4 (*Vellozia tubiflora*), Ministério do Meio Ambiente, Brasil.
-  * **ICMBio**: Autorizações de coleta botânica no Parque Nacional da Serra da Canastra (Delfinópolis, MG, Brasil).
+* **Candidate**: Mariana Feitosa Cavalheiro
+* **Advisor**: Dr. Isabel Rodrigues Gerhardt (Embrapa Digital Agriculture / GCCRC / UNICAMP)
+* **Co-advisors and Primary Collaborators**: Dr. Ricardo Augusto Dante (Embrapa / GCCRC), Prof. Dr. Paulo Arruda (UNICAMP / CBMEG), Dr. Francine A. N. de Almeida (UNICAMP)
+* **Graduate Program**: Graduate Program in Genetics and Molecular Biology (PPG-GBM), Institute of Biology, UNICAMP
+* **Financial Support**:
+  * São Paulo Research Foundation (FAPESP, doctoral fellowships and research grants 2020/02084-0 and 2016/23218-0)
+  * National Council for Scientific and Technological Development (CNPq, grant 140481/2020-6 and productivity research fellowship)
+* **Legal Compliance and Genetic Heritage Access**:
+  * **SisGen**: Registrations AF30A4D (*Vellozia peripherica*) and A5985A4 (*Vellozia tubiflora*), Ministry of Environment, Brazil.
+  * **ICMBio**: Botanical collection permits in Serra da Canastra National Park (Delfinópolis, MG, Brazil).
 
 ---
 
-## Estrutura da Tese de Doutorado
+## Thesis Structure
 
-| Componente | Título / Tema | Manuscrito Canônico | Pasta |
+| Component | Title / Topic | Canonical Manuscript | Directory |
 | :--- | :--- | :--- | :--- |
-| **00_Introduction** | *Introdução Geral e Revisão Bibliográfica* | [Texto](docs/00_introduction/general_introduction_thesis_181026.md) | [docs/00_introduction/](docs/00_introduction/) |
-| **01_Chapter_1** | *A Haplotype-Resolved, Near Telomere-to-Telomere Genome Assembly of the Desiccation-Tolerant Plant Vellozia tubiflora* | [Manuscrito](docs/01_chapter_1_tubiflora/manuscripts/chapter_tubiflora_master_draft.md) | [docs/01_chapter_1_tubiflora/](docs/01_chapter_1_tubiflora/) |
-| **02_Chapter_2** | *Genomas Organelares: Plastoma e Mitocôndria em Velloziaceae* | *(Contextualização na tese)* | [docs/00_introduction/](docs/00_introduction/) |
-| **03_Chapter_3** | *Ancestral Gene-Family Expansion and Asymmetric Local Duplication in Two Vellozia Species with Contrasting Drought-Survival Strategies* | [Manuscrito](docs/03_chapter_3_macroevolution/manuscripts/chapter_macroevolution_article.md) | [docs/03_chapter_3_macroevolution/](docs/03_chapter_3_macroevolution/) |
-| **04_Chapter_4** | *Genome-Wide Identification, Comparative Synteny, and Evolutionary Divergence of OSCA Mechanosensitive Ion Channels in Resurrection and Evergreen Vellozia* | [Manuscrito](docs/04_chapter_4_osca/manuscripts/chapter_4_osca_mechanosensation.md) | [docs/04_chapter_4_osca/](docs/04_chapter_4_osca/) |
-| **05_Chapter_5** | *The Experience of Teaching Introductory Programming Skills to Bioscientists in Brazil* (*PLOS Comp. Biol.*, 2021) | [Manuscrito](docs/05_chapter_5_python/manuscripts/chapter_python_master_draft.md) | [docs/05_chapter_5_python/](docs/05_chapter_5_python/) |
-| **06_Discussion** | *Discussão Geral Transversal e Conclusões da Tese* | [Texto](docs/06_general_discussion_and_conclusions/discussao_transversal_tese.md) | [docs/06_general_discussion_and_conclusions/](docs/06_general_discussion_and_conclusions/) |
+| **00_Introduction** | *General Introduction and Literature Review* | [Text](docs/00_introduction/general_introduction_thesis_181026.md) | [docs/00_introduction/](docs/00_introduction/) |
+| **01_Chapter_1** | *A Haplotype-Resolved, Near Telomere-to-Telomere Genome Assembly of the Desiccation-Tolerant Plant Vellozia tubiflora* | [Manuscript](docs/01_chapter_1_tubiflora/manuscripts/chapter_tubiflora_master_draft.md) | [docs/01_chapter_1_tubiflora/](docs/01_chapter_1_tubiflora/) |
+| **02_Chapter_2** | *Organellar Genomes: Plastome and Mitochondrion in Velloziaceae* | *(Contextualized in thesis)* | [docs/00_introduction/](docs/00_introduction/) |
+| **03_Chapter_3** | *Ancestral Gene-Family Expansion and Asymmetric Local Duplication in Two Vellozia Species with Contrasting Drought-Survival Strategies* | [Manuscript](docs/03_chapter_3_macroevolution/manuscripts/chapter_macroevolution_article.md) | [docs/03_chapter_3_macroevolution/](docs/03_chapter_3_macroevolution/) |
+| **04_Chapter_4** | *Genome-Wide Identification, Comparative Synteny, and Evolutionary Divergence of OSCA Mechanosensitive Ion Channels in Resurrection and Evergreen Vellozia* | [Manuscript](docs/04_chapter_4_osca/manuscripts/chapter_4_osca_mechanosensation.md) | [docs/04_chapter_4_osca/](docs/04_chapter_4_osca/) |
+| **06_Discussion** | *General Cross-Cutting Discussion and Conclusions* | [Text](docs/06_general_discussion_and_conclusions/discussao_transversal_tese.md) | [docs/06_general_discussion_and_conclusions/](docs/06_general_discussion_and_conclusions/) |
 
 ---
 
-## Pipelines Analíticos e Reprodutibilidade
+## Analytical Pipelines and Reproducibility
 
-Os códigos e scripts de bioinformática estão organizados em módulos analíticos reprodutíveis:
+Bioinformatics workflows and scripts are structured into modular, reproducible execution units:
 
 * **[pipelines/03_macroevolution/](pipelines/03_macroevolution/)**:
-  - Delineamento de ortologia (OrthoFinder).
-  - Filogenômica por supermatriz concatenada e modelo multiespécies coalescente (ASTRAL-II).
-  - Datação molecular sob relógio relaxado calibrado por fósseis (MCMCtree).
-  - Modelagem estocástica de ganho e perda de famílias gênicas (CAFE5, modelo M5 com distribuição Gamma).
-  - Classificação de mecanismos de duplicação gênica e macrossintenia (MCScanX / JCVI).
-  - Taxas de substituição não-sinônima e sinônima (PAML / codeml) em trios ortólogos polarizados por *Xerophyta schlechteri*.
-  - Enriquecimento funcional (GO e KEGG) com correção de FDR e permutações estratificadas.
+  - Orthology delineation across monocots and outgroups (OrthoFinder).
+  - Phylogenomics via concatenated supermatrix and multi-species coalescent model (ASTRAL-II).
+  - Molecular dating under fossil-calibrated relaxed molecular clock (MCMCtree).
+  - Stochastic modeling of gene family expansion and contraction (CAFE5, M5 model with Gamma rate distribution).
+  - Duplication mechanism classification and macrosynteny analysis (MCScanX / JCVI).
+  - Nonsynonymous and synonymous substitution rates (PAML / codeml) across orthologous trios polarized by *Xerophyta schlechteri*.
+  - Functional enrichment (GO and KEGG) with FDR correction and stratified permutations.
 
 * **[pipelines/04_osca/](pipelines/04_osca/)**:
-  - Identificação genômica e curadoria de domínios Pfam (PF02714, PF13967, PF14703 via HMMER e InterProScan).
-  - Filogenia molecular e topologia transmembrana (IQ-TREE e Phobius/TMHMM).
-  - Microssintenia comparativa e colinearidade física (MCScan).
-  - Análise de intensidades de seleção (HyPhy RELAX) e taxas evolutivas pareadas (PAML YN00).
-  - Perfis de expressão tecidual sob condições de campo (STAR, featureCounts, DESeq2).
-  - Modelagem de redes de associação funcional (STRING API v12) e enriquecimento modular.
-  - Arquitetura cis-regulatória e predição de promotores (PlantCARE).
+  - Genome-wide identification and Pfam domain curation (PF02714, PF13967, PF14703 via HMMER and InterProScan).
+  - Molecular phylogeny and transmembrane topology prediction (IQ-TREE and Phobius/TMHMM).
+  - Comparative microsynteny and physical collinearity analysis (MCScan).
+  - Selection intensity modeling (HyPhy RELAX) and pairwise evolutionary rates (PAML YN00).
+  - Tissue-associated expression profiles under field conditions (STAR, featureCounts, DESeq2).
+  - Protein-protein functional association network reconstruction (STRING API v12) and module enrichment.
+  - Cis-regulatory promoter architecture and motif discovery (PlantCARE).
+
+* For comprehensive instructions on recreating environments, validating data checksums, and executing pipelines locally or via SLURM, see [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).
 
 ---
 
-## Organização do Diretório `docs/`
+## Directory Organization in `docs/`
 
-* **`docs/00_introduction/`** a **`docs/06_general_discussion_and_conclusions/`**: Manuscritos em formato Markdown com figuras de alta resolução embutidas, tabelas consolidadas e referências padronizadas (ABNT NBR 6023).
-* **[docs/literature/](docs/literature/)**: Biblioteca de referências bibliográficas da tese, metadados OpenAlex e arquivos BibTeX (`.bib`).
-* **[docs/qualification_and_forms/](docs/qualification_and_forms/)**: Roteiros e documentação institucional de qualificação.
-
----
-
-## Disponibilidade de Dados
-
-1. **Dados Genômicos Brutos e Montagens**:
-   - Depositados no NCBI sob o BioProject **PRJNA984512**.
-2. **Pacotes Suplementares**:
-   - As tabelas suplementares completas de cada capítulo encontram-se disponíveis nos formatos `.xlsx` e `.tsv` nas respectivas pastas de `docs/` e `pipelines/`.
-3. **Imagens de Alta Resolução**:
-   - Disponíveis individualmente nos formatos vetoriais e rasterizados (`.svg`, `.pdf`, `.png`) nas pastas de figuras de cada capítulo.
+* **`docs/00_introduction/`** through **`docs/06_general_discussion_and_conclusions/`**: Markdown manuscripts with high-resolution embedded figures, consolidated tables, and formatted bibliographies.
+* **[docs/literature/](docs/literature/)**: Reference library, OpenAlex metadata, and BibTeX files (`.bib`).
+* **[docs/qualification_and_forms/](docs/qualification_and_forms/)**: Qualification outlines and institutional documentation.
 
 ---
 
-## Como Citar
+## Data Availability
 
-> CAVALHEIRO, Mariana Feitosa. **Genômica Comparativa e História Evolutiva de Velloziaceae: Adaptações à Limitação Hídrica e Mecanismos de Sobrevivência à Seca e Dessecação em Campos Rupestres**. 2026. Tese (Doutorado em Genética e Biologia Molecular) — Instituto de Biologia, Universidade Estadual de Campinas, Campinas, 2026.
+1. **Raw Genomic Sequencing Data and Assemblies**:
+   - Deposited at NCBI under BioProject **PRJNA984512**.
+2. **Supplementary Packages**:
+   - Complete supplementary tables for each chapter are available in `.xlsx` and `.tsv` formats in their respective `docs/` and `pipelines/` subdirectories.
+3. **High-Resolution Figures**:
+   - Available individually in vector and raster formats (`.svg`, `.pdf`, `.png`) within each chapter's figures directory.
+
+---
+
+## How to Cite
+
+> CAVALHEIRO, Mariana Feitosa. **Computational and Genomic Approaches to Investigating Plant Responses to Drought Stress: Velloziaceae as a Model System**. 2026. PhD Thesis (Doctorate in Genetics and Molecular Biology) — Institute of Biology, University of Campinas (UNICAMP), Campinas, Brazil, 2026.

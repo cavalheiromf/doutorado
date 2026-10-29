@@ -1,174 +1,173 @@
-# Guia de Reprodutibilidade Computacional
+# Computational Reproducibility Guide
 
-Este documento fornece instruções detalhadas para reproduzir integralmente todos os resultados computacionais, análises filogenômicas, modelos evolutivos, análises de expressão e figuras da tese de doutorado:
+This document provides detailed instructions to fully reproduce all computational results, phylogenomic analyses, evolutionary models, expression analyses, figures, and tables from the PhD thesis:
 
 **"Computational and Genomic Approaches to Investigating Plant Responses to Drought Stress: *Velloziaceae* as a Model System"**  
-Autora: Mariana Feitosa Cavalheiro  
-Genomics for Climate Change Research Center (GCCRC), Universidade Estadual de Campinas (UNICAMP)  
-Programa de Pós-Graduação em Genética e Biologia Molecular (PPG-GBM), Instituto de Biologia, UNICAMP
+Author: Mariana Feitosa Cavalheiro  
+Genomics for Climate Change Research Center (GCCRC), University of Campinas (UNICAMP)  
+Graduate Program in Genetics and Molecular Biology (PPG-GBM), Institute of Biology, UNICAMP
 
 ---
 
-## 1. Requisitos de Sistema e Hardware
+## 1. System Requirements and Hardware
 
-- **Sistema Operacional:** Linux x86_64 (testado em Ubuntu 22.04 LTS / Rocky Linux 9).
-- **Gerenciador de Pacotes:** `mamba` ou `conda` (recomenda-se Miniforge/Mambaforge).
-- **Recursos Mínimos (Análises Locais / Figuras / Testes):**
-  - CPU: 8 núcleos
+- **Operating System:** Linux x86_64 (tested on Ubuntu 22.04 LTS and Rocky Linux 9).
+- **Package Manager:** `mamba` or `conda` (Miniforge/Mambaforge strongly recommended).
+- **Minimum Resources (Local Analyses / Figures / Tests):**
+  - CPU: 8 cores
   - RAM: 16 GB
-  - Armazenamento livre: 50 GB
-- **Recursos Recomendados para Execuções Pesadas (PAML / CAFE5 / Alinhamentos Globais):**
-  - CPU: 32+ núcleos (ou acesso a cluster HPC com escalonador SLURM)
+  - Free disk space: 50 GB
+- **Recommended Resources for Computationally Intensive Workflows (PAML / CAFE5 / Global Alignments):**
+  - CPU: 32+ cores (or access to an HPC cluster with a SLURM scheduler)
   - RAM: 64+ GB
 
 ---
 
-## 2. Instalação do Ambiente Computacional
+## 2. Computational Environment Setup
 
-Todas as dependências de Python, R/Bioconductor e ferramentas de linha de comando estão unificadas no arquivo [`environment.yml`](environment.yml).
+All dependencies across Python, R/Bioconductor, and command-line bioinformatics tools are unified in [`environment.yml`](environment.yml).
 
-### Criando e ativando o ambiente:
+### Creating and activating the environment:
 
 ```bash
-# Clone o repositório se ainda não o fez
+# Clone the repository
 git clone https://github.com/mfcaval/doutorado.git
 cd doutorado
 
-# Crie o ambiente Conda unificado vellozia-genomics
+# Create the unified vellozia-genomics Conda environment
 mamba env create -f environment.yml
 
-# Ative o ambiente
+# Activate the environment
 conda activate vellozia-genomics
 ```
 
-### Ferramentas externas de terceiros (se não instaladas via Conda):
-- **CAFE5:** Se compilado a partir do código-fonte, garanta que o binário esteja no seu `$PATH` ou defina a variável `export CAFE5_BIN=/caminho/para/cafe5`.
-- **PAML (codeml):** Disponível via conda ou `$PATH`.
+### External Third-Party Tools (if compiled outside Conda):
+- **CAFE5:** If compiled from source, ensure the binary is in your `$PATH` or set the environment variable `export CAFE5_BIN=/path/to/cafe5`.
+- **PAML (codeml):** Available via conda or system `$PATH`.
 
 ---
 
-## 3. Proveniência e Integridade dos Dados
+## 3. Data Provenance and Integrity
 
-Os dados brutos e montagens genômicas estão documentados em [`data/README.md`](data/README.md).
+Raw datasets and genome assemblies are fully documented in [`data/README.md`](data/README.md).
 
-### Estrutura de dados:
+### Data directory structure:
 ```
 data/
 ├── genomes/
-│   ├── Vtub/        # Vellozia tubiflora (quase T2T, 9 pseudocromossomos)
-│   ├── Vper/        # Vellozia plicata / intermedia (17 cromossomos)
+│   ├── Vtub/        # Vellozia tubiflora (near-T2T assembly, 9 pseudochromosomes)
+│   ├── Vper/        # Vellozia plicata / intermedia (17 chromosomes)
 │   └── outgroups/   # Xvis, Abra, Ptec, Dala, Ath
-├── rnaseq/          # 18 bibliotecas pareadas (Folha, Caule, Raiz em Vtub e Vper)
-├── pfam/            # Perfis HMM (ex.: PF02714 para OSCA/TMEM63)
-└── checksums.sha256 # Hashes SHA-256 para integridade
+├── rnaseq/          # 18 paired-end libraries (Leaf, Stem, Root in Vtub and Vper)
+├── pfam/            # HMM profiles (e.g., PF02714 for OSCA/TMEM63)
+└── checksums.sha256 # SHA-256 integrity hashes
 ```
 
-### Verificação de integridade:
+### Integrity verification:
 ```bash
-# Verifique se os arquivos locais correspondem aos hashes de referência:
+# Verify that local files match the reference hashes:
 sha256sum -c data/checksums.sha256
 ```
 
 ---
 
-## 4. Pipeline do Capítulo 3: Macroevolução e Filogenômica Comparativa
+## 4. Chapter 3 Pipeline: Macroevolution and Comparative Phylogenomics
 
-O pipeline do Capítulo 3 integra a inferência de ortogrupos (OrthoFinder), calibração de modelos evolutivos de famílias gênicas (CAFE5), seleção positiva por ramos (PAML/codeml) e enriquecimento funcional (clusterProfiler/TopGO).
+The Chapter 3 pipeline integrates orthogroup inference (OrthoFinder), evolutionary gene family turnover modeling (CAFE5), branch-specific positive selection testing (PAML/codeml), and functional enrichment analysis (clusterProfiler/TopGO).
 
-### Executor principal:
-Localizado em [`pipelines/03_macroevolution/run_pipeline.sh`](pipelines/03_macroevolution/run_pipeline.sh).
+### Master pipeline runner:
+Located at [`pipelines/03_macroevolution/run_pipeline.sh`](pipelines/03_macroevolution/run_pipeline.sh).
 
 ```bash
-# Ver opções disponíveis
+# View available options
 bash pipelines/03_macroevolution/run_pipeline.sh --help
 
-# 1. Executar todas as etapas sequencialmente em máquina local:
+# 1. Execute all steps sequentially on a local machine:
 bash pipelines/03_macroevolution/run_pipeline.sh --step all --threads 16 --mode local
 
-# 2. Executar etapa específica de CAFE5:
+# 2. Execute the CAFE5 gene family turnover step:
 bash pipelines/03_macroevolution/run_pipeline.sh --step cafe5 --threads 8
 
-# 3. Executar etapa de duplicações gênicas (WGD / DupPipe / synteny):
+# 3. Execute the gene duplication classification step (WGD / DupPipe / synteny):
 bash pipelines/03_macroevolution/run_pipeline.sh --step duplications --threads 8
 
-# 4. Executar enriquecimento funcional:
+# 4. Execute functional enrichment analysis:
 bash pipelines/03_macroevolution/run_pipeline.sh --step enrichment --threads 8
 
-# 5. Gerar tabelas e figuras do manuscrito:
+# 5. Generate manuscript figures and tables:
 bash pipelines/03_macroevolution/run_pipeline.sh --step manuscript
 
-# Para submeter as etapas pesadas via SLURM no cluster:
+# To submit compute-intensive steps via SLURM on an HPC cluster:
 bash pipelines/03_macroevolution/run_pipeline.sh --step cafe5 --mode slurm
 ```
 
 ---
 
-## 5. Pipeline do Capítulo 4: Evolução da Família OSCA
+## 5. Chapter 4 Pipeline: OSCA Gene Family Evolution
 
-O pipeline do Capítulo 4 realiza a caracterização genômica comparativa, filogenia, estrutura gênica, análise de promotores/cis-regulatórios e perfil de expressão gênica da família de canais mecanossensíveis OSCA em *Vellozia tubiflora* e *Vellozia plicata*.
+The Chapter 4 pipeline carries out comparative genomic identification, phylogeny, gene structure modeling, promoter cis-regulatory profiling, and RNA-seq expression analysis of the OSCA mechanosensitive channel family across *Vellozia tubiflora* and *Vellozia plicata*.
 
-### Executor principal:
-Localizado em [`pipelines/04_osca/run_pipeline.sh`](pipelines/04_osca/run_pipeline.sh).
+### Master pipeline runner:
+Located at [`pipelines/04_osca/run_pipeline.sh`](pipelines/04_osca/run_pipeline.sh).
 
 ```bash
-# Ver opções disponíveis
+# View available options
 bash pipelines/04_osca/run_pipeline.sh --help
 
-# 1. Executar pipeline completo localmente:
+# 1. Execute the complete pipeline locally:
 bash pipelines/04_osca/run_pipeline.sh --step all --threads 8 --mode local
 
-# 2. Curadoria e extração de sequências OSCA:
+# 2. Curation and sequence extraction of OSCA loci:
 bash pipelines/04_osca/run_pipeline.sh --step sequences
 
-# 3. Análise de taxas evolutivas e sintenia (Ka/Ks):
+# 3. Evolutionary rate analysis and synteny (Ka/Ks):
 bash pipelines/04_osca/run_pipeline.sh --step rates
 
-# 4. Análise de promotores e elementos cis (PlantCARE):
+# 4. Promoter and cis-acting element discovery (PlantCARE):
 bash pipelines/04_osca/run_pipeline.sh --step promoters
 
-# 5. Expressão diferencial e heatmaps (DESeq2 / RNA-seq):
+# 5. Differential expression and heatmaps (DESeq2 / RNA-seq):
 bash pipelines/04_osca/run_pipeline.sh --step expression
 
-# 6. Verificação de integridade dos arquivos gerados:
+# 6. Verify integrity of generated outputs:
 bash pipelines/04_osca/run_pipeline.sh --step verify
 ```
 
 ---
 
-## 6. Regeneração de Figuras e Tabelas
+## 6. Reproduction of Figures and Tables
 
-### Figuras do Capítulo 3:
-- **Figura 1 (Filogenia e Histórico de WGDs):** `pipelines/03_macroevolution/workflow/scripts/manuscript_figures/generate_figure1_wgd.py`
-- **Figura 2 (Expansões/Contrações CAFE5):** `pipelines/03_macroevolution/workflow/scripts/manuscript_figures/generate_figure2_cafe5.py`
-- **Figura 3 (Enriquecimento Funcional de Clados de Tolerância):** `pipelines/03_macroevolution/workflow/scripts/09_run_enrichment_pipeline.sh`
+### Chapter 3 Figures:
+- **Figure 1 (Phylogeny and WGD History):** `pipelines/03_macroevolution/workflow/scripts/manuscript_figures/generate_figure1_wgd.py`
+- **Figure 2 (CAFE5 Expansions and Contractions):** `pipelines/03_macroevolution/workflow/scripts/manuscript_figures/generate_figure2_cafe5.py`
+- **Figure 3 (Functional Enrichment of Stress Clades):** `pipelines/03_macroevolution/workflow/scripts/09_run_enrichment_pipeline.sh`
 
-### Figuras do Capítulo 4:
-- **Figura 1 (Árvore Filogenética OSCA e Arquitetura de Domínios):** `pipelines/04_osca/workflow/scripts/figures/generate_figure1_osca_phylogeny.py`
-- **Figura 2 (Sintenia e Colinearidade Genômica):** `pipelines/04_osca/workflow/scripts/figures/generate_figure2_synteny.py`
-- **Figura 3 (Elementos cis-regulatórios de Estresse):** `pipelines/04_osca/workflow/scripts/figures/generate_figure3_promoters.py`
-- **Figura 4 (Heatmap de Expressão Tecidual e Dessecação):** `pipelines/04_osca/workflow/scripts/figures/generate_figure4_expression_heatmap.R`
+### Chapter 4 Figures:
+- **Figure 1 (OSCA Phylogenetic Tree and Domain Architectures):** `pipelines/04_osca/workflow/scripts/figures/generate_figure1_osca_phylogeny.py`
+- **Figure 2 (Synteny and Physical Collinearity):** `pipelines/04_osca/workflow/scripts/figures/generate_figure2_synteny.py`
+- **Figure 3 (Stress-Responsive Cis-Regulatory Elements):** `pipelines/04_osca/workflow/scripts/figures/generate_figure3_promoters.py`
+- **Figure 4 (Tissue Expression and Desiccation Heatmap):** `pipelines/04_osca/workflow/scripts/figures/generate_figure4_expression_heatmap.R`
 
 ---
 
-## 7. Suíte de Testes Automatizados
+## 7. Automated Test Suite
 
-O repositório inclui testes automatizados com `pytest` para verificar a consistência de tabelas mestre, integridade de IDs, modelos de substituição e formatação de saídas:
+The repository includes automated unit and integration tests using `pytest` to verify master table consistency, gene identifier integrity, evolutionary model specifications, and output formatting:
 
 ```bash
-# Executar todos os testes da tese
+# Run the complete test suite
 pytest -v
 
-# Executar apenas testes do Capítulo 3
+# Run Chapter 3 tests only
 pytest pipelines/03_macroevolution/workflow/tests/ -v
 
-# Executar apenas testes do Capítulo 4
+# Run Chapter 4 tests only
 pytest pipelines/04_osca/workflow/tests/ -v
 ```
 
 ---
 
-## 8. Contato e Suporte
+## 8. Contact and Support
 
 - Mariana Feitosa Cavalheiro: [marianacavalheiro@unicamp.br](mailto:marianacavalheiro@unicamp.br)
 - Genomics for Climate Change Research Center (GCCRC), UNICAMP
-
