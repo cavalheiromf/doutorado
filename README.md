@@ -139,10 +139,6 @@ For detailed step-by-step instructions, input preparations, SLURM cluster execut
 
 * **Candidate:** Mariana Feitosa Cavalheiro
 * **Advisor:** Dr. Isabel Rodrigues Gerhardt (Embrapa Digital Agriculture / GCCRC / UNICAMP)
-* **Co-advisors & Key Collaborators:**
-  * Dr. Ricardo Augusto Dante (Embrapa / GCCRC)
-  * Prof. Dr. Paulo Arruda (UNICAMP / CBMEG)
-  * Dr. Francine A. N. de Almeida (UNICAMP)
 * **Academic Program:** Graduate Program in Genetics and Molecular Biology (PPG-GBM), Institute of Biology, UNICAMP
 * **Financial Support:**
   * São Paulo Research Foundation (FAPESP, Doctoral Fellowships and Research Grants 2020/02084-0 and 2016/23218-0)
