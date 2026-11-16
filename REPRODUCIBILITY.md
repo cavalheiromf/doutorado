@@ -143,10 +143,12 @@ bash pipelines/03_osca/run_pipeline.sh --step verify
 - **Figure 3 (Functional Enrichment of Stress Clades):** `pipelines/02_macroevolution/workflow/scripts/09_run_enrichment_pipeline.sh`
 
 ### Chapter 3 Figures:
-- **Figure 1 (OSCA Phylogenetic Tree and Domain Architectures):** `pipelines/03_osca/workflow/scripts/figures/generate_figure1_osca_phylogeny.py`
-- **Figure 2 (Synteny and Physical Collinearity):** `pipelines/03_osca/workflow/scripts/figures/generate_figure2_synteny.py`
-- **Figure 3 (Stress-Responsive Cis-Regulatory Elements):** `pipelines/03_osca/workflow/scripts/figures/generate_figure3_promoters.py`
-- **Figure 4 (Tissue Expression and Desiccation Heatmap):** `pipelines/03_osca/workflow/scripts/figures/generate_figure4_expression_heatmap.R`
+- **Figure 1 (OSCA Phylogenetic Tree and Domain Architectures):** `pipelines/03_osca/workflow/notebooks/osca_plots.ipynb`
+- **Figure 2 (Synteny and Physical Collinearity):** `pipelines/03_osca/workflow/notebooks/osca_plots.ipynb`
+- **Figure 3 (Evolutionary Rates and Selection):** `pipelines/03_osca/workflow/scripts/plot_figure_3_osca_selection.py`
+- **Figure 4 (Tissue Expression and Desiccation Heatmap):** `pipelines/03_osca/workflow/notebooks/plot_heatmaps.ipynb`
+- **Figure 5 (STRING Protein-Protein Interactome):** `pipelines/03_osca/workflow/scripts/07_PPI_Network.ipynb`
+- **Figure 6 (Stress-Responsive Cis-Regulatory Elements):** `pipelines/03_osca/workflow/notebooks/osca_plots.ipynb`
 
 ---
 

@@ -45,10 +45,10 @@ To maintain a clean, lightweight, and modern codebase compliant with best bioinf
 │       ├── 02_phylogeny/           # Maximum-likelihood phylogenetics (IQ-TREE)
 │       ├── 03_synteny/             # Collinearity, micro-synteny, and tandem cluster architecture
 │       ├── 04_evolutionary_rates/  # Pairwise dN/dS (PAML) and clade-specific selection (HyPhy RELAX/CONTRAST-FEL)
-│       ├── 04_promoters/           # Cis-regulatory motif discovery (PlantCARE / ABRE elements)
 │       ├── 05_rnaseq/              # Alignment, quality metrics, and gene-level count matrices
 │       ├── 06_expression/          # Differential expression and tissue-associated profiling (DESeq2)
 │       ├── 07_ppi_network/         # Protein-protein interaction network topology (STRING API v12)
+│       ├── 08_promoters/           # Cis-regulatory motif discovery (PlantCARE / ABRE elements)
 │       ├── figures/                # Publication-ready vector and raster visualizations (.svg, .png, .pdf)
 │       ├── workflow/scripts/       # Modular Python and R analytical workflows
 │       └── run_pipeline.sh         # Master CLI runner for Chapter 3

@@ -5,7 +5,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 OSCA_DIR = SCRIPT_DIR.parents[1]
 
 mapping_file = OSCA_DIR / "01_gene_identification" / "results" / "oscasIDs.txt"
-promoters_dir = OSCA_DIR / "04_promoters" / "results"
+promoters_dir = OSCA_DIR / "08_promoters" / "results"
 
 # Load mapping
 mapping = {}

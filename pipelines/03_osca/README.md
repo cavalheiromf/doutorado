@@ -16,10 +16,10 @@ Cada subdiretório de etapa contém os seus respectivos resultados finais proces
 - `02_phylogeny/`: Alinhamento e árvore de Máxima Verossimilhança (IQ-TREE).
 - `03_synteny/`: Análise de macrosintenia, microssintenia e mapeamento cromossômico (MCScan).
 - `04_evolutionary_rates/`: Cálculo de taxas evolutivas e testes de seleção (PAML codeml/yn00, HyPhy RELAX e CONTRAST-FEL).
-- `04_promoters/`: Análise de motivos cis-reguladores promotores (PlantCARE).
 - `05_rnaseq/`: Matrizes consolidadas de contagem gênica e relatórios de controle de qualidade.
 - `06_expression/`: Análise de expressão diferencial (DESeq2) e perfis teciduais.
 - `07_ppi_network/`: Redes de interação proteína-proteína (STRING API v12) e enriquecimento funcional.
+- `08_promoters/`: Análise de motivos cis-reguladores promotores (PlantCARE).
 - `figures/`: Figuras finais consolidadas em formatos raster e vetorial (`.png`, `.svg`, `.pdf`).
 
 ## Como Reproduzir

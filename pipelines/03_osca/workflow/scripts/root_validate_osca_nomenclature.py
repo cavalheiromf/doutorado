@@ -12,7 +12,11 @@ ROOT = Path(__file__).resolve().parents[1]
 MAPPING_PATH = ROOT / "analyses/01_gene_identification/results/oscasIDs.txt"
 RESULTS_01 = ROOT / "analyses/01_gene_identification/results"
 RESULTS_02 = ROOT / "analyses/02_phylogeny/results"
-RESULTS_04 = ROOT / "analyses/04_promoters/results"
+RESULTS_04 = (
+    ROOT / "08_promoters/results"
+    if (ROOT / "08_promoters/results").exists()
+    else ROOT / "analyses/04_promoters/results"
+)
 
 CANONICAL = {
     "Vper.hapA.v1.chr1A.g023030.t1": "VpOSCA2.4a",

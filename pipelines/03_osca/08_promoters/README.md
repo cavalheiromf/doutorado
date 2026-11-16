@@ -3,7 +3,7 @@
 ## Scientific Insights
 
 ================================================================================
-SCIENTIFIC INSIGHTS: OSCA GENE PROMOTERS (04_promoters)
+SCIENTIFIC INSIGHTS: OSCA GENE PROMOTERS (08_promoters)
 ================================================================================
 
 [PORTUGUÊS]

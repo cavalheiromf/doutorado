@@ -12,7 +12,7 @@ OSCA_DIR = SCRIPT_DIR.parents[1]
 PROJECT_ROOT = OSCA_DIR.parent.parent
 
 DATA_DIR = PROJECT_ROOT / "data"
-RESULTS_DIR = OSCA_DIR / "04_promoters" / "results"
+RESULTS_DIR = OSCA_DIR / "08_promoters" / "results"
 OSCA_IDS_FILE = OSCA_DIR / "01_gene_identification" / "results" / "oscasIDs.txt"
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
