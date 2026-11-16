@@ -1,4 +1,4 @@
-# Comparative Genomics and Evolutionary History of Velloziaceae: Computational Pipelines
+# Comparative Genomics and OSCA Gene Family Diversification in Vellozia Species with Contrasting Responses to Water Limitation
 
 [![UNICAMP](https://img.shields.io/badge/UNICAMP-Institute_of_Biology-blue.svg)](https://www.ib.unicamp.br/)
 [![GCCRC](https://img.shields.io/badge/GCCRC-Genomics_Center-green.svg)](https://www.gccrc.unicamp.br/)
@@ -12,7 +12,12 @@ Official computational repository containing the bioinformatic pipelines, phylog
 
 ## Repository Overview & Scope
 
-This repository is dedicated exclusively to the **computational code, analytical pipelines, and reproducibility frameworks** developed for the comparative genomics of *Velloziaceae*. 
+This repository is dedicated exclusively to the **computational code, analytical pipelines, and reproducibility frameworks** developed for the thesis.
+
+Following the thesis architecture:
+* **Chapter 1:** *A Haplotype-Resolved, Near Telomere-to-Telomere Genome Assembly of the Desiccation-Tolerant Plant Vellozia tubiflora* (Genomic data and assemblies deposited under NCBI BioProject **PRJNA984512**).
+* **Chapter 2:** *Ancestral Gene-Family Expansion and Asymmetric Local Duplication in Two Vellozia Species with Contrasting Drought-Survival Strategies* (Implemented in [`pipelines/02_macroevolution/`](pipelines/02_macroevolution/)).
+* **Chapter 3:** *Genome-Wide Identification, Comparative Synteny, and Evolutionary Divergence of OSCA Mechanosensitive Ion Channels in Resurrection and Evergreen Vellozia* (Implemented in [`pipelines/03_osca/`](pipelines/03_osca/)).
 
 To maintain a clean, lightweight, and modern codebase compliant with best bioinformatic practices:
 * **Computational Pipelines (`pipelines/`):** Fully tracked, documented, and reproducible scripts for phylogenomics, gene family dynamics, molecular selection, transcriptomics, and cis-regulatory promoter modeling.
@@ -26,16 +31,16 @@ To maintain a clean, lightweight, and modern codebase compliant with best bioinf
 ```text
 .
 ├── pipelines/
-│   ├── 03_macroevolution/          # Macroevolutionary dynamics and comparative phylogenomics
+│   ├── 02_macroevolution/          # Macroevolutionary dynamics and comparative phylogenomics (Chapter 2)
 │   │   ├── 01_orthology/           # Orthology delineation (OrthoFinder) across monocot lineages
 │   │   ├── 02_phylogenomics/       # Supermatrix concatenation (IQ-TREE) and coalescent tree (ASTRAL-II)
 │   │   ├── 03_dating/              # Fossil-calibrated relaxed molecular clock chronograms (MCMCtree)
 │   │   ├── 04_gene_families/       # Stochastic turnover (CAFE5), duplication classification & GO enrichment
 │   │   ├── results/                # Consolidated output tables, trees, and model summaries
 │   │   ├── workflow/scripts/       # Modular execution scripts (CAFE5, MCScanX/JCVI, permutations)
-│   │   └── run_pipeline.sh         # Master CLI runner for Chapter 3
+│   │   └── run_pipeline.sh         # Master CLI runner for Chapter 2
 │   │
-│   └── 04_osca/                    # Diversification of OSCA mechanosensitive ion channels
+│   └── 03_osca/                    # Diversification of OSCA mechanosensitive ion channels (Chapter 3)
 │       ├── 01_gene_identification/ # HMMER and InterProScan structural domain curation
 │       ├── 02_phylogeny/           # Maximum-likelihood phylogenetics (IQ-TREE)
 │       ├── 03_synteny/             # Collinearity, micro-synteny, and tandem cluster architecture
@@ -46,7 +51,7 @@ To maintain a clean, lightweight, and modern codebase compliant with best bioinf
 │       ├── 07_ppi_network/         # Protein-protein interaction network topology (STRING API v12)
 │       ├── figures/                # Publication-ready vector and raster visualizations (.svg, .png, .pdf)
 │       ├── workflow/scripts/       # Modular Python and R analytical workflows
-│       └── run_pipeline.sh         # Master CLI runner for Chapter 4
+│       └── run_pipeline.sh         # Master CLI runner for Chapter 3
 │
 ├── data/
 │   ├── README.md                   # Complete data inventory, NCBI accessions, and structure guide
@@ -62,7 +67,7 @@ To maintain a clean, lightweight, and modern codebase compliant with best bioinf
 
 ## Analytical Pipelines
 
-### 1. Macroevolution and Comparative Phylogenomics (`pipelines/03_macroevolution/`)
+### 1. Macroevolution and Comparative Phylogenomics (`pipelines/02_macroevolution/`)
 Focuses on the macroevolutionary transitions between desiccation-tolerant (*Vellozia tubiflora*, *Xerophyta viscosa*, *Acanthochlamys bracteata*) and drought-avoidant / evergreen (*Vellozia peripherica*) monocots:
 - **Orthology & Phylogenomics:** Identification of 12,876 core monocot gene families; phylogenetic inference using concatenated supermatrices and multi-species coalescent methods.
 - **Molecular Dating:** Fossil-calibrated molecular clock under soft bounds with MCMCtree, estimating the *V. tubiflora* – *V. peripherica* divergence at ~9.74 Ma.
@@ -70,7 +75,7 @@ Focuses on the macroevolutionary transitions between desiccation-tolerant (*Vell
 - **Duplication Classification:** Dissection of gene duplication mechanisms (WGD, tandem, proximal, dispersed, and singletons) using MCScanX and JCVI collinearity blocks.
 - **Robust Functional Enrichment:** Gene Ontology (GO) and InterPro enrichment controlled via dual FDR thresholds, covariate balancing, and 10,000 stratified permutations across >30,000 hypothesis tests.
 
-### 2. OSCA Mechanosensitive Ion Channel Diversification (`pipelines/04_osca/`)
+### 2. OSCA Mechanosensitive Ion Channel Diversification (`pipelines/03_osca/`)
 Investigates the functional evolution of hyperosmolality-gated calcium-permeable mechanosensitive ion channels (OSCA/TMEM63):
 - **Structural Curation:** Identification of 13 loci in *V. tubiflora* and 14 loci in *V. peripherica*, verifying the canonical domain triad (PF02714, PF14703, PF13967).
 - **Phylogenetics & Microsynteny:** Distribution across the 4 viridiplantae clades (OSCA1–4), highlighting a conserved ancestral tandem triplication on Chromosome 7A (`OSCA1.3`/`1.4`/`1.5`) and a species-specific tandem duplication on Chromosome 1A (`VpOSCA2.4a`/`b`).
@@ -108,11 +113,11 @@ pytest -v
 Each major pipeline features a unified command-line orchestrator:
 
 ```bash
-# Macroevolution pipeline
-bash pipelines/03_macroevolution/run_pipeline.sh --help
+# Macroevolution pipeline (Chapter 2)
+bash pipelines/02_macroevolution/run_pipeline.sh --help
 
-# OSCA gene family pipeline
-bash pipelines/04_osca/run_pipeline.sh --help
+# OSCA gene family pipeline (Chapter 3)
+bash pipelines/03_osca/run_pipeline.sh --help
 ```
 
 For detailed step-by-step instructions, input preparations, SLURM cluster execution profiles, and checksum verifications, please refer to [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
-ANALYSIS_DIR="${ROOT_DIR}/pipelines/04_osca/03_synteny"
+ANALYSIS_DIR="${ROOT_DIR}/pipelines/03_osca/03_synteny"
 ALIGN_DIR="${ANALYSIS_DIR}/hyphy_validation_20260716/filtered_alignments/gap20"
 OUT_DIR="${ANALYSIS_DIR}/hyphy_codon_clade_rerun_20260717"
 HYPHY_BIN="${HYPHY_BIN:-$(which hyphy 2>/dev/null || echo hyphy)}"

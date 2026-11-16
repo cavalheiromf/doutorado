@@ -2,7 +2,7 @@
 
 This document provides detailed instructions to fully reproduce all computational results, phylogenomic analyses, evolutionary models, expression analyses, figures, and tables from the PhD thesis:
 
-**"Computational and Genomic Approaches to Investigating Plant Responses to Drought Stress: *Velloziaceae* as a Model System"**  
+**"Comparative genomics and OSCA gene family diversification in Vellozia species with contrasting responses to water limitation"**  
 Author: Mariana Feitosa Cavalheiro  
 Genomics for Climate Change Research Center (GCCRC), University of Campinas (UNICAMP)  
 Graduate Program in Genetics and Molecular Biology (PPG-GBM), Institute of Biology, UNICAMP
@@ -71,82 +71,82 @@ sha256sum -c data/checksums.sha256
 
 ---
 
-## 4. Chapter 3 Pipeline: Macroevolution and Comparative Phylogenomics
+## 4. Chapter 2 Pipeline: Macroevolution and Comparative Phylogenomics
 
-The Chapter 3 pipeline integrates orthogroup inference (OrthoFinder), evolutionary gene family turnover modeling (CAFE5), branch-specific positive selection testing (PAML/codeml), and functional enrichment analysis (clusterProfiler/TopGO).
+The Chapter 2 pipeline integrates orthogroup inference (OrthoFinder), evolutionary gene family turnover modeling (CAFE5), branch-specific positive selection testing (PAML/codeml), and functional enrichment analysis (clusterProfiler/TopGO).
 
 ### Master pipeline runner:
-Located at [`pipelines/03_macroevolution/run_pipeline.sh`](pipelines/03_macroevolution/run_pipeline.sh).
+Located at [`pipelines/02_macroevolution/run_pipeline.sh`](pipelines/02_macroevolution/run_pipeline.sh).
 
 ```bash
 # View available options
-bash pipelines/03_macroevolution/run_pipeline.sh --help
+bash pipelines/02_macroevolution/run_pipeline.sh --help
 
 # 1. Execute all steps sequentially on a local machine:
-bash pipelines/03_macroevolution/run_pipeline.sh --step all --threads 16 --mode local
+bash pipelines/02_macroevolution/run_pipeline.sh --step all --threads 16 --mode local
 
 # 2. Execute the CAFE5 gene family turnover step:
-bash pipelines/03_macroevolution/run_pipeline.sh --step cafe5 --threads 8
+bash pipelines/02_macroevolution/run_pipeline.sh --step cafe5 --threads 8
 
 # 3. Execute the gene duplication classification step (WGD / DupPipe / synteny):
-bash pipelines/03_macroevolution/run_pipeline.sh --step duplications --threads 8
+bash pipelines/02_macroevolution/run_pipeline.sh --step duplications --threads 8
 
 # 4. Execute functional enrichment analysis:
-bash pipelines/03_macroevolution/run_pipeline.sh --step enrichment --threads 8
+bash pipelines/02_macroevolution/run_pipeline.sh --step enrichment --threads 8
 
 # 5. Generate manuscript figures and tables:
-bash pipelines/03_macroevolution/run_pipeline.sh --step manuscript
+bash pipelines/02_macroevolution/run_pipeline.sh --step manuscript
 
 # To submit compute-intensive steps via SLURM on an HPC cluster:
-bash pipelines/03_macroevolution/run_pipeline.sh --step cafe5 --mode slurm
+bash pipelines/02_macroevolution/run_pipeline.sh --step cafe5 --mode slurm
 ```
 
 ---
 
-## 5. Chapter 4 Pipeline: OSCA Gene Family Evolution
+## 5. Chapter 3 Pipeline: OSCA Gene Family Evolution
 
-The Chapter 4 pipeline carries out comparative genomic identification, phylogeny, gene structure modeling, promoter cis-regulatory profiling, and RNA-seq expression analysis of the OSCA mechanosensitive channel family across *Vellozia tubiflora* and *Vellozia plicata*.
+The Chapter 3 pipeline carries out comparative genomic identification, phylogeny, gene structure modeling, promoter cis-regulatory profiling, and RNA-seq expression analysis of the OSCA mechanosensitive channel family across *Vellozia tubiflora* and *Vellozia peripherica*.
 
 ### Master pipeline runner:
-Located at [`pipelines/04_osca/run_pipeline.sh`](pipelines/04_osca/run_pipeline.sh).
+Located at [`pipelines/03_osca/run_pipeline.sh`](pipelines/03_osca/run_pipeline.sh).
 
 ```bash
 # View available options
-bash pipelines/04_osca/run_pipeline.sh --help
+bash pipelines/03_osca/run_pipeline.sh --help
 
 # 1. Execute the complete pipeline locally:
-bash pipelines/04_osca/run_pipeline.sh --step all --threads 8 --mode local
+bash pipelines/03_osca/run_pipeline.sh --step all --threads 8 --mode local
 
 # 2. Curation and sequence extraction of OSCA loci:
-bash pipelines/04_osca/run_pipeline.sh --step sequences
+bash pipelines/03_osca/run_pipeline.sh --step sequences
 
 # 3. Evolutionary rate analysis and synteny (Ka/Ks):
-bash pipelines/04_osca/run_pipeline.sh --step rates
+bash pipelines/03_osca/run_pipeline.sh --step rates
 
 # 4. Promoter and cis-acting element discovery (PlantCARE):
-bash pipelines/04_osca/run_pipeline.sh --step promoters
+bash pipelines/03_osca/run_pipeline.sh --step promoters
 
 # 5. Differential expression and heatmaps (DESeq2 / RNA-seq):
-bash pipelines/04_osca/run_pipeline.sh --step expression
+bash pipelines/03_osca/run_pipeline.sh --step expression
 
 # 6. Verify integrity of generated outputs:
-bash pipelines/04_osca/run_pipeline.sh --step verify
+bash pipelines/03_osca/run_pipeline.sh --step verify
 ```
 
 ---
 
 ## 6. Reproduction of Figures and Tables
 
-### Chapter 3 Figures:
-- **Figure 1 (Phylogeny and WGD History):** `pipelines/03_macroevolution/workflow/scripts/manuscript_figures/generate_figure1_wgd.py`
-- **Figure 2 (CAFE5 Expansions and Contractions):** `pipelines/03_macroevolution/workflow/scripts/manuscript_figures/generate_figure2_cafe5.py`
-- **Figure 3 (Functional Enrichment of Stress Clades):** `pipelines/03_macroevolution/workflow/scripts/09_run_enrichment_pipeline.sh`
+### Chapter 2 Figures:
+- **Figure 1 (Phylogeny and WGD History):** `pipelines/02_macroevolution/workflow/scripts/manuscript_figures/generate_figure1_wgd.py`
+- **Figure 2 (CAFE5 Expansions and Contractions):** `pipelines/02_macroevolution/workflow/scripts/manuscript_figures/generate_figure2_cafe5.py`
+- **Figure 3 (Functional Enrichment of Stress Clades):** `pipelines/02_macroevolution/workflow/scripts/09_run_enrichment_pipeline.sh`
 
-### Chapter 4 Figures:
-- **Figure 1 (OSCA Phylogenetic Tree and Domain Architectures):** `pipelines/04_osca/workflow/scripts/figures/generate_figure1_osca_phylogeny.py`
-- **Figure 2 (Synteny and Physical Collinearity):** `pipelines/04_osca/workflow/scripts/figures/generate_figure2_synteny.py`
-- **Figure 3 (Stress-Responsive Cis-Regulatory Elements):** `pipelines/04_osca/workflow/scripts/figures/generate_figure3_promoters.py`
-- **Figure 4 (Tissue Expression and Desiccation Heatmap):** `pipelines/04_osca/workflow/scripts/figures/generate_figure4_expression_heatmap.R`
+### Chapter 3 Figures:
+- **Figure 1 (OSCA Phylogenetic Tree and Domain Architectures):** `pipelines/03_osca/workflow/scripts/figures/generate_figure1_osca_phylogeny.py`
+- **Figure 2 (Synteny and Physical Collinearity):** `pipelines/03_osca/workflow/scripts/figures/generate_figure2_synteny.py`
+- **Figure 3 (Stress-Responsive Cis-Regulatory Elements):** `pipelines/03_osca/workflow/scripts/figures/generate_figure3_promoters.py`
+- **Figure 4 (Tissue Expression and Desiccation Heatmap):** `pipelines/03_osca/workflow/scripts/figures/generate_figure4_expression_heatmap.R`
 
 ---
 
@@ -158,11 +158,11 @@ The repository includes automated unit and integration tests using `pytest` to v
 # Run the complete test suite
 pytest -v
 
-# Run Chapter 3 tests only
-pytest pipelines/03_macroevolution/workflow/tests/ -v
+# Run Chapter 2 tests only
+pytest pipelines/02_macroevolution/workflow/tests/ -v
 
-# Run Chapter 4 tests only
-pytest pipelines/04_osca/workflow/tests/ -v
+# Run Chapter 3 tests only
+pytest pipelines/03_osca/workflow/tests/ -v
 ```
 
 ---

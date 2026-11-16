@@ -8,7 +8,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
-A=${ROOT}/pipelines/04_osca/03_synteny
+A=${ROOT}/pipelines/03_osca/03_synteny
 I=${A}/hyphy_validation_20260716/filtered_alignments/gap20
 O=${A}/hyphy_codon_clade_slurm_20260717
 H="${HYPHY_BIN:-$(which hyphy 2>/dev/null || echo hyphy)}"

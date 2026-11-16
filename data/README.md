@@ -32,7 +32,7 @@ Devido ao grande volume de dados brutos e arquivos intermediários binários (ge
 
 ---
 
-## 2. Táxons de Comparação e Grupos Externos (`data/references/` & `pipelines/03_macroevolution/00_data/`)
+## 2. Táxons de Comparação e Grupos Externos (`data/references/` & `pipelines/02_macroevolution/00_data/`)
 
 Para as análises filogenômicas, datação molecular (MCMCtree) e ganho/perda de famílias gênicas (CAFE5):
 

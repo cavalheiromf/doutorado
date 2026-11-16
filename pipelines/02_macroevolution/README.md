@@ -1,4 +1,4 @@
-# Capítulo Macroevolução (Revisão — 6 Monocotiledôneas)
+# Macroevolução e Filogenômica Comparativa em Velloziaceae (Capítulo 2 da Tese)
 
 Este diretório concentra a análise comparativa revisada de **Velloziaceae** sem o grupo externo distante *Arabidopsis thaliana* (`Ath`) na modelagem de famílias gênicas (`CAFE5`), preservando as idades calibradas por relógio molecular (`MCMCTree`) nos 6 táxons de monocotiledôneas:
 - **Gênero focal (*Vellozia*):**
@@ -16,7 +16,7 @@ Este diretório concentra a análise comparativa revisada de **Velloziaceae** se
 ## Estrutura de Diretórios
 
 ```text
-chapter_macroevolution_review/
+pipelines/02_macroevolution/
 ├── 00_data/                       # Genomas, GFFs e proteomas das espécies e outgroups
 ├── 01_orthology/                  # Resultados do OrthoFinder (Orthogroups e árvores gênicas)
 ├── 03_dating/                     # Cadeias MCMCTree e cronograma ultramétrico podado (6 táxons)

@@ -1,27 +1,30 @@
 # Arquitetura e Navegação do Repositório
 
-Este repositório reúne os recursos genômicos, pipelines bioinformáticos e manuscritos da tese de doutorado de **Mariana Feitosa Cavalheiro**.
+Este repositório reúne os pipelines bioinformáticos, rotinas de evolução molecular e recursos de reprodutibilidade computacional da tese de doutorado de **Mariana Feitosa Cavalheiro**:
+
+> **"Comparative genomics and OSCA gene family diversification in Vellozia species with contrasting responses to water limitation"**  
+> *(Genômica comparativa e diversificação da família gênica OSCA em espécies de Vellozia com respostas contrastantes à limitação hídrica)*  
+> Programa de Pós-Graduação em Genética e Biologia Molecular (PPG-GBM), Instituto de Biologia, UNICAMP.
 
 ---
 
-## 1. Manuscritos e Documentação (`docs/`)
-
-Os capítulos da tese encontram-se estruturados por ordem de apresentação:
-* **[00_introduction/](docs/00_introduction/)**: Introdução Geral e Revisão de Literatura da tese.
-* **[01_chapter_1_tubiflora/](docs/01_chapter_1_tubiflora/)**: Montagem genômica quase telômero-a-telômero (*near-T2T*) de *Vellozia tubiflora*.
-* **[03_chapter_3_macroevolution/](docs/03_chapter_3_macroevolution/)**: Dinâmica macroevolutiva de famílias gênicas e duplicações locais em *Vellozia*.
-* **[04_chapter_4_osca/](docs/04_chapter_4_osca/)**: Caracterização evolutiva e expressão da família de canais mecanossensíveis OSCA.
-* **[05_chapter_5_python/](docs/05_chapter_5_python/)**: Artigo pedagógico sobre ensino de programação para biocientistas (*PLOS Comp. Biol.*).
-* **[06_general_discussion_and_conclusions/](docs/06_general_discussion_and_conclusions/)**: Síntese transversal e conclusões integradas da tese.
-* **[literature/](docs/literature/)**: Biblioteca de referências, resumos bibliográficos e arquivos `.bib`.
-* **[qualification_and_forms/](docs/qualification_and_forms/)**: Documentos e roteiros institucionais.
-
----
-
-## 2. Pipelines Analíticos (`pipelines/`)
+## 1. Pipelines Analíticos (`pipelines/`)
 
 Módulos bioinformáticos dedicados à execução e reprodutibilidade científica:
-* **[pipelines/03_macroevolution/](pipelines/03_macroevolution/)**: Rotinas de ortologia (OrthoFinder), datação molecular (MCMCtree), filogenômica, modelagem de ganho e perda gênica (CAFE5) e taxas evolutivas (PAML).
-* **[pipelines/04_osca/](pipelines/04_osca/)**: Rotinas de busca HMMER/InterProScan, filogenia (IQ-TREE), microssintenia (MCScan), seleção molecular (HyPhy RELAX/Contrast-FEL), expressão tecidual (STAR/DESeq2) e redes de interação (STRING).
+* **[pipelines/02_macroevolution/](pipelines/02_macroevolution/)**: Rotinas de ortologia (OrthoFinder), datação molecular com relógio relaxado (MCMCtree), filogenômica, modelagem estocástica multi-$\lambda$ com Gamma de ganho e perda gênica (CAFE5 M5), modos de duplicação gênica (MCScanX/JCVI) e enriquecimento funcional com 10.000 permutações estratificadas.
+* **[pipelines/03_osca/](pipelines/03_osca/)**: Rotinas de busca estrutural HMMER/InterProScan, filogenia de máxima verossimilhança (IQ-TREE), microssintenia e cluster em tandem (MCScan), seleção molecular (HyPhy RELAX e CONTRAST-FEL com saneamento de gaps), taxas de substituição de códons (PAML codeml/yn00), expressão tecidual a campo (STAR/DESeq2) e redes de interação proteína-proteína (STRING API v12).
 
-*(Para assegurar compatibilidade contínua com scripts históricos, os links simbólicos de conveniência `chapter2_osca` e `chapter_macroevolution_review` apontam diretamente para suas respectivas pastas em `pipelines/`).*
+*(Para assegurar compatibilidade contínua com chamadas de scripts históricos, os links simbólicos de conveniência `chapter_macroevolution_review` e `chapter2_osca` apontam diretamente para `pipelines/02_macroevolution` e `pipelines/03_osca`, respectivamente).*
+
+---
+
+## 2. Dados e Metadados (`data/`)
+
+* **[`data/README.md`](data/README.md)**: Inventário completo de dados de entrada, identificadores de acesso do NCBI BioProject (**PRJNA984512**) e instruções para organização local.
+* **[`data/checksums.sha256.example`](data/checksums.sha256.example)**: Modelo de integridade criptográfica SHA-256 para validação dos arquivos locais.
+
+---
+
+## 3. Guia de Reprodutibilidade
+
+Para instruções passo a passo de configuração do ambiente Conda/Mamba, execução sequencial ou via SLURM e reprodução de figuras, consulte [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).

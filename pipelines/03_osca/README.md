@@ -1,4 +1,4 @@
-# Família Gênica OSCA em Velloziaceae (Capítulo 4 da Tese)
+# Família Gênica OSCA em Velloziaceae (Capítulo 3 da Tese)
 
 Este diretório contém os pipelines computacionais, análises genômicas, transcriptômicas e evolução molecular da família gênica OSCA (canais iônicos mecanossensíveis) nas espécies *Vellozia peripherica* e *Vellozia tubiflora*.
 
