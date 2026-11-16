@@ -1,29 +1,27 @@
-# Capítulo 2: Família OSCA (Vellozia)
+# Família Gênica OSCA em Velloziaceae (Capítulo 4 da Tese)
 
-Este diretório contém as análises genômicas e transcriptômicas da família gênica OSCA (mecanossensores) nas espécies *Vellozia peripherica* e *Vellozia tubiflora*.
+Este diretório contém os pipelines computacionais, análises genômicas, transcriptômicas e evolução molecular da família gênica OSCA (canais iônicos mecanossensíveis) nas espécies *Vellozia peripherica* e *Vellozia tubiflora*.
 
-## Estrutura do Repositório (Refatorada)
+## Estrutura do Diretório
 
-Para garantir reprodutibilidade e evitar o acúmulo de arquivos intermediários pesados, a organização segue o padrão centralizado:
+Para garantir reprodutibilidade e conformidade com repositórios leves de bioinformática, a organização segue o padrão modular:
 
-- `workflow/scripts/`: Todos os scripts geradores de análise (Python, R, Bash), prefixados por etapa (ex: `01_extract_sequences.py`).
-- `00_data/`: (Se aplicável) Dados crus, incluindo leituras brutas de RNA-Seq.
-- `docs/drafts/`: Versões do manuscrito e notas metodológicas.
+- `workflow/scripts/`: Todos os scripts executáveis de análise (Python, R, Bash), prefixados por etapa (ex: `01_extract_sequences.py`).
+- `00_data/`: Diretório local para dados brutos des-rastreados pelo `.gitignore` (genomas, leituras RNA-Seq).
 
 ### Etapas do Pipeline
 
-Cada subdiretório de etapa contém os seus respectivos resultados finais ou dados estruturados (e um `README.md` local detalhando a etapa, se aplicável):
-- `01_gene_identification/`: Identificação dos genes via HMMER e validação de domínios.
-- `02_phylogeny/`: Alinhamento e árvore ML (IQ-TREE).
-- `03_synteny/`: Análise de macrosintenia (MCScanX) e mapeamento cromossômico.
-- `04_evolutionary_rates/`: Cálculo de taxas evolutivas (PAML, HyPhy).
-- `04_promoters/`: Análise de motivos promotores (PlantCARE).
-- `05_rnaseq/`: Matrizes finais de contagem (`results/05_counts/`) e relatórios de QC. (Arquivos intermediários de alinhamento e trimagem foram removidos para economizar espaço).
-- `06_expression/`: Expressão diferencial (DESeq2) e plotagens.
-- `07_ppi_network/`: Redes de interação proteína-proteína (STRING).
-- `figures/`: Figuras finais para a publicação.
+Cada subdiretório de etapa contém os seus respectivos resultados finais processados, tabelas e figuras:
+- `01_gene_identification/`: Identificação dos genes via HMMER e validação de domínios Pfam.
+- `02_phylogeny/`: Alinhamento e árvore de Máxima Verossimilhança (IQ-TREE).
+- `03_synteny/`: Análise de macrosintenia, microssintenia e mapeamento cromossômico (MCScan).
+- `04_evolutionary_rates/`: Cálculo de taxas evolutivas e testes de seleção (PAML codeml/yn00, HyPhy RELAX e CONTRAST-FEL).
+- `04_promoters/`: Análise de motivos cis-reguladores promotores (PlantCARE).
+- `05_rnaseq/`: Matrizes consolidadas de contagem gênica e relatórios de controle de qualidade.
+- `06_expression/`: Análise de expressão diferencial (DESeq2) e perfis teciduais.
+- `07_ppi_network/`: Redes de interação proteína-proteína (STRING API v12) e enriquecimento funcional.
+- `figures/`: Figuras finais consolidadas em formatos raster e vetorial (`.png`, `.svg`, `.pdf`).
 
 ## Como Reproduzir
 
-Para reproduzir uma etapa específica, utilize os scripts correspondentes em `workflow/scripts/`. Eles foram desenhados para ler os dados das etapas anteriores (ou de `00_data/`) e escrever na pasta de resultados. 
-Arquivos gigantescos gerados no processo (como alinhamentos `.bam` do RNA-Seq) não são mantidos rastreados, priorizando o armazenamento das matrizes de contagem consolidadas.
+Para reproduzir uma etapa específica, utilize o orquestrador `run_pipeline.sh` ou os scripts correspondentes em `workflow/scripts/`. Eles foram desenhados para ler os dados de entrada locais e gerar as tabelas e figuras de forma determinística. Para instruções completas de execução e dependências, consulte [`REPRODUCIBILITY.md`](../../REPRODUCIBILITY.md).
