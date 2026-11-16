@@ -1,8 +1,0 @@
-Node_or_Branch	Clade_or_Taxon	Estimated_Age_Ma	Significant_Expansions_p005	Significant_Contractions_p005	Expansion_to_Contraction_Ratio	Robust_Expansions_NearOptimal	Robust_Contractions_NearOptimal
-Node 9	Velloziaceae sensu lato (MRCA Abra + Xsch + Vper + Vtub)	78.21	20	25	0.8	19	25
-Node 10	Core Velloziaceae (MRCA Xsch + Vper + Vtub)	31.91	132	6	22.0	126	6
-Node 11	Crown Vellozia (MRCA Vper + Vtub)	9.74	48	6	8.0	46	6
-Terminal Vtub	Vellozia tubiflora (desiccation-tolerant resurrection herb)	Terminal	50	63	0.79	50	57
-Terminal Vper	Vellozia peripherica (desiccation-avoidant evergreen shrub)	Terminal	217	66	3.29	199	62
-Terminal Xsch	Xerophyta schlechteri (desiccation-tolerant African resurrection shrub)	Terminal	120	20	6.0	112	18
-Terminal Abra	Acanthochlamys bracteata (desiccation-tolerant alpine outgroup)	Terminal	23	95	0.24	22	93

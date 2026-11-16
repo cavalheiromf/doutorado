@@ -1,8 +1,0 @@
-# Vegetative desiccation tolerance in the resurrection plant Xerophyta humilis has not evolved through reactivation of the seed canonical LAFL regulatory network
-
-**DOI:** 10.1111/tpj.14596
-**Key:** Lyall_2020
-
-## Abstract
-
-It has been hypothesised that vegetative desiccation tolerance in resurrection plants evolved via reactivation of the canonical LAFL (i.e. LEC1, ABI3, FUS3 and LEC2) transcription factor (TF) network that activates the expression of genes during the maturation of orthodox seeds leading to desiccation tolerance of the plant embryo in most angiosperms. There is little direct evidence to support this, however, and the transcriptional changes that occur during seed maturation in resurrection plants have not previously been studied. Here we performed de novo transcriptome assembly for Xerophyta humilis, and analysed gene expression during seed maturation and vegetative desiccation. Our results indicate that differential expression of a set of 4205 genes is common to maturing seeds and desiccating leaves. This shared set of genes is enriched for gene ontology terms related to abiotic stress, including water stress and abscisic acid signalling, and includes many genes that are seed-specific in Arabidopsis thaliana and targets of ABI3. However, while we observed upregulation of orthologues of the canonical LAFL TFs and ABI5 during seed maturation, similar to what is seen in A. thaliana, this did not occur during desiccation of leaf tissue. Thus, reactivation of components of the seed desiccation program in X. humilis vegetative tissues likely involves alternative transcriptional regulators.

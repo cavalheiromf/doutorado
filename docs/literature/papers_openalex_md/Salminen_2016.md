@@ -1,8 +1,0 @@
-# Functional characterization of a basic helix‐loop‐helix ( bHLH ) transcription factor GhDEL65 from cotton (Gossypium hirsutum)
-
-**Authors:** Salminen, T. A., Eklund, D. M., Jauhiainen, M., & Blomqvist, K. (2016)
-**DOI:** 10.1111/ppl.12450
-
-## Abstract
-
-Cotton fiber is proposed to share some similarity with the Arabidopsis thaliana leaf trichome, which is regulated by the MYB-bHLH-WD40 transcription complex. Although several MYB transcription factors and WD40 family proteins in cotton have been characterized, little is known about the role of bHLH family proteins in cotton. Here, we report that GhDEL65, a bHLH protein from cotton (Gossypium hirsutum), is a functional homologue of Arabidopsis GLABRA3 (GL3) and ENHANCER OF GLABRA3 (EGL3) in regulating trichome development. Transcripts of GhDEL65 were detected in 0 ∼ 1 days post-anthesis (DPA) ovules and abundant in 3-DPA fibers, implying that GhDEL65 may act in early fiber development. Ectopic expression of GhDEL65 in Arabidopsis gl3 egl3 double mutant partly rescued the trichome development, and constitutive expression of GhDEL65 in wild-type plants led to increased trichome density on rosette leaves and stems, mainly by activating the transcription of two key positive regulators of trichome development, GLABRA1 (GL1) and GLABRA2 (GL2), and suppressed the expression of a R3 single-repeat MYB factor TRIPTYCHON (TRY). GhDEL65 could interact with cotton R2R3 MYB transcription factors GhMYB2 and GhMYB3, as well as the WD40 protein GhTTG3, suggesting that the MYB-bHLH-WD40 protein complex also exists in cotton fiber cell, though its function in cotton fiber development awaits further investigation.

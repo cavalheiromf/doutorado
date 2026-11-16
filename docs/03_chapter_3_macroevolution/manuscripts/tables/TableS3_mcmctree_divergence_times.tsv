@@ -1,7 +1,0 @@
-MCMCtree_Node	Dated_Tree_Node	CAFE5_Node	Clade_Description	Calibration_Prior	CAFE5_Input_Chronogram_Age_Ma	Combined_Chain_Posterior_Mean_Ma	Combined_Chain_95_HPD_Lower_Ma	Combined_Chain_95_HPD_Upper_Ma	Combined_ESS
-t_n8	Node 7 (Root)	-	Sampled Angiosperm Root (Arabidopsis thaliana vs. Monocotyledons)	130-145 Ma (soft bounds; Magallón et al. 2015; Benton et al. 2015)	138.48	138.43	130.19	145.11	3445.2
-t_n9	Node 8	Node 9	Sampled Monocot Crown (Dioscorea alata vs. Pandanales)	115-128 Ma (secondary; Janssen & Bremer 2004; Givnish et al. 2018)	121.9	122.68	115.48	128.07	2866.0
-t_n10	Node 8b	Node 10	Pandanales Crown (Pandanus tectorius vs. Velloziaceae)	90-105 Ma (fossil Nuhliantha / Triuridaceae; Gandolfo et al. 2002; Iles et al. 2015)	101.26	100.39	92.69	105.16	1729.3
-t_n11	Node 9	Node 11	Crown Velloziaceae sensu lato (Acanthochlamys bracteata vs. Core Velloziaceae)	75-90 Ma (secondary; Mello-Silva et al. 2011; Gao et al. 2021)	78.21	78.02	74.43	85.45	1471.0
-t_n12	Node 10	Node 12	Core Velloziaceae (Xerophyta schlechteri vs. Vellozia)	Unconstrained (estimated from sequence data and adjacent nodes)	31.91	33.77	22.41	48.11	261.8
-t_n13	Node 11	Node 13	Sampled Vellozia Crown (Vellozia peripherica vs. Vellozia tubiflora)	2-25 Ma (broad uniform; Alcantara et al. 2018)	9.74	9.68	5.85	15.72	516.3

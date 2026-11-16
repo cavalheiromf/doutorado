@@ -1,8 +1,0 @@
-# The arabidopsis information resource: Making and mining the “gold standard” annotated reference plant genome
-
-**Authors:** Berardini, T. Z., et al. (2015)
-**DOI:** 10.1002/dvg.22877
-
-## Abstract
-
-The Arabidopsis Information Resource (TAIR) is a continuously updated, online database of genetic and molecular biology data for the model plant Arabidopsis thaliana that provides a global research community with centralized access to data for over 30,000 Arabidopsis genes. TAIR's biocurators systematically extract, organize, and interconnect experimental data from the literature along with computational predictions, community submissions, and high throughput datasets to present a high quality and comprehensive picture of Arabidopsis gene function. TAIR provides tools for data visualization and analysis, and enables ordering of seed and DNA stocks, protein chips, and other experimental resources. TAIR actively engages with its users who contribute expertise and data that augments the work of the curatorial staff. TAIR's focus in an extensive and evolving ecosystem of online resources for plant biology is on the critically important role of extracting experimentally based research findings from the literature and making that information computationally accessible. In response to the loss of government grant funding, the TAIR team founded a nonprofit entity, Phoenix Bioinformatics, with the aim of developing sustainable funding models for biological databases, using TAIR as a test case. Phoenix has successfully transitioned TAIR to subscription-based funding while still keeping its data relatively open and accessible.

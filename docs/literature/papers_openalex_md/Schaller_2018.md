@@ -1,8 +1,0 @@
-# From structure to function – a family portrait of plant subtilases
-
-**DOI:** 10.1111/nph.14582
-**Key:** Schaller_2018
-
-## Abstract
-
-Contents Summary 901 I. Introduction 901 II. Biochemistry and structure of plant SBTs 902 III. Phylogeny of plant SBTs and family organization 903 IV. Physiological roles of plant SBTs 905 V. Conclusions and outlook 911 Acknowledgements 912 References 912 SUMMARY: Subtilases (SBTs) are serine peptidases that are found in all three domains of life. As compared with homologs in other Eucarya, plant SBTs are more closely related to archaeal and bacterial SBTs, with which they share many biochemical and structural features. However, in the course of evolution, functional diversification led to the acquisition of novel, plant-specific functions, resulting in the present-day complexity of the plant SBT family. SBTs are much more numerous in plants than in any other organism, and include enzymes involved in general proteolysis as well as highly specific processing proteases. Most SBTs are targeted to the cell wall, where they contribute to the control of growth and development by regulating the properties of the cell wall and the activity of extracellular signaling molecules. Plant SBTs affect all stages of the life cycle as they contribute to embryogenesis, seed development and germination, cuticle formation and epidermal patterning, vascular development, programmed cell death, organ abscission, senescence, and plant responses to their biotic and abiotic environments. In this article we provide a comprehensive picture of SBT structure and function in plants.

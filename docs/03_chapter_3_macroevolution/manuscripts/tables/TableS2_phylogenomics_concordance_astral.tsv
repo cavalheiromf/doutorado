@@ -1,6 +1,0 @@
-Node_ID	Clade_Definition	IQTree_UFBoot_pct	ASTRAL_LPP	ASTRAL_BranchLength_CU	gCF_pct	Concordant_Gene_Trees_N	Discordant_gDF1_N	Discordant_gDF2_N	Total_Decisive_Gene_Trees_gN	sCF_pct	Informative_Sites_sN
-Node 11 / Crown Vellozia	Vellozia peripherica + Vellozia tubiflora	100.0%	1.00	2.4312	93.92%	1421	33	51	1513	86.44%	16945
-Node 10 / Core Velloziaceae	Xerophyta schlechteri (published as X. viscosa) + Vellozia (V. peripherica + V. tubiflora)	100.0%	1.00	3.3243	97.16%	1470	14	13	1513	79.12%	28230
-Node 9 / Crown Velloziaceae (sensu lato)	Acanthochlamys bracteata + Core Velloziaceae	100.0%	1.00	2.0781	88.04%	1332	30	30	1513	55.43%	30580
-Node 8 / Order Pandanales	Pandanus tectorius + Crown Velloziaceae (sensu lato)	100.0%	1.00	0.5864	62.46%	945	149	397	1513	42.59%	29824
-Node 7 / Sampled Monocot Crown	Dioscorea alata + Pandanales (Pandanus tectorius + Velloziaceae)	100.0%	1.00	Root	Root	-	-	-	1513	Root	-

@@ -1,7 +1,0 @@
-Species	Gene_Set	Total_Classified_Genes	WGD_Segmental_pct_n	Tandem_pct_n	Proximal_pct_n	Dispersed_pct_n	Singleton_pct_n	Local_Duplicates_Tandem_Plus_Proximal	Enrichment_Odds_Ratio_Local
-Vellozia peripherica	Genome-wide (all classified genes)	26466	28.18% (7,459)	13.65% (3,613)	7.60% (2,012)	34.60% (9,156)	15.97% (4,226)	21.25% (5,625)	Reference
-Vellozia peripherica	Non-expanded families (disjoint)	24122	29.74% (7,174)	10.48% (2,529)	6.38% (1,538)	36.10% (8,709)	17.30% (4,172)	16.86% (4,067)	Disjoint reference
-Vellozia peripherica	Expanded families (217 families)	2344	12.16% (285)	46.25% (1,084)	20.22% (474)	19.07% (447)	2.30% (54)	66.47% (1,558)	9.77 (p < 1e-15); 7.34 vs. genome
-Vellozia tubiflora	Genome-wide (all classified genes)	25551	28.27% (7,224)	10.88% (2,779)	5.08% (1,299)	35.47% (9,063)	20.30% (5,186)	15.96% (4,078)	Reference
-Vellozia tubiflora	Non-expanded families (disjoint)	24967	28.79% (7,189)	10.81% (2,700)	5.03% (1,256)	35.59% (8,885)	19.77% (4,937)	15.85% (3,956)	Disjoint reference
-Vellozia tubiflora	Expanded families (50 families)	584	5.99% (35)	13.53% (79)	7.36% (43)	30.48% (178)	42.64% (249)	20.89% (122)	1.40 (p = 1.36e-3); 1.39 vs. genome

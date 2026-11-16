@@ -103,3 +103,9 @@ pipelines/*/03_dating/chain*/
 # Workspace config & agent skills lock
 doutorado.code-workspace
 skills-lock.json
+
+# Thesis manuscripts, drafts, documents and presentations (kept locally, untracked in git)
+docs/
+scratch/
+*.bak*
+
