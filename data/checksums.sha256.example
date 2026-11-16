@@ -2,7 +2,7 @@
 # Gere os hashes reais do seu ambiente local com: sha256sum arquivo > checksums.sha256
 
 # Modelos Pfam HMM
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  data/hmm/PF02714.hmm
+75183a891a6c9201e2220f6839a5e0cd8931c31a2fc3a19339589594792447da  data/hmm/PF02714.hmm
 
 # Vellozia tubiflora (Genoma e Anotações)
 # <sha256_hash>  data/genomes/Vtub/Vtub.hapA.v1.softmasked.fasta

@@ -2,8 +2,22 @@
 
 library(DESeq2)
 
-root <- "/home/mfcaval/github/doutorado"
-out_dir <- file.path(root, "analyses/06_expression/results_genecounts_lfcshrink")
+get_script_dir <- function() {
+  args <- commandArgs(trailingOnly = FALSE)
+  file_arg <- grep("^--file=", args, value = TRUE)
+  if (length(file_arg) > 0) {
+    return(dirname(normalizePath(sub("^--file=", "", file_arg[1]))))
+  }
+  return(getwd())
+}
+
+default_osca_dir <- normalizePath(file.path(get_script_dir(), "..", ".."), mustWork = FALSE)
+if (!dir.exists(file.path(default_osca_dir, "05_rnaseq"))) {
+  default_osca_dir <- normalizePath(file.path(getwd(), "pipelines", "03_osca"), mustWork = FALSE)
+}
+osca_dir <- Sys.getenv("OSCA_PIPELINE_DIR", default_osca_dir)
+
+out_dir <- Sys.getenv("LFCSHRINK_OUT_DIR", file.path(osca_dir, "06_expression", "results_genecounts_lfcshrink"))
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 samples <- list(
@@ -12,7 +26,7 @@ samples <- list(
 )
 
 run_species <- function(species, sample_names) {
-  path <- file.path(root, "analyses/05_rnaseq/results_genecounts/05_counts", paste0(species, "_star_genecounts_col4.tsv"))
+  path <- file.path(osca_dir, "05_rnaseq", "results_genecounts", "05_counts", paste0(species, "_star_genecounts_col4.tsv"))
   counts <- read.table(path, header = TRUE, sep = "\t", row.names = 1, check.names = FALSE)
   counts <- counts[, sample_names, drop = FALSE]
   tissue <- factor(ifelse(grepl("C$", sample_names), "Stem", ifelse(grepl("F$", sample_names), "Leaf", "Root")), levels = c("Leaf", "Stem", "Root"))

@@ -32,7 +32,22 @@ suppressPackageStartupMessages({
 # 0. Configurações
 # ------------------------------------------------------------------------------
 
-BASE_DIR <- "/home/mfcaval/github/doutorado/chapter_macroevolution/04_gene_families"
+# Determinar BASE_DIR de forma portavel
+get_script_dir <- function() {
+  args <- commandArgs(trailingOnly = FALSE)
+  file_arg <- grep("^--file=", args, value = TRUE)
+  if (length(file_arg) > 0) {
+    return(dirname(normalizePath(sub("^--file=", "", file_arg[1]))))
+  }
+  return(getwd())
+}
+
+default_base <- file.path(get_script_dir(), "..", "..", "04_gene_families")
+if (!dir.exists(default_base)) {
+  default_base <- file.path(getwd(), "pipelines", "02_macroevolution", "04_gene_families")
+}
+
+BASE_DIR <- Sys.getenv("MACROEVO_BASE_DIR", normalizePath(default_base, mustWork = FALSE))
 
 MASTER_TABLE_PATH <- file.path(
   BASE_DIR,

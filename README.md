@@ -3,8 +3,8 @@
 [![UNICAMP](https://img.shields.io/badge/UNICAMP-Institute_of_Biology-blue.svg)](https://www.ib.unicamp.br/)
 [![GCCRC](https://img.shields.io/badge/GCCRC-Genomics_Center-green.svg)](https://www.gccrc.unicamp.br/)
 [![NCBI BioProject](https://img.shields.io/badge/NCBI_BioProject-PRJNA984512-orange.svg)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA984512)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Tests](https://img.shields.io/badge/pytest-passing-brightgreen.svg)](pytest.ini)
+[![License: MIT & CC BY 4.0](https://img.shields.io/badge/License-MIT%20%2F%20CC%20BY%204.0-blue.svg)](LICENSE)
+[![CI](https://github.com/cavalheiromf/doutorado/actions/workflows/ci.yml/badge.svg)](https://github.com/cavalheiromf/doutorado/actions/workflows/ci.yml)
 
 Official computational repository containing the bioinformatic pipelines, phylogenetic workflows, molecular evolution models, and reproducibility resources supporting the PhD thesis of **Mariana Feitosa Cavalheiro**, conducted within the Graduate Program in Genetics and Molecular Biology (PPG-GBM) at the Institute of Biology, University of Campinas (UNICAMP), in collaboration with the Genomics for Climate Change Research Center (GCCRC), the Center for Molecular Biology and Genetic Engineering (CBMEG), and Embrapa Digital Agriculture.
 

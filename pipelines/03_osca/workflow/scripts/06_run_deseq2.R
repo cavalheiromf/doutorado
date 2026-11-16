@@ -15,8 +15,23 @@ has_enhanced_volcano <- requireNamespace("EnhancedVolcano", quietly = TRUE)
 # ---------------------------------------------------------
 # SETUP DIRECTORIES
 # ---------------------------------------------------------
-results_dir <- Sys.getenv("DESEQ_RESULTS_DIR", "/home/mfcaval/github/doutorado/analyses/06_expression/results_genecounts")
-figures_dir <- Sys.getenv("DESEQ_FIGURES_DIR", "/home/mfcaval/github/doutorado/reports/figures/06_expression_genecounts")
+get_script_dir <- function() {
+  args <- commandArgs(trailingOnly = FALSE)
+  file_arg <- grep("^--file=", args, value = TRUE)
+  if (length(file_arg) > 0) {
+    return(dirname(normalizePath(sub("^--file=", "", file_arg[1]))))
+  }
+  return(getwd())
+}
+
+default_osca_dir <- normalizePath(file.path(get_script_dir(), "..", ".."), mustWork = FALSE)
+if (!dir.exists(file.path(default_osca_dir, "01_gene_identification"))) {
+  default_osca_dir <- normalizePath(file.path(getwd(), "pipelines", "03_osca"), mustWork = FALSE)
+}
+
+osca_dir <- Sys.getenv("OSCA_PIPELINE_DIR", default_osca_dir)
+results_dir <- Sys.getenv("DESEQ_RESULTS_DIR", file.path(osca_dir, "06_expression", "results_genecounts"))
+figures_dir <- Sys.getenv("DESEQ_FIGURES_DIR", file.path(osca_dir, "figures", "06_expression_genecounts"))
 exclude_sample <- Sys.getenv("EXCLUDE_SAMPLE", "")
 
 dir.create(results_dir, recursive = TRUE, showWarnings = FALSE)
@@ -25,7 +40,7 @@ dir.create(figures_dir, recursive = TRUE, showWarnings = FALSE)
 # ---------------------------------------------------------
 # LOAD GENE ID MAPPINGS
 # ---------------------------------------------------------
-mapping_path <- "/home/mfcaval/github/doutorado/analyses/01_gene_identification/results/oscasIDs.txt"
+mapping_path <- Sys.getenv("MAPPINGS_FILE", file.path(osca_dir, "01_gene_identification", "results", "oscasIDs.txt"))
 if (!file.exists(mapping_path)) {
   stop(paste("ID mapping file not found at:", mapping_path))
 }
@@ -285,17 +300,17 @@ run_species_analysis <- function(species_name, counts_path, is_vper) {
 # ---------------------------------------------------------
 # EXECUTE SPECIES ANALYSES
 # ---------------------------------------------------------
-vper_res <- run_species_analysis(
-  "Vper", 
-  "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/05_counts/Vper_star_genecounts_col4.tsv", 
-  TRUE
+vper_counts <- Sys.getenv(
+  "VPER_COUNTS_FILE", 
+  file.path(osca_dir, "05_rnaseq", "results_genecounts", "05_counts", "Vper_star_genecounts_col4.tsv")
+)
+vtub_counts <- Sys.getenv(
+  "VTUB_COUNTS_FILE", 
+  file.path(osca_dir, "05_rnaseq", "results_genecounts", "05_counts", "Vtub_star_genecounts_col4.tsv")
 )
 
-vtub_res <- run_species_analysis(
-  "Vtub", 
-  "/home/mfcaval/github/doutorado/analyses/05_rnaseq/results_genecounts/05_counts/Vtub_star_genecounts_col4.tsv", 
-  FALSE
-)
+vper_res <- run_species_analysis("Vper", vper_counts, TRUE)
+vtub_res <- run_species_analysis("Vtub", vtub_counts, FALSE)
 
 # ---------------------------------------------------------
 # COMPARATIVE ANALYSIS OF OSCA ORTHOLOGS

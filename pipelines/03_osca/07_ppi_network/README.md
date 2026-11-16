@@ -220,8 +220,8 @@ Referências de interpretação do STRING:
   https://string-db.org/help/scores/
   https://string-db.org/help/api/
 
-Nota de reprodutibilidade: run_vtub_ppi.py ainda aponta para diretórios sob
-/home/mfcaval/github/doutorado/analyses/. Esses caminhos precisam ser reconciliados
-com a estrutura atual antes de uma nova execução. Esta revisão utiliza os
-resultados arquivados; não representa uma nova consulta à API.
+Nota de reprodutibilidade: Os scripts de rede PPI (incluindo 07_run_vtub_ppi.py
+e o notebook 07_PPI_Network.ipynb) utilizam resolução dinâmica de caminhos relativos
+a partir da raiz do pipeline pipelines/03_osca/. Os resultados arquivados são mantidos
+para consulta direta.
 ================================================================================

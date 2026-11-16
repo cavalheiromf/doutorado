@@ -72,10 +72,8 @@ Every feature from the Survey phase is mapped to an assigned milestone:
 - Conclusions answer the Operational Objective theoretically (no numbered results recap).
 
 ## Code Layout
-- Main Manuscript: `/home/mfcaval/github/doutorado/chapter2_osca/manuscript/chapter_2_osca_mechanosensation.md`
-- Supplementary Tables: `/home/mfcaval/github/doutorado/chapter2_osca/manuscript/supplementary_tables.md`
-- Figures Directory: `/home/mfcaval/github/doutorado/chapter2_osca/figures/`
-- Figure Generator Scripts: `/home/mfcaval/github/doutorado/chapter2_osca/figures/scripts/`
-- Ground Truth Audit: `/home/mfcaval/github/doutorado/chapter2_osca/audits/relatorio_auditoria_capitulo2.md`
-- Pal2nal YN00 Ground Truth Rates: `/home/mfcaval/github/doutorado/chapter2_osca/04_evolutionary_rates/results_pal2nal_yn00/aggregated_kaks_pal2nal_yn00.csv`
-- Coordination Metadata: `/home/mfcaval/github/doutorado/chapter2_osca/.agents/`
+- Figures Directory: `pipelines/03_osca/figures/`
+- Analytical Scripts: `pipelines/03_osca/workflow/scripts/`
+- Pal2nal YN00 Ground Truth Rates: `pipelines/03_osca/04_evolutionary_rates/results_pal2nal_yn00/aggregated_kaks_pal2nal_yn00.csv`
+- Promoters Analysis: `pipelines/03_osca/08_promoters/`
+- Pipeline Orchestrator: `pipelines/03_osca/run_pipeline.sh`
